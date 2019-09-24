@@ -10,7 +10,7 @@ namespace EasyJob
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MenuBar();
         }
 
         protected override void OnStart()

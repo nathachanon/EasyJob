@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyJob.MenuBar">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="หน้าแรก" >
+        <Label Text="Content of หน้าแรก"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+    </ContentPage>
+    <ContentPage Title="ค้นหา" >
+        <Label Text="Content of ค้นหา"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+    </ContentPage>
+    <ContentPage Title="งาน" >
+        <Label Text="Content of งาน"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+    </ContentPage>
+    <ContentPage Title="โปรไฟล์" >
+        <Label Text="Content of โปรไฟล์"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+    </ContentPage>
+</TabbedPage>

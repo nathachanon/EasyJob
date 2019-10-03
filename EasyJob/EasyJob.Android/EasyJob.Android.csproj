@@ -277,7 +277,7 @@
     <AndroidResource Include="Resources\drawable\calendar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\check-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable\check.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\hand.png" />
@@ -286,7 +286,7 @@
     <AndroidResource Include="Resources\drawable\location.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\location-arrow.png" />
+    <AndroidResource Include="Resources\drawable\locationArrow.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\money.png" />
@@ -301,7 +301,7 @@
     <AndroidResource Include="Resources\drawable\searchicon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\times-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable\close.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\add.png" />
@@ -316,7 +316,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\calendar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\check-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\check.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\hand.png" />
@@ -325,7 +325,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\location.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\location-arrow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\locationArrow.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\money.png" />
@@ -340,7 +340,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\searchicon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\times-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\close.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xhdpi\add.png" />
@@ -355,7 +355,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\calendar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\check-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\check.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xhdpi\hand.png" />
@@ -364,7 +364,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\location.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\location-arrow.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\locationArrow.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xhdpi\money.png" />
@@ -379,7 +379,7 @@
     <AndroidResource Include="Resources\drawable-xhdpi\searchicon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\times-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\close.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\add.png" />
@@ -394,7 +394,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\calendar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\check-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\check.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\hand.png" />
@@ -403,7 +403,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\location.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\location-arrow.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\locationArrow.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\money.png" />
@@ -418,7 +418,7 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\searchicon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\times-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\close.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\add.png" />
@@ -433,7 +433,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\calendar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\check-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\check.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\hand.png" />
@@ -442,7 +442,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\location.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\location-arrow.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\locationArrow.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\money.png" />
@@ -457,7 +457,7 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\searchicon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\times-circle-regular.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -6,6 +6,19 @@
              mc:Ignorable="d"
              x:Class="EasyJob.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <!-- FontFamily -->
+            <OnPlatform x:Key="ThaiSans"
+                    x:TypeArguments="x:String"
+                    Android="THAISANSLITE_R1.TTF#ThaiSans"/>
 
+            <!-- style for Lable -->
+          
+            <Style x:Key="ThaiSansLabelStyle"
+               TargetType="{x:Type Label}">
+                <Setter Property="FontFamily"
+             Value="{StaticResource ThaiSans}" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

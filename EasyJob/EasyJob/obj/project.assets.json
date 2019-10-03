@@ -35,7 +35,19 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
-      "Xamarin.Essentials/1.1.0": {
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
+      "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -47,7 +59,7 @@
           "lib/netstandard2.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.1.0.555618": {
+      "Xamarin.Forms/4.2.0.848062": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -257,10 +269,32 @@
         "version.txt"
       ]
     },
-    "Xamarin.Essentials/1.1.0": {
-      "sha512": "W0XOt1dNMAE2POcsVotoKDDy5FdAOnR0qULKl6WI4kQEMxQ1sp84DsSU5iacV7oQUMuPhUBAm/3ywks0HO1QrQ==",
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+      "sha512": "59HyuAaUzuloQmu/PVCDCJQMRuuhqmIpCQ+d5hH5Qp8AZsa/vDi5ulrXDKRMZSZt/xbXsyZV+aZ/W/SZaYt2Mg==",
       "type": "package",
-      "path": "xamarin.essentials/1.1.0",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
+      ]
+    },
+    "Xamarin.Essentials/1.3.1": {
+      "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
+      "type": "package",
+      "path": "xamarin.essentials/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -280,7 +314,6 @@
         "lib/monoandroid81/Xamarin.Essentials.pdb",
         "lib/monoandroid81/Xamarin.Essentials.xml",
         "lib/monoandroid90/Xamarin.Essentials.dll",
-        "lib/monoandroid90/Xamarin.Essentials.dll.mdb",
         "lib/monoandroid90/Xamarin.Essentials.pdb",
         "lib/monoandroid90/Xamarin.Essentials.xml",
         "lib/netstandard1.0/Xamarin.Essentials.dll",
@@ -289,6 +322,9 @@
         "lib/netstandard2.0/Xamarin.Essentials.dll",
         "lib/netstandard2.0/Xamarin.Essentials.pdb",
         "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
         "lib/uap10.0.16299/Xamarin.Essentials.dll",
         "lib/uap10.0.16299/Xamarin.Essentials.pdb",
         "lib/uap10.0.16299/Xamarin.Essentials.pri",
@@ -296,15 +332,21 @@
         "lib/xamarinios10/Xamarin.Essentials.dll",
         "lib/xamarinios10/Xamarin.Essentials.pdb",
         "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.1.0.nupkg.sha512",
+        "xamarin.essentials.1.3.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.1.0.555618": {
-      "sha512": "eZHy/yCrKhu3WUI1oszz8Hvq8iC+wQyokEVkzlSmNJD6xa2pGLq5UjOgpXEWu7zKPaoZ5c70SrTv1BBZE+Je1A==",
+    "Xamarin.Forms/4.2.0.848062": {
+      "sha512": "/JIC5p3M9h0MdSg+uH3Hy260YIWkXrQA8m4yO/3TQhSSIe+FNwyPi0SkIomvikunWXu6rEJh/aDbFYEyks0mbw==",
       "type": "package",
-      "path": "xamarin.forms/4.1.0.555618",
+      "path": "xamarin.forms/4.2.0.848062",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -524,13 +566,13 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Items/ItemsViewStyles.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
@@ -543,7 +585,7 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.1.0.555618.nupkg.sha512",
+        "xamarin.forms.4.2.0.848062.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -551,8 +593,9 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Xamarin.Essentials >= 1.1.0",
-      "Xamarin.Forms >= 4.1.0.555618"
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
+      "Xamarin.Essentials >= 1.3.1",
+      "Xamarin.Forms >= 4.2.0.848062"
     ]
   },
   "packageFolders": {
@@ -605,13 +648,17 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.5, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.1.0, )"
+            "version": "[1.3.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.1.0.555618, )"
+            "version": "[4.2.0.848062, )"
           }
         },
         "imports": [

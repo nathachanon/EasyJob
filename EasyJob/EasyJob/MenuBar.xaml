@@ -3,27 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarSelectedItemColor="#031765"
+            xmlns:local ="clr-namespace:EasyJob"
+            mc:Ignorable="d"
+            
              x:Class="EasyJob.MenuBar">
+  <NavigationPage.TitleView >
+    <Image Source="Logo.png"
+           VerticalOptions="Center"
+           HorizontalOptions="Center" />
+
+  </NavigationPage.TitleView>
   <!--Pages can be added as references or inline-->
-    <ContentPage Title="หน้าแรก" >
-        <Label Text="Content of หน้าแรก"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-    </ContentPage>
-    <ContentPage Title="ค้นหา" >
-        <Label Text="Content of ค้นหา"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-    </ContentPage>
-    <ContentPage Title="งาน" >
-        <Label Text="Content of งาน"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-    </ContentPage>
-    <ContentPage Title="โปรไฟล์" >
-        <Label Text="Content of โปรไฟล์"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-    </ContentPage>
+
+  <ContentPage  BackgroundColor="#E9E8E8"  Title="หน้าแรก" IconImageSource="home.png">
+    <Label Style="{StaticResource ThaiSans}" Text="Content of หน้าแรก" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+  </ContentPage>
+  <ContentPage BackgroundColor="#E9E8E8" Title="ค้นหา" IconImageSource="search.png">
+    <Label Text="Content of ค้นหา"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+  </ContentPage>
+  <ContentPage  BackgroundColor="#E9E8E8" Title="งาน" IconImageSource="work.png">
+    <Label Text="Content of งาน"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"/>
+  </ContentPage>
+  <local:Profile  Title="โปรไฟล์"  IconImageSource="profile.png"/>
 </TabbedPage>

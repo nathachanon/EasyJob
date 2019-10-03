@@ -1,0 +1,15 @@
+D:\EasyJob\EasyJob\EasyJob\bin\Debug\netstandard2.0\EasyJob.deps.json
+D:\EasyJob\EasyJob\EasyJob\bin\Debug\netstandard2.0\EasyJob.dll
+D:\EasyJob\EasyJob\EasyJob\bin\Debug\netstandard2.0\EasyJob.pdb
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\MenuBar.xaml.g.cs
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\Test1.xaml.g.cs
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.csproj.CoreCompileInputs.cache
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.AssemblyInfoInputs.cache
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.AssemblyInfo.cs
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\XamlC.stamp
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.dll
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.pdb
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.csprojAssemblyReference.cache

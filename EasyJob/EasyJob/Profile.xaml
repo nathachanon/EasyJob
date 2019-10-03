@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#E9E8E8" 
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="EasyJob.Profile" Title="Profile" NavigationPage.TitleIconImageSource="Logo.png">
+    <Grid VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Image Source="profileBg.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
+        <StackLayout Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <controls:CircleImage Source="user.png" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
+                </controls:CircleImage>
+            </StackLayout>
+            <Label Text="Nathachanon Sumranjai" Margin="20" TextColor="White" FontSize="23"/>
+            
+        </StackLayout>
+        <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="30,-60,30,0" Padding="0" HeightRequest="105" VerticalOptions="Center">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
+                    <Image Source="Rwork.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                    <Label Text="งานที่รับ" FontSize="15"/>
+                </StackLayout>
+
+                <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
+                    <Image Source="doing.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                    <Label Text="กำลังทำ" FontSize="15"/>
+                </StackLayout>
+                <StackLayout Grid.Column="2" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
+                    <Image Source="finish.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                    <Label Text="เสร็จแล้ว" FontSize="15"/>
+                </StackLayout>
+
+
+
+            </Grid>
+            
+        </Frame>
+    </Grid>
+</ContentPage>

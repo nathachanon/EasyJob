@@ -11,6 +11,14 @@ namespace EasyJob
             InitializeComponent();
 
             MainPage = new MenuBar();
+            MainPage = new NavigationPage(new MenuBar())
+            {
+                BarBackgroundColor = Color.FromHex("#031765"),
+                BarTextColor = Color.White,
+                
+                
+                
+            };
         }
 
         protected override void OnStart()

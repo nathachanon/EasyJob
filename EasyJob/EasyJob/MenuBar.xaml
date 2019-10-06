@@ -28,10 +28,8 @@
            HorizontalOptions="Center"
            VerticalOptions="Center"/>
   </ContentPage>
-  <ContentPage  BackgroundColor="#E9E8E8" Title="งาน" IconImageSource="work.png">
-    <Label Text="Content of งาน"
-           HorizontalOptions="Center"
-           VerticalOptions="Center"/>
-  </ContentPage>
-  <local:Profile  Title="โปรไฟล์"  IconImageSource="profile.png"/>
+    
+    <local:Work  Title="งาน"  IconImageSource="profile.png"/>
+    
+    <local:Profile  Title="โปรไฟล์"  IconImageSource="profile.png"/>
 </TabbedPage>

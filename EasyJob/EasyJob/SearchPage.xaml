@@ -4,18 +4,19 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+              BackgroundColor="#E9E8E8" 
              x:Class="EasyJob.SearchPage">
     <Grid VerticalOptions="FillAndExpand">
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center">
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
@@ -25,92 +26,86 @@
                 <StackLayout Grid.Column="1" Padding="-100,0,0,0">
                     <Label Text="ถางหญ้า" FontSize="20" TextColor="DarkSlateBlue"/>
                 </StackLayout>
-                <StackLayout Grid.Column="2" Padding="30,5,0,0">
-                    <Label Text="" FontSize="15"/>
-                </StackLayout>
+               
             </Grid>
         </Frame>
-        <StackLayout Orientation="Vertical" Padding="290,70,0,10" >
-            <Label Text="พบ 2 รายการ" FontSize="13" />
+        <Frame Grid.Row="2" BackgroundColor="#E9E8E8" HasShadow="False"  Margin="10,0,10,10" Padding="0" HeightRequest="10" VerticalOptions="Center">
+            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="End" Padding="0,0,15,0">
+                <Label Text="พบ 2 รายการ" FontSize="13" />
         </StackLayout>
-        <Frame Grid.Row="2" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
+        </Frame>
+        
+
+        <Frame Grid.Row="3" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
             
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="350"/>
-                    <ColumnDefinition Width="*"/>
-                    
-                </Grid.ColumnDefinitions>
+                
                 <StackLayout Padding="15,-5,0,0">
                     <Label Text="ถางหญ้าหน้าบ้าน " FontSize="15" TextColor="DarkSlateBlue"/>
                 </StackLayout>
-                <Label Margin="320,-97,0,0"   BackgroundColor="OrangeRed" WidthRequest="50" TextColor="White" VerticalOptions="Center" Text="New" />
-
-                <StackLayout Padding="310,-5,0,0" Orientation="Vertical" HorizontalOptions="Center">
-                   
+                <StackLayout HorizontalOptions="End" Padding="0,-22,20,0">
+                    <Image Source="new2.png" HeightRequest="50" WidthRequest="50"/>
                 </StackLayout>
-                <StackLayout Padding="15,-5,0,0">
+                <StackLayout Padding="15,-5,-10,0">
                     <Label />
                     <BoxView 
                 HeightRequest="1" 
-                BackgroundColor="DarkSlateBlue" 
+                BackgroundColor="DarkSlateBlue"  Margin="0,0,25,0"
                 HorizontalOptions="FillAndExpand" />
                     <Label />
                 </StackLayout>
                 <StackLayout Padding="20,25,0,0">
                     <Label Text="ถางหญ้าบริเวณหน้าบ้าน พื้นที่ประมาณ 40 ตรม." FontSize="12"/>
                 </StackLayout>
-                <StackLayout Padding="-270,70,0,0">
+                <StackLayout Padding="-320,70,0,0">
                     <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                 </StackLayout>
                 <StackLayout Padding="60,75,0,0">
                     <Label Text="500 บาท" FontSize="20" TextColor="OrangeRed"/>
                 </StackLayout>
-                <StackLayout Padding="275,85,0,0">
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
                     <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
                 </StackLayout>
-                <StackLayout Padding="320,85,0,0">
+                <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
                     <Label Text="750m" FontSize="11" TextColor="DarkSlateBlue"/>
                 </StackLayout>
             </Grid>
         </Frame>
-        
-        <Frame Grid.Row="3" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
+        <Frame Grid.Row="4" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
+
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="350"/>
-                </Grid.ColumnDefinitions>
+
                 <StackLayout Padding="15,-5,0,0">
-                    <Label Text="ถางหญ้าหน้าบ้าน " FontSize="15" TextColor="DarkSlateBlue"/>
+                    <Label Text="ถางหญ้าหน้าบ้าน2" FontSize="15" TextColor="DarkSlateBlue"/>
                 </StackLayout>
-                <StackLayout Padding="300,-5,0,0" >
-                    <Button Text="New" VerticalOptions="Center" FontAttributes="Bold" TextColor="White" FontSize="10" BackgroundColor="OrangeRed" HeightRequest="15" WidthRequest="50"/>
+                <StackLayout HorizontalOptions="End" Padding="0,-22,20,0">
+                    <Image Source="new2.png" HeightRequest="50" WidthRequest="50"/>
                 </StackLayout>
-                <StackLayout Padding="15,-5,0,0">
+                <StackLayout Padding="15,-5,-10,0">
                     <Label />
                     <BoxView 
                 HeightRequest="1" 
-                BackgroundColor="DarkSlateBlue" 
+                BackgroundColor="DarkSlateBlue"  Margin="0,0,25,0"
                 HorizontalOptions="FillAndExpand" />
                     <Label />
                 </StackLayout>
                 <StackLayout Padding="20,25,0,0">
                     <Label Text="ถางหญ้าบริเวณหน้าบ้าน พื้นที่ประมาณ 40 ตรม." FontSize="12"/>
                 </StackLayout>
-                <StackLayout Padding="-270,70,0,0">
+                <StackLayout Padding="-320,70,0,0">
                     <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                 </StackLayout>
                 <StackLayout Padding="60,75,0,0">
                     <Label Text="750 บาท" FontSize="20" TextColor="OrangeRed"/>
                 </StackLayout>
-                <StackLayout Padding="275,85,0,0">
+                <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
                     <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
                 </StackLayout>
-                <StackLayout Padding="320,85,0,0">
-                    <Label Text="900m" FontSize="11" TextColor="DarkSlateBlue"/>
+                <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
+                    <Label Text="750m" FontSize="11" TextColor="DarkSlateBlue"/>
                 </StackLayout>
             </Grid>
         </Frame>
-       
+
     </Grid>
 </ContentPage>

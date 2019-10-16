@@ -13,3 +13,5 @@ D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\XamlC.stamp
 D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.dll
 D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.pdb
 D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\EasyJob.csprojAssemblyReference.cache
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\SearchPage.xaml.g.cs
+D:\EasyJob\EasyJob\EasyJob\obj\Debug\netstandard2.0\Work.xaml.g.cs

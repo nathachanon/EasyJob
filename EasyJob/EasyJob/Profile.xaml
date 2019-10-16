@@ -12,7 +12,9 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Image Source="profileBg.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
         <StackLayout Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20">
@@ -23,7 +25,7 @@
             <Label Text="Nathachanon Sumranjai" Margin="20" TextColor="White" FontSize="23"/>
             
         </StackLayout>
-        <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="30,-60,30,0" Padding="0" HeightRequest="105" VerticalOptions="Center">
+        <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="30,-60,30,40" Padding="0" HeightRequest="105" VerticalOptions="Center">
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
@@ -45,9 +47,59 @@
                 </StackLayout>
 
 
+               
+            </Grid>
+            
+        </Frame>
+        <Frame Grid.Row="3" BackgroundColor="#E9E8E8" Padding="5" Margin="30,0,15,15" HasShadow="False" HeightRequest="5">
+            <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start" >
+                <Grid.ColumnDefinitions> 
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="clipboard.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
+                <Label Grid.Column="1" Margin="0,0,0,0" Text="งานที่โพส" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
+                <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="20,0" HorizontalOptions="End" VerticalOptions="Center">
+                    <Label Text="25" FontSize="18"/>
+                    <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
+                </StackLayout>
+                
 
             </Grid>
             
         </Frame>
+        <Frame Grid.Row="4" BackgroundColor="#E9E8E8"  Padding="5" Margin="30,0,15,15" HasShadow="False">
+            <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Margin="0,0,0,0" Source="tasks.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
+                <Label Grid.Column="1" Text="งานที่รับ" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
+                <StackLayout Grid.Column="2" Orientation="Horizontal" Margin="20,0" HorizontalOptions="End" VerticalOptions="Center">
+                    <Label Text="12" FontSize="18" />
+                    <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
+                </StackLayout>
+
+
+            </Grid>
+
+        </Frame>
+        <Frame Grid.Row="5"  BackgroundColor="#E9E8E8"  Padding="5"  HasShadow="False" >
+            <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                  
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Text="ออกจากระบบ" FontSize="20" TextColor="White" BackgroundColor="#D52A2A" HeightRequest="50" WidthRequest="20" BorderRadius="20" />
+
+
+
+
+            </Grid>
+        </Frame>
+       
     </Grid>
 </ContentPage>

@@ -18,18 +18,9 @@
   </NavigationPage.TitleView>
   <!--Pages can be added as references or inline-->
 
-  <ContentPage  BackgroundColor="#E9E8E8"  Title="หน้าแรก" IconImageSource="home.png">
-    <Label Style="{StaticResource ThaiSans}" Text="Content of หน้าแรก" 
-           HorizontalOptions="Center"
-           VerticalOptions="Center"/>
-  </ContentPage>
-  <ContentPage BackgroundColor="#E9E8E8" Title="ค้นหา" IconImageSource="search.png">
-    <Label Text="Content of ค้นหา"
-           HorizontalOptions="Center"
-           VerticalOptions="Center"/>
-  </ContentPage>
-    
-    <local:Work  Title="งาน"  IconImageSource="profile.png"/>
+    <local:MainPage  Title="หน้าแรก"  IconImageSource="home.png"/>
+    <local:SearchPage  Title="ค้นหา"  IconImageSource="search.png"/>
+    <local:Work  Title="งาน"  IconImageSource="work.png"/>
     
     <local:Profile  Title="โปรไฟล์"  IconImageSource="profile.png"/>
 </TabbedPage>

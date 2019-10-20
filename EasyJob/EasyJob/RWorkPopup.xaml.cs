@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EasyJob
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Test1 : ContentPage
+    public partial class RWorkPopup 
     {
-        public Test1()
+        public RWorkPopup()
         {
             InitializeComponent();
         }

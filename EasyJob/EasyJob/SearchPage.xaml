@@ -6,7 +6,8 @@
              mc:Ignorable="d"
               BackgroundColor="#E9E8E8" 
              x:Class="EasyJob.SearchPage">
-    <Grid VerticalOptions="FillAndExpand">
+    <ScrollView>
+        <Grid VerticalOptions="FillAndExpand"  Padding="0,0,0,20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -108,4 +109,5 @@
         </Frame>
 
     </Grid>
+    </ScrollView>
 </ContentPage>

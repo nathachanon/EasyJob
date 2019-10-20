@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Rg.Plugins.Popup.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,16 @@ namespace EasyJob
         public Work()
         {
             InitializeComponent();
+            
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            PopupNavigation.Instance.PushAsync(new RWorkPopup());
+        }
+        private void Tap(object sender, EventArgs e)
+        {
+            PopupNavigation.Instance.PushAsync(new RWorkPopup());
         }
     }
 }

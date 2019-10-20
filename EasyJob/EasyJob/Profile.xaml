@@ -7,13 +7,14 @@
              BackgroundColor="#E9E8E8" 
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="EasyJob.Profile" Title="Profile" NavigationPage.TitleIconImageSource="Logo.png">
-    <Grid VerticalOptions="FillAndExpand">
+    <ScrollView>
+        <Grid VerticalOptions="FillAndExpand">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="60"/>
-            <RowDefinition Height="60"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70" />
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Image Source="profileBg.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
@@ -51,16 +52,16 @@
             </Grid>
             
         </Frame>
-        <Frame Grid.Row="3" BackgroundColor="#E9E8E8" Padding="5" Margin="30,0,15,15" HasShadow="False" HeightRequest="5">
+        <Frame Grid.Row="3"  BackgroundColor="#E9E8E8"  HasShadow="False">
             <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start" >
                 <Grid.ColumnDefinitions> 
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="clipboard.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
+                    <Image Grid.Column="0" Margin="30,0,5,0" Source="clipboard.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
                 <Label Grid.Column="1" Margin="0,0,0,0" Text="งานที่โพส" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
-                <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="20,0" HorizontalOptions="End" VerticalOptions="Center">
+                <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
                     <Label Text="25" FontSize="18"/>
                     <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
                 </StackLayout>
@@ -69,16 +70,17 @@
             </Grid>
             
         </Frame>
-        <Frame Grid.Row="4" BackgroundColor="#E9E8E8"  Padding="5" Margin="30,0,15,15" HasShadow="False">
-            <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+            
+        <Frame  Grid.Row="4"  BackgroundColor="#E9E8E8"   HasShadow="False"  >
+            <Grid  HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Margin="0,0,0,0" Source="tasks.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
+                <Image  Grid.Column="0" Margin="30,0,5,0" Source="tasks.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
                 <Label Grid.Column="1" Text="งานที่รับ" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
-                <StackLayout Grid.Column="2" Orientation="Horizontal" Margin="20,0" HorizontalOptions="End" VerticalOptions="Center">
+                <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
                     <Label Text="12" FontSize="18" />
                     <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
                 </StackLayout>
@@ -87,7 +89,7 @@
             </Grid>
 
         </Frame>
-        <Frame Grid.Row="5"  BackgroundColor="#E9E8E8"  Padding="5"  HasShadow="False" >
+        <Frame Grid.Row="5"  BackgroundColor="#E9E8E8"  Padding="30,30,30,20"  HasShadow="False" >
             <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
@@ -102,4 +104,5 @@
         </Frame>
        
     </Grid>
+    </ScrollView>
 </ContentPage>

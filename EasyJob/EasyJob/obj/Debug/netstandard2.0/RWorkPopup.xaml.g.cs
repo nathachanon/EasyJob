@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("EasyJob.Test1.xaml", "Test1.xaml", typeof(global::EasyJob.Test1))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("EasyJob.RWorkPopup.xaml", "RWorkPopup.xaml", typeof(global::EasyJob.RWorkPopup))]
 
 namespace EasyJob {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Test1.xaml")]
-    public partial class Test1 : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("RWorkPopup.xaml")]
+    public partial class RWorkPopup : global::Rg.Plugins.Popup.Pages.PopupPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Test1));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RWorkPopup));
         }
     }
 }

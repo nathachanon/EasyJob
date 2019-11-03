@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyJob.Login" BackgroundColor="White">
+    
+        <ContentPage.Content>
+        <StackLayout >
+            <Grid Padding="100">
+
+                <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+
+                </StackLayout>
+
+                <StackLayout x:Name="LoginEntriesStack" VerticalOptions="StartAndExpand">
+
+                    <Label  />
+                    <Entry x:Name="boxEn" Placeholder="Username" />
+                    <Label  />
+                    <Entry  IsPassword="True" x:Name="boxEn" Placeholder="Password"  />
+                    <Label  />
+                    <Label  />
+                    <Button x:Name="Btn_Signin" Text="LOGIN" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
+                    <Label  Text="forgot password" HorizontalOptions = "Center" BackgroundColor="White" />
+                    <Label  />
+                    <Label />
+                    <StackLayout>
+                        <Label  Text="Login with Social Networks" HorizontalOptions = "Center" BackgroundColor="White" />
+                    </StackLayout>
+                </StackLayout>
+
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+    </ContentPage>

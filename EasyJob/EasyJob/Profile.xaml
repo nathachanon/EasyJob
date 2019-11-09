@@ -23,7 +23,7 @@
                 <controls:CircleImage Source="user.png" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
                 </controls:CircleImage>
             </StackLayout>
-            <Label Text="Nathachanon Sumranjai" Margin="20" TextColor="White" FontSize="23"/>
+            <Label x:Name="Member_Email" Text="{Binding Email}" Margin="20" TextColor="White" FontSize="23"/>
             
         </StackLayout>
         <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="30,-60,30,40" Padding="0" HeightRequest="105" VerticalOptions="Center">
@@ -95,7 +95,7 @@
                     <RowDefinition Height="Auto" />
                   
                 </Grid.RowDefinitions>
-                <Button Grid.Row="0" Text="ออกจากระบบ" FontSize="20" TextColor="White" BackgroundColor="#D52A2A" HeightRequest="50" WidthRequest="20" BorderRadius="20" />
+                <Button Grid.Row="0" Text="ออกจากระบบ" FontSize="20" TextColor="White" BackgroundColor="#D52A2A" HeightRequest="50" WidthRequest="20" BorderRadius="20" Clicked="Logout_Click"/>
 
 
 

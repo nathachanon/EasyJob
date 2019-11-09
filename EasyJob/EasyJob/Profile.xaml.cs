@@ -16,5 +16,20 @@ namespace EasyJob
         {
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            if (Application.Current.Properties.ContainsKey("name"))
+            {
+                Member_Email.Text = Application.Current.Properties["name"].ToString();
+            }
+        }
+
+        private void Logout_Click(object sender, EventArgs e)
+        {
+            Application.Current.Properties.Clear();
+
+            App.Current.MainPage = new NavigationPage(new Login());
+        }
     }
 }

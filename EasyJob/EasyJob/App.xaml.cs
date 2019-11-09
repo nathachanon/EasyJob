@@ -9,16 +9,19 @@ namespace EasyJob
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MenuBar();
-            MainPage = new NavigationPage(new MenuBar())
+            if(Application.Current.Properties.ContainsKey("member_id"))
             {
-                BarBackgroundColor = Color.FromHex("#031765"),
-                BarTextColor = Color.White,
-                
-                
-                
-            };
+                MainPage = new NavigationPage(new MenuBar())
+                {
+                    BarBackgroundColor = Color.FromHex("#031765"),
+                    BarTextColor = Color.White,
+                };
+            }
+            else
+            {
+                MainPage = new Login();
+            }
+            
         }
 
         protected override void OnStart()

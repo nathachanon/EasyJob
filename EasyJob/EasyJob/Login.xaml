@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyJob.Login" BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout >
+            <Grid Padding="100">
+                <StackLayout VerticalOptions="FillAndExpand">
+                </StackLayout>
+                <StackLayout VerticalOptions="StartAndExpand">
+                    <Entry x:Name="Email_Input" Placeholder="Email" />
+                    <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password"  />
+                    <Button x:Name="Btn_Signin" Text="LOGIN" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

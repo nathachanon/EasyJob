@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyJob.PWorkPopup"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+
+
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation DurationIn="100"
+                                   DurationOut="100"
+                                   EasingIn="SinOut"
+                                   EasingOut="SinIn"
+                                   HasBackgroundAnimation="True"
+                                   PositionIn="Center"
+                                   PositionOut="Center"
+                                   ScaleIn="0.8"
+                                   ScaleOut="0.8" />
+    </pages:PopupPage.Animation>
+
+    <!--  You can use any elements here which are extended from Xamarin.Forms.View  -->
+    <Grid  VerticalOptions="Center"  Padding="0,0,0,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="550" VerticalOptions="Center">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackLayout HorizontalOptions="Center"  Grid.Row="0">
+                    <Label Text="โพสต์งาน" FontSize="28" TextColor="#06C200"/>
+                </StackLayout>
+                <StackLayout Grid.Row="1" Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center">
+                    <Entry x:Name="Input_Work_name" Placeholder="ชื่องาน" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Entry x:Name="Input_Work_desc" Placeholder="รายละเอียด" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Entry x:Name="Input_tel" Placeholder="เบอร์โทรศัพท์" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Entry x:Name="Input_cost" Placeholder="ค่าจ้าง" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Picker x:Name="picker"
+        Title="เลือกระยะเวลาทำงาน"
+        TitleColor="Green" SelectedIndexChanged="picker_SelectedIndexChanged">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>1 ชั่วโมง</x:String>
+                                <x:String>2 ชั่วโมง</x:String>
+                                <x:String>3 ชั่วโมง</x:String>
+                                <x:String>6 ชั่วโมง</x:String>
+                                <x:String>8 ชั่วโมง</x:String>
+                                <x:String>ทั้งวัน</x:String>
+                                <x:String>มากกว่า 1 วัน</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <Entry x:Name="Input_lat" Placeholder="ละติจูด" WidthRequest="125"/>
+                    <Entry x:Name="Input_long" Placeholder="ลองติจูด" WidthRequest="125"/>
+                </StackLayout>
+
+                <Button Grid.Row="4" Margin="80,20,80,20" Text="โพสต์" FontSize="25" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="Button_Clicked"/>
+
+            </Grid>
+        </Frame>
+    </Grid>
+
+
+
+</pages:PopupPage>

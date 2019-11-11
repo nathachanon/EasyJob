@@ -95,7 +95,7 @@
                         </StackLayout>
                     </Grid>
                 </Frame>
-                <Button Grid.Row="4" Margin="80,20,80,20"  Text="เริ่มงาน" FontSize="25" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" />
+                <Button Grid.Row="4" Margin="80,20,80,20"  Text="เริ่มงาน" FontSize="25" Clicked="Button_Clicked"  TextColor="White" BackgroundColor="#031765"  BorderRadius="20" />
 
             </Grid>
         </Frame>

@@ -4,18 +4,26 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="EasyJob.Login" BackgroundColor="White">
+             xmlns:local="clr-namespace:EasyJob"
+             x:Class="EasyJob.Login" BackgroundColor="White" BackgroundImageSource="bgapp" NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="false" >
     <ContentPage.Content>
-        <StackLayout >
-            <Grid Padding="100">
-                <StackLayout VerticalOptions="FillAndExpand">
-                </StackLayout>
-                <StackLayout VerticalOptions="StartAndExpand">
-                    <Entry x:Name="Email_Input" Placeholder="Email" />
-                    <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password"  />
+       
+            <Grid Padding="40,0,40,0" VerticalOptions="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+             
+
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="logo"/>
+            <StackLayout Grid.Row="1" >
+                <Entry x:Name="Email_Input" Placeholder="Email" TextColor="White" PlaceholderColor="White" />
+                <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password" PlaceholderColor="White" TextColor="White" />
                     <Button x:Name="Btn_Signin" Text="LOGIN" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
-                </StackLayout>
+                <Label Text="Register" HorizontalOptions="Center" TextColor="White" Margin="0,15,0,0"/>
+              
+            </StackLayout>
             </Grid>
-        </StackLayout>
+       
     </ContentPage.Content>
 </ContentPage>

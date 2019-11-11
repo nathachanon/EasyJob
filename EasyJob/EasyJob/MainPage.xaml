@@ -6,58 +6,82 @@
              mc:Ignorable="d"
              BackgroundColor="#E9E8E8" 
              x:Class="EasyJob.MainPage"  Title="Work" NavigationPage.TitleIconImageSource="Logo.png">
-    <AbsoluteLayout>
-        <ActivityIndicator x:Name="Loading"
+
+    <Grid VerticalOptions="FillAndExpand">
+        <!--<ActivityIndicator x:Name="Loading" 
                            IsVisible="True"
                            IsRunning="True"
-                           Color="Black" VerticalOptions="Center" Margin="10,10,10,0"/>
-        <ListView x:Name="ItemlistView" RowHeight="135" SeparatorColor="#E9E8E8" IsVisible="False">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid>
-                            <Grid VerticalOptions="FillAndExpand">
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"/>
-                                </Grid.RowDefinitions>
-                                <Frame Grid.Row="0" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
-                                    <Frame.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" CommandParameter="{Binding work_id}"/>
-                                    </Frame.GestureRecognizers>
-                                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                                        <StackLayout Padding="15,-5,0,0">
-                                            <Label Text="{Binding work_name}" FontSize="15" TextColor="DarkSlateBlue"/>
-                                        </StackLayout>
-                                        <StackLayout Padding="15,-5,-10,0">
-                                            <Label />
-                                            <BoxView 
+                           Color="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="50,10,10,0"/>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+     
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="10" HeightRequest="60" VerticalOptions="Center">
+            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Orientation="Vertical" Spacing="8" Padding="-50,0,0,0">
+                    <Image Source="locationArrow.png" HeightRequest="25" WidthRequest="30"/>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Padding="-65,0,0,0">
+                    <Label Text="สถานที่" FontSize="20" TextColor="DarkSlateBlue"/>
+                </StackLayout>
+               
+            </Grid>
+        </Frame>
+        <ScrollView Grid.Row="1">
+            <ListView  x:Name="ItemlistView" RowHeight="140" SeparatorColor="#E9E8E8" IsVisible="False" >
+                <ListView.ItemTemplate >
+                    <DataTemplate >
+                        <ViewCell >
+                            <Grid >
+                                <Grid VerticalOptions="FillAndExpand">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Frame Grid.Row="0" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" CommandParameter="{Binding work_id}"/>
+                                        </Frame.GestureRecognizers>
+                                        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                                            <StackLayout Padding="15,-5,0,0">
+                                                <Label Text="{Binding work_name}" FontSize="15" TextColor="DarkSlateBlue"/>
+                                            </StackLayout>
+                                            <StackLayout Padding="15,-5,-10,0">
+                                                <Label />
+                                                <BoxView 
                 HeightRequest="1" Margin="0,0,25,0"
                 BackgroundColor="DarkSlateBlue" 
                 HorizontalOptions="FillAndExpand" />
-                                            <Label />
-                                        </StackLayout>
-                                        <StackLayout Padding="20,25,5,0">
-                                            <Label Text="{Binding work_desc}" FontSize="12"/>
-                                        </StackLayout>
-                                        <StackLayout Padding="-320,70,0,0">
-                                            <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
-                                        </StackLayout>
-                                        <StackLayout Padding="60,75,0,0">
-                                            <Label Text="{Binding labor_cost}" FontSize="20" TextColor="OrangeRed"/>
-                                        </StackLayout>
-                                        <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
-                                            <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
-                                        </StackLayout>
-                                        <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
-                                            <Label Text="750m" FontSize="11" TextColor="DarkSlateBlue"/>
-                                        </StackLayout>
-                                    </Grid>
-                                </Frame>
+                                                <Label />
+                                            </StackLayout>
+                                            <StackLayout Padding="20,25,5,0">
+                                                <Label Text="{Binding work_desc}" FontSize="12"/>
+                                            </StackLayout>
+                                            <StackLayout Padding="-320,70,0,0">
+                                                <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
+                                            </StackLayout>
+                                            <StackLayout Padding="60,75,0,0">
+                                                <Label Text="{Binding labor_cost}" FontSize="20" TextColor="OrangeRed"/>
+                                            </StackLayout>
+                                            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
+                                                <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
+                                            </StackLayout>
+                                            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
+                                                <Label Text="750m" FontSize="11" TextColor="DarkSlateBlue"/>
+                                            </StackLayout>
+                                        </Grid>
+                                    </Frame>
+                                </Grid>
                             </Grid>
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </AbsoluteLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </Grid>
 </ContentPage>

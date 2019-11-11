@@ -23,10 +23,13 @@ namespace EasyJob
         private ObservableCollection<Work_all> work_all;
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();          
         }
         async override protected void OnAppearing()
         {
+            ItemlistView.IsVisible = false;
+            Loading.IsVisible = true;
+
             string sContentType = "application/json";
             var member_ids = Application.Current.Properties["member_id"].ToString();
             var jsonData = "{\"member_id\":\"" + member_ids + "\"}";
@@ -42,6 +45,9 @@ namespace EasyJob
                         List<Work_all> work_list = JsonConvert.DeserializeObject<List<Work_all>>(mycontent);
                         work_all = new ObservableCollection<Work_all>(work_list);
                         ItemlistView.ItemsSource = work_all;
+
+                        Loading.IsVisible = false;
+                        ItemlistView.IsVisible = true;
                     }
                 }
                 else
@@ -52,9 +58,13 @@ namespace EasyJob
             
             base.OnAppearing();
         }
-        private void Tap(object sender, EventArgs e)
+
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            PopupNavigation.Instance.PushAsync(new RWorkPopup());
+            var args = (TappedEventArgs)e;
+            var work_id = args.Parameter;
+
+            await PopupNavigation.Instance.PushAsync(new RWorkPopup(work_id.ToString()));
         }
     }
 }

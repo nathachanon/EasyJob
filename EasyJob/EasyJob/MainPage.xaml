@@ -7,7 +7,11 @@
              BackgroundColor="#E9E8E8" 
              x:Class="EasyJob.MainPage"  Title="Work" NavigationPage.TitleIconImageSource="Logo.png">
     <AbsoluteLayout>
-        <ListView x:Name="ItemlistView" RowHeight="135" SeparatorColor="#E9E8E8">
+        <ActivityIndicator x:Name="Loading"
+                           IsVisible="True"
+                           IsRunning="True"
+                           Color="Black" VerticalOptions="Center" Margin="10,10,10,0"/>
+        <ListView x:Name="ItemlistView" RowHeight="135" SeparatorColor="#E9E8E8" IsVisible="False">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -18,7 +22,7 @@
                                 </Grid.RowDefinitions>
                                 <Frame Grid.Row="0" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
                                     <Frame.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="Tap" NumberOfTapsRequired="1" />
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" CommandParameter="{Binding work_id}"/>
                                     </Frame.GestureRecognizers>
                                     <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                                         <StackLayout Padding="15,-5,0,0">

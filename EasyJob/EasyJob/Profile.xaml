@@ -62,7 +62,7 @@
                     <Image Grid.Column="0" Margin="30,0,5,0" Source="clipboard.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
                 <Label Grid.Column="1" Margin="0,0,0,0" Text="งานที่โพส" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
                 <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
-                    <Label Text="25" FontSize="18"/>
+                        <Label x:Name="lb_postjob_count" Text="25" FontSize="18"/>
                     <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
                 </StackLayout>
                 
@@ -81,7 +81,7 @@
                 <Image  Grid.Column="0" Margin="30,0,5,0" Source="tasks.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
                 <Label Grid.Column="1" Text="งานที่รับ" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
                 <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
-                    <Label Text="12" FontSize="18" />
+                    <Label x:Name="lb_getjob_count" Text="12" FontSize="18" />
                     <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
                 </StackLayout>
 

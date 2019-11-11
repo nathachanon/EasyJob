@@ -14,7 +14,7 @@ namespace EasyJob
                 MainPage = new NavigationPage(new MenuBar())
                 {
                     BarBackgroundColor = Color.FromHex("#031765"),
-                    BarTextColor = Color.White,
+                    BarTextColor = Color.White
                 };
             }
             else

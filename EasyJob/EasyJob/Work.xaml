@@ -7,7 +7,7 @@
              BackgroundColor="#E9E8E8" 
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="EasyJob.Work" Title="Work" NavigationPage.TitleIconImageSource="Logo.png">
-    <AbsoluteLayout>
+   
         <Grid VerticalOptions="FillAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -32,7 +32,8 @@
                         </StackLayout>
                     </Grid>
                 </Frame>
-            <ListView Grid.Row="1" x:Name="ItemlistView" RowHeight="135" SeparatorColor="#E9E8E8">
+            <ScrollView Grid.Row="1">
+                <ListView  x:Name="ItemlistView" RowHeight="135" SeparatorColor="#E9E8E8">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -77,9 +78,10 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Grid HorizontalOptions="End" VerticalOptions="EndAndExpand" Margin="0,0,15,-550">
+            </ScrollView>
+            <Grid HorizontalOptions="End" VerticalOptions="EndAndExpand" Margin="0,0,15,-590">
                 <Button  Clicked="Button_Clicked" BorderRadius="80" ImageSource="add.png" HeightRequest="45" WidthRequest="45"/>
             </Grid>
         </Grid>
-    </AbsoluteLayout>
+ 
 </ContentPage>

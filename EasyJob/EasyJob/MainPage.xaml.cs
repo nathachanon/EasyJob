@@ -28,7 +28,7 @@ namespace EasyJob
         async override protected void OnAppearing()
         {
             ItemlistView.IsVisible = false;
-            Loading.IsVisible = true;
+            //Loading.IsVisible = true;
 
             string sContentType = "application/json";
             var member_ids = Application.Current.Properties["member_id"].ToString();
@@ -46,7 +46,7 @@ namespace EasyJob
                         work_all = new ObservableCollection<Work_all>(work_list);
                         ItemlistView.ItemsSource = work_all;
 
-                        Loading.IsVisible = false;
+                        //Loading.IsVisible = false;
                         ItemlistView.IsVisible = true;
                     }
                 }

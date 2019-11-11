@@ -43,8 +43,8 @@
                 <StackLayout Grid.Row="1" Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center">
                     <Entry x:Name="Input_Work_name" Placeholder="ชื่องาน" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
                     <Entry x:Name="Input_Work_desc" Placeholder="รายละเอียด" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
-                    <Entry x:Name="Input_tel" Placeholder="เบอร์โทรศัพท์" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
-                    <Entry x:Name="Input_cost" Placeholder="ค่าจ้าง" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Entry Keyboard="Telephone" x:Name="Input_tel" Placeholder="เบอร์โทรศัพท์" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Entry Keyboard="Numeric" x:Name="Input_cost" Placeholder="ค่าจ้าง" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
                     <Picker x:Name="picker"
         Title="เลือกระยะเวลาทำงาน"
         TitleColor="Green" SelectedIndexChanged="picker_SelectedIndexChanged">
@@ -60,8 +60,8 @@
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
-                    <Entry x:Name="Input_lat" Placeholder="ละติจูด" WidthRequest="125"/>
-                    <Entry x:Name="Input_long" Placeholder="ลองติจูด" WidthRequest="125"/>
+                    <Entry Keyboard="Numeric" x:Name="Input_lat" Placeholder="ละติจูด" WidthRequest="125"/>
+                    <Entry Keyboard="Numeric" x:Name="Input_long" Placeholder="ลองติจูด" WidthRequest="125"/>
                 </StackLayout>
 
                 <Button Grid.Row="4" Margin="80,20,80,20" Text="โพสต์" FontSize="25" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="Button_Clicked"/>

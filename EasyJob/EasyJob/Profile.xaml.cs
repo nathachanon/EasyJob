@@ -1,6 +1,10 @@
-﻿using System;
+﻿using EasyJob.Models;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -12,16 +16,45 @@ namespace EasyJob
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Profile : ContentPage
     {
+        private readonly HttpClient _client = new HttpClient();
+        private const string url = "http://139.180.129.212/api/work/post_get_process_finish_me";
         public Profile()
         {
             InitializeComponent();
         }
 
-        protected override void OnAppearing()
+        async protected override void OnAppearing()
         {
+            var member_ids = Application.Current.Properties["member_id"].ToString();
+
             if (Application.Current.Properties.ContainsKey("name"))
             {
                 Member_Email.Text = Application.Current.Properties["name"].ToString();
+            }
+
+            string sContentType = "application/json";
+            var jsonData = "{\"member_id\":\"" + member_ids + "\"}";
+            var content = new StringContent(jsonData.ToString(), Encoding.UTF8, sContentType);
+
+            using (HttpResponseMessage response = await _client.PostAsync(url, content))
+            {
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    using (HttpContent contents = response.Content)
+                    {
+                        string mycontent = await contents.ReadAsStringAsync();
+                        JObject me_work_list = JObject.Parse(mycontent);
+                        List<Jobs> get_job_process = JsonConvert.DeserializeObject<List<Jobs>>(me_work_list["get_job_process"].ToString());
+                        List<Jobs> get_job_finish = JsonConvert.DeserializeObject<List<Jobs>>(me_work_list["get_job_finish"].ToString());
+                        List<Jobs> post_job_process = JsonConvert.DeserializeObject<List<Jobs>>(me_work_list["post_job_process"].ToString());
+                        List<Jobs> post_job_finish = JsonConvert.DeserializeObject<List<Jobs>>(me_work_list["post_job_finish"].ToString());
+                        List<Job> get_job = JsonConvert.DeserializeObject<List<Job>>(me_work_list["get_job"].ToString());
+                        List<Job> post_job = JsonConvert.DeserializeObject<List<Job>>(me_work_list["post_job"].ToString());
+
+                        lb_getjob_count.Text = get_job.Count.ToString();
+                        lb_postjob_count.Text = post_job.Count.ToString();
+                    }
+                }
             }
         }
 

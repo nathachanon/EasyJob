@@ -64,5 +64,31 @@ namespace EasyJob
 
             App.Current.MainPage = new NavigationPage(new Login());
         }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GetJobPage());
+        }
+
+        private void TapGestureRecognizer_Tapped_1(object sender, EventArgs e)
+        {
+            var page = new EasyJob.MenuBar();
+            page.CurrentPage = page.Children[2];
+            Application.Current.MainPage = new NavigationPage(page)
+            {
+                BarBackgroundColor = Color.FromHex("#031765"),
+                BarTextColor = Color.White
+            };
+        }
+
+        private void TapGestureRecognizer_Tapped_2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GetJobProcess());
+        }
+
+        private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GetJobSuccess());
+        }
     }
 }

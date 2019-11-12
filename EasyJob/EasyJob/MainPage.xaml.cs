@@ -64,7 +64,7 @@ namespace EasyJob
             var args = (TappedEventArgs)e;
             var work_id = args.Parameter;
 
-            await PopupNavigation.Instance.PushAsync(new RWorkPopup(work_id.ToString()));
+            await PopupNavigation.Instance.PushAsync(new PopWorkDetail(work_id.ToString()));
         }
     }
 }

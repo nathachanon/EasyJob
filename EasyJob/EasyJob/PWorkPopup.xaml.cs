@@ -70,7 +70,7 @@ namespace EasyJob
                 }
                 else
                 {
-                    DisplayAlert("Error", "เกิดข้อผิดพลาดกรุณาลองใหม่", "OK");
+                    await DisplayAlert("Error", "เกิดข้อผิดพลาดกรุณาลองใหม่", "OK");
                 }
             }
         }

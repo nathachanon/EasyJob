@@ -4,10 +4,8 @@ using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -15,16 +13,16 @@ using Xamarin.Forms.Xaml;
 namespace EasyJob
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Work : ContentPage
+    public partial class GetJobPage : ContentPage
     {
         private readonly HttpClient _client = new HttpClient();
-        private const string Url = "http://139.180.129.212/api/work_post";
-        private ObservableCollection<Job> my_work_post;
-        public Work()
+        private const string Url = "http://139.180.129.212/api/work_get";
+        private ObservableCollection<Job> my_work_get;
+        public GetJobPage()
         {
             InitializeComponent();
-            
         }
+
         async override protected void OnAppearing()
         {
             base.OnAppearing();
@@ -42,8 +40,8 @@ namespace EasyJob
                     {
                         string mycontent = await contents.ReadAsStringAsync();
                         List<Job> work_list = JsonConvert.DeserializeObject<List<Job>>(mycontent);
-                        my_work_post = new ObservableCollection<Job>(work_list);
-                        ItemlistView.ItemsSource = my_work_post;
+                        my_work_get = new ObservableCollection<Job>(work_list);
+                        ItemlistView.ItemsSource = my_work_get;
 
                         job_count.Text = work_list.Count.ToString() + " รายการ";
                     }
@@ -54,16 +52,9 @@ namespace EasyJob
                 }
             }
         }
-        private void Button_Clicked(object sender, EventArgs e)
+        private void Tap(object sender, EventArgs e)
         {
-            PopupNavigation.Instance.PushAsync(new PWorkPopup());
-        }
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
-        {
-            var args = (TappedEventArgs)e;
-            var work_id = args.Parameter;
 
-            PopupNavigation.Instance.PushAsync(new WorkPopup(work_id.ToString()));
         }
     }
 }

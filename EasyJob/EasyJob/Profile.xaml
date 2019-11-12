@@ -33,19 +33,34 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <StackLayout Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
-                    <Image Source="Rwork.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                    <Frame Grid.Column="0">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Rwork.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
                     <Label Text="งานที่รับ" FontSize="15"/>
-                </StackLayout>
-
-                <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
-                    <Image Source="doing.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
-                    <Label Text="กำลังทำ" FontSize="15"/>
-                </StackLayout>
-                <StackLayout Grid.Column="2" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
-                    <Image Source="finish.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
-                    <Label Text="เสร็จแล้ว" FontSize="15"/>
-                </StackLayout>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Grid.Column="1">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" NumberOfTapsRequired="1" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
+                            <Image Source="doing.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                            <Label Text="กำลังทำ" FontSize="15"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Grid.Column="2">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
+                        </Frame.GestureRecognizers>
+                        <StackLayout Grid.Column="2" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
+                            <Image Source="finish.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                            <Label Text="เสร็จแล้ว" FontSize="15"/>
+                        </StackLayout>
+                    </Frame>
+                    
 
 
                
@@ -53,7 +68,10 @@
             
         </Frame>
         <Frame Grid.Row="3"  BackgroundColor="#E9E8E8"  HasShadow="False">
-            <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start" >
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+                <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start" >
                 <Grid.ColumnDefinitions> 
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*" />
@@ -62,7 +80,7 @@
                     <Image Grid.Column="0" Margin="30,0,5,0" Source="clipboard.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
                 <Label Grid.Column="1" Margin="0,0,0,0" Text="งานที่โพส" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
                 <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
-                        <Label x:Name="lb_postjob_count" Text="25" FontSize="18"/>
+                        <Label x:Name="lb_postjob_count" FontSize="18"/>
                     <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
                 </StackLayout>
                 
@@ -70,25 +88,25 @@
             </Grid>
             
         </Frame>
-            
-        <Frame  Grid.Row="4"  BackgroundColor="#E9E8E8"   HasShadow="False"  >
-            <Grid  HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <Image  Grid.Column="0" Margin="30,0,5,0" Source="tasks.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
-                <Label Grid.Column="1" Text="งานที่รับ" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
-                <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
-                    <Label x:Name="lb_getjob_count" Text="12" FontSize="18" />
-                    <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
-                </StackLayout>
 
-
-            </Grid>
-
-        </Frame>
+            <Frame  Grid.Row="4"  BackgroundColor="#E9E8E8"   HasShadow="False" >
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+                <Grid  HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image  Grid.Column="0" Margin="30,0,5,0" Source="tasks.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
+                    <Label Grid.Column="1" Text="งานที่รับ" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
+                    <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
+                        <Label x:Name="lb_getjob_count" FontSize="18" />
+                        <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
+                    </StackLayout>
+                </Grid>
+            </Frame>
         <Frame Grid.Row="5"  BackgroundColor="#E9E8E8"  Padding="30,30,30,20"  HasShadow="False" >
             <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
                 <Grid.RowDefinitions>

@@ -1,5 +1,6 @@
 ﻿using EasyJob.Models;
 using Newtonsoft.Json;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -18,6 +19,7 @@ namespace EasyJob
     {
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "http://139.180.129.212/api/GetWorkDetail";
+        private const string Url2 = "http://139.180.129.212/api/Work/GetJob";
         private Guid work_id;
         public RWorkPopup(string work_ids)
         {
@@ -58,9 +60,35 @@ namespace EasyJob
             base.OnAppearing();
         }
 
-        private void GetJob_Clicked(object sender, EventArgs e)
+        private async void GetJob_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Success", "Work_id : "+ work_id.ToString(), "ตกลง");
+            var member_id = Application.Current.Properties["member_id"].ToString();
+
+            string sContentType = "application/json";
+            var jsonData = "{\"work_id\":\"" + work_id + "\",\"member_id\":\"" + member_id + "\"}";
+            var content = new StringContent(jsonData.ToString(), Encoding.UTF8, sContentType);
+
+            using (HttpResponseMessage response = await _client.PostAsync(Url2, content))
+            {
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    await DisplayAlert("Success", "รับงานเรียบร้อย", "ตกลง");
+
+                    PopupNavigation.PopAsync(true);
+
+                    var page = new EasyJob.MenuBar();
+                    page.CurrentPage = page.Children[0];
+                    Application.Current.MainPage = new NavigationPage(page)
+                    {
+                        BarBackgroundColor = Color.FromHex("#031765"),
+                        BarTextColor = Color.White
+                    };
+                }
+                else
+                {
+                    await DisplayAlert("Error", "เกิดข้อผิดพลาดบางอย่าง", "ตกลง");
+                }
+            }
         }
     }
 }

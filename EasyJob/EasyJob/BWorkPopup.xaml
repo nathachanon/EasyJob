@@ -50,8 +50,7 @@
                     <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
 
                         <StackLayout Padding="15,-5,0,0">
-                            <Label Text="ถางหญ้าหน้าบ้าน" TextColor="DarkBlue"/>
-                            <Image Margin="285,-25,10,0" Source="close.png" WidthRequest="20"/>
+                            <Label x:Name="lb_work_name" Text="ชื่องาน" TextColor="DarkBlue"/>
                         </StackLayout>
                         <StackLayout Padding="15,-5,-10,0">
                             <Label />
@@ -62,13 +61,13 @@
                             <Label />
                         </StackLayout>
                         <StackLayout Padding="15,30,5,0">
-                            <Label Text="ถางหญ้าบริเวณหน้าบ้าน พื้นที่ประมาณ 25 ตรม." FontSize="11" />
+                            <Label x:Name="lb_work_desc" Text="รายละเอียดงาน" FontSize="11" />
                         </StackLayout>
                         <StackLayout Padding="-270,70,0,0">
                             <Image Source="money.png" HeightRequest="25" WidthRequest="25"/>
                         </StackLayout>
                         <StackLayout Padding="55,73,5,0">
-                            <Label Text="500 บาท" FontSize="20" TextColor="OrangeRed"/>
+                            <Label x:Name="lb_labor_cost" Text="ค่าจ้าง" FontSize="20" TextColor="OrangeRed"/>
                         </StackLayout>
                     </Grid>
                 </Frame>

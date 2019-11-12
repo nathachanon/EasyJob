@@ -68,7 +68,8 @@ namespace EasyJob
                             }
                             else
                             {
-                                Button_Process.Text = x.job_status;
+                                Button_Process.Text = "งานนี้เสร็จแล้ว";
+                                Button_Process.BackgroundColor = Color.White;
                                 Button_Process.IsEnabled = false;
                             }
                         }

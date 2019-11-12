@@ -6,7 +6,9 @@
              mc:Ignorable="d"
               BackgroundColor="#E9E8E8" 
              x:Class="EasyJob.SearchPage">
+ 
     <ScrollView>
+           
         <Grid VerticalOptions="FillAndExpand"  Padding="0,0,0,20">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -16,7 +18,10 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center">
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -38,8 +43,8 @@
         
 
         <Frame Grid.Row="3" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
-            
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+              
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 
                 <StackLayout Padding="15,-5,0,0">
                     <Label Text="ถางหญ้าหน้าบ้าน " FontSize="15" TextColor="DarkSlateBlue"/>

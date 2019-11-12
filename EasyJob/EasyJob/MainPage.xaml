@@ -33,8 +33,8 @@
                
             </Grid>
         </Frame>
-        <ScrollView Grid.Row="1">
-            <ListView  x:Name="ItemlistView" RowHeight="140" SeparatorColor="#E9E8E8" IsVisible="False" >
+        <ScrollView Grid.Row="1" Margin="0,0,0,10">
+            <ListView  x:Name="ItemlistView" RowHeight="143" SeparatorColor="#E9E8E8" IsVisible="False" >
                 <ListView.ItemTemplate >
                     <DataTemplate >
                         <ViewCell >

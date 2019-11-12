@@ -19,7 +19,7 @@ namespace EasyJob
         }
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            PopupNavigation.Instance.PushAsync(new PopWorkDetail());
+            
         }
     }
 }

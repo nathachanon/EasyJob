@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="EasyJob.PopWorkDetail"
+               xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation DurationIn="100"
+                                   DurationOut="100"
+                                   EasingIn="SinOut"
+                                   EasingOut="SinIn"
+                                   HasBackgroundAnimation="True"
+                                   PositionIn="Center"
+                                   PositionOut="Center"
+                                   ScaleIn="0.8"
+                                   ScaleOut="0.8" />
+    </pages:PopupPage.Animation>
+    <Grid  VerticalOptions="Center"  Padding="0,0,0,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="600" VerticalOptions="Center">
+            <ScrollView>
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <StackLayout HorizontalOptions="FillAndExpand"  Grid.Row="0" Margin="15,15,15,0">
+                    <Label Margin="0,0,10,0" Text="ถางหญ้าหน้าบ้าน " FontSize="20" TextColor="DarkSlateBlue"/>
+                    <Grid Margin="0,-5,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="profile.png" HeightRequest="10" WidthRequest="18"/>
+
+                        <Label Text="ชื่อคนโพส" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="15"/>
+
+                    </Grid>
+                    <StackLayout Padding="0,-22,-15,0">
+                        <Label />
+                        <BoxView 
+                            HeightRequest="1" 
+                            BackgroundColor="DarkSlateBlue"  Margin="0,0,25,0"
+                            HorizontalOptions="FillAndExpand" />
+                        <Label />
+                    </StackLayout>
+                </StackLayout>
+                <Grid Margin="20,-20,0,3" Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="desc.png" HeightRequest="15" WidthRequest="20"/>
+
+                    <Label Text="รายละเอียดงาน" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
+
+                </Grid>
+                <Grid Margin="20,0,0,3" Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="telblue.png" HeightRequest="15" WidthRequest="20"/>
+
+                    <Label Text="094-102-6725" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
+
+                </Grid>
+                <Grid Margin="20,0,0,3" Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="duration.png" HeightRequest="15" WidthRequest="18"/>
+
+                    <Label Text="2-3 ชม." Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
+
+                </Grid>
+                <Grid Margin="20,0,0,3" Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="locationArrow.png" HeightRequest="15" WidthRequest="20"/>
+
+                    <Label Text="ประชาชื่น 8" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
+
+                </Grid>
+                <Grid Margin="20,0,0,3" Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="location.png" HeightRequest="15" WidthRequest="18"/>
+
+                    <Label Text="1.2กม." Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
+
+                </Grid>
+                <Frame Grid.Row="6" HasShadow="False" BackgroundColor="red" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="350" VerticalOptions="Center">
+                        <maps:Map x:Name="DetailMap"/>
+                    </Frame>
+                <Grid Margin="20,0,20,15" Grid.Row="7">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Grid.Column="0" Source="money.png" HeightRequest="20" WidthRequest="40"/>
+
+                    <Label Text="500 บาท" Grid.Column="1" Margin="5" TextColor="#FB4E4E" FontSize="25"/>
+                    <Button Grid.Column="2" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="รับงาน" FontSize="20" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" />
+
+                </Grid>
+
+                <!--<Frame Grid.Row="3" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
+                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+
+                        <StackLayout Padding="15,-5,0,0">
+                            <Label x:Name="lb_work_name" FontSize="15" TextColor="DarkSlateBlue"/>
+                        </StackLayout>
+                        <StackLayout Padding="15,-5,-10,0">
+                            <Label />
+                            <BoxView 
+                                    HeightRequest="1" Margin="0,0,25,0"
+                                    BackgroundColor="DarkSlateBlue" 
+                                    HorizontalOptions="FillAndExpand" />
+                            <Label />
+                        </StackLayout>
+                        <StackLayout Padding="20,25,5,0">
+                            <Label x:Name="lb_work_desc" FontSize="12"/>
+                        </StackLayout>
+                        <StackLayout Padding="-300,70,0,0">
+                            <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
+                        </StackLayout>
+                        <StackLayout Padding="60,75,0,0">
+                            <Label x:Name="lb_labor_cost" FontSize="20" TextColor="OrangeRed"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
+                            <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
+                            <Label Text="750m" FontSize="11" TextColor="DarkSlateBlue"/>
+                        </StackLayout>
+                    </Grid>
+                </Frame>-->
+               
+            </Grid>
+            </ScrollView>
+        </Frame>
+    </Grid>
+
+</pages:PopupPage>

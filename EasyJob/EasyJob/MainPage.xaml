@@ -34,7 +34,7 @@
             </Grid>
         </Frame>
         <ScrollView Grid.Row="1" Margin="0,0,0,10">
-            <ListView  x:Name="ItemlistView" RowHeight="143" SeparatorColor="#E9E8E8" IsVisible="False" >
+            <ListView  x:Name="ItemlistView" RowHeight="143" SeparatorColor="#E9E8E8" IsVisible="False" ItemsSource="{Binding Elements}">
                 <ListView.ItemTemplate >
                     <DataTemplate >
                         <ViewCell >
@@ -72,7 +72,7 @@
                                                 <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
                                             </StackLayout>
                                             <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
-                                                <Label Text="750m" FontSize="11" TextColor="DarkSlateBlue"/>
+                                                <Label Text="{Binding distance}" FontSize="11" TextColor="DarkSlateBlue"/>
                                             </StackLayout>
                                         </Grid>
                                     </Frame>

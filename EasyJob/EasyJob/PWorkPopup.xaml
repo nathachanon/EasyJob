@@ -7,7 +7,8 @@
              x:Class="EasyJob.PWorkPopup"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
-             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
 
 
 
@@ -31,16 +32,12 @@
         <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="550" VerticalOptions="Center">
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="AUTO"/>
+                    <RowDefinition Height="AUTO"/>
+                    <RowDefinition Height="AUTO"/>
+                    <RowDefinition Height="AUTO"/>
                 </Grid.RowDefinitions>
-                <StackLayout HorizontalOptions="Center"  Grid.Row="0">
-                    <Label Text="โพสต์งาน" FontSize="28" TextColor="#06C200"/>
-                </StackLayout>
-                <StackLayout Grid.Row="1" Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center">
+                <StackLayout Grid.Row="0" Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center">
                     <Entry x:Name="Input_Work_name" Placeholder="ชื่องาน" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
                     <Entry x:Name="Input_Work_desc" Placeholder="รายละเอียด" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
                     <Entry Keyboard="Telephone" x:Name="Input_tel" Placeholder="เบอร์โทรศัพท์" WidthRequest="250" HorizontalOptions="Center" VerticalOptions="Center"/>
@@ -60,12 +57,12 @@
                             </x:Array>
                         </Picker.ItemsSource>
                     </Picker>
-                    <Entry Keyboard="Numeric" x:Name="Input_lat" Placeholder="ละติจูด" WidthRequest="125"/>
-                    <Entry Keyboard="Numeric" x:Name="Input_long" Placeholder="ลองติจูด" WidthRequest="125"/>
                 </StackLayout>
-
-                <Button Grid.Row="4" Margin="80,20,80,20" Text="โพสต์" FontSize="25" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="Button_Clicked"/>
-
+                <Frame Grid.Row="1" HasShadow="False" BackgroundColor="red" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="150" VerticalOptions="Center">
+                    <maps:Map x:Name="DetailMap" MapClicked="DetailMap_MapClicked"/>
+                </Frame>
+                <Label Grid.Row="2" x:Name="lb_Location_detail" HorizontalOptions="Center"/>
+                <Button Grid.Row="3" Margin="80,20,80,20" Text="โพสต์" FontSize="25" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="Button_Clicked"/>
             </Grid>
         </Frame>
     </Grid>

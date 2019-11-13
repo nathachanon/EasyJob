@@ -7,10 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace EasyJob
@@ -23,6 +21,7 @@ namespace EasyJob
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "http://139.180.129.212/api/allWork_blank";
         private ObservableCollection<Work_dis> work_all;
+        private string api_key = "AIzaSyA_v0m54p_3BHjOdaeteyY3VfvqoURhJ8Q";
         public MainPage()
         {
             InitializeComponent();
@@ -35,6 +34,26 @@ namespace EasyJob
             var position = await locator.GetPositionAsync();
             var Latitude = position.Latitude;
             var Longitude = position.Longitude;
+
+            string GetAddressGPS = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + Latitude.ToString() + "," + Longitude + "&key=" + api_key + "&language=th";
+            
+            using (HttpResponseMessage response = await _client.GetAsync(GetAddressGPS))
+            {
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    using (HttpContent contents = response.Content)
+                    {
+                        string mycontent = await contents.ReadAsStringAsync();
+                        JObject maps_details = JObject.Parse(mycontent);
+                        GPS_Details.Text = maps_details["results"][0]["formatted_address"].ToString();
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("Error", "เกิดข้อผิดพลาดกรุณาลองใหม่", "OK");
+                }
+            }
+
             string sContentType = "application/json";
             var member_ids = Application.Current.Properties["member_id"].ToString();
             var jsonData = "{\"member_id\":\"" + member_ids + "\"}";

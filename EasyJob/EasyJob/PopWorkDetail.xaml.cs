@@ -1,5 +1,6 @@
 ﻿using EasyJob.Models;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Plugin.Geolocator;
 using Rg.Plugins.Popup.Services;
 using System;
@@ -49,33 +50,56 @@ namespace EasyJob
                     {
                         string mycontent = await contents.ReadAsStringAsync();
                         List<Work_Detail> work_list = JsonConvert.DeserializeObject<List<Work_Detail>>(mycontent);
-                        foreach (var x in work_list)
+
+                        var latlong = "";
+
+                        for (var j = 0; j < work_list.Count; j++)
                         {
-                            lb_owner_name.Text = x.job_owner_name.ToString();
-                            lb_owner_tel.Text = x.tel+"";
-                            lb_work_name.Text = x.work_name.ToString();
-                            lb_work_desc.Text = x.work_desc.ToString();
-                            lb_work_duration.Text = x.duration.ToString();
-                            lb_labor_cost.Text = x.labor_cost.ToString();
-                            lb_loc.Text = x.loc_name.ToString();
+                            latlong += work_list[j].lat + "," + work_list[j].@long + "|";
+                        }
 
-                            DetailMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(x.lat, x.@long),
-                Distance.FromKilometers(1)));
-                            var pin = new Pin
+                        string GetAddress2 = "https://maps.googleapis.com/maps/api/distancematrix/json?origins=" + Latitude + "," + Longitude + "&destinations=" + latlong + "&mode=driving&language=th-TH&sensor=false&key=AIzaSyA_v0m54p_3BHjOdaeteyY3VfvqoURhJ8Q&language=th";
+                        using (HttpResponseMessage response2 = await _client.GetAsync(GetAddress2))
+                        {
+                            if (response2.StatusCode == System.Net.HttpStatusCode.OK)
                             {
-                                Position = new Position(x.lat, x.@long),
-                                Label = "สถานที่ทำงาน",
-                                Address = x.loc_name
-                            };
+                                using (HttpContent contents2 = response2.Content)
+                                {
+                                    string mycontent2 = await contents2.ReadAsStringAsync();
+                                    JObject maps_details = JObject.Parse(mycontent2);
+                                    var map_d = maps_details["rows"][0]["elements"][0]["distance"]["text"].ToString();
 
-                            var pin2 = new Pin
-                            {
-                                Position = new Position(Latitude, Longitude),
-                                Label = "ที่อยู่ปัจจุบันของคุณ"
-                            };
+                                    foreach (var x in work_list)
+                                    {
+                                        lb_owner_name.Text = x.job_owner_name.ToString();
+                                        lb_owner_tel.Text = x.tel + "";
+                                        lb_work_name.Text = x.work_name.ToString();
+                                        lb_work_desc.Text = x.work_desc.ToString();
+                                        lb_work_duration.Text = x.duration.ToString();
+                                        lb_labor_cost.Text = x.labor_cost.ToString();
+                                        lb_loc.Text = x.loc_name.ToString();
+                                        lb_distance.Text = map_d;
 
-                            DetailMap.Pins.Add(pin);
-                            DetailMap.Pins.Add(pin2);
+                                        DetailMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(x.lat, x.@long),
+                            Distance.FromKilometers(1)));
+                                        var pin = new Pin
+                                        {
+                                            Position = new Position(x.lat, x.@long),
+                                            Label = "สถานที่ทำงาน",
+                                            Address = x.loc_name
+                                        };
+
+                                        var pin2 = new Pin
+                                        {
+                                            Position = new Position(Latitude, Longitude),
+                                            Label = "ที่อยู่ปัจจุบันของคุณ"
+                                        };
+
+                                        DetailMap.Pins.Add(pin);
+                                        DetailMap.Pins.Add(pin2);
+                                    }
+                                }
+                            }
                         }
                     }
                 }

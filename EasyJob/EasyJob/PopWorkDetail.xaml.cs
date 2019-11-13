@@ -31,6 +31,7 @@ namespace EasyJob
         }
         async protected override void OnAppearing()
         {
+            animationView.IsVisible = true;
             base.OnAppearing();
             var locator = CrossGeolocator.Current;
             var position = await locator.GetPositionAsync();
@@ -97,6 +98,8 @@ namespace EasyJob
 
                                         DetailMap.Pins.Add(pin);
                                         DetailMap.Pins.Add(pin2);
+                                        DetailLoad.IsVisible = true;
+                                        animationView.IsVisible = false;
                                     }
                                 }
                             }

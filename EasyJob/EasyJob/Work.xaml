@@ -67,7 +67,7 @@
                                                 <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                                             </StackLayout>
                                             <StackLayout Padding="60,75,0,0">
-                                                <Label Text="{Binding labor_cost}" FontSize="20" TextColor="OrangeRed"/>
+                                                <Label Text="{Binding labor_cost, StringFormat='{0} บาท'}" FontSize="20" TextColor="OrangeRed"/>
                                             </StackLayout>
                                         </Grid>
                                     </Frame>

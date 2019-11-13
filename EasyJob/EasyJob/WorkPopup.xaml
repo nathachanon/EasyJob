@@ -38,7 +38,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <StackLayout HorizontalOptions="Center"  Grid.Row="0">
-                    <Label Text="งานที่โพสต์" FontSize="28" TextColor="#06C200"/>
+                    <Label x:Name="Title" Text="งานที่โพสต์" FontSize="28" TextColor="#06C200"/>
                 </StackLayout>
                 <StackLayout Grid.Row="1" Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20,0,0">
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">

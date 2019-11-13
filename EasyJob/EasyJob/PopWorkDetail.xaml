@@ -107,7 +107,7 @@
 
                 </Grid>
                 <Frame Grid.Row="6" HasShadow="False" BackgroundColor="red" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="350" VerticalOptions="Center">
-                        <maps:Map x:Name="DetailMap"/>
+                        <maps:Map x:Name="DetailMap" />
                     </Frame>
                 <Grid Margin="20,0,20,15" Grid.Row="7">
                     <Grid.ColumnDefinitions>

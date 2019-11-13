@@ -57,11 +57,13 @@ namespace EasyJob
                                 Button_Process.IsEnabled = false;
                             }else if(x.job_status == "มีผู้รับงานแล้ว")
                             {
+                                Title.Text = "มีผู้รับงานเรียบร้อย";
                                 Button_Process.Text = "เริ่มงาน";
                                 Button_Process.BackgroundColor = Color.Green;
                                 Button_Process.IsEnabled = true;
                             }else if(x.job_status == "เริ่มงาน")
                             {
+                                Title.Text = "อยู่ระหว่างการทำงาน";
                                 Button_Process.Text = "เสร็จงาน";
                                 Button_Process.BackgroundColor = Color.Gold;
                                 Button_Process.IsEnabled = true;

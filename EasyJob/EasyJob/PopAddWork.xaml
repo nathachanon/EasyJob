@@ -49,7 +49,7 @@
                         </Grid>
                     </StackLayout>
                     <Frame Grid.Row="1" HasShadow="False" BackgroundColor="blue"  Margin="0,0,0,0" Padding="0" HeightRequest="300" VerticalOptions="Center">
-                        <maps:Map x:Name="DetailMap"/>
+                        <maps:Map x:Name="DetailMap" MapClicked="DetailMap_MapClicked"/>
                     </Frame>
                     <Grid Margin="20,5,20,3" Grid.Row="2">
                         <Grid.ColumnDefinitions>
@@ -57,7 +57,7 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0" Source="pencil.png" HeightRequest="15" WidthRequest="25"/>
-                        <Entry Grid.Column="1"  Placeholder="ชื่องาน.." TextColor="#22388A" PlaceholderColor="#949597" />
+                        <Entry Grid.Column="1"  x:Name="Input_Work_name" Placeholder="ชื่องาน.." TextColor="#22388A" PlaceholderColor="#949597" />
                     </Grid>
                     <Grid Margin="20,0,20,3" Grid.Row="3">
                         <Grid.ColumnDefinitions>
@@ -65,7 +65,7 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0" Source="align.png" HeightRequest="15" WidthRequest="25"/>
-                        <Editor Grid.Column="1"  Placeholder="รายละเอียด.." TextColor="#22388A" PlaceholderColor="#949597" />
+                        <Editor Grid.Column="1" x:Name="Input_Work_desc" Placeholder="รายละเอียด.." TextColor="#22388A" PlaceholderColor="#949597" />
                     </Grid>
                     <Grid Margin="20,0,20,3" Grid.Row="4">
                         <Grid.ColumnDefinitions>
@@ -73,7 +73,21 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0" Source="calendar.png" HeightRequest="15" WidthRequest="25"/>
-                        <Entry Grid.Column="1"  Placeholder="ระยะเวลางาน.." TextColor="#22388A" PlaceholderColor="#949597" />
+                        <Picker Grid.Column="1" x:Name="picker"
+        Title="เลือกระยะเวลาทำงาน"
+        TitleColor="#949597" SelectedIndexChanged="picker_SelectedIndexChanged">
+                            <Picker.ItemsSource>
+                                <x:Array Type="{x:Type x:String}">
+                                    <x:String>1 ชั่วโมง</x:String>
+                                    <x:String>2 ชั่วโมง</x:String>
+                                    <x:String>3 ชั่วโมง</x:String>
+                                    <x:String>6 ชั่วโมง</x:String>
+                                    <x:String>8 ชั่วโมง</x:String>
+                                    <x:String>ทั้งวัน</x:String>
+                                    <x:String>มากกว่า 1 วัน</x:String>
+                                </x:Array>
+                            </Picker.ItemsSource>
+                        </Picker>
                     </Grid>
                     <Grid Margin="20,0,20,3" Grid.Row="5">
                         <Grid.ColumnDefinitions>
@@ -81,7 +95,7 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0"  Source="hand.png" HeightRequest="15" WidthRequest="25"/>
-                        <Entry Grid.Column="1" Keyboard="Numeric"  Placeholder="ค่าแรง.." TextColor="#22388A" PlaceholderColor="#949597" />
+                        <Entry x:Name="Input_cost" Grid.Column="1" Keyboard="Numeric"  Placeholder="ค่าแรง.." TextColor="#22388A" PlaceholderColor="#949597" />
                     </Grid>
                     <Grid Margin="20,0,20,3" Grid.Row="6">
                         <Grid.ColumnDefinitions>
@@ -89,15 +103,15 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0"  Source="phone.png" HeightRequest="15" WidthRequest="25"/>
-                        <Entry Grid.Column="1" Keyboard="Telephone"  Placeholder="เบอร์โทร.." TextColor="#22388A" PlaceholderColor="#949597" />
+                        <Entry x:Name="Input_tel" Grid.Column="1" Keyboard="Telephone"  Placeholder="เบอร์โทร.." TextColor="#22388A" PlaceholderColor="#949597" />
                     </Grid>
                     <Grid Margin="20,0,20,15" Grid.Row="7" HorizontalOptions="Center" ColumnSpacing="20">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Button Grid.Row="0" Grid.Column="0" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="ยกเลิก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#D52A2A"  BorderRadius="20" />
-                        <Button Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="โพสงาน" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#031765"  BorderRadius="20" />
+                        <Button Clicked="Button_Clicked_1" Grid.Row="0" Grid.Column="0" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="ยกเลิก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#D52A2A"  BorderRadius="20" />
+                        <Button Clicked="Button_Clicked" Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="โพสงาน" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#031765"  BorderRadius="20" />
 
                     </Grid>
 

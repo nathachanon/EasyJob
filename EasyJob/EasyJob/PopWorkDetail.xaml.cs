@@ -21,6 +21,7 @@ namespace EasyJob
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "http://139.180.129.212/api/GetWorkDetail";
         private const string Url2 = "http://139.180.129.212/api/Work/GetJob";
+        private string api_key = "AIzaSyA_v0m54p_3BHjOdaeteyY3VfvqoURhJ8Q";
         private Guid work_id;
         public PopWorkDetail(string work_ids)
         {
@@ -30,6 +31,12 @@ namespace EasyJob
         async protected override void OnAppearing()
         {
             base.OnAppearing();
+            var locator = CrossGeolocator.Current;
+            var position = await locator.GetPositionAsync();
+            var Latitude = position.Latitude;
+            var Longitude = position.Longitude;
+
+            string GetAddress = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + Latitude.ToString() + "," + Longitude + "&key=" + api_key + "&language=th";
             string sContentType = "application/json";
             var jsonData = "{\"work_id\":\"" + work_id + "\"}";
             var content = new StringContent(jsonData.ToString(), Encoding.UTF8, sContentType);
@@ -52,13 +59,6 @@ namespace EasyJob
                             lb_labor_cost.Text = x.labor_cost.ToString();
                             lb_loc.Text = x.loc_name.ToString();
 
-                            /* เรียก Location จาก GPS
-                            var locator = CrossGeolocator.Current;
-                            var position = await locator.GetPositionAsync();
-                            var lat = position.Latitude;
-                            var @long = position.Longitude;
-                            */
-
                             DetailMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(x.lat, x.@long),
                 Distance.FromKilometers(1)));
                             var pin = new Pin
@@ -68,7 +68,14 @@ namespace EasyJob
                                 Address = x.loc_name
                             };
 
+                            var pin2 = new Pin
+                            {
+                                Position = new Position(Latitude, Longitude),
+                                Label = "ที่อยู่ปัจจุบันของคุณ"
+                            };
+
                             DetailMap.Pins.Add(pin);
+                            DetailMap.Pins.Add(pin2);
                         }
                     }
                 }

@@ -18,23 +18,22 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <StackLayout Grid.Column="2" Orientation="Vertical" Padding="40,0,0,0">
-                    <Image Source="searchicon.png" HeightRequest="25" WidthRequest="30"/>
-                </StackLayout>
-                <StackLayout Grid.Column="1" Padding="-100,0,0,0">
-                    <Label Text="ถางหญ้า" FontSize="20" TextColor="DarkSlateBlue"/>
-                </StackLayout>
-               
-            </Grid>
-        </Frame>
+       
+                <Grid Margin="20,0,20,3" Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Entry x:Name="keyword" Grid.Column="0"   Placeholder="ค้นหา.." TextColor="#22388A" PlaceholderColor="#949597" />
+                    <Image  Grid.Column="1"    Source="searchicon.png" HeightRequest="15" WidthRequest="25">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="Search_tap" NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                  
+                   
+                </Grid>
+            </Frame>
         <Frame Grid.Row="2" BackgroundColor="#E9E8E8" HasShadow="False"  Margin="10,0,10,10" Padding="0" HeightRequest="10" VerticalOptions="Center">
             <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="End" Padding="0,0,15,0">
                 <Label Text="พบ 2 รายการ" FontSize="13" />

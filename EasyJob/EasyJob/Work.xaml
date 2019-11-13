@@ -49,6 +49,8 @@
                                         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                                             <StackLayout Padding="15,-5,0,0">
                                                 <Label Text="{Binding work_name}" FontSize="15" TextColor="DarkSlateBlue"/>
+                                                <Image HorizontalOptions="End" Margin="270,-25,10,0" Source="close.png" WidthRequest="20"/>
+
                                             </StackLayout>
                                             <StackLayout Padding="15,-5,-10,0">
                                                 <Label />

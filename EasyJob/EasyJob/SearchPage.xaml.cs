@@ -16,10 +16,15 @@ namespace EasyJob
         public SearchPage()
         {
             InitializeComponent();
+
         }
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            
+           
+        }
+        private void Search_tap(object sender, EventArgs e)
+        {
+            DisplayAlert("ทดสอบ", keyword.Text, "ตกลง");
         }
     }
 }

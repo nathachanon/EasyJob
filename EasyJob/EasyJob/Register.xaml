@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:EasyJob"
+             x:Class="EasyJob.Register" BackgroundColor="White" BackgroundImageSource="bgapp" NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="false" >
+    <ContentPage.Content>
+
+        <Grid Padding="40,0,40,300" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+
+
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="logo"/>
+            <StackLayout Grid.Row="1" >
+                <Entry x:Name="Email_Input" Keyboard="Email" Placeholder="Email" TextColor="White" PlaceholderColor="White" />
+                <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password" PlaceholderColor="White" TextColor="White" />
+                <Entry  IsPassword="True" x:Name="CPassword_Input" Placeholder="Confirm Password"  PlaceholderColor="White" TextColor="White" />
+                <Entry x:Name="name_Input" Keyboard="name" Placeholder="Name" TextColor="White" PlaceholderColor="White" />
+                <Entry x:Name="Surname_Input" Keyboard="Surname" Placeholder="Surname" TextColor="White" PlaceholderColor="White" />
+                <Entry x:Name="Tel_Input" Keyboard="Tel" Placeholder="Tel." TextColor="White" PlaceholderColor="White" />
+                <Button x:Name="Btn_Signin" Text="Register" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

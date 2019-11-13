@@ -3,35 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              mc:Ignorable="d"
              BackgroundColor="#E9E8E8" 
              x:Class="EasyJob.MainPage"  Title="Work" NavigationPage.TitleIconImageSource="Logo.png">
 
     <Grid VerticalOptions="FillAndExpand">
-        <!--<ActivityIndicator x:Name="Loading" 
-                           IsVisible="True"
-                           IsRunning="True"
-                           Color="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="50,10,10,0"/>-->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="10" HeightRequest="60" VerticalOptions="Center">
-            <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                <StackLayout Orientation="Vertical" Spacing="8" Padding="-50,0,0,0">
+        <Frame Grid.Row="0" x:Name="Location" IsVisible="False" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="10" HeightRequest="60" VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                
+                <StackLayout Grid.Column="0" Spacing="8" >
                     <Image Source="locationArrow.png" HeightRequest="25" WidthRequest="30"/>
                 </StackLayout>
-                <StackLayout Grid.Column="1" Padding="-65,0,0,0">
-                    <Label Text="สถานที่" x:Name="GPS_Details" FontSize="15" TextColor="DarkSlateBlue" />
+                <StackLayout Grid.Column="1" >
+                    <Label Text="สถานที่" x:Name="GPS_Details" LineBreakMode="TailTruncation"   FontSize="18" TextColor="DarkSlateBlue" />
                 </StackLayout>
-               
-            </Grid>
+            </StackLayout>
         </Frame>
+
+        <forms:AnimationView  
+	        x:Name="animationView" IsVisible="False" Grid.Row="1"
+	        Animation="loading3.json"   WidthRequest="230" HeightRequest="230"
+            VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+	        Loop="True" 
+	        AutoPlay="True" />  
         <ScrollView Grid.Row="1" Margin="0,0,0,10">
             <ListView  x:Name="ItemlistView" RowHeight="143" SeparatorColor="#E9E8E8" IsVisible="False" ItemsSource="{Binding Elements}">
                 <ListView.ItemTemplate >
@@ -53,9 +52,9 @@
                                             <StackLayout Padding="15,-5,-10,0">
                                                 <Label />
                                                 <BoxView 
-                HeightRequest="1" Margin="0,0,25,0"
-                BackgroundColor="DarkSlateBlue" 
-                HorizontalOptions="FillAndExpand" />
+                                                    HeightRequest="1" Margin="0,0,25,0"
+                                                    BackgroundColor="DarkSlateBlue" 
+                                                    HorizontalOptions="FillAndExpand" />    
                                                 <Label />
                                             </StackLayout>
                                             <StackLayout Padding="20,25,5,0">
@@ -65,7 +64,8 @@
                                                 <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                                             </StackLayout>
                                             <StackLayout Padding="60,75,0,0">
-                                                <Label Text="{Binding labor_cost}" FontSize="20" TextColor="OrangeRed"/>
+                                                <Label Text="{Binding labor_cost, StringFormat='{0} บาท'}" FontSize="20" TextColor="#FB4E4E"/>
+                                             
                                             </StackLayout>
                                             <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
                                                 <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>

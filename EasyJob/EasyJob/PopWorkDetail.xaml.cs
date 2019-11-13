@@ -76,7 +76,7 @@ namespace EasyJob
                                         lb_work_name.Text = x.work_name.ToString();
                                         lb_work_desc.Text = x.work_desc.ToString();
                                         lb_work_duration.Text = x.duration.ToString();
-                                        lb_labor_cost.Text = x.labor_cost.ToString();
+                                        lb_labor_cost.Text = x.labor_cost.ToString() + " บาท";
                                         lb_loc.Text = x.loc_name.ToString();
                                         lb_distance.Text = map_d;
 

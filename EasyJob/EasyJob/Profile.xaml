@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             BackgroundColor="#E9E8E8" 
+             xmlns:badge="clr-namespace:BadgeView.Shared;assembly=BadgeView.Shared"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="EasyJob.Profile" Title="Profile" NavigationPage.TitleIconImageSource="Logo.png">
     <ScrollView>
@@ -13,10 +13,13 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="70"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="70"/>
-            <RowDefinition Height="70" />
             <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                
+            </Grid.RowDefinitions>
         <Image Source="profileBg.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
         <StackLayout Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
@@ -30,10 +33,12 @@
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-                    <Frame Grid.Column="0">
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Column="0" HasShadow="False" CornerRadius="10">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
                         </Frame.GestureRecognizers>
@@ -42,16 +47,28 @@
                     <Label Text="งานที่รับ" FontSize="15"/>
                         </StackLayout>
                     </Frame>
-                    <Frame Grid.Column="1">
+
+                    <BoxView Grid.Column="1"
+                                     Margin="0,15,0,15" WidthRequest="1.5"
+                                    BackgroundColor="#8D8989" 
+                                    HorizontalOptions="FillAndExpand" />
+
+                    <Frame Grid.Column="2"  HasShadow="False" CornerRadius="10">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" NumberOfTapsRequired="1" />
                         </Frame.GestureRecognizers>
                         <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
                             <Image Source="doing.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
                             <Label Text="กำลังทำ" FontSize="15"/>
-                        </StackLayout>
+                        </StackLayout>                        
                     </Frame>
-                    <Frame Grid.Column="2">
+                    
+                    <BoxView Grid.Column="3"
+                                     Margin="0,15,0,15" WidthRequest="1.5"
+                                    BackgroundColor="#8D8989" 
+                                    HorizontalOptions="FillAndExpand" />
+                    
+                    <Frame Grid.Column="4"  HasShadow="False" CornerRadius="10">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
                         </Frame.GestureRecognizers>
@@ -59,40 +76,41 @@
                             <Image Source="finish.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
                             <Label Text="เสร็จแล้ว" FontSize="15"/>
                         </StackLayout>
-                    </Frame>
-                    
-
-
-               
+                    </Frame>             
             </Grid>
             
         </Frame>
-        <Frame Grid.Row="3"  BackgroundColor="#E9E8E8"  HasShadow="False">
-                <Frame.GestureRecognizers>
+           
+        <StackLayout Grid.Row="3"   Orientation="Horizontal" >
+                <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-                <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start" >
-                <Grid.ColumnDefinitions> 
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+                </StackLayout.GestureRecognizers>
+                <Grid  HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
                     <Image Grid.Column="0" Margin="30,0,5,0" Source="clipboard.png" WidthRequest="35" HeightRequest="35" HorizontalOptions="Start"/>
-                <Label Grid.Column="1" Margin="0,0,0,0" Text="งานที่โพส" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
-                <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
+                    <Label Grid.Column="1" Margin="0,0,0,0" Text="งานที่โพส" TextColor="Gray" FontSize="20" VerticalOptions="Center"  HorizontalOptions="Start"/>
+                    <StackLayout  Grid.Column="2" Orientation="Horizontal" Margin="30,0" HorizontalOptions="End" VerticalOptions="Center">
                         <Label x:Name="lb_postjob_count" FontSize="18"/>
-                    <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
-                </StackLayout>
-                
-
-            </Grid>
+                        <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
+                    </StackLayout>
+                </Grid>
             
-        </Frame>
 
-            <Frame  Grid.Row="4"  BackgroundColor="#E9E8E8"   HasShadow="False" >
-                <Frame.GestureRecognizers>
+
+            </StackLayout>
+            <BoxView Grid.Row="4" Margin="30,0,30,0" 
+                                   HeightRequest="0.5" 
+                                    BackgroundColor="#CFCFCF" 
+                                    HorizontalOptions="FillAndExpand" />
+            <StackLayout  Grid.Row="5"   VerticalOptions="Center"  >
+                <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
+                </StackLayout.GestureRecognizers>
                 <Grid  HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
@@ -106,20 +124,19 @@
                         <Image Grid.Column="0" Source="next.png" WidthRequest="18" HeightRequest="18" />
                     </StackLayout>
                 </Grid>
-            </Frame>
-        <Frame Grid.Row="5"  BackgroundColor="#E9E8E8"  Padding="30,30,30,20"  HasShadow="False" >
+            </StackLayout>
+            <BoxView Grid.Row="6" Margin="30,0,30,0"
+                                   HeightRequest="0.5" 
+                                    BackgroundColor="#CFCFCF" 
+                                    HorizontalOptions="FillAndExpand" />
+            <StackLayout Grid.Row="7"   Padding="30,30,30,20"  VerticalOptions="End" >
             <Grid HeightRequest="50" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                  
+                    <RowDefinition Height="Auto" />                 
                 </Grid.RowDefinitions>
-                <Button Grid.Row="0" Text="ออกจากระบบ" FontSize="20" TextColor="White" BackgroundColor="#D52A2A" HeightRequest="50" WidthRequest="20" BorderRadius="20" Clicked="Logout_Click"/>
-
-
-
-
-            </Grid>
-        </Frame>
+                    <Button Grid.Row="0" Text="ออกจากระบบ" FontSize="20" TextColor="White" BackgroundColor="#D52A2A" HeightRequest="50" WidthRequest="20" BorderRadius="20" Clicked="Logout_Click"/>
+                </Grid>
+        </StackLayout>
        
     </Grid>
     </ScrollView>

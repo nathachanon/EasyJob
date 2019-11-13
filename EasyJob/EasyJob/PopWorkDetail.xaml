@@ -103,7 +103,7 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Column="0" Source="location.png" HeightRequest="15" WidthRequest="18"/>
 
-                    <Label Text="1.2กม." Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
+                    <Label x:Name="lb_distance" Text="ระยะทาง" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
 
                 </Grid>
                 <Frame Grid.Row="6" HasShadow="False" BackgroundColor="red" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="350" VerticalOptions="Center">

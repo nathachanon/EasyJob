@@ -19,6 +19,7 @@ namespace EasyJob
     {
         private readonly HttpClient _client = new HttpClient();
         private const string Url = "http://139.180.129.212/api/work_post";
+        private const string Url2 = "http://139.180.129.212/api/GetWorkDetail";
         private ObservableCollection<Job> my_work_post;
         public Work()
         {
@@ -58,12 +59,42 @@ namespace EasyJob
         {
             PopupNavigation.Instance.PushAsync(new PWorkPopup());
         }
-        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
             var args = (TappedEventArgs)e;
             var work_id = args.Parameter;
 
-            PopupNavigation.Instance.PushAsync(new WorkPopup(work_id.ToString()));
+            string sContentType = "application/json";
+            var jsonData = "{\"work_id\":\"" + work_id + "\"}";
+            var content = new StringContent(jsonData.ToString(), Encoding.UTF8, sContentType);
+
+            using (HttpResponseMessage response = await _client.PostAsync(Url2, content))
+            {
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    using (HttpContent contents = response.Content)
+                    {
+                        string mycontent = await contents.ReadAsStringAsync();
+                        List<Work_Detail> work_list = JsonConvert.DeserializeObject<List<Work_Detail>>(mycontent);
+                        foreach (var x in work_list)
+                        {
+
+                            if (x.job_status == "ว่าง")
+                            {
+                                PopupNavigation.Instance.PushAsync(new BWorkPopup(work_id.ToString()));
+                            }
+                            else
+                            {
+                                PopupNavigation.Instance.PushAsync(new WorkPopup(work_id.ToString()));
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("เกิดข้อผิดพลาด", "Member id is null", "ตกลง");
+                }
+            }
         }
     }
 }

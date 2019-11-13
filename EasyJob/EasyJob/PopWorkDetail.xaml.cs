@@ -1,5 +1,6 @@
 ﻿using EasyJob.Models;
 using Newtonsoft.Json;
+using Plugin.Geolocator;
 using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
@@ -50,9 +51,16 @@ namespace EasyJob
                             lb_work_duration.Text = x.duration.ToString();
                             lb_labor_cost.Text = x.labor_cost.ToString();
                             lb_loc.Text = x.loc_name.ToString();
+
+                            /* เรียก Location จาก GPS
+                            var locator = CrossGeolocator.Current;
+                            var position = await locator.GetPositionAsync();
+                            var lat = position.Latitude;
+                            var @long = position.Longitude;
+                            */
+
                             DetailMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(x.lat, x.@long),
                 Distance.FromKilometers(1)));
-
                             var pin = new Pin
                             {
                                 Position = new Position(x.lat, x.@long),

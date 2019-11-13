@@ -1,6 +1,7 @@
 ﻿using EasyJob.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -29,7 +30,8 @@ namespace EasyJob
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-
+            LoginForm.IsVisible = false;
+            animationView.IsVisible = true;
             string url = "http://139.180.129.212/api/Member/Login";
             string sContentType = "application/json";
             var jsonData = "{\"email\":\"" + Email_Input.Text + "\",\"password\":\"" + Password_Input.Text + "\"}";
@@ -48,7 +50,8 @@ namespace EasyJob
                         Application.Current.Properties["name"] = mem_data[0].name;
                         Application.Current.Properties["member_id"] = mem_data[0].member_id;
 
-                        await DisplayAlert("สำเร็จ", "Login Success", "ตกลง");
+                        animationView.IsVisible = false;
+                        //await DisplayAlert("สำเร็จ", "Login Success", "ตกลง");
 
                         App.Current.MainPage = new NavigationPage(new MenuBar())
                         {
@@ -59,10 +62,16 @@ namespace EasyJob
                 }
                 else
                 {
+                    animationView.IsVisible = false;
+                    LoginForm.IsVisible = true;
                     await DisplayAlert("เกิดข้อผิดพลาด", "Email หรือ Password ไม่ถูกต้อง", "ตกลง");
                 }
             }
         }
 
+        private  void ToRegister(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new Register());
+        }
     }
 }

@@ -8,22 +8,30 @@
              x:Class="EasyJob.Register" BackgroundColor="White" BackgroundImageSource="bgapp" NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="false" >
     <ContentPage.Content>
 
-        <Grid Padding="40,0,40,300" VerticalOptions="FillAndExpand">
+        <Grid Padding="40,0,40,0" VerticalOptions="Center">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-
-
+                <RowDefinition Height="Auto"></RowDefinition>
             </Grid.RowDefinitions>
-            <Image Grid.Row="0" Source="logo"/>
-            <StackLayout Grid.Row="1" >
+            <Image  Grid.Row="0" WidthRequest="150" HeightRequest="150" Source="logo"/>
+       
+            <StackLayout Grid.Row="1"  >
+                
                 <Entry x:Name="Email_Input" Keyboard="Email" Placeholder="Email" TextColor="White" PlaceholderColor="White" />
+                <StackLayout Orientation="Horizontal">
+                    <Entry x:Name="name_Input" HorizontalOptions="FillAndExpand"  Placeholder="Name" TextColor="White" PlaceholderColor="White" />
+                <Entry x:Name="Surname_Input" HorizontalOptions="FillAndExpand" Placeholder="Surname" TextColor="White" PlaceholderColor="White" />
+                </StackLayout>
+                 <Entry x:Name="Tel_Input" Keyboard="Telephone" Placeholder="Tel." TextColor="White" PlaceholderColor="White" />
                 <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password" PlaceholderColor="White" TextColor="White" />
-                <Entry  IsPassword="True" x:Name="CPassword_Input" Placeholder="Confirm Password"  PlaceholderColor="White" TextColor="White" />
-                <Entry x:Name="name_Input" Keyboard="name" Placeholder="Name" TextColor="White" PlaceholderColor="White" />
-                <Entry x:Name="Surname_Input" Keyboard="Surname" Placeholder="Surname" TextColor="White" PlaceholderColor="White" />
-                <Entry x:Name="Tel_Input" Keyboard="Tel" Placeholder="Tel." TextColor="White" PlaceholderColor="White" />
-                <Button x:Name="Btn_Signin" Text="Register" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
+                <Entry  IsPassword="True" x:Name="CPassword_Input" Placeholder="Confirm Password"  PlaceholderColor="White" TextColor="White"/>
+                <Button  Text="Register" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
+                     <Label Text="Login" HorizontalOptions="Center" FontSize="18" TextColor="White" Margin="0,15,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="ToLogin" NumberOfTapsRequired="1"/>
+                    </Label.GestureRecognizers>
+                </Label>
+                
             </StackLayout>
         </Grid>
 

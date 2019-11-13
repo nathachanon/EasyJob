@@ -18,7 +18,9 @@ namespace EasyJob
         }
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            if (Email_Input.Text == "" && Password_Input.Text == "" && CPassword_Input.Text == "" && name_Input.Text == "" && Surname_Input.Text == "" && Tel_Input.Text == "")
+          
+            
+            if (Email_Input.Text == null || Password_Input.Text == null || CPassword_Input.Text == null || name_Input.Text == null || Surname_Input.Text == null || Tel_Input.Text == null)
             {
                 await DisplayAlert("Register", "กรอกข้อมูลให้ครบ", "Ok");
             }
@@ -28,5 +30,9 @@ namespace EasyJob
             }
         }
 
+        private void ToLogin(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new Login());
+        }
     }
 }

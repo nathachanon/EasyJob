@@ -92,6 +92,8 @@
     <AndroidAsset Include="Assets\ring.json" />
     <AndroidAsset Include="Assets\loading2.json" />
     <AndroidAsset Include="Assets\loading3.json" />
+    <AndroidAsset Include="Assets\wload.json" />
+    <AndroidAsset Include="Assets\cload.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

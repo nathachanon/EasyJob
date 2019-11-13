@@ -15,7 +15,6 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-     
         </Grid.RowDefinitions>
         <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="10" HeightRequest="60" VerticalOptions="Center">
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
@@ -28,7 +27,7 @@
                     <Image Source="locationArrow.png" HeightRequest="25" WidthRequest="30"/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Padding="-65,0,0,0">
-                    <Label Text="สถานที่" FontSize="20" TextColor="DarkSlateBlue"/>
+                    <Label Text="สถานที่" x:Name="GPS_Details" FontSize="15" TextColor="DarkSlateBlue" />
                 </StackLayout>
                
             </Grid>

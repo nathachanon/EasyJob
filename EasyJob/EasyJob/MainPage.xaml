@@ -13,7 +13,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Frame Grid.Row="0" x:Name="Location" IsVisible="False" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="10" HeightRequest="60" VerticalOptions="Center">
+        <Frame Grid.Row="0" x:Name="Location1" IsVisible="False" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="10" HeightRequest="35" VerticalOptions="Center">
             <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
                 
                 <StackLayout Grid.Column="0" Spacing="8" >

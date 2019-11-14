@@ -5,6 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:local="clr-namespace:EasyJob"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
              x:Class="EasyJob.Register" BackgroundColor="White" BackgroundImageSource="bgapp" NavigationPage.HasNavigationBar="False" NavigationPage.HasBackButton="false" >
     <ContentPage.Content>
         <Grid Padding="40,0,40,0" VerticalOptions="Center">
@@ -13,10 +15,27 @@
                 <RowDefinition Height="Auto"></RowDefinition>
             </Grid.RowDefinitions>
             <Image  Grid.Row="0" WidthRequest="150" HeightRequest="150" Source="logo"/>
-
-            <StackLayout Grid.Row="1"  >
-                <Image x:Name="selectedImage"/>
-                <Button Text="Upload" Clicked="Button_Clicked_1"/>
+            <forms:AnimationView  
+	        x:Name="re_success" IsVisible="False" Grid.Row="1"
+	        Animation="register.json"   WidthRequest="230" HeightRequest="230"
+            VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+	        Loop="True" 
+	        AutoPlay="True" />
+             <forms:AnimationView  
+	        x:Name="animationView" IsVisible="False" Grid.Row="1"
+	        Animation="loading3.json"   WidthRequest="230" HeightRequest="230"
+            VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+	        Loop="False" 
+	        AutoPlay="True" />
+            <ScrollView x:Name="formRegis" IsVisible="True" Grid.Row="1">
+                <StackLayout >
+                        <controls:CircleImage IsVisible="False" x:Name="selectedImage" Aspect="AspectFill" WidthRequest="150" HeightRequest="150" >
+                        <controls:CircleImage.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ChangeImg"   NumberOfTapsRequired="1"/>
+                        </controls:CircleImage.GestureRecognizers>
+                </controls:CircleImage>
+                   
+                    <Button x:Name="btnUp" IsVisible="True" Text="เลือกรูปภาพ" Clicked="Button_Clicked_1" CornerRadius="40"/>
                 <Entry x:Name="Email_Input" Keyboard="Email" Placeholder="Email" TextColor="White" PlaceholderColor="White" />
                 <StackLayout Orientation="Horizontal">
                     <Entry x:Name="name_Input" HorizontalOptions="FillAndExpand"  Placeholder="Name" TextColor="White" PlaceholderColor="White" />
@@ -33,6 +52,7 @@
                 </Label>
                 
             </StackLayout>
+            </ScrollView>
         </Grid>
 
     </ContentPage.Content>

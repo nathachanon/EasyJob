@@ -10,7 +10,7 @@ using Android;
 
 namespace EasyJob.Droid
 {
-    [Activity(Label = "EasyJob", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation )]
+    [Activity(Label = "EasyJob", Icon = "@mipmap/AppIcon3", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation )]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         const int RequestLocationId = 0;

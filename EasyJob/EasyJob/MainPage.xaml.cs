@@ -9,6 +9,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Net.Http;
 using System.Text;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace EasyJob
@@ -29,7 +30,7 @@ namespace EasyJob
         async override protected void OnAppearing()
         {
             ItemlistView.IsVisible = false;
-            Location.IsVisible = false;
+            Location1.IsVisible = false;
             animationView.IsVisible = true;
             //Loading.IsVisible = true;
             var locator = CrossGeolocator.Current;
@@ -104,7 +105,7 @@ namespace EasyJob
 
                                     //Loading.IsVisible = false;
                                     animationView.IsVisible = false;
-                                    Location.IsVisible = true;
+                                    Location1.IsVisible = true;
                                     ItemlistView.IsVisible = true;
                                 }
                             }

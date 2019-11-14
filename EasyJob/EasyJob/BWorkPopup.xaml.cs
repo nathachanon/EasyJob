@@ -42,7 +42,7 @@ namespace EasyJob
                         {
                             lb_work_name.Text = x.work_name;
                             lb_work_desc.Text = x.work_desc;
-                            lb_labor_cost.Text = x.labor_cost.ToString();
+                            lb_labor_cost.Text = x.labor_cost.ToString() + " บาท";
                         }
                     }
                 }

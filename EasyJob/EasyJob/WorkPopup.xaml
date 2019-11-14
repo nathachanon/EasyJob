@@ -81,7 +81,7 @@
                             <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                         </StackLayout>
                         <StackLayout Padding="60,75,0,0">
-                            <Label x:Name="lb_labor_cost" FontSize="20" TextColor="OrangeRed"/>
+                            <Label  x:Name="lb_labor_cost"  FontSize="20" TextColor="#FB4E4E"/>
                         </StackLayout>
                     </Grid>
                 </Frame>

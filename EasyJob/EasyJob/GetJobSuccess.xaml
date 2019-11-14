@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             BackgroundColor="#E9E8E8" 
              x:Class="EasyJob.GetJobSuccess" Title="งานที่ทำเสร็จแล้ว">
     <Grid VerticalOptions="FillAndExpand">
         <Grid.RowDefinitions>
@@ -29,7 +30,7 @@
             </Grid>
         </Frame>
         <ScrollView Grid.Row="1">
-            <ListView  x:Name="ItemlistView" RowHeight="135" SeparatorColor="#E9E8E8">
+            <ListView  x:Name="ItemlistView" RowHeight="145" SeparatorColor="#E9E8E8">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>

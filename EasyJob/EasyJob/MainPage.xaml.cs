@@ -29,6 +29,8 @@ namespace EasyJob
         async override protected void OnAppearing()
         {
             ItemlistView.IsVisible = false;
+            Location.IsVisible = false;
+            animationView.IsVisible = true;
             //Loading.IsVisible = true;
             var locator = CrossGeolocator.Current;
             var position = await locator.GetPositionAsync();
@@ -69,6 +71,7 @@ namespace EasyJob
                         List<Work_dis> work_list = JsonConvert.DeserializeObject<List<Work_dis>>(mycontent);
                         List<Work_dis> subjects = new List<Work_dis>();
 
+                        
                         var latlong = "";
                         for (var j = 0; j < work_list.Count; j++)
                         {
@@ -100,6 +103,8 @@ namespace EasyJob
                                     ItemlistView.ItemsSource = work_all;
 
                                     //Loading.IsVisible = false;
+                                    animationView.IsVisible = false;
+                                    Location.IsVisible = true;
                                     ItemlistView.IsVisible = true;
                                 }
                             }

@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -23,14 +24,19 @@ namespace EasyJob
         }
         private async void Button_Clicked(object sender, EventArgs e)
         {
-          
+            formRegis.IsVisible = false;
+            animationView.IsVisible = true;
             
             if (Email_Input.Text == null || Password_Input.Text == null || CPassword_Input.Text == null || name_Input.Text == null || Surname_Input.Text == null || Tel_Input.Text == null)
             {
+                formRegis.IsVisible = true;
+                animationView.IsVisible = false;
                 await DisplayAlert("Register", "กรอกข้อมูลให้ครบ", "Ok");
             }
             else if (Password_Input.Text != CPassword_Input.Text)
             {
+                formRegis.IsVisible = true;
+                animationView.IsVisible = false;
                 await DisplayAlert("Register", "กรุณากรอก Password ให้ตรงกัน", "Ok");
             }
             else
@@ -56,7 +62,10 @@ namespace EasyJob
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.OK)
                     {
-                        await DisplayAlert("Success", "สมัครสมาชิกสำเร็จ", "ตกลง");
+                        animationView.IsVisible = false;
+                        re_success.IsVisible = true;
+                        //await DisplayAlert("Success", "สมัครสมาชิกสำเร็จ", "ตกลง");
+                        await Task.Delay(800);
                         App.Current.MainPage = new NavigationPage(new Login());
                     }
                     else
@@ -91,6 +100,7 @@ namespace EasyJob
 
             if(selectedImage == null)
             {
+                btnUp.IsVisible = true;
                 await DisplayAlert("Error", "โปรดเลือกรูปก่อน", "OK");
                 return;
             }
@@ -98,6 +108,38 @@ namespace EasyJob
             px = selectedImageFile;
 
             selectedImage.Source = ImageSource.FromStream(() => selectedImageFile.GetStream());
+            btnUp.IsVisible = false;
+            selectedImage.IsVisible = true;
+        }
+
+        async void ChangeImg(object sender, EventArgs e)
+        {
+            btnUp.IsVisible = false;
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsPickPhotoSupported)
+            {
+                await DisplayAlert("Not Supported", "เครื่องของคุณไม่รองรับฟังชั่นนี้", "OK");
+                return;
+            }
+
+            var mediaOptions = new PickMediaOptions()
+            {
+                PhotoSize = PhotoSize.Medium
+            };
+
+            var selectedImageFile = await CrossMedia.Current.PickPhotoAsync(mediaOptions);
+
+            if (selectedImage == null)
+            {
+                await DisplayAlert("Error", "โปรดเลือกรูปก่อน", "OK");
+                return;
+            }
+
+            px = selectedImageFile;
+
+            selectedImage.Source = ImageSource.FromStream(() => selectedImageFile.GetStream());
+            selectedImage.IsVisible = true;
         }
     }
 }

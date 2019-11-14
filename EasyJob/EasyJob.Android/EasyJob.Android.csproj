@@ -94,6 +94,7 @@
     <AndroidAsset Include="Assets\loading3.json" />
     <AndroidAsset Include="Assets\wload.json" />
     <AndroidAsset Include="Assets\cload.json" />
+    <AndroidAsset Include="Assets\register.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />

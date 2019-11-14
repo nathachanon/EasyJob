@@ -15844,47 +15844,47 @@ namespace EasyJob.Droid
 					2130903364,
 					2130903365};
 			
-			// aapt resource value: 0x0
+			// aapt resource value: 0
 			public const int LottieAnimationView_lottie_autoPlay = 0;
 			
-			// aapt resource value: 0x1
+			// aapt resource value: 1
 			public const int LottieAnimationView_lottie_colorFilter = 1;
 			
-			// aapt resource value: 0x2
+			// aapt resource value: 2
 			public const int LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove = 2;
 			
-			// aapt resource value: 0x3
+			// aapt resource value: 3
 			public const int LottieAnimationView_lottie_fileName = 3;
 			
-			// aapt resource value: 0x4
+			// aapt resource value: 4
 			public const int LottieAnimationView_lottie_imageAssetsFolder = 4;
 			
-			// aapt resource value: 0x5
+			// aapt resource value: 5
 			public const int LottieAnimationView_lottie_loop = 5;
 			
-			// aapt resource value: 0x6
+			// aapt resource value: 6
 			public const int LottieAnimationView_lottie_progress = 6;
 			
-			// aapt resource value: 0x7
+			// aapt resource value: 7
 			public const int LottieAnimationView_lottie_rawRes = 7;
 			
-			// aapt resource value: 0x8
+			// aapt resource value: 8
 			public const int LottieAnimationView_lottie_renderMode = 8;
 			
-			// aapt resource value: 0x9
+			// aapt resource value: 9
 			public const int LottieAnimationView_lottie_repeatCount = 9;
 			
-			// aapt resource value: 0x10
-			public const int LottieAnimationView_lottie_repeatMode = 16;
+			// aapt resource value: 10
+			public const int LottieAnimationView_lottie_repeatMode = 10;
 			
-			// aapt resource value: 0x11
-			public const int LottieAnimationView_lottie_scale = 17;
+			// aapt resource value: 11
+			public const int LottieAnimationView_lottie_scale = 11;
 			
-			// aapt resource value: 0x12
-			public const int LottieAnimationView_lottie_speed = 18;
+			// aapt resource value: 12
+			public const int LottieAnimationView_lottie_speed = 12;
 			
-			// aapt resource value: 0x13
-			public const int LottieAnimationView_lottie_url = 19;
+			// aapt resource value: 13
+			public const int LottieAnimationView_lottie_url = 13;
 			
 			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F030135,0x7F030146,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030206,0x7F030208,0x7F030215 }
 			public static int[] MapAttrs = new int[] {

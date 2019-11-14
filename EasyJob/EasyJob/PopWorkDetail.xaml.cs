@@ -69,7 +69,8 @@ namespace EasyJob
                                     string mycontent2 = await contents2.ReadAsStringAsync();
                                     JObject maps_details = JObject.Parse(mycontent2);
                                     var map_d = maps_details["rows"][0]["elements"][0]["distance"]["text"].ToString();
-
+                                    var map_r1 = map_d.Replace("กม.", "กิโลเมตร");
+                                    var map_r2 = map_r1.Replace("ม.", "เมตร");
                                     foreach (var x in work_list)
                                     {
                                         lb_owner_name.Text = x.job_owner_name.ToString();
@@ -79,7 +80,7 @@ namespace EasyJob
                                         lb_work_duration.Text = x.duration.ToString();
                                         lb_labor_cost.Text = x.labor_cost.ToString() + " บาท";
                                         lb_loc.Text = x.loc_name.ToString();
-                                        lb_distance.Text = map_d;
+                                        lb_distance.Text = map_r2;
 
                                         DetailMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(x.lat, x.@long),
                             Distance.FromKilometers(1)));

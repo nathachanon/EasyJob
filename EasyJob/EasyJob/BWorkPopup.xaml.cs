@@ -22,6 +22,7 @@ namespace EasyJob
         {
             InitializeComponent();
             work_id = Guid.Parse(work_ids);
+            animationView.IsVisible = true;
         }
 
         async override protected void OnAppearing()
@@ -54,6 +55,5 @@ namespace EasyJob
 
             base.OnAppearing();
         }
-
     }
 }

@@ -23,7 +23,7 @@
         <Image Source="profileBg.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
         <StackLayout Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <controls:CircleImage Source="user.png" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
+                <controls:CircleImage x:Name="profile_img" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
                 </controls:CircleImage>
             </StackLayout>
             <Label x:Name="Member_Email" Text="{Binding Email}" Margin="20" TextColor="White" FontSize="23"/>

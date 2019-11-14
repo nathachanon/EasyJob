@@ -49,6 +49,7 @@ namespace EasyJob
 
                         Application.Current.Properties["name"] = mem_data[0].name;
                         Application.Current.Properties["member_id"] = mem_data[0].member_id;
+                        Application.Current.Properties["profile"] = mem_data[0].profile;
 
                         animationView.IsVisible = false;
                         //await DisplayAlert("สำเร็จ", "Login Success", "ตกลง");

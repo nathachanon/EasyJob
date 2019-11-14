@@ -30,6 +30,7 @@ namespace EasyJob
             if (Application.Current.Properties.ContainsKey("name"))
             {
                 Member_Email.Text = Application.Current.Properties["name"].ToString();
+                profile_img.Source = "http://139.180.129.212/Member_image/"+Application.Current.Properties["profile"].ToString();
             }
 
             string sContentType = "application/json";

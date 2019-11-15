@@ -28,6 +28,8 @@ namespace EasyJob
         }
         async override protected void OnAppearing()
         {
+            work_load.IsVisible = false;
+            animationView.IsVisible = true;
             base.OnAppearing();
 
             var member_ids = Application.Current.Properties["member_id"].ToString();
@@ -47,6 +49,8 @@ namespace EasyJob
                         ItemlistView.ItemsSource = my_work_post;
 
                         job_count.Text = work_list.Count.ToString() + " รายการ";
+                        animationView.IsVisible = false;
+                        work_load.IsVisible = true;
                     }
                 }
                 else

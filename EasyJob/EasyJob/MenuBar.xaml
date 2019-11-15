@@ -8,12 +8,13 @@
             android:TabbedPage.BarSelectedItemColor="#031765"
             xmlns:local ="clr-namespace:EasyJob"
             mc:Ignorable="d"
-             x:Class="EasyJob.MenuBar">
+             x:Class="EasyJob.MenuBar" >
+    
   <NavigationPage.TitleView >
     <Image Source="Logo.png"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
-
+    
   </NavigationPage.TitleView>
   <!--Pages can be added as references or inline-->
     <local:MainPage  Title="หน้าแรก"  IconImageSource="home.png"/>

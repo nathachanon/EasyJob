@@ -26,1616 +26,6 @@ namespace EasyJob.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::BadgeView.Android.Resource.Animation.abc_fade_in = global::EasyJob.Droid.Resource.Animation.abc_fade_in;
-			global::BadgeView.Android.Resource.Animation.abc_fade_out = global::EasyJob.Droid.Resource.Animation.abc_fade_out;
-			global::BadgeView.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::EasyJob.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::BadgeView.Android.Resource.Animation.abc_popup_enter = global::EasyJob.Droid.Resource.Animation.abc_popup_enter;
-			global::BadgeView.Android.Resource.Animation.abc_popup_exit = global::EasyJob.Droid.Resource.Animation.abc_popup_exit;
-			global::BadgeView.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::EasyJob.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::BadgeView.Android.Resource.Animation.abc_slide_in_bottom = global::EasyJob.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::BadgeView.Android.Resource.Animation.abc_slide_in_top = global::EasyJob.Droid.Resource.Animation.abc_slide_in_top;
-			global::BadgeView.Android.Resource.Animation.abc_slide_out_bottom = global::EasyJob.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::BadgeView.Android.Resource.Animation.abc_slide_out_top = global::EasyJob.Droid.Resource.Animation.abc_slide_out_top;
-			global::BadgeView.Android.Resource.Animation.design_bottom_sheet_slide_in = global::EasyJob.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::BadgeView.Android.Resource.Animation.design_bottom_sheet_slide_out = global::EasyJob.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::BadgeView.Android.Resource.Animation.design_snackbar_in = global::EasyJob.Droid.Resource.Animation.design_snackbar_in;
-			global::BadgeView.Android.Resource.Animation.design_snackbar_out = global::EasyJob.Droid.Resource.Animation.design_snackbar_out;
-			global::BadgeView.Android.Resource.Attribute.actionBarDivider = global::EasyJob.Droid.Resource.Attribute.actionBarDivider;
-			global::BadgeView.Android.Resource.Attribute.actionBarItemBackground = global::EasyJob.Droid.Resource.Attribute.actionBarItemBackground;
-			global::BadgeView.Android.Resource.Attribute.actionBarPopupTheme = global::EasyJob.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::BadgeView.Android.Resource.Attribute.actionBarSize = global::EasyJob.Droid.Resource.Attribute.actionBarSize;
-			global::BadgeView.Android.Resource.Attribute.actionBarSplitStyle = global::EasyJob.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::BadgeView.Android.Resource.Attribute.actionBarStyle = global::EasyJob.Droid.Resource.Attribute.actionBarStyle;
-			global::BadgeView.Android.Resource.Attribute.actionBarTabBarStyle = global::EasyJob.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::BadgeView.Android.Resource.Attribute.actionBarTabStyle = global::EasyJob.Droid.Resource.Attribute.actionBarTabStyle;
-			global::BadgeView.Android.Resource.Attribute.actionBarTabTextStyle = global::EasyJob.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::BadgeView.Android.Resource.Attribute.actionBarTheme = global::EasyJob.Droid.Resource.Attribute.actionBarTheme;
-			global::BadgeView.Android.Resource.Attribute.actionBarWidgetTheme = global::EasyJob.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::BadgeView.Android.Resource.Attribute.actionButtonStyle = global::EasyJob.Droid.Resource.Attribute.actionButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.actionDropDownStyle = global::EasyJob.Droid.Resource.Attribute.actionDropDownStyle;
-			global::BadgeView.Android.Resource.Attribute.actionLayout = global::EasyJob.Droid.Resource.Attribute.actionLayout;
-			global::BadgeView.Android.Resource.Attribute.actionMenuTextAppearance = global::EasyJob.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.actionMenuTextColor = global::EasyJob.Droid.Resource.Attribute.actionMenuTextColor;
-			global::BadgeView.Android.Resource.Attribute.actionModeBackground = global::EasyJob.Droid.Resource.Attribute.actionModeBackground;
-			global::BadgeView.Android.Resource.Attribute.actionModeCloseButtonStyle = global::EasyJob.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.actionModeCloseDrawable = global::EasyJob.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionModeCopyDrawable = global::EasyJob.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionModeCutDrawable = global::EasyJob.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionModeFindDrawable = global::EasyJob.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionModePasteDrawable = global::EasyJob.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionModePopupWindowStyle = global::EasyJob.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::BadgeView.Android.Resource.Attribute.actionModeSelectAllDrawable = global::EasyJob.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionModeShareDrawable = global::EasyJob.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionModeSplitBackground = global::EasyJob.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::BadgeView.Android.Resource.Attribute.actionModeStyle = global::EasyJob.Droid.Resource.Attribute.actionModeStyle;
-			global::BadgeView.Android.Resource.Attribute.actionModeWebSearchDrawable = global::EasyJob.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::BadgeView.Android.Resource.Attribute.actionOverflowButtonStyle = global::EasyJob.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.actionOverflowMenuStyle = global::EasyJob.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::BadgeView.Android.Resource.Attribute.actionProviderClass = global::EasyJob.Droid.Resource.Attribute.actionProviderClass;
-			global::BadgeView.Android.Resource.Attribute.actionViewClass = global::EasyJob.Droid.Resource.Attribute.actionViewClass;
-			global::BadgeView.Android.Resource.Attribute.activityChooserViewStyle = global::EasyJob.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::BadgeView.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::EasyJob.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::BadgeView.Android.Resource.Attribute.alertDialogCenterButtons = global::EasyJob.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::BadgeView.Android.Resource.Attribute.alertDialogStyle = global::EasyJob.Droid.Resource.Attribute.alertDialogStyle;
-			global::BadgeView.Android.Resource.Attribute.alertDialogTheme = global::EasyJob.Droid.Resource.Attribute.alertDialogTheme;
-			global::BadgeView.Android.Resource.Attribute.allowStacking = global::EasyJob.Droid.Resource.Attribute.allowStacking;
-			global::BadgeView.Android.Resource.Attribute.arrowHeadLength = global::EasyJob.Droid.Resource.Attribute.arrowHeadLength;
-			global::BadgeView.Android.Resource.Attribute.arrowShaftLength = global::EasyJob.Droid.Resource.Attribute.arrowShaftLength;
-			global::BadgeView.Android.Resource.Attribute.autoCompleteTextViewStyle = global::EasyJob.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::BadgeView.Android.Resource.Attribute.background = global::EasyJob.Droid.Resource.Attribute.background;
-			global::BadgeView.Android.Resource.Attribute.backgroundSplit = global::EasyJob.Droid.Resource.Attribute.backgroundSplit;
-			global::BadgeView.Android.Resource.Attribute.backgroundStacked = global::EasyJob.Droid.Resource.Attribute.backgroundStacked;
-			global::BadgeView.Android.Resource.Attribute.backgroundTint = global::EasyJob.Droid.Resource.Attribute.backgroundTint;
-			global::BadgeView.Android.Resource.Attribute.backgroundTintMode = global::EasyJob.Droid.Resource.Attribute.backgroundTintMode;
-			global::BadgeView.Android.Resource.Attribute.barLength = global::EasyJob.Droid.Resource.Attribute.barLength;
-			global::BadgeView.Android.Resource.Attribute.behavior_hideable = global::EasyJob.Droid.Resource.Attribute.behavior_hideable;
-			global::BadgeView.Android.Resource.Attribute.behavior_overlapTop = global::EasyJob.Droid.Resource.Attribute.behavior_overlapTop;
-			global::BadgeView.Android.Resource.Attribute.behavior_peekHeight = global::EasyJob.Droid.Resource.Attribute.behavior_peekHeight;
-			global::BadgeView.Android.Resource.Attribute.borderWidth = global::EasyJob.Droid.Resource.Attribute.borderWidth;
-			global::BadgeView.Android.Resource.Attribute.borderlessButtonStyle = global::EasyJob.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.bottomSheetDialogTheme = global::EasyJob.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::BadgeView.Android.Resource.Attribute.bottomSheetStyle = global::EasyJob.Droid.Resource.Attribute.bottomSheetStyle;
-			global::BadgeView.Android.Resource.Attribute.buttonBarButtonStyle = global::EasyJob.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::EasyJob.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::EasyJob.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::EasyJob.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.buttonBarStyle = global::EasyJob.Droid.Resource.Attribute.buttonBarStyle;
-			global::BadgeView.Android.Resource.Attribute.buttonPanelSideLayout = global::EasyJob.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::BadgeView.Android.Resource.Attribute.buttonStyle = global::EasyJob.Droid.Resource.Attribute.buttonStyle;
-			global::BadgeView.Android.Resource.Attribute.buttonStyleSmall = global::EasyJob.Droid.Resource.Attribute.buttonStyleSmall;
-			global::BadgeView.Android.Resource.Attribute.buttonTint = global::EasyJob.Droid.Resource.Attribute.buttonTint;
-			global::BadgeView.Android.Resource.Attribute.buttonTintMode = global::EasyJob.Droid.Resource.Attribute.buttonTintMode;
-			global::BadgeView.Android.Resource.Attribute.cardBackgroundColor = global::EasyJob.Droid.Resource.Attribute.cardBackgroundColor;
-			global::BadgeView.Android.Resource.Attribute.cardCornerRadius = global::EasyJob.Droid.Resource.Attribute.cardCornerRadius;
-			global::BadgeView.Android.Resource.Attribute.cardElevation = global::EasyJob.Droid.Resource.Attribute.cardElevation;
-			global::BadgeView.Android.Resource.Attribute.cardMaxElevation = global::EasyJob.Droid.Resource.Attribute.cardMaxElevation;
-			global::BadgeView.Android.Resource.Attribute.cardPreventCornerOverlap = global::EasyJob.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::BadgeView.Android.Resource.Attribute.cardUseCompatPadding = global::EasyJob.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::BadgeView.Android.Resource.Attribute.checkboxStyle = global::EasyJob.Droid.Resource.Attribute.checkboxStyle;
-			global::BadgeView.Android.Resource.Attribute.checkedTextViewStyle = global::EasyJob.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::BadgeView.Android.Resource.Attribute.closeIcon = global::EasyJob.Droid.Resource.Attribute.closeIcon;
-			global::BadgeView.Android.Resource.Attribute.closeItemLayout = global::EasyJob.Droid.Resource.Attribute.closeItemLayout;
-			global::BadgeView.Android.Resource.Attribute.collapseContentDescription = global::EasyJob.Droid.Resource.Attribute.collapseContentDescription;
-			global::BadgeView.Android.Resource.Attribute.collapseIcon = global::EasyJob.Droid.Resource.Attribute.collapseIcon;
-			global::BadgeView.Android.Resource.Attribute.collapsedTitleGravity = global::EasyJob.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::BadgeView.Android.Resource.Attribute.collapsedTitleTextAppearance = global::EasyJob.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.color = global::EasyJob.Droid.Resource.Attribute.color;
-			global::BadgeView.Android.Resource.Attribute.colorAccent = global::EasyJob.Droid.Resource.Attribute.colorAccent;
-			global::BadgeView.Android.Resource.Attribute.colorButtonNormal = global::EasyJob.Droid.Resource.Attribute.colorButtonNormal;
-			global::BadgeView.Android.Resource.Attribute.colorControlActivated = global::EasyJob.Droid.Resource.Attribute.colorControlActivated;
-			global::BadgeView.Android.Resource.Attribute.colorControlHighlight = global::EasyJob.Droid.Resource.Attribute.colorControlHighlight;
-			global::BadgeView.Android.Resource.Attribute.colorControlNormal = global::EasyJob.Droid.Resource.Attribute.colorControlNormal;
-			global::BadgeView.Android.Resource.Attribute.colorPrimary = global::EasyJob.Droid.Resource.Attribute.colorPrimary;
-			global::BadgeView.Android.Resource.Attribute.colorPrimaryDark = global::EasyJob.Droid.Resource.Attribute.colorPrimaryDark;
-			global::BadgeView.Android.Resource.Attribute.colorSwitchThumbNormal = global::EasyJob.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::BadgeView.Android.Resource.Attribute.commitIcon = global::EasyJob.Droid.Resource.Attribute.commitIcon;
-			global::BadgeView.Android.Resource.Attribute.contentInsetEnd = global::EasyJob.Droid.Resource.Attribute.contentInsetEnd;
-			global::BadgeView.Android.Resource.Attribute.contentInsetLeft = global::EasyJob.Droid.Resource.Attribute.contentInsetLeft;
-			global::BadgeView.Android.Resource.Attribute.contentInsetRight = global::EasyJob.Droid.Resource.Attribute.contentInsetRight;
-			global::BadgeView.Android.Resource.Attribute.contentInsetStart = global::EasyJob.Droid.Resource.Attribute.contentInsetStart;
-			global::BadgeView.Android.Resource.Attribute.contentPadding = global::EasyJob.Droid.Resource.Attribute.contentPadding;
-			global::BadgeView.Android.Resource.Attribute.contentPaddingBottom = global::EasyJob.Droid.Resource.Attribute.contentPaddingBottom;
-			global::BadgeView.Android.Resource.Attribute.contentPaddingLeft = global::EasyJob.Droid.Resource.Attribute.contentPaddingLeft;
-			global::BadgeView.Android.Resource.Attribute.contentPaddingRight = global::EasyJob.Droid.Resource.Attribute.contentPaddingRight;
-			global::BadgeView.Android.Resource.Attribute.contentPaddingTop = global::EasyJob.Droid.Resource.Attribute.contentPaddingTop;
-			global::BadgeView.Android.Resource.Attribute.contentScrim = global::EasyJob.Droid.Resource.Attribute.contentScrim;
-			global::BadgeView.Android.Resource.Attribute.controlBackground = global::EasyJob.Droid.Resource.Attribute.controlBackground;
-			global::BadgeView.Android.Resource.Attribute.counterEnabled = global::EasyJob.Droid.Resource.Attribute.counterEnabled;
-			global::BadgeView.Android.Resource.Attribute.counterMaxLength = global::EasyJob.Droid.Resource.Attribute.counterMaxLength;
-			global::BadgeView.Android.Resource.Attribute.counterOverflowTextAppearance = global::EasyJob.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.counterTextAppearance = global::EasyJob.Droid.Resource.Attribute.counterTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.customNavigationLayout = global::EasyJob.Droid.Resource.Attribute.customNavigationLayout;
-			global::BadgeView.Android.Resource.Attribute.defaultQueryHint = global::EasyJob.Droid.Resource.Attribute.defaultQueryHint;
-			global::BadgeView.Android.Resource.Attribute.dialogPreferredPadding = global::EasyJob.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::BadgeView.Android.Resource.Attribute.dialogTheme = global::EasyJob.Droid.Resource.Attribute.dialogTheme;
-			global::BadgeView.Android.Resource.Attribute.displayOptions = global::EasyJob.Droid.Resource.Attribute.displayOptions;
-			global::BadgeView.Android.Resource.Attribute.divider = global::EasyJob.Droid.Resource.Attribute.divider;
-			global::BadgeView.Android.Resource.Attribute.dividerHorizontal = global::EasyJob.Droid.Resource.Attribute.dividerHorizontal;
-			global::BadgeView.Android.Resource.Attribute.dividerPadding = global::EasyJob.Droid.Resource.Attribute.dividerPadding;
-			global::BadgeView.Android.Resource.Attribute.dividerVertical = global::EasyJob.Droid.Resource.Attribute.dividerVertical;
-			global::BadgeView.Android.Resource.Attribute.drawableSize = global::EasyJob.Droid.Resource.Attribute.drawableSize;
-			global::BadgeView.Android.Resource.Attribute.drawerArrowStyle = global::EasyJob.Droid.Resource.Attribute.drawerArrowStyle;
-			global::BadgeView.Android.Resource.Attribute.dropDownListViewStyle = global::EasyJob.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::BadgeView.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::EasyJob.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::BadgeView.Android.Resource.Attribute.editTextBackground = global::EasyJob.Droid.Resource.Attribute.editTextBackground;
-			global::BadgeView.Android.Resource.Attribute.editTextColor = global::EasyJob.Droid.Resource.Attribute.editTextColor;
-			global::BadgeView.Android.Resource.Attribute.editTextStyle = global::EasyJob.Droid.Resource.Attribute.editTextStyle;
-			global::BadgeView.Android.Resource.Attribute.elevation = global::EasyJob.Droid.Resource.Attribute.elevation;
-			global::BadgeView.Android.Resource.Attribute.errorEnabled = global::EasyJob.Droid.Resource.Attribute.errorEnabled;
-			global::BadgeView.Android.Resource.Attribute.errorTextAppearance = global::EasyJob.Droid.Resource.Attribute.errorTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::EasyJob.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::BadgeView.Android.Resource.Attribute.expanded = global::EasyJob.Droid.Resource.Attribute.expanded;
-			global::BadgeView.Android.Resource.Attribute.expandedTitleGravity = global::EasyJob.Droid.Resource.Attribute.expandedTitleGravity;
-			global::BadgeView.Android.Resource.Attribute.expandedTitleMargin = global::EasyJob.Droid.Resource.Attribute.expandedTitleMargin;
-			global::BadgeView.Android.Resource.Attribute.expandedTitleMarginBottom = global::EasyJob.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::BadgeView.Android.Resource.Attribute.expandedTitleMarginEnd = global::EasyJob.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::BadgeView.Android.Resource.Attribute.expandedTitleMarginStart = global::EasyJob.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::BadgeView.Android.Resource.Attribute.expandedTitleMarginTop = global::EasyJob.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::BadgeView.Android.Resource.Attribute.expandedTitleTextAppearance = global::EasyJob.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.externalRouteEnabledDrawable = global::EasyJob.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::BadgeView.Android.Resource.Attribute.fabSize = global::EasyJob.Droid.Resource.Attribute.fabSize;
-			global::BadgeView.Android.Resource.Attribute.foregroundInsidePadding = global::EasyJob.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::BadgeView.Android.Resource.Attribute.gapBetweenBars = global::EasyJob.Droid.Resource.Attribute.gapBetweenBars;
-			global::BadgeView.Android.Resource.Attribute.goIcon = global::EasyJob.Droid.Resource.Attribute.goIcon;
-			global::BadgeView.Android.Resource.Attribute.headerLayout = global::EasyJob.Droid.Resource.Attribute.headerLayout;
-			global::BadgeView.Android.Resource.Attribute.height = global::EasyJob.Droid.Resource.Attribute.height;
-			global::BadgeView.Android.Resource.Attribute.hideOnContentScroll = global::EasyJob.Droid.Resource.Attribute.hideOnContentScroll;
-			global::BadgeView.Android.Resource.Attribute.hintAnimationEnabled = global::EasyJob.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::BadgeView.Android.Resource.Attribute.hintEnabled = global::EasyJob.Droid.Resource.Attribute.hintEnabled;
-			global::BadgeView.Android.Resource.Attribute.hintTextAppearance = global::EasyJob.Droid.Resource.Attribute.hintTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.homeAsUpIndicator = global::EasyJob.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::BadgeView.Android.Resource.Attribute.homeLayout = global::EasyJob.Droid.Resource.Attribute.homeLayout;
-			global::BadgeView.Android.Resource.Attribute.icon = global::EasyJob.Droid.Resource.Attribute.icon;
-			global::BadgeView.Android.Resource.Attribute.iconifiedByDefault = global::EasyJob.Droid.Resource.Attribute.iconifiedByDefault;
-			global::BadgeView.Android.Resource.Attribute.imageButtonStyle = global::EasyJob.Droid.Resource.Attribute.imageButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.indeterminateProgressStyle = global::EasyJob.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::BadgeView.Android.Resource.Attribute.initialActivityCount = global::EasyJob.Droid.Resource.Attribute.initialActivityCount;
-			global::BadgeView.Android.Resource.Attribute.insetForeground = global::EasyJob.Droid.Resource.Attribute.insetForeground;
-			global::BadgeView.Android.Resource.Attribute.isLightTheme = global::EasyJob.Droid.Resource.Attribute.isLightTheme;
-			global::BadgeView.Android.Resource.Attribute.itemBackground = global::EasyJob.Droid.Resource.Attribute.itemBackground;
-			global::BadgeView.Android.Resource.Attribute.itemIconTint = global::EasyJob.Droid.Resource.Attribute.itemIconTint;
-			global::BadgeView.Android.Resource.Attribute.itemPadding = global::EasyJob.Droid.Resource.Attribute.itemPadding;
-			global::BadgeView.Android.Resource.Attribute.itemTextAppearance = global::EasyJob.Droid.Resource.Attribute.itemTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.itemTextColor = global::EasyJob.Droid.Resource.Attribute.itemTextColor;
-			global::BadgeView.Android.Resource.Attribute.keylines = global::EasyJob.Droid.Resource.Attribute.keylines;
-			global::BadgeView.Android.Resource.Attribute.layout = global::EasyJob.Droid.Resource.Attribute.layout;
-			global::BadgeView.Android.Resource.Attribute.layoutManager = global::EasyJob.Droid.Resource.Attribute.layoutManager;
-			global::BadgeView.Android.Resource.Attribute.layout_anchor = global::EasyJob.Droid.Resource.Attribute.layout_anchor;
-			global::BadgeView.Android.Resource.Attribute.layout_anchorGravity = global::EasyJob.Droid.Resource.Attribute.layout_anchorGravity;
-			global::BadgeView.Android.Resource.Attribute.layout_behavior = global::EasyJob.Droid.Resource.Attribute.layout_behavior;
-			global::BadgeView.Android.Resource.Attribute.layout_collapseMode = global::EasyJob.Droid.Resource.Attribute.layout_collapseMode;
-			global::BadgeView.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::EasyJob.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::BadgeView.Android.Resource.Attribute.layout_keyline = global::EasyJob.Droid.Resource.Attribute.layout_keyline;
-			global::BadgeView.Android.Resource.Attribute.layout_scrollFlags = global::EasyJob.Droid.Resource.Attribute.layout_scrollFlags;
-			global::BadgeView.Android.Resource.Attribute.layout_scrollInterpolator = global::EasyJob.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::BadgeView.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::EasyJob.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::BadgeView.Android.Resource.Attribute.listDividerAlertDialog = global::EasyJob.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::BadgeView.Android.Resource.Attribute.listItemLayout = global::EasyJob.Droid.Resource.Attribute.listItemLayout;
-			global::BadgeView.Android.Resource.Attribute.listLayout = global::EasyJob.Droid.Resource.Attribute.listLayout;
-			global::BadgeView.Android.Resource.Attribute.listPopupWindowStyle = global::EasyJob.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::BadgeView.Android.Resource.Attribute.listPreferredItemHeight = global::EasyJob.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::BadgeView.Android.Resource.Attribute.listPreferredItemHeightLarge = global::EasyJob.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::BadgeView.Android.Resource.Attribute.listPreferredItemHeightSmall = global::EasyJob.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::BadgeView.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::EasyJob.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::BadgeView.Android.Resource.Attribute.listPreferredItemPaddingRight = global::EasyJob.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::BadgeView.Android.Resource.Attribute.logo = global::EasyJob.Droid.Resource.Attribute.logo;
-			global::BadgeView.Android.Resource.Attribute.logoDescription = global::EasyJob.Droid.Resource.Attribute.logoDescription;
-			global::BadgeView.Android.Resource.Attribute.maxActionInlineWidth = global::EasyJob.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::BadgeView.Android.Resource.Attribute.maxButtonHeight = global::EasyJob.Droid.Resource.Attribute.maxButtonHeight;
-			global::BadgeView.Android.Resource.Attribute.measureWithLargestChild = global::EasyJob.Droid.Resource.Attribute.measureWithLargestChild;
-			global::BadgeView.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::BadgeView.Android.Resource.Attribute.mediaRouteButtonStyle = global::EasyJob.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.mediaRouteCloseDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::BadgeView.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::BadgeView.Android.Resource.Attribute.mediaRoutePauseDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::BadgeView.Android.Resource.Attribute.mediaRoutePlayDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::BadgeView.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::BadgeView.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::BadgeView.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::EasyJob.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::BadgeView.Android.Resource.Attribute.menu = global::EasyJob.Droid.Resource.Attribute.menu;
-			global::BadgeView.Android.Resource.Attribute.multiChoiceItemLayout = global::EasyJob.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::BadgeView.Android.Resource.Attribute.navigationContentDescription = global::EasyJob.Droid.Resource.Attribute.navigationContentDescription;
-			global::BadgeView.Android.Resource.Attribute.navigationIcon = global::EasyJob.Droid.Resource.Attribute.navigationIcon;
-			global::BadgeView.Android.Resource.Attribute.navigationMode = global::EasyJob.Droid.Resource.Attribute.navigationMode;
-			global::BadgeView.Android.Resource.Attribute.overlapAnchor = global::EasyJob.Droid.Resource.Attribute.overlapAnchor;
-			global::BadgeView.Android.Resource.Attribute.paddingEnd = global::EasyJob.Droid.Resource.Attribute.paddingEnd;
-			global::BadgeView.Android.Resource.Attribute.paddingStart = global::EasyJob.Droid.Resource.Attribute.paddingStart;
-			global::BadgeView.Android.Resource.Attribute.panelBackground = global::EasyJob.Droid.Resource.Attribute.panelBackground;
-			global::BadgeView.Android.Resource.Attribute.panelMenuListTheme = global::EasyJob.Droid.Resource.Attribute.panelMenuListTheme;
-			global::BadgeView.Android.Resource.Attribute.panelMenuListWidth = global::EasyJob.Droid.Resource.Attribute.panelMenuListWidth;
-			global::BadgeView.Android.Resource.Attribute.popupMenuStyle = global::EasyJob.Droid.Resource.Attribute.popupMenuStyle;
-			global::BadgeView.Android.Resource.Attribute.popupTheme = global::EasyJob.Droid.Resource.Attribute.popupTheme;
-			global::BadgeView.Android.Resource.Attribute.popupWindowStyle = global::EasyJob.Droid.Resource.Attribute.popupWindowStyle;
-			global::BadgeView.Android.Resource.Attribute.preserveIconSpacing = global::EasyJob.Droid.Resource.Attribute.preserveIconSpacing;
-			global::BadgeView.Android.Resource.Attribute.pressedTranslationZ = global::EasyJob.Droid.Resource.Attribute.pressedTranslationZ;
-			global::BadgeView.Android.Resource.Attribute.progressBarPadding = global::EasyJob.Droid.Resource.Attribute.progressBarPadding;
-			global::BadgeView.Android.Resource.Attribute.progressBarStyle = global::EasyJob.Droid.Resource.Attribute.progressBarStyle;
-			global::BadgeView.Android.Resource.Attribute.queryBackground = global::EasyJob.Droid.Resource.Attribute.queryBackground;
-			global::BadgeView.Android.Resource.Attribute.queryHint = global::EasyJob.Droid.Resource.Attribute.queryHint;
-			global::BadgeView.Android.Resource.Attribute.radioButtonStyle = global::EasyJob.Droid.Resource.Attribute.radioButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.ratingBarStyle = global::EasyJob.Droid.Resource.Attribute.ratingBarStyle;
-			global::BadgeView.Android.Resource.Attribute.ratingBarStyleIndicator = global::EasyJob.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::BadgeView.Android.Resource.Attribute.ratingBarStyleSmall = global::EasyJob.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::BadgeView.Android.Resource.Attribute.reverseLayout = global::EasyJob.Droid.Resource.Attribute.reverseLayout;
-			global::BadgeView.Android.Resource.Attribute.rippleColor = global::EasyJob.Droid.Resource.Attribute.rippleColor;
-			global::BadgeView.Android.Resource.Attribute.searchHintIcon = global::EasyJob.Droid.Resource.Attribute.searchHintIcon;
-			global::BadgeView.Android.Resource.Attribute.searchIcon = global::EasyJob.Droid.Resource.Attribute.searchIcon;
-			global::BadgeView.Android.Resource.Attribute.searchViewStyle = global::EasyJob.Droid.Resource.Attribute.searchViewStyle;
-			global::BadgeView.Android.Resource.Attribute.seekBarStyle = global::EasyJob.Droid.Resource.Attribute.seekBarStyle;
-			global::BadgeView.Android.Resource.Attribute.selectableItemBackground = global::EasyJob.Droid.Resource.Attribute.selectableItemBackground;
-			global::BadgeView.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::EasyJob.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::BadgeView.Android.Resource.Attribute.showAsAction = global::EasyJob.Droid.Resource.Attribute.showAsAction;
-			global::BadgeView.Android.Resource.Attribute.showDividers = global::EasyJob.Droid.Resource.Attribute.showDividers;
-			global::BadgeView.Android.Resource.Attribute.showText = global::EasyJob.Droid.Resource.Attribute.showText;
-			global::BadgeView.Android.Resource.Attribute.singleChoiceItemLayout = global::EasyJob.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::BadgeView.Android.Resource.Attribute.spanCount = global::EasyJob.Droid.Resource.Attribute.spanCount;
-			global::BadgeView.Android.Resource.Attribute.spinBars = global::EasyJob.Droid.Resource.Attribute.spinBars;
-			global::BadgeView.Android.Resource.Attribute.spinnerDropDownItemStyle = global::EasyJob.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::BadgeView.Android.Resource.Attribute.spinnerStyle = global::EasyJob.Droid.Resource.Attribute.spinnerStyle;
-			global::BadgeView.Android.Resource.Attribute.splitTrack = global::EasyJob.Droid.Resource.Attribute.splitTrack;
-			global::BadgeView.Android.Resource.Attribute.srcCompat = global::EasyJob.Droid.Resource.Attribute.srcCompat;
-			global::BadgeView.Android.Resource.Attribute.stackFromEnd = global::EasyJob.Droid.Resource.Attribute.stackFromEnd;
-			global::BadgeView.Android.Resource.Attribute.state_above_anchor = global::EasyJob.Droid.Resource.Attribute.state_above_anchor;
-			global::BadgeView.Android.Resource.Attribute.statusBarBackground = global::EasyJob.Droid.Resource.Attribute.statusBarBackground;
-			global::BadgeView.Android.Resource.Attribute.statusBarScrim = global::EasyJob.Droid.Resource.Attribute.statusBarScrim;
-			global::BadgeView.Android.Resource.Attribute.submitBackground = global::EasyJob.Droid.Resource.Attribute.submitBackground;
-			global::BadgeView.Android.Resource.Attribute.subtitle = global::EasyJob.Droid.Resource.Attribute.subtitle;
-			global::BadgeView.Android.Resource.Attribute.subtitleTextAppearance = global::EasyJob.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.subtitleTextColor = global::EasyJob.Droid.Resource.Attribute.subtitleTextColor;
-			global::BadgeView.Android.Resource.Attribute.subtitleTextStyle = global::EasyJob.Droid.Resource.Attribute.subtitleTextStyle;
-			global::BadgeView.Android.Resource.Attribute.suggestionRowLayout = global::EasyJob.Droid.Resource.Attribute.suggestionRowLayout;
-			global::BadgeView.Android.Resource.Attribute.switchMinWidth = global::EasyJob.Droid.Resource.Attribute.switchMinWidth;
-			global::BadgeView.Android.Resource.Attribute.switchPadding = global::EasyJob.Droid.Resource.Attribute.switchPadding;
-			global::BadgeView.Android.Resource.Attribute.switchStyle = global::EasyJob.Droid.Resource.Attribute.switchStyle;
-			global::BadgeView.Android.Resource.Attribute.switchTextAppearance = global::EasyJob.Droid.Resource.Attribute.switchTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.tabBackground = global::EasyJob.Droid.Resource.Attribute.tabBackground;
-			global::BadgeView.Android.Resource.Attribute.tabContentStart = global::EasyJob.Droid.Resource.Attribute.tabContentStart;
-			global::BadgeView.Android.Resource.Attribute.tabGravity = global::EasyJob.Droid.Resource.Attribute.tabGravity;
-			global::BadgeView.Android.Resource.Attribute.tabIndicatorColor = global::EasyJob.Droid.Resource.Attribute.tabIndicatorColor;
-			global::BadgeView.Android.Resource.Attribute.tabIndicatorHeight = global::EasyJob.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::BadgeView.Android.Resource.Attribute.tabMaxWidth = global::EasyJob.Droid.Resource.Attribute.tabMaxWidth;
-			global::BadgeView.Android.Resource.Attribute.tabMinWidth = global::EasyJob.Droid.Resource.Attribute.tabMinWidth;
-			global::BadgeView.Android.Resource.Attribute.tabMode = global::EasyJob.Droid.Resource.Attribute.tabMode;
-			global::BadgeView.Android.Resource.Attribute.tabPadding = global::EasyJob.Droid.Resource.Attribute.tabPadding;
-			global::BadgeView.Android.Resource.Attribute.tabPaddingBottom = global::EasyJob.Droid.Resource.Attribute.tabPaddingBottom;
-			global::BadgeView.Android.Resource.Attribute.tabPaddingEnd = global::EasyJob.Droid.Resource.Attribute.tabPaddingEnd;
-			global::BadgeView.Android.Resource.Attribute.tabPaddingStart = global::EasyJob.Droid.Resource.Attribute.tabPaddingStart;
-			global::BadgeView.Android.Resource.Attribute.tabPaddingTop = global::EasyJob.Droid.Resource.Attribute.tabPaddingTop;
-			global::BadgeView.Android.Resource.Attribute.tabSelectedTextColor = global::EasyJob.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::BadgeView.Android.Resource.Attribute.tabTextAppearance = global::EasyJob.Droid.Resource.Attribute.tabTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.tabTextColor = global::EasyJob.Droid.Resource.Attribute.tabTextColor;
-			global::BadgeView.Android.Resource.Attribute.textAllCaps = global::EasyJob.Droid.Resource.Attribute.textAllCaps;
-			global::BadgeView.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::EasyJob.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::BadgeView.Android.Resource.Attribute.textAppearanceListItem = global::EasyJob.Droid.Resource.Attribute.textAppearanceListItem;
-			global::BadgeView.Android.Resource.Attribute.textAppearanceListItemSmall = global::EasyJob.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::BadgeView.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::EasyJob.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::BadgeView.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::EasyJob.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::BadgeView.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::EasyJob.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::BadgeView.Android.Resource.Attribute.textColorAlertDialogListItem = global::EasyJob.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::BadgeView.Android.Resource.Attribute.textColorSearchUrl = global::EasyJob.Droid.Resource.Attribute.textColorSearchUrl;
-			global::BadgeView.Android.Resource.Attribute.theme = global::EasyJob.Droid.Resource.Attribute.theme;
-			global::BadgeView.Android.Resource.Attribute.thickness = global::EasyJob.Droid.Resource.Attribute.thickness;
-			global::BadgeView.Android.Resource.Attribute.thumbTextPadding = global::EasyJob.Droid.Resource.Attribute.thumbTextPadding;
-			global::BadgeView.Android.Resource.Attribute.title = global::EasyJob.Droid.Resource.Attribute.title;
-			global::BadgeView.Android.Resource.Attribute.titleEnabled = global::EasyJob.Droid.Resource.Attribute.titleEnabled;
-			global::BadgeView.Android.Resource.Attribute.titleMarginBottom = global::EasyJob.Droid.Resource.Attribute.titleMarginBottom;
-			global::BadgeView.Android.Resource.Attribute.titleMarginEnd = global::EasyJob.Droid.Resource.Attribute.titleMarginEnd;
-			global::BadgeView.Android.Resource.Attribute.titleMarginStart = global::EasyJob.Droid.Resource.Attribute.titleMarginStart;
-			global::BadgeView.Android.Resource.Attribute.titleMarginTop = global::EasyJob.Droid.Resource.Attribute.titleMarginTop;
-			global::BadgeView.Android.Resource.Attribute.titleMargins = global::EasyJob.Droid.Resource.Attribute.titleMargins;
-			global::BadgeView.Android.Resource.Attribute.titleTextAppearance = global::EasyJob.Droid.Resource.Attribute.titleTextAppearance;
-			global::BadgeView.Android.Resource.Attribute.titleTextColor = global::EasyJob.Droid.Resource.Attribute.titleTextColor;
-			global::BadgeView.Android.Resource.Attribute.titleTextStyle = global::EasyJob.Droid.Resource.Attribute.titleTextStyle;
-			global::BadgeView.Android.Resource.Attribute.toolbarId = global::EasyJob.Droid.Resource.Attribute.toolbarId;
-			global::BadgeView.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::EasyJob.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::BadgeView.Android.Resource.Attribute.toolbarStyle = global::EasyJob.Droid.Resource.Attribute.toolbarStyle;
-			global::BadgeView.Android.Resource.Attribute.track = global::EasyJob.Droid.Resource.Attribute.track;
-			global::BadgeView.Android.Resource.Attribute.useCompatPadding = global::EasyJob.Droid.Resource.Attribute.useCompatPadding;
-			global::BadgeView.Android.Resource.Attribute.voiceIcon = global::EasyJob.Droid.Resource.Attribute.voiceIcon;
-			global::BadgeView.Android.Resource.Attribute.windowActionBar = global::EasyJob.Droid.Resource.Attribute.windowActionBar;
-			global::BadgeView.Android.Resource.Attribute.windowActionBarOverlay = global::EasyJob.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::BadgeView.Android.Resource.Attribute.windowActionModeOverlay = global::EasyJob.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::BadgeView.Android.Resource.Attribute.windowFixedHeightMajor = global::EasyJob.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::BadgeView.Android.Resource.Attribute.windowFixedHeightMinor = global::EasyJob.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::BadgeView.Android.Resource.Attribute.windowFixedWidthMajor = global::EasyJob.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::BadgeView.Android.Resource.Attribute.windowFixedWidthMinor = global::EasyJob.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::BadgeView.Android.Resource.Attribute.windowMinWidthMajor = global::EasyJob.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::BadgeView.Android.Resource.Attribute.windowMinWidthMinor = global::EasyJob.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::BadgeView.Android.Resource.Attribute.windowNoTitle = global::EasyJob.Droid.Resource.Attribute.windowNoTitle;
-			global::BadgeView.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::EasyJob.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::BadgeView.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::EasyJob.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::BadgeView.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::EasyJob.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::BadgeView.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::EasyJob.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::BadgeView.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::EasyJob.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::BadgeView.Android.Resource.Color.abc_color_highlight_material = global::EasyJob.Droid.Resource.Color.abc_color_highlight_material;
-			global::BadgeView.Android.Resource.Color.abc_input_method_navigation_guard = global::EasyJob.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::BadgeView.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::EasyJob.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::BadgeView.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::EasyJob.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::BadgeView.Android.Resource.Color.abc_primary_text_material_dark = global::EasyJob.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::BadgeView.Android.Resource.Color.abc_primary_text_material_light = global::EasyJob.Droid.Resource.Color.abc_primary_text_material_light;
-			global::BadgeView.Android.Resource.Color.abc_search_url_text = global::EasyJob.Droid.Resource.Color.abc_search_url_text;
-			global::BadgeView.Android.Resource.Color.abc_search_url_text_normal = global::EasyJob.Droid.Resource.Color.abc_search_url_text_normal;
-			global::BadgeView.Android.Resource.Color.abc_search_url_text_pressed = global::EasyJob.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::BadgeView.Android.Resource.Color.abc_search_url_text_selected = global::EasyJob.Droid.Resource.Color.abc_search_url_text_selected;
-			global::BadgeView.Android.Resource.Color.abc_secondary_text_material_dark = global::EasyJob.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::BadgeView.Android.Resource.Color.abc_secondary_text_material_light = global::EasyJob.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::BadgeView.Android.Resource.Color.accent_material_dark = global::EasyJob.Droid.Resource.Color.accent_material_dark;
-			global::BadgeView.Android.Resource.Color.accent_material_light = global::EasyJob.Droid.Resource.Color.accent_material_light;
-			global::BadgeView.Android.Resource.Color.background_floating_material_dark = global::EasyJob.Droid.Resource.Color.background_floating_material_dark;
-			global::BadgeView.Android.Resource.Color.background_floating_material_light = global::EasyJob.Droid.Resource.Color.background_floating_material_light;
-			global::BadgeView.Android.Resource.Color.background_material_dark = global::EasyJob.Droid.Resource.Color.background_material_dark;
-			global::BadgeView.Android.Resource.Color.background_material_light = global::EasyJob.Droid.Resource.Color.background_material_light;
-			global::BadgeView.Android.Resource.Color.bright_foreground_disabled_material_dark = global::EasyJob.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::BadgeView.Android.Resource.Color.bright_foreground_disabled_material_light = global::EasyJob.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::BadgeView.Android.Resource.Color.bright_foreground_inverse_material_dark = global::EasyJob.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::BadgeView.Android.Resource.Color.bright_foreground_inverse_material_light = global::EasyJob.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::BadgeView.Android.Resource.Color.bright_foreground_material_dark = global::EasyJob.Droid.Resource.Color.bright_foreground_material_dark;
-			global::BadgeView.Android.Resource.Color.bright_foreground_material_light = global::EasyJob.Droid.Resource.Color.bright_foreground_material_light;
-			global::BadgeView.Android.Resource.Color.button_material_dark = global::EasyJob.Droid.Resource.Color.button_material_dark;
-			global::BadgeView.Android.Resource.Color.button_material_light = global::EasyJob.Droid.Resource.Color.button_material_light;
-			global::BadgeView.Android.Resource.Color.cardview_dark_background = global::EasyJob.Droid.Resource.Color.cardview_dark_background;
-			global::BadgeView.Android.Resource.Color.cardview_light_background = global::EasyJob.Droid.Resource.Color.cardview_light_background;
-			global::BadgeView.Android.Resource.Color.cardview_shadow_end_color = global::EasyJob.Droid.Resource.Color.cardview_shadow_end_color;
-			global::BadgeView.Android.Resource.Color.cardview_shadow_start_color = global::EasyJob.Droid.Resource.Color.cardview_shadow_start_color;
-			global::BadgeView.Android.Resource.Color.design_fab_shadow_end_color = global::EasyJob.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::BadgeView.Android.Resource.Color.design_fab_shadow_mid_color = global::EasyJob.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::BadgeView.Android.Resource.Color.design_fab_shadow_start_color = global::EasyJob.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::BadgeView.Android.Resource.Color.design_fab_stroke_end_inner_color = global::EasyJob.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::BadgeView.Android.Resource.Color.design_fab_stroke_end_outer_color = global::EasyJob.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::BadgeView.Android.Resource.Color.design_fab_stroke_top_inner_color = global::EasyJob.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::BadgeView.Android.Resource.Color.design_fab_stroke_top_outer_color = global::EasyJob.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::BadgeView.Android.Resource.Color.design_snackbar_background_color = global::EasyJob.Droid.Resource.Color.design_snackbar_background_color;
-			global::BadgeView.Android.Resource.Color.dim_foreground_disabled_material_dark = global::EasyJob.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::BadgeView.Android.Resource.Color.dim_foreground_disabled_material_light = global::EasyJob.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::BadgeView.Android.Resource.Color.dim_foreground_material_dark = global::EasyJob.Droid.Resource.Color.dim_foreground_material_dark;
-			global::BadgeView.Android.Resource.Color.dim_foreground_material_light = global::EasyJob.Droid.Resource.Color.dim_foreground_material_light;
-			global::BadgeView.Android.Resource.Color.foreground_material_dark = global::EasyJob.Droid.Resource.Color.foreground_material_dark;
-			global::BadgeView.Android.Resource.Color.foreground_material_light = global::EasyJob.Droid.Resource.Color.foreground_material_light;
-			global::BadgeView.Android.Resource.Color.highlighted_text_material_dark = global::EasyJob.Droid.Resource.Color.highlighted_text_material_dark;
-			global::BadgeView.Android.Resource.Color.highlighted_text_material_light = global::EasyJob.Droid.Resource.Color.highlighted_text_material_light;
-			global::BadgeView.Android.Resource.Color.material_blue_grey_800 = global::EasyJob.Droid.Resource.Color.material_blue_grey_800;
-			global::BadgeView.Android.Resource.Color.material_blue_grey_900 = global::EasyJob.Droid.Resource.Color.material_blue_grey_900;
-			global::BadgeView.Android.Resource.Color.material_blue_grey_950 = global::EasyJob.Droid.Resource.Color.material_blue_grey_950;
-			global::BadgeView.Android.Resource.Color.material_deep_teal_200 = global::EasyJob.Droid.Resource.Color.material_deep_teal_200;
-			global::BadgeView.Android.Resource.Color.material_deep_teal_500 = global::EasyJob.Droid.Resource.Color.material_deep_teal_500;
-			global::BadgeView.Android.Resource.Color.material_grey_100 = global::EasyJob.Droid.Resource.Color.material_grey_100;
-			global::BadgeView.Android.Resource.Color.material_grey_300 = global::EasyJob.Droid.Resource.Color.material_grey_300;
-			global::BadgeView.Android.Resource.Color.material_grey_50 = global::EasyJob.Droid.Resource.Color.material_grey_50;
-			global::BadgeView.Android.Resource.Color.material_grey_600 = global::EasyJob.Droid.Resource.Color.material_grey_600;
-			global::BadgeView.Android.Resource.Color.material_grey_800 = global::EasyJob.Droid.Resource.Color.material_grey_800;
-			global::BadgeView.Android.Resource.Color.material_grey_850 = global::EasyJob.Droid.Resource.Color.material_grey_850;
-			global::BadgeView.Android.Resource.Color.material_grey_900 = global::EasyJob.Droid.Resource.Color.material_grey_900;
-			global::BadgeView.Android.Resource.Color.primary_dark_material_dark = global::EasyJob.Droid.Resource.Color.primary_dark_material_dark;
-			global::BadgeView.Android.Resource.Color.primary_dark_material_light = global::EasyJob.Droid.Resource.Color.primary_dark_material_light;
-			global::BadgeView.Android.Resource.Color.primary_material_dark = global::EasyJob.Droid.Resource.Color.primary_material_dark;
-			global::BadgeView.Android.Resource.Color.primary_material_light = global::EasyJob.Droid.Resource.Color.primary_material_light;
-			global::BadgeView.Android.Resource.Color.primary_text_default_material_dark = global::EasyJob.Droid.Resource.Color.primary_text_default_material_dark;
-			global::BadgeView.Android.Resource.Color.primary_text_default_material_light = global::EasyJob.Droid.Resource.Color.primary_text_default_material_light;
-			global::BadgeView.Android.Resource.Color.primary_text_disabled_material_dark = global::EasyJob.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::BadgeView.Android.Resource.Color.primary_text_disabled_material_light = global::EasyJob.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::BadgeView.Android.Resource.Color.ripple_material_dark = global::EasyJob.Droid.Resource.Color.ripple_material_dark;
-			global::BadgeView.Android.Resource.Color.ripple_material_light = global::EasyJob.Droid.Resource.Color.ripple_material_light;
-			global::BadgeView.Android.Resource.Color.secondary_text_default_material_dark = global::EasyJob.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::BadgeView.Android.Resource.Color.secondary_text_default_material_light = global::EasyJob.Droid.Resource.Color.secondary_text_default_material_light;
-			global::BadgeView.Android.Resource.Color.secondary_text_disabled_material_dark = global::EasyJob.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::BadgeView.Android.Resource.Color.secondary_text_disabled_material_light = global::EasyJob.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::BadgeView.Android.Resource.Color.switch_thumb_disabled_material_dark = global::EasyJob.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::BadgeView.Android.Resource.Color.switch_thumb_disabled_material_light = global::EasyJob.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::BadgeView.Android.Resource.Color.switch_thumb_material_dark = global::EasyJob.Droid.Resource.Color.switch_thumb_material_dark;
-			global::BadgeView.Android.Resource.Color.switch_thumb_material_light = global::EasyJob.Droid.Resource.Color.switch_thumb_material_light;
-			global::BadgeView.Android.Resource.Color.switch_thumb_normal_material_dark = global::EasyJob.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::BadgeView.Android.Resource.Color.switch_thumb_normal_material_light = global::EasyJob.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_default_height_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::EasyJob.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_button_min_height_material = global::EasyJob.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_button_min_width_material = global::EasyJob.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::BadgeView.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::EasyJob.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::BadgeView.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::EasyJob.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::BadgeView.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::EasyJob.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::BadgeView.Android.Resource.Dimension.abc_button_inset_vertical_material = global::EasyJob.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::BadgeView.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::EasyJob.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::BadgeView.Android.Resource.Dimension.abc_button_padding_vertical_material = global::EasyJob.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::BadgeView.Android.Resource.Dimension.abc_config_prefDialogWidth = global::EasyJob.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::BadgeView.Android.Resource.Dimension.abc_control_corner_material = global::EasyJob.Droid.Resource.Dimension.abc_control_corner_material;
-			global::BadgeView.Android.Resource.Dimension.abc_control_inset_material = global::EasyJob.Droid.Resource.Dimension.abc_control_inset_material;
-			global::BadgeView.Android.Resource.Dimension.abc_control_padding_material = global::EasyJob.Droid.Resource.Dimension.abc_control_padding_material;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::EasyJob.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::EasyJob.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::EasyJob.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::EasyJob.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_min_width_major = global::EasyJob.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_min_width_minor = global::EasyJob.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_padding_material = global::EasyJob.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::BadgeView.Android.Resource.Dimension.abc_dialog_padding_top_material = global::EasyJob.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::BadgeView.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::EasyJob.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::BadgeView.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::EasyJob.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::BadgeView.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::EasyJob.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::BadgeView.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::EasyJob.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::BadgeView.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::EasyJob.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::BadgeView.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::EasyJob.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::BadgeView.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::EasyJob.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::BadgeView.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::EasyJob.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::BadgeView.Android.Resource.Dimension.abc_floating_window_z = global::EasyJob.Droid.Resource.Dimension.abc_floating_window_z;
-			global::BadgeView.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::EasyJob.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::BadgeView.Android.Resource.Dimension.abc_panel_menu_list_width = global::EasyJob.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::BadgeView.Android.Resource.Dimension.abc_search_view_preferred_width = global::EasyJob.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::BadgeView.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::EasyJob.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::BadgeView.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::EasyJob.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::BadgeView.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::EasyJob.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::BadgeView.Android.Resource.Dimension.abc_switch_padding = global::EasyJob.Droid.Resource.Dimension.abc_switch_padding;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_body_1_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_body_2_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_button_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_caption_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_display_1_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_display_2_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_display_3_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_display_4_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_headline_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_large_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_medium_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_menu_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_small_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_subhead_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::EasyJob.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_title_material = global::EasyJob.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::BadgeView.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::EasyJob.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::BadgeView.Android.Resource.Dimension.cardview_compat_inset_shadow = global::EasyJob.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::BadgeView.Android.Resource.Dimension.cardview_default_elevation = global::EasyJob.Droid.Resource.Dimension.cardview_default_elevation;
-			global::BadgeView.Android.Resource.Dimension.cardview_default_radius = global::EasyJob.Droid.Resource.Dimension.cardview_default_radius;
-			global::BadgeView.Android.Resource.Dimension.design_appbar_elevation = global::EasyJob.Droid.Resource.Dimension.design_appbar_elevation;
-			global::BadgeView.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::EasyJob.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::BadgeView.Android.Resource.Dimension.design_fab_border_width = global::EasyJob.Droid.Resource.Dimension.design_fab_border_width;
-			global::BadgeView.Android.Resource.Dimension.design_fab_elevation = global::EasyJob.Droid.Resource.Dimension.design_fab_elevation;
-			global::BadgeView.Android.Resource.Dimension.design_fab_image_size = global::EasyJob.Droid.Resource.Dimension.design_fab_image_size;
-			global::BadgeView.Android.Resource.Dimension.design_fab_size_mini = global::EasyJob.Droid.Resource.Dimension.design_fab_size_mini;
-			global::BadgeView.Android.Resource.Dimension.design_fab_size_normal = global::EasyJob.Droid.Resource.Dimension.design_fab_size_normal;
-			global::BadgeView.Android.Resource.Dimension.design_fab_translation_z_pressed = global::EasyJob.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::BadgeView.Android.Resource.Dimension.design_navigation_elevation = global::EasyJob.Droid.Resource.Dimension.design_navigation_elevation;
-			global::BadgeView.Android.Resource.Dimension.design_navigation_icon_padding = global::EasyJob.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::BadgeView.Android.Resource.Dimension.design_navigation_icon_size = global::EasyJob.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::BadgeView.Android.Resource.Dimension.design_navigation_max_width = global::EasyJob.Droid.Resource.Dimension.design_navigation_max_width;
-			global::BadgeView.Android.Resource.Dimension.design_navigation_padding_bottom = global::EasyJob.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::BadgeView.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::EasyJob.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::EasyJob.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::EasyJob.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_elevation = global::EasyJob.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::EasyJob.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_max_width = global::EasyJob.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_min_width = global::EasyJob.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::EasyJob.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_padding_vertical = global::EasyJob.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::EasyJob.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::BadgeView.Android.Resource.Dimension.design_snackbar_text_size = global::EasyJob.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::BadgeView.Android.Resource.Dimension.design_tab_max_width = global::EasyJob.Droid.Resource.Dimension.design_tab_max_width;
-			global::BadgeView.Android.Resource.Dimension.design_tab_scrollable_min_width = global::EasyJob.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::BadgeView.Android.Resource.Dimension.design_tab_text_size = global::EasyJob.Droid.Resource.Dimension.design_tab_text_size;
-			global::BadgeView.Android.Resource.Dimension.design_tab_text_size_2line = global::EasyJob.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::BadgeView.Android.Resource.Dimension.disabled_alpha_material_dark = global::EasyJob.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::BadgeView.Android.Resource.Dimension.disabled_alpha_material_light = global::EasyJob.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::BadgeView.Android.Resource.Dimension.highlight_alpha_material_colored = global::EasyJob.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::BadgeView.Android.Resource.Dimension.highlight_alpha_material_dark = global::EasyJob.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::BadgeView.Android.Resource.Dimension.highlight_alpha_material_light = global::EasyJob.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::BadgeView.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::EasyJob.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::BadgeView.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::EasyJob.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::BadgeView.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::EasyJob.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::BadgeView.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::EasyJob.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::BadgeView.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::EasyJob.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::BadgeView.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::EasyJob.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::BadgeView.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::EasyJob.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::BadgeView.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::EasyJob.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::BadgeView.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::EasyJob.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::BadgeView.Android.Resource.Dimension.notification_large_icon_height = global::EasyJob.Droid.Resource.Dimension.notification_large_icon_height;
-			global::BadgeView.Android.Resource.Dimension.notification_large_icon_width = global::EasyJob.Droid.Resource.Dimension.notification_large_icon_width;
-			global::BadgeView.Android.Resource.Dimension.notification_subtext_size = global::EasyJob.Droid.Resource.Dimension.notification_subtext_size;
-			global::BadgeView.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_action_bar_item_background_material = global::EasyJob.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_borderless_material = global::EasyJob.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_check_material = global::EasyJob.Droid.Resource.Drawable.abc_btn_check_material;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::EasyJob.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::EasyJob.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_colored_material = global::EasyJob.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::EasyJob.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_radio_material = global::EasyJob.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::EasyJob.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::EasyJob.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::EasyJob.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::BadgeView.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::EasyJob.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::BadgeView.Android.Resource.Drawable.abc_cab_background_internal_bg = global::EasyJob.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::BadgeView.Android.Resource.Drawable.abc_cab_background_top_material = global::EasyJob.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::BadgeView.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_control_background_material = global::EasyJob.Droid.Resource.Drawable.abc_control_background_material;
-			global::BadgeView.Android.Resource.Drawable.abc_edit_text_material = global::EasyJob.Droid.Resource.Drawable.abc_edit_text_material;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::EasyJob.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::EasyJob.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_star_black_16dp = global::EasyJob.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_star_black_36dp = global::EasyJob.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::EasyJob.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::BadgeView.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::EasyJob.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::BadgeView.Android.Resource.Drawable.abc_item_background_holo_dark = global::EasyJob.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::BadgeView.Android.Resource.Drawable.abc_item_background_holo_light = global::EasyJob.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::BadgeView.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_list_focused_holo = global::EasyJob.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::BadgeView.Android.Resource.Drawable.abc_list_longpressed_holo = global::EasyJob.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::BadgeView.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::EasyJob.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::BadgeView.Android.Resource.Drawable.abc_list_pressed_holo_light = global::EasyJob.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::BadgeView.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::EasyJob.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::BadgeView.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::EasyJob.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::BadgeView.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::EasyJob.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::BadgeView.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::EasyJob.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::BadgeView.Android.Resource.Drawable.abc_list_selector_holo_dark = global::EasyJob.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::BadgeView.Android.Resource.Drawable.abc_list_selector_holo_light = global::EasyJob.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::BadgeView.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::EasyJob.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::BadgeView.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::EasyJob.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::BadgeView.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::EasyJob.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::BadgeView.Android.Resource.Drawable.abc_ratingbar_small_material = global::EasyJob.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::BadgeView.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::EasyJob.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::BadgeView.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::EasyJob.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::BadgeView.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_seekbar_thumb_material = global::EasyJob.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::BadgeView.Android.Resource.Drawable.abc_seekbar_track_material = global::EasyJob.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::BadgeView.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::EasyJob.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::EasyJob.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::BadgeView.Android.Resource.Drawable.abc_switch_thumb_material = global::EasyJob.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::BadgeView.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_tab_indicator_material = global::EasyJob.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::BadgeView.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_text_cursor_material = global::EasyJob.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::BadgeView.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::EasyJob.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::BadgeView.Android.Resource.Drawable.abc_textfield_search_material = global::EasyJob.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::BadgeView.Android.Resource.Drawable.design_fab_background = global::EasyJob.Droid.Resource.Drawable.design_fab_background;
-			global::BadgeView.Android.Resource.Drawable.design_snackbar_background = global::EasyJob.Droid.Resource.Drawable.design_snackbar_background;
-			global::BadgeView.Android.Resource.Drawable.ic_audiotrack_light = global::EasyJob.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::BadgeView.Android.Resource.Drawable.mr_dialog_material_background_dark = global::EasyJob.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::BadgeView.Android.Resource.Drawable.mr_dialog_material_background_light = global::EasyJob.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::BadgeView.Android.Resource.Drawable.notification_template_icon_bg = global::EasyJob.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::BadgeView.Android.Resource.Id.action0 = global::EasyJob.Droid.Resource.Id.action0;
-			global::BadgeView.Android.Resource.Id.action_bar = global::EasyJob.Droid.Resource.Id.action_bar;
-			global::BadgeView.Android.Resource.Id.action_bar_activity_content = global::EasyJob.Droid.Resource.Id.action_bar_activity_content;
-			global::BadgeView.Android.Resource.Id.action_bar_container = global::EasyJob.Droid.Resource.Id.action_bar_container;
-			global::BadgeView.Android.Resource.Id.action_bar_root = global::EasyJob.Droid.Resource.Id.action_bar_root;
-			global::BadgeView.Android.Resource.Id.action_bar_spinner = global::EasyJob.Droid.Resource.Id.action_bar_spinner;
-			global::BadgeView.Android.Resource.Id.action_bar_subtitle = global::EasyJob.Droid.Resource.Id.action_bar_subtitle;
-			global::BadgeView.Android.Resource.Id.action_bar_title = global::EasyJob.Droid.Resource.Id.action_bar_title;
-			global::BadgeView.Android.Resource.Id.action_context_bar = global::EasyJob.Droid.Resource.Id.action_context_bar;
-			global::BadgeView.Android.Resource.Id.action_divider = global::EasyJob.Droid.Resource.Id.action_divider;
-			global::BadgeView.Android.Resource.Id.action_menu_divider = global::EasyJob.Droid.Resource.Id.action_menu_divider;
-			global::BadgeView.Android.Resource.Id.action_menu_presenter = global::EasyJob.Droid.Resource.Id.action_menu_presenter;
-			global::BadgeView.Android.Resource.Id.action_mode_bar = global::EasyJob.Droid.Resource.Id.action_mode_bar;
-			global::BadgeView.Android.Resource.Id.action_mode_bar_stub = global::EasyJob.Droid.Resource.Id.action_mode_bar_stub;
-			global::BadgeView.Android.Resource.Id.action_mode_close_button = global::EasyJob.Droid.Resource.Id.action_mode_close_button;
-			global::BadgeView.Android.Resource.Id.activity_chooser_view_content = global::EasyJob.Droid.Resource.Id.activity_chooser_view_content;
-			global::BadgeView.Android.Resource.Id.alertTitle = global::EasyJob.Droid.Resource.Id.alertTitle;
-			global::BadgeView.Android.Resource.Id.always = global::EasyJob.Droid.Resource.Id.always;
-			global::BadgeView.Android.Resource.Id.beginning = global::EasyJob.Droid.Resource.Id.beginning;
-			global::BadgeView.Android.Resource.Id.bottom = global::EasyJob.Droid.Resource.Id.bottom;
-			global::BadgeView.Android.Resource.Id.buttonPanel = global::EasyJob.Droid.Resource.Id.buttonPanel;
-			global::BadgeView.Android.Resource.Id.cancel_action = global::EasyJob.Droid.Resource.Id.cancel_action;
-			global::BadgeView.Android.Resource.Id.center = global::EasyJob.Droid.Resource.Id.center;
-			global::BadgeView.Android.Resource.Id.center_horizontal = global::EasyJob.Droid.Resource.Id.center_horizontal;
-			global::BadgeView.Android.Resource.Id.center_vertical = global::EasyJob.Droid.Resource.Id.center_vertical;
-			global::BadgeView.Android.Resource.Id.checkbox = global::EasyJob.Droid.Resource.Id.checkbox;
-			global::BadgeView.Android.Resource.Id.chronometer = global::EasyJob.Droid.Resource.Id.chronometer;
-			global::BadgeView.Android.Resource.Id.clip_horizontal = global::EasyJob.Droid.Resource.Id.clip_horizontal;
-			global::BadgeView.Android.Resource.Id.clip_vertical = global::EasyJob.Droid.Resource.Id.clip_vertical;
-			global::BadgeView.Android.Resource.Id.collapseActionView = global::EasyJob.Droid.Resource.Id.collapseActionView;
-			global::BadgeView.Android.Resource.Id.contentPanel = global::EasyJob.Droid.Resource.Id.contentPanel;
-			global::BadgeView.Android.Resource.Id.custom = global::EasyJob.Droid.Resource.Id.custom;
-			global::BadgeView.Android.Resource.Id.customPanel = global::EasyJob.Droid.Resource.Id.customPanel;
-			global::BadgeView.Android.Resource.Id.decor_content_parent = global::EasyJob.Droid.Resource.Id.decor_content_parent;
-			global::BadgeView.Android.Resource.Id.default_activity_button = global::EasyJob.Droid.Resource.Id.default_activity_button;
-			global::BadgeView.Android.Resource.Id.design_bottom_sheet = global::EasyJob.Droid.Resource.Id.design_bottom_sheet;
-			global::BadgeView.Android.Resource.Id.design_menu_item_action_area = global::EasyJob.Droid.Resource.Id.design_menu_item_action_area;
-			global::BadgeView.Android.Resource.Id.design_menu_item_action_area_stub = global::EasyJob.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::BadgeView.Android.Resource.Id.design_menu_item_text = global::EasyJob.Droid.Resource.Id.design_menu_item_text;
-			global::BadgeView.Android.Resource.Id.design_navigation_view = global::EasyJob.Droid.Resource.Id.design_navigation_view;
-			global::BadgeView.Android.Resource.Id.disableHome = global::EasyJob.Droid.Resource.Id.disableHome;
-			global::BadgeView.Android.Resource.Id.edit_query = global::EasyJob.Droid.Resource.Id.edit_query;
-			global::BadgeView.Android.Resource.Id.end = global::EasyJob.Droid.Resource.Id.end;
-			global::BadgeView.Android.Resource.Id.end_padder = global::EasyJob.Droid.Resource.Id.end_padder;
-			global::BadgeView.Android.Resource.Id.enterAlways = global::EasyJob.Droid.Resource.Id.enterAlways;
-			global::BadgeView.Android.Resource.Id.enterAlwaysCollapsed = global::EasyJob.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::BadgeView.Android.Resource.Id.exitUntilCollapsed = global::EasyJob.Droid.Resource.Id.exitUntilCollapsed;
-			global::BadgeView.Android.Resource.Id.expand_activities_button = global::EasyJob.Droid.Resource.Id.expand_activities_button;
-			global::BadgeView.Android.Resource.Id.expanded_menu = global::EasyJob.Droid.Resource.Id.expanded_menu;
-			global::BadgeView.Android.Resource.Id.fill = global::EasyJob.Droid.Resource.Id.fill;
-			global::BadgeView.Android.Resource.Id.fill_horizontal = global::EasyJob.Droid.Resource.Id.fill_horizontal;
-			global::BadgeView.Android.Resource.Id.fill_vertical = global::EasyJob.Droid.Resource.Id.fill_vertical;
-			global::BadgeView.Android.Resource.Id.@fixed = global::EasyJob.Droid.Resource.Id.@fixed;
-			global::BadgeView.Android.Resource.Id.home = global::EasyJob.Droid.Resource.Id.home;
-			global::BadgeView.Android.Resource.Id.homeAsUp = global::EasyJob.Droid.Resource.Id.homeAsUp;
-			global::BadgeView.Android.Resource.Id.icon = global::EasyJob.Droid.Resource.Id.icon;
-			global::BadgeView.Android.Resource.Id.ifRoom = global::EasyJob.Droid.Resource.Id.ifRoom;
-			global::BadgeView.Android.Resource.Id.image = global::EasyJob.Droid.Resource.Id.image;
-			global::BadgeView.Android.Resource.Id.info = global::EasyJob.Droid.Resource.Id.info;
-			global::BadgeView.Android.Resource.Id.item_touch_helper_previous_elevation = global::EasyJob.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::BadgeView.Android.Resource.Id.left = global::EasyJob.Droid.Resource.Id.left;
-			global::BadgeView.Android.Resource.Id.line1 = global::EasyJob.Droid.Resource.Id.line1;
-			global::BadgeView.Android.Resource.Id.line3 = global::EasyJob.Droid.Resource.Id.line3;
-			global::BadgeView.Android.Resource.Id.listMode = global::EasyJob.Droid.Resource.Id.listMode;
-			global::BadgeView.Android.Resource.Id.list_item = global::EasyJob.Droid.Resource.Id.list_item;
-			global::BadgeView.Android.Resource.Id.media_actions = global::EasyJob.Droid.Resource.Id.media_actions;
-			global::BadgeView.Android.Resource.Id.middle = global::EasyJob.Droid.Resource.Id.middle;
-			global::BadgeView.Android.Resource.Id.mini = global::EasyJob.Droid.Resource.Id.mini;
-			global::BadgeView.Android.Resource.Id.mr_art = global::EasyJob.Droid.Resource.Id.mr_art;
-			global::BadgeView.Android.Resource.Id.mr_chooser_list = global::EasyJob.Droid.Resource.Id.mr_chooser_list;
-			global::BadgeView.Android.Resource.Id.mr_chooser_route_desc = global::EasyJob.Droid.Resource.Id.mr_chooser_route_desc;
-			global::BadgeView.Android.Resource.Id.mr_chooser_route_icon = global::EasyJob.Droid.Resource.Id.mr_chooser_route_icon;
-			global::BadgeView.Android.Resource.Id.mr_chooser_route_name = global::EasyJob.Droid.Resource.Id.mr_chooser_route_name;
-			global::BadgeView.Android.Resource.Id.mr_close = global::EasyJob.Droid.Resource.Id.mr_close;
-			global::BadgeView.Android.Resource.Id.mr_control_divider = global::EasyJob.Droid.Resource.Id.mr_control_divider;
-			global::BadgeView.Android.Resource.Id.mr_control_subtitle = global::EasyJob.Droid.Resource.Id.mr_control_subtitle;
-			global::BadgeView.Android.Resource.Id.mr_control_title = global::EasyJob.Droid.Resource.Id.mr_control_title;
-			global::BadgeView.Android.Resource.Id.mr_control_title_container = global::EasyJob.Droid.Resource.Id.mr_control_title_container;
-			global::BadgeView.Android.Resource.Id.mr_custom_control = global::EasyJob.Droid.Resource.Id.mr_custom_control;
-			global::BadgeView.Android.Resource.Id.mr_default_control = global::EasyJob.Droid.Resource.Id.mr_default_control;
-			global::BadgeView.Android.Resource.Id.mr_dialog_area = global::EasyJob.Droid.Resource.Id.mr_dialog_area;
-			global::BadgeView.Android.Resource.Id.mr_expandable_area = global::EasyJob.Droid.Resource.Id.mr_expandable_area;
-			global::BadgeView.Android.Resource.Id.mr_group_expand_collapse = global::EasyJob.Droid.Resource.Id.mr_group_expand_collapse;
-			global::BadgeView.Android.Resource.Id.mr_media_main_control = global::EasyJob.Droid.Resource.Id.mr_media_main_control;
-			global::BadgeView.Android.Resource.Id.mr_name = global::EasyJob.Droid.Resource.Id.mr_name;
-			global::BadgeView.Android.Resource.Id.mr_playback_control = global::EasyJob.Droid.Resource.Id.mr_playback_control;
-			global::BadgeView.Android.Resource.Id.mr_title_bar = global::EasyJob.Droid.Resource.Id.mr_title_bar;
-			global::BadgeView.Android.Resource.Id.mr_volume_control = global::EasyJob.Droid.Resource.Id.mr_volume_control;
-			global::BadgeView.Android.Resource.Id.mr_volume_group_list = global::EasyJob.Droid.Resource.Id.mr_volume_group_list;
-			global::BadgeView.Android.Resource.Id.mr_volume_item_icon = global::EasyJob.Droid.Resource.Id.mr_volume_item_icon;
-			global::BadgeView.Android.Resource.Id.mr_volume_slider = global::EasyJob.Droid.Resource.Id.mr_volume_slider;
-			global::BadgeView.Android.Resource.Id.multiply = global::EasyJob.Droid.Resource.Id.multiply;
-			global::BadgeView.Android.Resource.Id.navigation_header_container = global::EasyJob.Droid.Resource.Id.navigation_header_container;
-			global::BadgeView.Android.Resource.Id.never = global::EasyJob.Droid.Resource.Id.never;
-			global::BadgeView.Android.Resource.Id.none = global::EasyJob.Droid.Resource.Id.none;
-			global::BadgeView.Android.Resource.Id.normal = global::EasyJob.Droid.Resource.Id.normal;
-			global::BadgeView.Android.Resource.Id.parallax = global::EasyJob.Droid.Resource.Id.parallax;
-			global::BadgeView.Android.Resource.Id.parentPanel = global::EasyJob.Droid.Resource.Id.parentPanel;
-			global::BadgeView.Android.Resource.Id.pin = global::EasyJob.Droid.Resource.Id.pin;
-			global::BadgeView.Android.Resource.Id.progress_circular = global::EasyJob.Droid.Resource.Id.progress_circular;
-			global::BadgeView.Android.Resource.Id.progress_horizontal = global::EasyJob.Droid.Resource.Id.progress_horizontal;
-			global::BadgeView.Android.Resource.Id.radio = global::EasyJob.Droid.Resource.Id.radio;
-			global::BadgeView.Android.Resource.Id.right = global::EasyJob.Droid.Resource.Id.right;
-			global::BadgeView.Android.Resource.Id.screen = global::EasyJob.Droid.Resource.Id.screen;
-			global::BadgeView.Android.Resource.Id.scroll = global::EasyJob.Droid.Resource.Id.scroll;
-			global::BadgeView.Android.Resource.Id.scrollIndicatorDown = global::EasyJob.Droid.Resource.Id.scrollIndicatorDown;
-			global::BadgeView.Android.Resource.Id.scrollIndicatorUp = global::EasyJob.Droid.Resource.Id.scrollIndicatorUp;
-			global::BadgeView.Android.Resource.Id.scrollView = global::EasyJob.Droid.Resource.Id.scrollView;
-			global::BadgeView.Android.Resource.Id.scrollable = global::EasyJob.Droid.Resource.Id.scrollable;
-			global::BadgeView.Android.Resource.Id.search_badge = global::EasyJob.Droid.Resource.Id.search_badge;
-			global::BadgeView.Android.Resource.Id.search_bar = global::EasyJob.Droid.Resource.Id.search_bar;
-			global::BadgeView.Android.Resource.Id.search_button = global::EasyJob.Droid.Resource.Id.search_button;
-			global::BadgeView.Android.Resource.Id.search_close_btn = global::EasyJob.Droid.Resource.Id.search_close_btn;
-			global::BadgeView.Android.Resource.Id.search_edit_frame = global::EasyJob.Droid.Resource.Id.search_edit_frame;
-			global::BadgeView.Android.Resource.Id.search_go_btn = global::EasyJob.Droid.Resource.Id.search_go_btn;
-			global::BadgeView.Android.Resource.Id.search_mag_icon = global::EasyJob.Droid.Resource.Id.search_mag_icon;
-			global::BadgeView.Android.Resource.Id.search_plate = global::EasyJob.Droid.Resource.Id.search_plate;
-			global::BadgeView.Android.Resource.Id.search_src_text = global::EasyJob.Droid.Resource.Id.search_src_text;
-			global::BadgeView.Android.Resource.Id.search_voice_btn = global::EasyJob.Droid.Resource.Id.search_voice_btn;
-			global::BadgeView.Android.Resource.Id.select_dialog_listview = global::EasyJob.Droid.Resource.Id.select_dialog_listview;
-			global::BadgeView.Android.Resource.Id.shortcut = global::EasyJob.Droid.Resource.Id.shortcut;
-			global::BadgeView.Android.Resource.Id.showCustom = global::EasyJob.Droid.Resource.Id.showCustom;
-			global::BadgeView.Android.Resource.Id.showHome = global::EasyJob.Droid.Resource.Id.showHome;
-			global::BadgeView.Android.Resource.Id.showTitle = global::EasyJob.Droid.Resource.Id.showTitle;
-			global::BadgeView.Android.Resource.Id.snackbar_action = global::EasyJob.Droid.Resource.Id.snackbar_action;
-			global::BadgeView.Android.Resource.Id.snackbar_text = global::EasyJob.Droid.Resource.Id.snackbar_text;
-			global::BadgeView.Android.Resource.Id.snap = global::EasyJob.Droid.Resource.Id.snap;
-			global::BadgeView.Android.Resource.Id.spacer = global::EasyJob.Droid.Resource.Id.spacer;
-			global::BadgeView.Android.Resource.Id.split_action_bar = global::EasyJob.Droid.Resource.Id.split_action_bar;
-			global::BadgeView.Android.Resource.Id.src_atop = global::EasyJob.Droid.Resource.Id.src_atop;
-			global::BadgeView.Android.Resource.Id.src_in = global::EasyJob.Droid.Resource.Id.src_in;
-			global::BadgeView.Android.Resource.Id.src_over = global::EasyJob.Droid.Resource.Id.src_over;
-			global::BadgeView.Android.Resource.Id.start = global::EasyJob.Droid.Resource.Id.start;
-			global::BadgeView.Android.Resource.Id.status_bar_latest_event_content = global::EasyJob.Droid.Resource.Id.status_bar_latest_event_content;
-			global::BadgeView.Android.Resource.Id.submit_area = global::EasyJob.Droid.Resource.Id.submit_area;
-			global::BadgeView.Android.Resource.Id.tabMode = global::EasyJob.Droid.Resource.Id.tabMode;
-			global::BadgeView.Android.Resource.Id.text = global::EasyJob.Droid.Resource.Id.text;
-			global::BadgeView.Android.Resource.Id.text2 = global::EasyJob.Droid.Resource.Id.text2;
-			global::BadgeView.Android.Resource.Id.textSpacerNoButtons = global::EasyJob.Droid.Resource.Id.textSpacerNoButtons;
-			global::BadgeView.Android.Resource.Id.time = global::EasyJob.Droid.Resource.Id.time;
-			global::BadgeView.Android.Resource.Id.title = global::EasyJob.Droid.Resource.Id.title;
-			global::BadgeView.Android.Resource.Id.title_template = global::EasyJob.Droid.Resource.Id.title_template;
-			global::BadgeView.Android.Resource.Id.top = global::EasyJob.Droid.Resource.Id.top;
-			global::BadgeView.Android.Resource.Id.topPanel = global::EasyJob.Droid.Resource.Id.topPanel;
-			global::BadgeView.Android.Resource.Id.touch_outside = global::EasyJob.Droid.Resource.Id.touch_outside;
-			global::BadgeView.Android.Resource.Id.up = global::EasyJob.Droid.Resource.Id.up;
-			global::BadgeView.Android.Resource.Id.useLogo = global::EasyJob.Droid.Resource.Id.useLogo;
-			global::BadgeView.Android.Resource.Id.view_offset_helper = global::EasyJob.Droid.Resource.Id.view_offset_helper;
-			global::BadgeView.Android.Resource.Id.volume_item_container = global::EasyJob.Droid.Resource.Id.volume_item_container;
-			global::BadgeView.Android.Resource.Id.withText = global::EasyJob.Droid.Resource.Id.withText;
-			global::BadgeView.Android.Resource.Id.wrap_content = global::EasyJob.Droid.Resource.Id.wrap_content;
-			global::BadgeView.Android.Resource.Integer.abc_config_activityDefaultDur = global::EasyJob.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::BadgeView.Android.Resource.Integer.abc_config_activityShortDur = global::EasyJob.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::BadgeView.Android.Resource.Integer.bottom_sheet_slide_duration = global::EasyJob.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::BadgeView.Android.Resource.Integer.cancel_button_image_alpha = global::EasyJob.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::BadgeView.Android.Resource.Integer.design_snackbar_text_max_lines = global::EasyJob.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::BadgeView.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::EasyJob.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::BadgeView.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::EasyJob.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::BadgeView.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::EasyJob.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::BadgeView.Android.Resource.Integer.status_bar_notification_info_maxnum = global::EasyJob.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::BadgeView.Android.Resource.Interpolator.mr_fast_out_slow_in = global::EasyJob.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::BadgeView.Android.Resource.Interpolator.mr_linear_out_slow_in = global::EasyJob.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::BadgeView.Android.Resource.Layout.abc_action_bar_title_item = global::EasyJob.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::BadgeView.Android.Resource.Layout.abc_action_bar_up_container = global::EasyJob.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::BadgeView.Android.Resource.Layout.abc_action_menu_item_layout = global::EasyJob.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::BadgeView.Android.Resource.Layout.abc_action_menu_layout = global::EasyJob.Droid.Resource.Layout.abc_action_menu_layout;
-			global::BadgeView.Android.Resource.Layout.abc_action_mode_bar = global::EasyJob.Droid.Resource.Layout.abc_action_mode_bar;
-			global::BadgeView.Android.Resource.Layout.abc_action_mode_close_item_material = global::EasyJob.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::BadgeView.Android.Resource.Layout.abc_activity_chooser_view = global::EasyJob.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::BadgeView.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::EasyJob.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::BadgeView.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::EasyJob.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::BadgeView.Android.Resource.Layout.abc_alert_dialog_material = global::EasyJob.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::BadgeView.Android.Resource.Layout.abc_dialog_title_material = global::EasyJob.Droid.Resource.Layout.abc_dialog_title_material;
-			global::BadgeView.Android.Resource.Layout.abc_expanded_menu_layout = global::EasyJob.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::BadgeView.Android.Resource.Layout.abc_list_menu_item_checkbox = global::EasyJob.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::BadgeView.Android.Resource.Layout.abc_list_menu_item_icon = global::EasyJob.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::BadgeView.Android.Resource.Layout.abc_list_menu_item_layout = global::EasyJob.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::BadgeView.Android.Resource.Layout.abc_list_menu_item_radio = global::EasyJob.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::BadgeView.Android.Resource.Layout.abc_popup_menu_item_layout = global::EasyJob.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::BadgeView.Android.Resource.Layout.abc_screen_content_include = global::EasyJob.Droid.Resource.Layout.abc_screen_content_include;
-			global::BadgeView.Android.Resource.Layout.abc_screen_simple = global::EasyJob.Droid.Resource.Layout.abc_screen_simple;
-			global::BadgeView.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::EasyJob.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::BadgeView.Android.Resource.Layout.abc_screen_toolbar = global::EasyJob.Droid.Resource.Layout.abc_screen_toolbar;
-			global::BadgeView.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::EasyJob.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::BadgeView.Android.Resource.Layout.abc_search_view = global::EasyJob.Droid.Resource.Layout.abc_search_view;
-			global::BadgeView.Android.Resource.Layout.abc_select_dialog_material = global::EasyJob.Droid.Resource.Layout.abc_select_dialog_material;
-			global::BadgeView.Android.Resource.Layout.design_bottom_sheet_dialog = global::EasyJob.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::BadgeView.Android.Resource.Layout.design_layout_snackbar = global::EasyJob.Droid.Resource.Layout.design_layout_snackbar;
-			global::BadgeView.Android.Resource.Layout.design_layout_snackbar_include = global::EasyJob.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::BadgeView.Android.Resource.Layout.design_layout_tab_icon = global::EasyJob.Droid.Resource.Layout.design_layout_tab_icon;
-			global::BadgeView.Android.Resource.Layout.design_layout_tab_text = global::EasyJob.Droid.Resource.Layout.design_layout_tab_text;
-			global::BadgeView.Android.Resource.Layout.design_menu_item_action_area = global::EasyJob.Droid.Resource.Layout.design_menu_item_action_area;
-			global::BadgeView.Android.Resource.Layout.design_navigation_item = global::EasyJob.Droid.Resource.Layout.design_navigation_item;
-			global::BadgeView.Android.Resource.Layout.design_navigation_item_header = global::EasyJob.Droid.Resource.Layout.design_navigation_item_header;
-			global::BadgeView.Android.Resource.Layout.design_navigation_item_separator = global::EasyJob.Droid.Resource.Layout.design_navigation_item_separator;
-			global::BadgeView.Android.Resource.Layout.design_navigation_item_subheader = global::EasyJob.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::BadgeView.Android.Resource.Layout.design_navigation_menu = global::EasyJob.Droid.Resource.Layout.design_navigation_menu;
-			global::BadgeView.Android.Resource.Layout.design_navigation_menu_item = global::EasyJob.Droid.Resource.Layout.design_navigation_menu_item;
-			global::BadgeView.Android.Resource.Layout.mr_chooser_dialog = global::EasyJob.Droid.Resource.Layout.mr_chooser_dialog;
-			global::BadgeView.Android.Resource.Layout.mr_chooser_list_item = global::EasyJob.Droid.Resource.Layout.mr_chooser_list_item;
-			global::BadgeView.Android.Resource.Layout.mr_controller_material_dialog_b = global::EasyJob.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::BadgeView.Android.Resource.Layout.mr_controller_volume_item = global::EasyJob.Droid.Resource.Layout.mr_controller_volume_item;
-			global::BadgeView.Android.Resource.Layout.mr_playback_control = global::EasyJob.Droid.Resource.Layout.mr_playback_control;
-			global::BadgeView.Android.Resource.Layout.mr_volume_control = global::EasyJob.Droid.Resource.Layout.mr_volume_control;
-			global::BadgeView.Android.Resource.Layout.notification_media_action = global::EasyJob.Droid.Resource.Layout.notification_media_action;
-			global::BadgeView.Android.Resource.Layout.notification_media_cancel_action = global::EasyJob.Droid.Resource.Layout.notification_media_cancel_action;
-			global::BadgeView.Android.Resource.Layout.notification_template_big_media = global::EasyJob.Droid.Resource.Layout.notification_template_big_media;
-			global::BadgeView.Android.Resource.Layout.notification_template_big_media_narrow = global::EasyJob.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::BadgeView.Android.Resource.Layout.notification_template_media = global::EasyJob.Droid.Resource.Layout.notification_template_media;
-			global::BadgeView.Android.Resource.Layout.notification_template_part_chronometer = global::EasyJob.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::BadgeView.Android.Resource.Layout.notification_template_part_time = global::EasyJob.Droid.Resource.Layout.notification_template_part_time;
-			global::BadgeView.Android.Resource.Layout.select_dialog_item_material = global::EasyJob.Droid.Resource.Layout.select_dialog_item_material;
-			global::BadgeView.Android.Resource.Layout.select_dialog_multichoice_material = global::EasyJob.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::BadgeView.Android.Resource.Layout.select_dialog_singlechoice_material = global::EasyJob.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::BadgeView.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::EasyJob.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::BadgeView.Android.Resource.String.abc_action_bar_home_description = global::EasyJob.Droid.Resource.String.abc_action_bar_home_description;
-			global::BadgeView.Android.Resource.String.abc_action_bar_up_description = global::EasyJob.Droid.Resource.String.abc_action_bar_up_description;
-			global::BadgeView.Android.Resource.String.abc_action_menu_overflow_description = global::EasyJob.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::BadgeView.Android.Resource.String.abc_action_mode_done = global::EasyJob.Droid.Resource.String.abc_action_mode_done;
-			global::BadgeView.Android.Resource.String.abc_activity_chooser_view_see_all = global::EasyJob.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::BadgeView.Android.Resource.String.abc_activitychooserview_choose_application = global::EasyJob.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::BadgeView.Android.Resource.String.abc_capital_off = global::EasyJob.Droid.Resource.String.abc_capital_off;
-			global::BadgeView.Android.Resource.String.abc_capital_on = global::EasyJob.Droid.Resource.String.abc_capital_on;
-			global::BadgeView.Android.Resource.String.abc_search_hint = global::EasyJob.Droid.Resource.String.abc_search_hint;
-			global::BadgeView.Android.Resource.String.abc_searchview_description_clear = global::EasyJob.Droid.Resource.String.abc_searchview_description_clear;
-			global::BadgeView.Android.Resource.String.abc_searchview_description_query = global::EasyJob.Droid.Resource.String.abc_searchview_description_query;
-			global::BadgeView.Android.Resource.String.abc_searchview_description_search = global::EasyJob.Droid.Resource.String.abc_searchview_description_search;
-			global::BadgeView.Android.Resource.String.abc_searchview_description_submit = global::EasyJob.Droid.Resource.String.abc_searchview_description_submit;
-			global::BadgeView.Android.Resource.String.abc_searchview_description_voice = global::EasyJob.Droid.Resource.String.abc_searchview_description_voice;
-			global::BadgeView.Android.Resource.String.abc_shareactionprovider_share_with = global::EasyJob.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::BadgeView.Android.Resource.String.abc_shareactionprovider_share_with_application = global::EasyJob.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::BadgeView.Android.Resource.String.abc_toolbar_collapse_description = global::EasyJob.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::BadgeView.Android.Resource.String.appbar_scrolling_view_behavior = global::EasyJob.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::BadgeView.Android.Resource.String.bottom_sheet_behavior = global::EasyJob.Droid.Resource.String.bottom_sheet_behavior;
-			global::BadgeView.Android.Resource.String.character_counter_pattern = global::EasyJob.Droid.Resource.String.character_counter_pattern;
-			global::BadgeView.Android.Resource.String.library_name = global::EasyJob.Droid.Resource.String.library_name;
-			global::BadgeView.Android.Resource.String.mr_button_content_description = global::EasyJob.Droid.Resource.String.mr_button_content_description;
-			global::BadgeView.Android.Resource.String.mr_chooser_searching = global::EasyJob.Droid.Resource.String.mr_chooser_searching;
-			global::BadgeView.Android.Resource.String.mr_chooser_title = global::EasyJob.Droid.Resource.String.mr_chooser_title;
-			global::BadgeView.Android.Resource.String.mr_controller_casting_screen = global::EasyJob.Droid.Resource.String.mr_controller_casting_screen;
-			global::BadgeView.Android.Resource.String.mr_controller_close_description = global::EasyJob.Droid.Resource.String.mr_controller_close_description;
-			global::BadgeView.Android.Resource.String.mr_controller_collapse_group = global::EasyJob.Droid.Resource.String.mr_controller_collapse_group;
-			global::BadgeView.Android.Resource.String.mr_controller_disconnect = global::EasyJob.Droid.Resource.String.mr_controller_disconnect;
-			global::BadgeView.Android.Resource.String.mr_controller_expand_group = global::EasyJob.Droid.Resource.String.mr_controller_expand_group;
-			global::BadgeView.Android.Resource.String.mr_controller_no_info_available = global::EasyJob.Droid.Resource.String.mr_controller_no_info_available;
-			global::BadgeView.Android.Resource.String.mr_controller_no_media_selected = global::EasyJob.Droid.Resource.String.mr_controller_no_media_selected;
-			global::BadgeView.Android.Resource.String.mr_controller_pause = global::EasyJob.Droid.Resource.String.mr_controller_pause;
-			global::BadgeView.Android.Resource.String.mr_controller_play = global::EasyJob.Droid.Resource.String.mr_controller_play;
-			global::BadgeView.Android.Resource.String.mr_controller_stop = global::EasyJob.Droid.Resource.String.mr_controller_stop;
-			global::BadgeView.Android.Resource.String.mr_system_route_name = global::EasyJob.Droid.Resource.String.mr_system_route_name;
-			global::BadgeView.Android.Resource.String.mr_user_route_category_name = global::EasyJob.Droid.Resource.String.mr_user_route_category_name;
-			global::BadgeView.Android.Resource.String.status_bar_notification_info_overflow = global::EasyJob.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::BadgeView.Android.Resource.Style.AlertDialog_AppCompat = global::EasyJob.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::BadgeView.Android.Resource.Style.AlertDialog_AppCompat_Light = global::EasyJob.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Animation_AppCompat_Dialog = global::EasyJob.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::BadgeView.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::EasyJob.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::BadgeView.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::EasyJob.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::BadgeView.Android.Resource.Style.Base_AlertDialog_AppCompat = global::EasyJob.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::EasyJob.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::BadgeView.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::EasyJob.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::BadgeView.Android.Resource.Style.Base_CardView = global::EasyJob.Droid.Resource.Style.Base_CardView;
-			global::BadgeView.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::EasyJob.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::EasyJob.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::BadgeView.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::EasyJob.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::BadgeView.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::EasyJob.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::BadgeView.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::EasyJob.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::EasyJob.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::BadgeView.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::EasyJob.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::BadgeView.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::EasyJob.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::BadgeView.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Base_V21_Theme_AppCompat = global::EasyJob.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::EasyJob.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::BadgeView.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::EasyJob.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::BadgeView.Android.Resource.Style.Base_V22_Theme_AppCompat = global::EasyJob.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Base_V23_Theme_AppCompat = global::EasyJob.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Base_V7_Theme_AppCompat = global::EasyJob.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::BadgeView.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::EasyJob.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::BadgeView.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::EasyJob.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::BadgeView.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::EasyJob.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::BadgeView.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::EasyJob.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Button = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::BadgeView.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::EasyJob.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::BadgeView.Android.Resource.Style.Base_Widget_Design_TabLayout = global::EasyJob.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::BadgeView.Android.Resource.Style.CardView = global::EasyJob.Droid.Resource.Style.CardView;
-			global::BadgeView.Android.Resource.Style.CardView_Dark = global::EasyJob.Droid.Resource.Style.CardView_Dark;
-			global::BadgeView.Android.Resource.Style.CardView_Light = global::EasyJob.Droid.Resource.Style.CardView_Light;
-			global::BadgeView.Android.Resource.Style.Platform_AppCompat = global::EasyJob.Droid.Resource.Style.Platform_AppCompat;
-			global::BadgeView.Android.Resource.Style.Platform_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::EasyJob.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::BadgeView.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::EasyJob.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::BadgeView.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::EasyJob.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::EasyJob.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::BadgeView.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::EasyJob.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::BadgeView.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::EasyJob.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::BadgeView.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::EasyJob.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Button = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Large = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Small = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Title = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::BadgeView.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::EasyJob.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::EasyJob.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Design_Counter = global::EasyJob.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::EasyJob.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Design_Error = global::EasyJob.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Design_Hint = global::EasyJob.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::EasyJob.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Design_Tab = global::EasyJob.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::EasyJob.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::EasyJob.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::BadgeView.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::EasyJob.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat = global::EasyJob.Droid.Resource.Style.Theme_AppCompat;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DayNight = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Dialog = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Light = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::BadgeView.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::EasyJob.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::BadgeView.Android.Resource.Style.Theme_Design = global::EasyJob.Droid.Resource.Style.Theme_Design;
-			global::BadgeView.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::EasyJob.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::BadgeView.Android.Resource.Style.Theme_Design_Light = global::EasyJob.Droid.Resource.Style.Theme_Design_Light;
-			global::BadgeView.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::EasyJob.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::BadgeView.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::EasyJob.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::BadgeView.Android.Resource.Style.Theme_Design_NoActionBar = global::EasyJob.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::BadgeView.Android.Resource.Style.Theme_MediaRouter = global::EasyJob.Droid.Resource.Style.Theme_MediaRouter;
-			global::BadgeView.Android.Resource.Style.Theme_MediaRouter_Light = global::EasyJob.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::BadgeView.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::EasyJob.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::BadgeView.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::EasyJob.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::BadgeView.Android.Resource.Style.ThemeOverlay_AppCompat = global::EasyJob.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::BadgeView.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::EasyJob.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::BadgeView.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::EasyJob.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::BadgeView.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::EasyJob.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::BadgeView.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::EasyJob.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionButton = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActionMode = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Button = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Button_Small = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_EditText = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ImageButton = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ListView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_RatingBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_SearchView = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_SeekBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Spinner = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Toolbar = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::BadgeView.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::EasyJob.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::BadgeView.Android.Resource.Style.Widget_Design_AppBarLayout = global::EasyJob.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::BadgeView.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::EasyJob.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::BadgeView.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::EasyJob.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::BadgeView.Android.Resource.Style.Widget_Design_FloatingActionButton = global::EasyJob.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::BadgeView.Android.Resource.Style.Widget_Design_NavigationView = global::EasyJob.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::BadgeView.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::EasyJob.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::BadgeView.Android.Resource.Style.Widget_Design_Snackbar = global::EasyJob.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::BadgeView.Android.Resource.Style.Widget_Design_TabLayout = global::EasyJob.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::BadgeView.Android.Resource.Style.Widget_Design_TextInputLayout = global::EasyJob.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::BadgeView.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::EasyJob.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::BadgeView.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::EasyJob.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::BadgeView.Android.Resource.Styleable.ActionBar = global::EasyJob.Droid.Resource.Styleable.ActionBar;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_background = global::EasyJob.Droid.Resource.Styleable.ActionBar_background;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_backgroundSplit = global::EasyJob.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_backgroundStacked = global::EasyJob.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::EasyJob.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::EasyJob.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_contentInsetRight = global::EasyJob.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_contentInsetStart = global::EasyJob.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::EasyJob.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_displayOptions = global::EasyJob.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_divider = global::EasyJob.Droid.Resource.Styleable.ActionBar_divider;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_elevation = global::EasyJob.Droid.Resource.Styleable.ActionBar_elevation;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_height = global::EasyJob.Droid.Resource.Styleable.ActionBar_height;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::EasyJob.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::EasyJob.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_homeLayout = global::EasyJob.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_icon = global::EasyJob.Droid.Resource.Styleable.ActionBar_icon;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::EasyJob.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_itemPadding = global::EasyJob.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_logo = global::EasyJob.Droid.Resource.Styleable.ActionBar_logo;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_navigationMode = global::EasyJob.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_popupTheme = global::EasyJob.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_progressBarPadding = global::EasyJob.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_progressBarStyle = global::EasyJob.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_subtitle = global::EasyJob.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::EasyJob.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_title = global::EasyJob.Droid.Resource.Styleable.ActionBar_title;
-			global::BadgeView.Android.Resource.Styleable.ActionBar_titleTextStyle = global::EasyJob.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::BadgeView.Android.Resource.Styleable.ActionBarLayout = global::EasyJob.Droid.Resource.Styleable.ActionBarLayout;
-			global::BadgeView.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::EasyJob.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::BadgeView.Android.Resource.Styleable.ActionMenuItemView = global::EasyJob.Droid.Resource.Styleable.ActionMenuItemView;
-			global::BadgeView.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::EasyJob.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::BadgeView.Android.Resource.Styleable.ActionMenuView = global::EasyJob.Droid.Resource.Styleable.ActionMenuView;
-			global::BadgeView.Android.Resource.Styleable.ActionMode = global::EasyJob.Droid.Resource.Styleable.ActionMode;
-			global::BadgeView.Android.Resource.Styleable.ActionMode_background = global::EasyJob.Droid.Resource.Styleable.ActionMode_background;
-			global::BadgeView.Android.Resource.Styleable.ActionMode_backgroundSplit = global::EasyJob.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::BadgeView.Android.Resource.Styleable.ActionMode_closeItemLayout = global::EasyJob.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::BadgeView.Android.Resource.Styleable.ActionMode_height = global::EasyJob.Droid.Resource.Styleable.ActionMode_height;
-			global::BadgeView.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::EasyJob.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::BadgeView.Android.Resource.Styleable.ActionMode_titleTextStyle = global::EasyJob.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::BadgeView.Android.Resource.Styleable.ActivityChooserView = global::EasyJob.Droid.Resource.Styleable.ActivityChooserView;
-			global::BadgeView.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::EasyJob.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::BadgeView.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::EasyJob.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::BadgeView.Android.Resource.Styleable.AlertDialog = global::EasyJob.Droid.Resource.Styleable.AlertDialog;
-			global::BadgeView.Android.Resource.Styleable.AlertDialog_android_layout = global::EasyJob.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::BadgeView.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::EasyJob.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::BadgeView.Android.Resource.Styleable.AlertDialog_listItemLayout = global::EasyJob.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::BadgeView.Android.Resource.Styleable.AlertDialog_listLayout = global::EasyJob.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::BadgeView.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::EasyJob.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::BadgeView.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::EasyJob.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::BadgeView.Android.Resource.Styleable.AppBarLayout = global::EasyJob.Droid.Resource.Styleable.AppBarLayout;
-			global::BadgeView.Android.Resource.Styleable.AppBarLayout_android_background = global::EasyJob.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::BadgeView.Android.Resource.Styleable.AppBarLayout_elevation = global::EasyJob.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::BadgeView.Android.Resource.Styleable.AppBarLayout_expanded = global::EasyJob.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::BadgeView.Android.Resource.Styleable.AppCompatImageView = global::EasyJob.Droid.Resource.Styleable.AppCompatImageView;
-			global::BadgeView.Android.Resource.Styleable.AppCompatImageView_android_src = global::EasyJob.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::BadgeView.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::EasyJob.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTextView = global::EasyJob.Droid.Resource.Styleable.AppCompatTextView;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::EasyJob.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::EasyJob.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::BadgeView.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::EasyJob.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::BadgeView.Android.Resource.Styleable.ButtonBarLayout = global::EasyJob.Droid.Resource.Styleable.ButtonBarLayout;
-			global::BadgeView.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::EasyJob.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::BadgeView.Android.Resource.Styleable.CardView = global::EasyJob.Droid.Resource.Styleable.CardView;
-			global::BadgeView.Android.Resource.Styleable.CardView_android_minHeight = global::EasyJob.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::BadgeView.Android.Resource.Styleable.CardView_android_minWidth = global::EasyJob.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::BadgeView.Android.Resource.Styleable.CardView_cardBackgroundColor = global::EasyJob.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::BadgeView.Android.Resource.Styleable.CardView_cardCornerRadius = global::EasyJob.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::BadgeView.Android.Resource.Styleable.CardView_cardElevation = global::EasyJob.Droid.Resource.Styleable.CardView_cardElevation;
-			global::BadgeView.Android.Resource.Styleable.CardView_cardMaxElevation = global::EasyJob.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::BadgeView.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::EasyJob.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::BadgeView.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::EasyJob.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::BadgeView.Android.Resource.Styleable.CardView_contentPadding = global::EasyJob.Droid.Resource.Styleable.CardView_contentPadding;
-			global::BadgeView.Android.Resource.Styleable.CardView_contentPaddingBottom = global::EasyJob.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::BadgeView.Android.Resource.Styleable.CardView_contentPaddingLeft = global::EasyJob.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::BadgeView.Android.Resource.Styleable.CardView_contentPaddingRight = global::EasyJob.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::BadgeView.Android.Resource.Styleable.CardView_contentPaddingTop = global::EasyJob.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::BadgeView.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::EasyJob.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::BadgeView.Android.Resource.Styleable.CompoundButton = global::EasyJob.Droid.Resource.Styleable.CompoundButton;
-			global::BadgeView.Android.Resource.Styleable.CompoundButton_android_button = global::EasyJob.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::BadgeView.Android.Resource.Styleable.CompoundButton_buttonTint = global::EasyJob.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::BadgeView.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::EasyJob.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::BadgeView.Android.Resource.Styleable.CoordinatorLayout = global::EasyJob.Droid.Resource.Styleable.CoordinatorLayout;
-			global::BadgeView.Android.Resource.Styleable.CoordinatorLayout_keylines = global::EasyJob.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::BadgeView.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::EasyJob.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::BadgeView.Android.Resource.Styleable.DesignTheme = global::EasyJob.Droid.Resource.Styleable.DesignTheme;
-			global::BadgeView.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::EasyJob.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::BadgeView.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::EasyJob.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_color = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::BadgeView.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::EasyJob.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_elevation = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_fabSize = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::BadgeView.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::EasyJob.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::BadgeView.Android.Resource.Styleable.ForegroundLinearLayout = global::EasyJob.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::BadgeView.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::EasyJob.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::BadgeView.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::EasyJob.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::BadgeView.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::EasyJob.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_divider = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::BadgeView.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::EasyJob.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::BadgeView.Android.Resource.Styleable.ListPopupWindow = global::EasyJob.Droid.Resource.Styleable.ListPopupWindow;
-			global::BadgeView.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::EasyJob.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::BadgeView.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::EasyJob.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::BadgeView.Android.Resource.Styleable.MediaRouteButton = global::EasyJob.Droid.Resource.Styleable.MediaRouteButton;
-			global::BadgeView.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::EasyJob.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::BadgeView.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::EasyJob.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::BadgeView.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::EasyJob.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::BadgeView.Android.Resource.Styleable.MenuGroup = global::EasyJob.Droid.Resource.Styleable.MenuGroup;
-			global::BadgeView.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::EasyJob.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::BadgeView.Android.Resource.Styleable.MenuGroup_android_enabled = global::EasyJob.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::BadgeView.Android.Resource.Styleable.MenuGroup_android_id = global::EasyJob.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::BadgeView.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::EasyJob.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::BadgeView.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::EasyJob.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::BadgeView.Android.Resource.Styleable.MenuGroup_android_visible = global::EasyJob.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::BadgeView.Android.Resource.Styleable.MenuItem = global::EasyJob.Droid.Resource.Styleable.MenuItem;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_actionLayout = global::EasyJob.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_actionProviderClass = global::EasyJob.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_actionViewClass = global::EasyJob.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_checkable = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_checked = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_enabled = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_icon = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_id = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_id;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_menuCategory = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_onClick = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_title = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_title;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_android_visible = global::EasyJob.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::BadgeView.Android.Resource.Styleable.MenuItem_showAsAction = global::EasyJob.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::BadgeView.Android.Resource.Styleable.MenuView = global::EasyJob.Droid.Resource.Styleable.MenuView;
-			global::BadgeView.Android.Resource.Styleable.MenuView_android_headerBackground = global::EasyJob.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::BadgeView.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::EasyJob.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::BadgeView.Android.Resource.Styleable.MenuView_android_itemBackground = global::EasyJob.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::BadgeView.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::EasyJob.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::BadgeView.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::EasyJob.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.MenuView_android_verticalDivider = global::EasyJob.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::BadgeView.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::EasyJob.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::BadgeView.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::EasyJob.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::BadgeView.Android.Resource.Styleable.NavigationView = global::EasyJob.Droid.Resource.Styleable.NavigationView;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_android_background = global::EasyJob.Droid.Resource.Styleable.NavigationView_android_background;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::EasyJob.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_android_maxWidth = global::EasyJob.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_elevation = global::EasyJob.Droid.Resource.Styleable.NavigationView_elevation;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_headerLayout = global::EasyJob.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_itemBackground = global::EasyJob.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_itemIconTint = global::EasyJob.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::EasyJob.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_itemTextColor = global::EasyJob.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::BadgeView.Android.Resource.Styleable.NavigationView_menu = global::EasyJob.Droid.Resource.Styleable.NavigationView_menu;
-			global::BadgeView.Android.Resource.Styleable.PopupWindow = global::EasyJob.Droid.Resource.Styleable.PopupWindow;
-			global::BadgeView.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::EasyJob.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::BadgeView.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::EasyJob.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::BadgeView.Android.Resource.Styleable.PopupWindowBackgroundState = global::EasyJob.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::BadgeView.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::EasyJob.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::BadgeView.Android.Resource.Styleable.RecyclerView = global::EasyJob.Droid.Resource.Styleable.RecyclerView;
-			global::BadgeView.Android.Resource.Styleable.RecyclerView_android_orientation = global::EasyJob.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::BadgeView.Android.Resource.Styleable.RecyclerView_layoutManager = global::EasyJob.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::BadgeView.Android.Resource.Styleable.RecyclerView_reverseLayout = global::EasyJob.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::BadgeView.Android.Resource.Styleable.RecyclerView_spanCount = global::EasyJob.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::BadgeView.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::EasyJob.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::BadgeView.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::EasyJob.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::BadgeView.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::EasyJob.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::BadgeView.Android.Resource.Styleable.SearchView = global::EasyJob.Droid.Resource.Styleable.SearchView;
-			global::BadgeView.Android.Resource.Styleable.SearchView_android_focusable = global::EasyJob.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::BadgeView.Android.Resource.Styleable.SearchView_android_imeOptions = global::EasyJob.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::BadgeView.Android.Resource.Styleable.SearchView_android_inputType = global::EasyJob.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::BadgeView.Android.Resource.Styleable.SearchView_android_maxWidth = global::EasyJob.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::BadgeView.Android.Resource.Styleable.SearchView_closeIcon = global::EasyJob.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::BadgeView.Android.Resource.Styleable.SearchView_commitIcon = global::EasyJob.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::BadgeView.Android.Resource.Styleable.SearchView_defaultQueryHint = global::EasyJob.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::BadgeView.Android.Resource.Styleable.SearchView_goIcon = global::EasyJob.Droid.Resource.Styleable.SearchView_goIcon;
-			global::BadgeView.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::EasyJob.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::BadgeView.Android.Resource.Styleable.SearchView_layout = global::EasyJob.Droid.Resource.Styleable.SearchView_layout;
-			global::BadgeView.Android.Resource.Styleable.SearchView_queryBackground = global::EasyJob.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::BadgeView.Android.Resource.Styleable.SearchView_queryHint = global::EasyJob.Droid.Resource.Styleable.SearchView_queryHint;
-			global::BadgeView.Android.Resource.Styleable.SearchView_searchHintIcon = global::EasyJob.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::BadgeView.Android.Resource.Styleable.SearchView_searchIcon = global::EasyJob.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::BadgeView.Android.Resource.Styleable.SearchView_submitBackground = global::EasyJob.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::BadgeView.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::EasyJob.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::BadgeView.Android.Resource.Styleable.SearchView_voiceIcon = global::EasyJob.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::BadgeView.Android.Resource.Styleable.SnackbarLayout = global::EasyJob.Droid.Resource.Styleable.SnackbarLayout;
-			global::BadgeView.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::EasyJob.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::BadgeView.Android.Resource.Styleable.SnackbarLayout_elevation = global::EasyJob.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::BadgeView.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::EasyJob.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::BadgeView.Android.Resource.Styleable.Spinner = global::EasyJob.Droid.Resource.Styleable.Spinner;
-			global::BadgeView.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::EasyJob.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::BadgeView.Android.Resource.Styleable.Spinner_android_entries = global::EasyJob.Droid.Resource.Styleable.Spinner_android_entries;
-			global::BadgeView.Android.Resource.Styleable.Spinner_android_popupBackground = global::EasyJob.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::BadgeView.Android.Resource.Styleable.Spinner_android_prompt = global::EasyJob.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::BadgeView.Android.Resource.Styleable.Spinner_popupTheme = global::EasyJob.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat = global::EasyJob.Droid.Resource.Styleable.SwitchCompat;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_android_textOff = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_android_textOn = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_android_thumb = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_showText = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_splitTrack = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_switchPadding = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::BadgeView.Android.Resource.Styleable.SwitchCompat_track = global::EasyJob.Droid.Resource.Styleable.SwitchCompat_track;
-			global::BadgeView.Android.Resource.Styleable.TabItem = global::EasyJob.Droid.Resource.Styleable.TabItem;
-			global::BadgeView.Android.Resource.Styleable.TabItem_android_icon = global::EasyJob.Droid.Resource.Styleable.TabItem_android_icon;
-			global::BadgeView.Android.Resource.Styleable.TabItem_android_layout = global::EasyJob.Droid.Resource.Styleable.TabItem_android_layout;
-			global::BadgeView.Android.Resource.Styleable.TabItem_android_text = global::EasyJob.Droid.Resource.Styleable.TabItem_android_text;
-			global::BadgeView.Android.Resource.Styleable.TabLayout = global::EasyJob.Droid.Resource.Styleable.TabLayout;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabBackground = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabContentStart = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabGravity = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabMinWidth = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabMode = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabPadding = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.TabLayout_tabTextColor = global::EasyJob.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance = global::EasyJob.Droid.Resource.Styleable.TextAppearance;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_textColor = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_textSize = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_textStyle = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_android_typeface = global::EasyJob.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::BadgeView.Android.Resource.Styleable.TextAppearance_textAllCaps = global::EasyJob.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout = global::EasyJob.Droid.Resource.Styleable.TextInputLayout;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_android_hint = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::BadgeView.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::EasyJob.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.Toolbar = global::EasyJob.Droid.Resource.Styleable.Toolbar;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_android_gravity = global::EasyJob.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_android_minHeight = global::EasyJob.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::EasyJob.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_collapseIcon = global::EasyJob.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::EasyJob.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::EasyJob.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_contentInsetRight = global::EasyJob.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_contentInsetStart = global::EasyJob.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_logo = global::EasyJob.Droid.Resource.Styleable.Toolbar_logo;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_logoDescription = global::EasyJob.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::EasyJob.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::EasyJob.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_navigationIcon = global::EasyJob.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_popupTheme = global::EasyJob.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_subtitle = global::EasyJob.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::EasyJob.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::EasyJob.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_title = global::EasyJob.Droid.Resource.Styleable.Toolbar_title;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::EasyJob.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::EasyJob.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_titleMarginStart = global::EasyJob.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_titleMarginTop = global::EasyJob.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_titleMargins = global::EasyJob.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::EasyJob.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::BadgeView.Android.Resource.Styleable.Toolbar_titleTextColor = global::EasyJob.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::BadgeView.Android.Resource.Styleable.View = global::EasyJob.Droid.Resource.Styleable.View;
-			global::BadgeView.Android.Resource.Styleable.View_android_focusable = global::EasyJob.Droid.Resource.Styleable.View_android_focusable;
-			global::BadgeView.Android.Resource.Styleable.View_android_theme = global::EasyJob.Droid.Resource.Styleable.View_android_theme;
-			global::BadgeView.Android.Resource.Styleable.View_paddingEnd = global::EasyJob.Droid.Resource.Styleable.View_paddingEnd;
-			global::BadgeView.Android.Resource.Styleable.View_paddingStart = global::EasyJob.Droid.Resource.Styleable.View_paddingStart;
-			global::BadgeView.Android.Resource.Styleable.View_theme = global::EasyJob.Droid.Resource.Styleable.View_theme;
-			global::BadgeView.Android.Resource.Styleable.ViewBackgroundHelper = global::EasyJob.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::BadgeView.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::EasyJob.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::BadgeView.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::EasyJob.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::BadgeView.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::EasyJob.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::BadgeView.Android.Resource.Styleable.ViewStubCompat = global::EasyJob.Droid.Resource.Styleable.ViewStubCompat;
-			global::BadgeView.Android.Resource.Styleable.ViewStubCompat_android_id = global::EasyJob.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::BadgeView.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::EasyJob.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::BadgeView.Android.Resource.Styleable.ViewStubCompat_android_layout = global::EasyJob.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Lottie.Forms.Resource.Animation.abc_fade_in = global::EasyJob.Droid.Resource.Animation.abc_fade_in;
 			global::Lottie.Forms.Resource.Animation.abc_fade_out = global::EasyJob.Droid.Resource.Animation.abc_fade_out;
 			global::Lottie.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::EasyJob.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -11004,818 +9394,834 @@ namespace EasyJob.Droid
 			}
 		}
 		
+		public partial class Font
+		{
+			
+			// aapt resource value: 0x7F080000
+			public const int FCActiveRegular = 2131230720;
+			
+			static Font()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Font()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080006
-			public const int action0 = 2131230726;
+			// aapt resource value: 0x7F090006
+			public const int action0 = 2131296262;
 			
-			// aapt resource value: 0x7F080018
-			public const int actions = 2131230744;
+			// aapt resource value: 0x7F090018
+			public const int actions = 2131296280;
 			
-			// aapt resource value: 0x7F080007
-			public const int action_bar = 2131230727;
+			// aapt resource value: 0x7F090007
+			public const int action_bar = 2131296263;
 			
-			// aapt resource value: 0x7F080008
-			public const int action_bar_activity_content = 2131230728;
+			// aapt resource value: 0x7F090008
+			public const int action_bar_activity_content = 2131296264;
 			
-			// aapt resource value: 0x7F080009
-			public const int action_bar_container = 2131230729;
+			// aapt resource value: 0x7F090009
+			public const int action_bar_container = 2131296265;
 			
-			// aapt resource value: 0x7F08000A
-			public const int action_bar_root = 2131230730;
+			// aapt resource value: 0x7F09000A
+			public const int action_bar_root = 2131296266;
 			
-			// aapt resource value: 0x7F08000B
-			public const int action_bar_spinner = 2131230731;
+			// aapt resource value: 0x7F09000B
+			public const int action_bar_spinner = 2131296267;
 			
-			// aapt resource value: 0x7F08000C
-			public const int action_bar_subtitle = 2131230732;
+			// aapt resource value: 0x7F09000C
+			public const int action_bar_subtitle = 2131296268;
 			
-			// aapt resource value: 0x7F08000D
-			public const int action_bar_title = 2131230733;
+			// aapt resource value: 0x7F09000D
+			public const int action_bar_title = 2131296269;
 			
-			// aapt resource value: 0x7F08000E
-			public const int action_container = 2131230734;
+			// aapt resource value: 0x7F09000E
+			public const int action_container = 2131296270;
 			
-			// aapt resource value: 0x7F08000F
-			public const int action_context_bar = 2131230735;
+			// aapt resource value: 0x7F09000F
+			public const int action_context_bar = 2131296271;
 			
-			// aapt resource value: 0x7F080010
-			public const int action_divider = 2131230736;
+			// aapt resource value: 0x7F090010
+			public const int action_divider = 2131296272;
 			
-			// aapt resource value: 0x7F080011
-			public const int action_image = 2131230737;
+			// aapt resource value: 0x7F090011
+			public const int action_image = 2131296273;
 			
-			// aapt resource value: 0x7F080012
-			public const int action_menu_divider = 2131230738;
+			// aapt resource value: 0x7F090012
+			public const int action_menu_divider = 2131296274;
 			
-			// aapt resource value: 0x7F080013
-			public const int action_menu_presenter = 2131230739;
+			// aapt resource value: 0x7F090013
+			public const int action_menu_presenter = 2131296275;
 			
-			// aapt resource value: 0x7F080014
-			public const int action_mode_bar = 2131230740;
+			// aapt resource value: 0x7F090014
+			public const int action_mode_bar = 2131296276;
 			
-			// aapt resource value: 0x7F080015
-			public const int action_mode_bar_stub = 2131230741;
+			// aapt resource value: 0x7F090015
+			public const int action_mode_bar_stub = 2131296277;
 			
-			// aapt resource value: 0x7F080016
-			public const int action_mode_close_button = 2131230742;
+			// aapt resource value: 0x7F090016
+			public const int action_mode_close_button = 2131296278;
 			
-			// aapt resource value: 0x7F080017
-			public const int action_text = 2131230743;
+			// aapt resource value: 0x7F090017
+			public const int action_text = 2131296279;
 			
-			// aapt resource value: 0x7F080019
-			public const int activity_chooser_view_content = 2131230745;
+			// aapt resource value: 0x7F090019
+			public const int activity_chooser_view_content = 2131296281;
 			
-			// aapt resource value: 0x7F08001A
-			public const int add = 2131230746;
+			// aapt resource value: 0x7F09001A
+			public const int add = 2131296282;
 			
-			// aapt resource value: 0x7F08001B
-			public const int adjust_height = 2131230747;
+			// aapt resource value: 0x7F09001B
+			public const int adjust_height = 2131296283;
 			
-			// aapt resource value: 0x7F08001C
-			public const int adjust_width = 2131230748;
+			// aapt resource value: 0x7F09001C
+			public const int adjust_width = 2131296284;
 			
-			// aapt resource value: 0x7F08001D
-			public const int alertTitle = 2131230749;
+			// aapt resource value: 0x7F09001D
+			public const int alertTitle = 2131296285;
 			
-			// aapt resource value: 0x7F08001E
-			public const int all = 2131230750;
+			// aapt resource value: 0x7F09001E
+			public const int all = 2131296286;
 			
-			// aapt resource value: 0x7F080000
-			public const int ALT = 2131230720;
+			// aapt resource value: 0x7F090000
+			public const int ALT = 2131296256;
 			
-			// aapt resource value: 0x7F08001F
-			public const int always = 2131230751;
+			// aapt resource value: 0x7F09001F
+			public const int always = 2131296287;
 			
-			// aapt resource value: 0x7F080020
-			public const int async = 2131230752;
+			// aapt resource value: 0x7F090020
+			public const int async = 2131296288;
 			
-			// aapt resource value: 0x7F080021
-			public const int auto = 2131230753;
+			// aapt resource value: 0x7F090021
+			public const int auto = 2131296289;
 			
-			// aapt resource value: 0x7F080022
-			public const int automatic = 2131230754;
+			// aapt resource value: 0x7F090022
+			public const int automatic = 2131296290;
 			
-			// aapt resource value: 0x7F080023
-			public const int beginning = 2131230755;
+			// aapt resource value: 0x7F090023
+			public const int beginning = 2131296291;
 			
-			// aapt resource value: 0x7F080024
-			public const int blocking = 2131230756;
+			// aapt resource value: 0x7F090024
+			public const int blocking = 2131296292;
 			
-			// aapt resource value: 0x7F080025
-			public const int bottom = 2131230757;
+			// aapt resource value: 0x7F090025
+			public const int bottom = 2131296293;
 			
-			// aapt resource value: 0x7F080026
-			public const int bottomtab_navarea = 2131230758;
+			// aapt resource value: 0x7F090026
+			public const int bottomtab_navarea = 2131296294;
 			
-			// aapt resource value: 0x7F080027
-			public const int bottomtab_tabbar = 2131230759;
+			// aapt resource value: 0x7F090027
+			public const int bottomtab_tabbar = 2131296295;
 			
-			// aapt resource value: 0x7F080028
-			public const int browser_actions_header_text = 2131230760;
+			// aapt resource value: 0x7F090028
+			public const int browser_actions_header_text = 2131296296;
 			
-			// aapt resource value: 0x7F08002B
-			public const int browser_actions_menu_items = 2131230763;
+			// aapt resource value: 0x7F09002B
+			public const int browser_actions_menu_items = 2131296299;
 			
-			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_item_icon = 2131230761;
+			// aapt resource value: 0x7F090029
+			public const int browser_actions_menu_item_icon = 2131296297;
 			
-			// aapt resource value: 0x7F08002A
-			public const int browser_actions_menu_item_text = 2131230762;
+			// aapt resource value: 0x7F09002A
+			public const int browser_actions_menu_item_text = 2131296298;
 			
-			// aapt resource value: 0x7F08002C
-			public const int browser_actions_menu_view = 2131230764;
+			// aapt resource value: 0x7F09002C
+			public const int browser_actions_menu_view = 2131296300;
 			
-			// aapt resource value: 0x7F08002D
-			public const int buttonPanel = 2131230765;
+			// aapt resource value: 0x7F09002D
+			public const int buttonPanel = 2131296301;
 			
-			// aapt resource value: 0x7F08002E
-			public const int cancel_action = 2131230766;
+			// aapt resource value: 0x7F09002E
+			public const int cancel_action = 2131296302;
 			
-			// aapt resource value: 0x7F08002F
-			public const int center = 2131230767;
+			// aapt resource value: 0x7F09002F
+			public const int center = 2131296303;
 			
-			// aapt resource value: 0x7F080030
-			public const int center_horizontal = 2131230768;
+			// aapt resource value: 0x7F090030
+			public const int center_horizontal = 2131296304;
 			
-			// aapt resource value: 0x7F080031
-			public const int center_vertical = 2131230769;
+			// aapt resource value: 0x7F090031
+			public const int center_vertical = 2131296305;
 			
-			// aapt resource value: 0x7F080032
-			public const int checkbox = 2131230770;
+			// aapt resource value: 0x7F090032
+			public const int checkbox = 2131296306;
 			
-			// aapt resource value: 0x7F080033
-			public const int chronometer = 2131230771;
+			// aapt resource value: 0x7F090033
+			public const int chronometer = 2131296307;
 			
-			// aapt resource value: 0x7F080034
-			public const int clip_horizontal = 2131230772;
+			// aapt resource value: 0x7F090034
+			public const int clip_horizontal = 2131296308;
 			
-			// aapt resource value: 0x7F080035
-			public const int clip_vertical = 2131230773;
+			// aapt resource value: 0x7F090035
+			public const int clip_vertical = 2131296309;
 			
-			// aapt resource value: 0x7F080036
-			public const int collapseActionView = 2131230774;
+			// aapt resource value: 0x7F090036
+			public const int collapseActionView = 2131296310;
 			
-			// aapt resource value: 0x7F080037
-			public const int container = 2131230775;
+			// aapt resource value: 0x7F090037
+			public const int container = 2131296311;
 			
-			// aapt resource value: 0x7F080038
-			public const int content = 2131230776;
+			// aapt resource value: 0x7F090038
+			public const int content = 2131296312;
 			
-			// aapt resource value: 0x7F080039
-			public const int contentPanel = 2131230777;
+			// aapt resource value: 0x7F090039
+			public const int contentPanel = 2131296313;
 			
-			// aapt resource value: 0x7F08003A
-			public const int coordinator = 2131230778;
+			// aapt resource value: 0x7F09003A
+			public const int coordinator = 2131296314;
 			
-			// aapt resource value: 0x7F080001
-			public const int CTRL = 2131230721;
+			// aapt resource value: 0x7F090001
+			public const int CTRL = 2131296257;
 			
-			// aapt resource value: 0x7F08003B
-			public const int custom = 2131230779;
+			// aapt resource value: 0x7F09003B
+			public const int custom = 2131296315;
 			
-			// aapt resource value: 0x7F08003C
-			public const int customPanel = 2131230780;
+			// aapt resource value: 0x7F09003C
+			public const int customPanel = 2131296316;
 			
-			// aapt resource value: 0x7F08003D
-			public const int dark = 2131230781;
+			// aapt resource value: 0x7F09003D
+			public const int dark = 2131296317;
 			
-			// aapt resource value: 0x7F08003E
-			public const int decor_content_parent = 2131230782;
+			// aapt resource value: 0x7F09003E
+			public const int decor_content_parent = 2131296318;
 			
-			// aapt resource value: 0x7F08003F
-			public const int default_activity_button = 2131230783;
+			// aapt resource value: 0x7F09003F
+			public const int default_activity_button = 2131296319;
 			
-			// aapt resource value: 0x7F080040
-			public const int design_bottom_sheet = 2131230784;
+			// aapt resource value: 0x7F090040
+			public const int design_bottom_sheet = 2131296320;
 			
-			// aapt resource value: 0x7F080041
-			public const int design_menu_item_action_area = 2131230785;
+			// aapt resource value: 0x7F090041
+			public const int design_menu_item_action_area = 2131296321;
 			
-			// aapt resource value: 0x7F080042
-			public const int design_menu_item_action_area_stub = 2131230786;
+			// aapt resource value: 0x7F090042
+			public const int design_menu_item_action_area_stub = 2131296322;
 			
-			// aapt resource value: 0x7F080043
-			public const int design_menu_item_text = 2131230787;
+			// aapt resource value: 0x7F090043
+			public const int design_menu_item_text = 2131296323;
 			
-			// aapt resource value: 0x7F080044
-			public const int design_navigation_view = 2131230788;
+			// aapt resource value: 0x7F090044
+			public const int design_navigation_view = 2131296324;
 			
-			// aapt resource value: 0x7F080045
-			public const int disableHome = 2131230789;
+			// aapt resource value: 0x7F090045
+			public const int disableHome = 2131296325;
 			
-			// aapt resource value: 0x7F080046
-			public const int edit_query = 2131230790;
+			// aapt resource value: 0x7F090046
+			public const int edit_query = 2131296326;
 			
-			// aapt resource value: 0x7F080047
-			public const int end = 2131230791;
+			// aapt resource value: 0x7F090047
+			public const int end = 2131296327;
 			
-			// aapt resource value: 0x7F080048
-			public const int end_padder = 2131230792;
+			// aapt resource value: 0x7F090048
+			public const int end_padder = 2131296328;
 			
-			// aapt resource value: 0x7F080049
-			public const int enterAlways = 2131230793;
+			// aapt resource value: 0x7F090049
+			public const int enterAlways = 2131296329;
 			
-			// aapt resource value: 0x7F08004A
-			public const int enterAlwaysCollapsed = 2131230794;
+			// aapt resource value: 0x7F09004A
+			public const int enterAlwaysCollapsed = 2131296330;
 			
-			// aapt resource value: 0x7F08004B
-			public const int exitUntilCollapsed = 2131230795;
+			// aapt resource value: 0x7F09004B
+			public const int exitUntilCollapsed = 2131296331;
 			
-			// aapt resource value: 0x7F08004D
-			public const int expanded_menu = 2131230797;
+			// aapt resource value: 0x7F09004D
+			public const int expanded_menu = 2131296333;
 			
-			// aapt resource value: 0x7F08004C
-			public const int expand_activities_button = 2131230796;
+			// aapt resource value: 0x7F09004C
+			public const int expand_activities_button = 2131296332;
 			
-			// aapt resource value: 0x7F08004E
-			public const int fill = 2131230798;
+			// aapt resource value: 0x7F09004E
+			public const int fill = 2131296334;
 			
-			// aapt resource value: 0x7F080051
-			public const int filled = 2131230801;
+			// aapt resource value: 0x7F090051
+			public const int filled = 2131296337;
 			
-			// aapt resource value: 0x7F08004F
-			public const int fill_horizontal = 2131230799;
+			// aapt resource value: 0x7F09004F
+			public const int fill_horizontal = 2131296335;
 			
-			// aapt resource value: 0x7F080050
-			public const int fill_vertical = 2131230800;
+			// aapt resource value: 0x7F090050
+			public const int fill_vertical = 2131296336;
 			
-			// aapt resource value: 0x7F080052
-			public const int @fixed = 2131230802;
+			// aapt resource value: 0x7F090052
+			public const int @fixed = 2131296338;
 			
-			// aapt resource value: 0x7F080053
-			public const int flyoutcontent_appbar = 2131230803;
+			// aapt resource value: 0x7F090053
+			public const int flyoutcontent_appbar = 2131296339;
 			
-			// aapt resource value: 0x7F080054
-			public const int flyoutcontent_recycler = 2131230804;
+			// aapt resource value: 0x7F090054
+			public const int flyoutcontent_recycler = 2131296340;
 			
-			// aapt resource value: 0x7F080055
-			public const int forever = 2131230805;
+			// aapt resource value: 0x7F090055
+			public const int forever = 2131296341;
 			
-			// aapt resource value: 0x7F080002
-			public const int FUNCTION = 2131230722;
+			// aapt resource value: 0x7F090002
+			public const int FUNCTION = 2131296258;
 			
-			// aapt resource value: 0x7F080056
-			public const int ghost_view = 2131230806;
+			// aapt resource value: 0x7F090056
+			public const int ghost_view = 2131296342;
 			
-			// aapt resource value: 0x7F080057
-			public const int group_divider = 2131230807;
+			// aapt resource value: 0x7F090057
+			public const int group_divider = 2131296343;
 			
-			// aapt resource value: 0x7F080058
-			public const int hardware = 2131230808;
+			// aapt resource value: 0x7F090058
+			public const int hardware = 2131296344;
 			
-			// aapt resource value: 0x7F080059
-			public const int home = 2131230809;
+			// aapt resource value: 0x7F090059
+			public const int home = 2131296345;
 			
-			// aapt resource value: 0x7F08005A
-			public const int homeAsUp = 2131230810;
+			// aapt resource value: 0x7F09005A
+			public const int homeAsUp = 2131296346;
 			
-			// aapt resource value: 0x7F08005B
-			public const int hybrid = 2131230811;
+			// aapt resource value: 0x7F09005B
+			public const int hybrid = 2131296347;
 			
-			// aapt resource value: 0x7F08005C
-			public const int icon = 2131230812;
+			// aapt resource value: 0x7F09005C
+			public const int icon = 2131296348;
 			
-			// aapt resource value: 0x7F08005D
-			public const int icon_group = 2131230813;
+			// aapt resource value: 0x7F09005D
+			public const int icon_group = 2131296349;
 			
-			// aapt resource value: 0x7F08005E
-			public const int icon_only = 2131230814;
+			// aapt resource value: 0x7F09005E
+			public const int icon_only = 2131296350;
 			
-			// aapt resource value: 0x7F08005F
-			public const int ifRoom = 2131230815;
+			// aapt resource value: 0x7F09005F
+			public const int ifRoom = 2131296351;
 			
-			// aapt resource value: 0x7F080060
-			public const int image = 2131230816;
+			// aapt resource value: 0x7F090060
+			public const int image = 2131296352;
 			
-			// aapt resource value: 0x7F080061
-			public const int info = 2131230817;
+			// aapt resource value: 0x7F090061
+			public const int info = 2131296353;
 			
-			// aapt resource value: 0x7F080062
-			public const int italic = 2131230818;
+			// aapt resource value: 0x7F090062
+			public const int italic = 2131296354;
 			
-			// aapt resource value: 0x7F080063
-			public const int item_touch_helper_previous_elevation = 2131230819;
+			// aapt resource value: 0x7F090063
+			public const int item_touch_helper_previous_elevation = 2131296355;
 			
-			// aapt resource value: 0x7F080064
-			public const int labeled = 2131230820;
+			// aapt resource value: 0x7F090064
+			public const int labeled = 2131296356;
 			
-			// aapt resource value: 0x7F080065
-			public const int largeLabel = 2131230821;
+			// aapt resource value: 0x7F090065
+			public const int largeLabel = 2131296357;
 			
-			// aapt resource value: 0x7F080066
-			public const int left = 2131230822;
+			// aapt resource value: 0x7F090066
+			public const int left = 2131296358;
 			
-			// aapt resource value: 0x7F080067
-			public const int light = 2131230823;
+			// aapt resource value: 0x7F090067
+			public const int light = 2131296359;
 			
-			// aapt resource value: 0x7F080068
-			public const int line1 = 2131230824;
+			// aapt resource value: 0x7F090068
+			public const int line1 = 2131296360;
 			
-			// aapt resource value: 0x7F080069
-			public const int line3 = 2131230825;
+			// aapt resource value: 0x7F090069
+			public const int line3 = 2131296361;
 			
-			// aapt resource value: 0x7F08006A
-			public const int listMode = 2131230826;
+			// aapt resource value: 0x7F09006A
+			public const int listMode = 2131296362;
 			
-			// aapt resource value: 0x7F08006B
-			public const int list_item = 2131230827;
+			// aapt resource value: 0x7F09006B
+			public const int list_item = 2131296363;
 			
-			// aapt resource value: 0x7F08006C
-			public const int lottie_layer_name = 2131230828;
+			// aapt resource value: 0x7F09006C
+			public const int lottie_layer_name = 2131296364;
 			
-			// aapt resource value: 0x7F08006D
-			public const int main_appbar = 2131230829;
+			// aapt resource value: 0x7F09006D
+			public const int main_appbar = 2131296365;
 			
-			// aapt resource value: 0x7F08006E
-			public const int main_tablayout = 2131230830;
+			// aapt resource value: 0x7F09006E
+			public const int main_tablayout = 2131296366;
 			
-			// aapt resource value: 0x7F08006F
-			public const int main_toolbar = 2131230831;
+			// aapt resource value: 0x7F09006F
+			public const int main_toolbar = 2131296367;
 			
-			// aapt resource value: 0x7F080070
-			public const int main_viewpager = 2131230832;
+			// aapt resource value: 0x7F090070
+			public const int main_viewpager = 2131296368;
 			
-			// aapt resource value: 0x7F080071
-			public const int masked = 2131230833;
+			// aapt resource value: 0x7F090071
+			public const int masked = 2131296369;
 			
-			// aapt resource value: 0x7F080072
-			public const int media_actions = 2131230834;
+			// aapt resource value: 0x7F090072
+			public const int media_actions = 2131296370;
 			
-			// aapt resource value: 0x7F080073
-			public const int message = 2131230835;
+			// aapt resource value: 0x7F090073
+			public const int message = 2131296371;
 			
-			// aapt resource value: 0x7F080003
-			public const int META = 2131230723;
+			// aapt resource value: 0x7F090003
+			public const int META = 2131296259;
 			
-			// aapt resource value: 0x7F080074
-			public const int middle = 2131230836;
+			// aapt resource value: 0x7F090074
+			public const int middle = 2131296372;
 			
-			// aapt resource value: 0x7F080075
-			public const int mini = 2131230837;
+			// aapt resource value: 0x7F090075
+			public const int mini = 2131296373;
 			
-			// aapt resource value: 0x7F080076
-			public const int mr_art = 2131230838;
+			// aapt resource value: 0x7F090076
+			public const int mr_art = 2131296374;
 			
-			// aapt resource value: 0x7F080077
-			public const int mr_cast_checkbox = 2131230839;
+			// aapt resource value: 0x7F090077
+			public const int mr_cast_checkbox = 2131296375;
 			
-			// aapt resource value: 0x7F080078
-			public const int mr_cast_close_button = 2131230840;
+			// aapt resource value: 0x7F090078
+			public const int mr_cast_close_button = 2131296376;
 			
-			// aapt resource value: 0x7F080079
-			public const int mr_cast_group_icon = 2131230841;
+			// aapt resource value: 0x7F090079
+			public const int mr_cast_group_icon = 2131296377;
 			
-			// aapt resource value: 0x7F08007A
-			public const int mr_cast_group_name = 2131230842;
+			// aapt resource value: 0x7F09007A
+			public const int mr_cast_group_name = 2131296378;
 			
-			// aapt resource value: 0x7F08007B
-			public const int mr_cast_list = 2131230843;
+			// aapt resource value: 0x7F09007B
+			public const int mr_cast_list = 2131296379;
 			
-			// aapt resource value: 0x7F08007C
-			public const int mr_cast_meta = 2131230844;
+			// aapt resource value: 0x7F09007C
+			public const int mr_cast_meta = 2131296380;
 			
-			// aapt resource value: 0x7F08007D
-			public const int mr_cast_meta_art = 2131230845;
+			// aapt resource value: 0x7F09007D
+			public const int mr_cast_meta_art = 2131296381;
 			
-			// aapt resource value: 0x7F08007E
-			public const int mr_cast_meta_subtitle = 2131230846;
+			// aapt resource value: 0x7F09007E
+			public const int mr_cast_meta_subtitle = 2131296382;
 			
-			// aapt resource value: 0x7F08007F
-			public const int mr_cast_meta_title = 2131230847;
+			// aapt resource value: 0x7F09007F
+			public const int mr_cast_meta_title = 2131296383;
 			
-			// aapt resource value: 0x7F080080
-			public const int mr_cast_route_icon = 2131230848;
+			// aapt resource value: 0x7F090080
+			public const int mr_cast_route_icon = 2131296384;
 			
-			// aapt resource value: 0x7F080081
-			public const int mr_cast_route_name = 2131230849;
+			// aapt resource value: 0x7F090081
+			public const int mr_cast_route_name = 2131296385;
 			
-			// aapt resource value: 0x7F080082
-			public const int mr_cast_stop_button = 2131230850;
+			// aapt resource value: 0x7F090082
+			public const int mr_cast_stop_button = 2131296386;
 			
-			// aapt resource value: 0x7F080083
-			public const int mr_cast_volume_layout = 2131230851;
+			// aapt resource value: 0x7F090083
+			public const int mr_cast_volume_layout = 2131296387;
 			
-			// aapt resource value: 0x7F080084
-			public const int mr_cast_volume_slider = 2131230852;
+			// aapt resource value: 0x7F090084
+			public const int mr_cast_volume_slider = 2131296388;
 			
-			// aapt resource value: 0x7F080085
-			public const int mr_chooser_list = 2131230853;
+			// aapt resource value: 0x7F090085
+			public const int mr_chooser_list = 2131296389;
 			
-			// aapt resource value: 0x7F080086
-			public const int mr_chooser_route_desc = 2131230854;
+			// aapt resource value: 0x7F090086
+			public const int mr_chooser_route_desc = 2131296390;
 			
-			// aapt resource value: 0x7F080087
-			public const int mr_chooser_route_icon = 2131230855;
+			// aapt resource value: 0x7F090087
+			public const int mr_chooser_route_icon = 2131296391;
 			
-			// aapt resource value: 0x7F080088
-			public const int mr_chooser_route_name = 2131230856;
+			// aapt resource value: 0x7F090088
+			public const int mr_chooser_route_name = 2131296392;
 			
-			// aapt resource value: 0x7F080089
-			public const int mr_chooser_title = 2131230857;
+			// aapt resource value: 0x7F090089
+			public const int mr_chooser_title = 2131296393;
 			
-			// aapt resource value: 0x7F08008A
-			public const int mr_close = 2131230858;
+			// aapt resource value: 0x7F09008A
+			public const int mr_close = 2131296394;
 			
-			// aapt resource value: 0x7F08008B
-			public const int mr_control_divider = 2131230859;
+			// aapt resource value: 0x7F09008B
+			public const int mr_control_divider = 2131296395;
 			
-			// aapt resource value: 0x7F08008C
-			public const int mr_control_playback_ctrl = 2131230860;
+			// aapt resource value: 0x7F09008C
+			public const int mr_control_playback_ctrl = 2131296396;
 			
-			// aapt resource value: 0x7F08008D
-			public const int mr_control_subtitle = 2131230861;
+			// aapt resource value: 0x7F09008D
+			public const int mr_control_subtitle = 2131296397;
 			
-			// aapt resource value: 0x7F08008E
-			public const int mr_control_title = 2131230862;
+			// aapt resource value: 0x7F09008E
+			public const int mr_control_title = 2131296398;
 			
-			// aapt resource value: 0x7F08008F
-			public const int mr_control_title_container = 2131230863;
+			// aapt resource value: 0x7F09008F
+			public const int mr_control_title_container = 2131296399;
 			
-			// aapt resource value: 0x7F080090
-			public const int mr_custom_control = 2131230864;
+			// aapt resource value: 0x7F090090
+			public const int mr_custom_control = 2131296400;
 			
-			// aapt resource value: 0x7F080091
-			public const int mr_default_control = 2131230865;
+			// aapt resource value: 0x7F090091
+			public const int mr_default_control = 2131296401;
 			
-			// aapt resource value: 0x7F080092
-			public const int mr_dialog_area = 2131230866;
+			// aapt resource value: 0x7F090092
+			public const int mr_dialog_area = 2131296402;
 			
-			// aapt resource value: 0x7F080093
-			public const int mr_dialog_header_name = 2131230867;
+			// aapt resource value: 0x7F090093
+			public const int mr_dialog_header_name = 2131296403;
 			
-			// aapt resource value: 0x7F080094
-			public const int mr_expandable_area = 2131230868;
+			// aapt resource value: 0x7F090094
+			public const int mr_expandable_area = 2131296404;
 			
-			// aapt resource value: 0x7F080095
-			public const int mr_group_expand_collapse = 2131230869;
+			// aapt resource value: 0x7F090095
+			public const int mr_group_expand_collapse = 2131296405;
 			
-			// aapt resource value: 0x7F080096
-			public const int mr_group_volume_route_name = 2131230870;
+			// aapt resource value: 0x7F090096
+			public const int mr_group_volume_route_name = 2131296406;
 			
-			// aapt resource value: 0x7F080097
-			public const int mr_group_volume_slider = 2131230871;
+			// aapt resource value: 0x7F090097
+			public const int mr_group_volume_slider = 2131296407;
 			
-			// aapt resource value: 0x7F080098
-			public const int mr_media_main_control = 2131230872;
+			// aapt resource value: 0x7F090098
+			public const int mr_media_main_control = 2131296408;
 			
-			// aapt resource value: 0x7F080099
-			public const int mr_name = 2131230873;
+			// aapt resource value: 0x7F090099
+			public const int mr_name = 2131296409;
 			
-			// aapt resource value: 0x7F08009A
-			public const int mr_picker_close_button = 2131230874;
+			// aapt resource value: 0x7F09009A
+			public const int mr_picker_close_button = 2131296410;
 			
-			// aapt resource value: 0x7F08009B
-			public const int mr_picker_list = 2131230875;
+			// aapt resource value: 0x7F09009B
+			public const int mr_picker_list = 2131296411;
 			
-			// aapt resource value: 0x7F08009C
-			public const int mr_picker_route_icon = 2131230876;
+			// aapt resource value: 0x7F09009C
+			public const int mr_picker_route_icon = 2131296412;
 			
-			// aapt resource value: 0x7F08009D
-			public const int mr_picker_route_name = 2131230877;
+			// aapt resource value: 0x7F09009D
+			public const int mr_picker_route_name = 2131296413;
 			
-			// aapt resource value: 0x7F08009E
-			public const int mr_playback_control = 2131230878;
+			// aapt resource value: 0x7F09009E
+			public const int mr_playback_control = 2131296414;
 			
-			// aapt resource value: 0x7F08009F
-			public const int mr_title_bar = 2131230879;
+			// aapt resource value: 0x7F09009F
+			public const int mr_title_bar = 2131296415;
 			
-			// aapt resource value: 0x7F0800A0
-			public const int mr_volume_control = 2131230880;
+			// aapt resource value: 0x7F0900A0
+			public const int mr_volume_control = 2131296416;
 			
-			// aapt resource value: 0x7F0800A1
-			public const int mr_volume_group_list = 2131230881;
+			// aapt resource value: 0x7F0900A1
+			public const int mr_volume_group_list = 2131296417;
 			
-			// aapt resource value: 0x7F0800A2
-			public const int mr_volume_item_icon = 2131230882;
+			// aapt resource value: 0x7F0900A2
+			public const int mr_volume_item_icon = 2131296418;
 			
-			// aapt resource value: 0x7F0800A3
-			public const int mr_volume_slider = 2131230883;
+			// aapt resource value: 0x7F0900A3
+			public const int mr_volume_slider = 2131296419;
 			
-			// aapt resource value: 0x7F0800A4
-			public const int mtrl_child_content_container = 2131230884;
+			// aapt resource value: 0x7F0900A4
+			public const int mtrl_child_content_container = 2131296420;
 			
-			// aapt resource value: 0x7F0800A5
-			public const int mtrl_internal_children_alpha_tag = 2131230885;
+			// aapt resource value: 0x7F0900A5
+			public const int mtrl_internal_children_alpha_tag = 2131296421;
 			
-			// aapt resource value: 0x7F0800A6
-			public const int multiply = 2131230886;
+			// aapt resource value: 0x7F0900A6
+			public const int multiply = 2131296422;
 			
-			// aapt resource value: 0x7F0800A7
-			public const int navigation_header_container = 2131230887;
+			// aapt resource value: 0x7F0900A7
+			public const int navigation_header_container = 2131296423;
 			
-			// aapt resource value: 0x7F0800A8
-			public const int never = 2131230888;
+			// aapt resource value: 0x7F0900A8
+			public const int never = 2131296424;
 			
-			// aapt resource value: 0x7F0800A9
-			public const int none = 2131230889;
+			// aapt resource value: 0x7F0900A9
+			public const int none = 2131296425;
 			
-			// aapt resource value: 0x7F0800AA
-			public const int normal = 2131230890;
+			// aapt resource value: 0x7F0900AA
+			public const int normal = 2131296426;
 			
-			// aapt resource value: 0x7F0800AB
-			public const int notification_background = 2131230891;
+			// aapt resource value: 0x7F0900AB
+			public const int notification_background = 2131296427;
 			
-			// aapt resource value: 0x7F0800AC
-			public const int notification_main_column = 2131230892;
+			// aapt resource value: 0x7F0900AC
+			public const int notification_main_column = 2131296428;
 			
-			// aapt resource value: 0x7F0800AD
-			public const int notification_main_column_container = 2131230893;
+			// aapt resource value: 0x7F0900AD
+			public const int notification_main_column_container = 2131296429;
 			
-			// aapt resource value: 0x7F0800AE
-			public const int outline = 2131230894;
+			// aapt resource value: 0x7F0900AE
+			public const int outline = 2131296430;
 			
-			// aapt resource value: 0x7F0800AF
-			public const int parallax = 2131230895;
+			// aapt resource value: 0x7F0900AF
+			public const int parallax = 2131296431;
 			
-			// aapt resource value: 0x7F0800B0
-			public const int parentPanel = 2131230896;
+			// aapt resource value: 0x7F0900B0
+			public const int parentPanel = 2131296432;
 			
-			// aapt resource value: 0x7F0800B1
-			public const int parent_matrix = 2131230897;
+			// aapt resource value: 0x7F0900B1
+			public const int parent_matrix = 2131296433;
 			
-			// aapt resource value: 0x7F0800B2
-			public const int pin = 2131230898;
+			// aapt resource value: 0x7F0900B2
+			public const int pin = 2131296434;
 			
-			// aapt resource value: 0x7F0800B3
-			public const int progress_circular = 2131230899;
+			// aapt resource value: 0x7F0900B3
+			public const int progress_circular = 2131296435;
 			
-			// aapt resource value: 0x7F0800B4
-			public const int progress_horizontal = 2131230900;
+			// aapt resource value: 0x7F0900B4
+			public const int progress_horizontal = 2131296436;
 			
-			// aapt resource value: 0x7F0800B5
-			public const int radio = 2131230901;
+			// aapt resource value: 0x7F0900B5
+			public const int radio = 2131296437;
 			
-			// aapt resource value: 0x7F0800B6
-			public const int restart = 2131230902;
+			// aapt resource value: 0x7F0900B6
+			public const int restart = 2131296438;
 			
-			// aapt resource value: 0x7F0800B7
-			public const int reverse = 2131230903;
+			// aapt resource value: 0x7F0900B7
+			public const int reverse = 2131296439;
 			
-			// aapt resource value: 0x7F0800B8
-			public const int right = 2131230904;
+			// aapt resource value: 0x7F0900B8
+			public const int right = 2131296440;
 			
-			// aapt resource value: 0x7F0800B9
-			public const int right_icon = 2131230905;
+			// aapt resource value: 0x7F0900B9
+			public const int right_icon = 2131296441;
 			
-			// aapt resource value: 0x7F0800BA
-			public const int right_side = 2131230906;
+			// aapt resource value: 0x7F0900BA
+			public const int right_side = 2131296442;
 			
-			// aapt resource value: 0x7F0800BB
-			public const int satellite = 2131230907;
+			// aapt resource value: 0x7F0900BB
+			public const int satellite = 2131296443;
 			
-			// aapt resource value: 0x7F0800BC
-			public const int save_image_matrix = 2131230908;
+			// aapt resource value: 0x7F0900BC
+			public const int save_image_matrix = 2131296444;
 			
-			// aapt resource value: 0x7F0800BD
-			public const int save_non_transition_alpha = 2131230909;
+			// aapt resource value: 0x7F0900BD
+			public const int save_non_transition_alpha = 2131296445;
 			
-			// aapt resource value: 0x7F0800BE
-			public const int save_scale_type = 2131230910;
+			// aapt resource value: 0x7F0900BE
+			public const int save_scale_type = 2131296446;
 			
-			// aapt resource value: 0x7F0800BF
-			public const int screen = 2131230911;
+			// aapt resource value: 0x7F0900BF
+			public const int screen = 2131296447;
 			
-			// aapt resource value: 0x7F0800C0
-			public const int scroll = 2131230912;
+			// aapt resource value: 0x7F0900C0
+			public const int scroll = 2131296448;
 			
-			// aapt resource value: 0x7F0800C4
-			public const int scrollable = 2131230916;
+			// aapt resource value: 0x7F0900C4
+			public const int scrollable = 2131296452;
 			
-			// aapt resource value: 0x7F0800C1
-			public const int scrollIndicatorDown = 2131230913;
+			// aapt resource value: 0x7F0900C1
+			public const int scrollIndicatorDown = 2131296449;
 			
-			// aapt resource value: 0x7F0800C2
-			public const int scrollIndicatorUp = 2131230914;
+			// aapt resource value: 0x7F0900C2
+			public const int scrollIndicatorUp = 2131296450;
 			
-			// aapt resource value: 0x7F0800C3
-			public const int scrollView = 2131230915;
+			// aapt resource value: 0x7F0900C3
+			public const int scrollView = 2131296451;
 			
-			// aapt resource value: 0x7F0800C5
-			public const int search_badge = 2131230917;
+			// aapt resource value: 0x7F0900C5
+			public const int search_badge = 2131296453;
 			
-			// aapt resource value: 0x7F0800C6
-			public const int search_bar = 2131230918;
+			// aapt resource value: 0x7F0900C6
+			public const int search_bar = 2131296454;
 			
-			// aapt resource value: 0x7F0800C7
-			public const int search_button = 2131230919;
+			// aapt resource value: 0x7F0900C7
+			public const int search_button = 2131296455;
 			
-			// aapt resource value: 0x7F0800C8
-			public const int search_close_btn = 2131230920;
+			// aapt resource value: 0x7F0900C8
+			public const int search_close_btn = 2131296456;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int search_edit_frame = 2131230921;
+			// aapt resource value: 0x7F0900C9
+			public const int search_edit_frame = 2131296457;
 			
-			// aapt resource value: 0x7F0800CA
-			public const int search_go_btn = 2131230922;
+			// aapt resource value: 0x7F0900CA
+			public const int search_go_btn = 2131296458;
 			
-			// aapt resource value: 0x7F0800CB
-			public const int search_mag_icon = 2131230923;
+			// aapt resource value: 0x7F0900CB
+			public const int search_mag_icon = 2131296459;
 			
-			// aapt resource value: 0x7F0800CC
-			public const int search_plate = 2131230924;
+			// aapt resource value: 0x7F0900CC
+			public const int search_plate = 2131296460;
 			
-			// aapt resource value: 0x7F0800CD
-			public const int search_src_text = 2131230925;
+			// aapt resource value: 0x7F0900CD
+			public const int search_src_text = 2131296461;
 			
-			// aapt resource value: 0x7F0800CE
-			public const int search_voice_btn = 2131230926;
+			// aapt resource value: 0x7F0900CE
+			public const int search_voice_btn = 2131296462;
 			
-			// aapt resource value: 0x7F0800D0
-			public const int selected = 2131230928;
+			// aapt resource value: 0x7F0900D0
+			public const int selected = 2131296464;
 			
-			// aapt resource value: 0x7F0800CF
-			public const int select_dialog_listview = 2131230927;
+			// aapt resource value: 0x7F0900CF
+			public const int select_dialog_listview = 2131296463;
 			
-			// aapt resource value: 0x7F0800D1
-			public const int shellcontent_appbar = 2131230929;
+			// aapt resource value: 0x7F0900D1
+			public const int shellcontent_appbar = 2131296465;
 			
-			// aapt resource value: 0x7F0800D2
-			public const int shellcontent_toolbar = 2131230930;
+			// aapt resource value: 0x7F0900D2
+			public const int shellcontent_toolbar = 2131296466;
 			
-			// aapt resource value: 0x7F080004
-			public const int SHIFT = 2131230724;
+			// aapt resource value: 0x7F090004
+			public const int SHIFT = 2131296260;
 			
-			// aapt resource value: 0x7F0800D3
-			public const int shortcut = 2131230931;
+			// aapt resource value: 0x7F0900D3
+			public const int shortcut = 2131296467;
 			
-			// aapt resource value: 0x7F0800D4
-			public const int showCustom = 2131230932;
+			// aapt resource value: 0x7F0900D4
+			public const int showCustom = 2131296468;
 			
-			// aapt resource value: 0x7F0800D5
-			public const int showHome = 2131230933;
+			// aapt resource value: 0x7F0900D5
+			public const int showHome = 2131296469;
 			
-			// aapt resource value: 0x7F0800D6
-			public const int showTitle = 2131230934;
+			// aapt resource value: 0x7F0900D6
+			public const int showTitle = 2131296470;
 			
-			// aapt resource value: 0x7F0800D7
-			public const int sliding_tabs = 2131230935;
+			// aapt resource value: 0x7F0900D7
+			public const int sliding_tabs = 2131296471;
 			
-			// aapt resource value: 0x7F0800D8
-			public const int smallLabel = 2131230936;
+			// aapt resource value: 0x7F0900D8
+			public const int smallLabel = 2131296472;
 			
-			// aapt resource value: 0x7F0800D9
-			public const int snackbar_action = 2131230937;
+			// aapt resource value: 0x7F0900D9
+			public const int snackbar_action = 2131296473;
 			
-			// aapt resource value: 0x7F0800DA
-			public const int snackbar_text = 2131230938;
+			// aapt resource value: 0x7F0900DA
+			public const int snackbar_text = 2131296474;
 			
-			// aapt resource value: 0x7F0800DB
-			public const int snap = 2131230939;
+			// aapt resource value: 0x7F0900DB
+			public const int snap = 2131296475;
 			
-			// aapt resource value: 0x7F0800DC
-			public const int snapMargins = 2131230940;
+			// aapt resource value: 0x7F0900DC
+			public const int snapMargins = 2131296476;
 			
-			// aapt resource value: 0x7F0800DD
-			public const int software = 2131230941;
+			// aapt resource value: 0x7F0900DD
+			public const int software = 2131296477;
 			
-			// aapt resource value: 0x7F0800DE
-			public const int spacer = 2131230942;
+			// aapt resource value: 0x7F0900DE
+			public const int spacer = 2131296478;
 			
-			// aapt resource value: 0x7F0800DF
-			public const int split_action_bar = 2131230943;
+			// aapt resource value: 0x7F0900DF
+			public const int split_action_bar = 2131296479;
 			
-			// aapt resource value: 0x7F0800E0
-			public const int src_atop = 2131230944;
+			// aapt resource value: 0x7F0900E0
+			public const int src_atop = 2131296480;
 			
-			// aapt resource value: 0x7F0800E1
-			public const int src_in = 2131230945;
+			// aapt resource value: 0x7F0900E1
+			public const int src_in = 2131296481;
 			
-			// aapt resource value: 0x7F0800E2
-			public const int src_over = 2131230946;
+			// aapt resource value: 0x7F0900E2
+			public const int src_over = 2131296482;
 			
-			// aapt resource value: 0x7F0800E3
-			public const int standard = 2131230947;
+			// aapt resource value: 0x7F0900E3
+			public const int standard = 2131296483;
 			
-			// aapt resource value: 0x7F0800E4
-			public const int start = 2131230948;
+			// aapt resource value: 0x7F0900E4
+			public const int start = 2131296484;
 			
-			// aapt resource value: 0x7F0800E5
-			public const int status_bar_latest_event_content = 2131230949;
+			// aapt resource value: 0x7F0900E5
+			public const int status_bar_latest_event_content = 2131296485;
 			
-			// aapt resource value: 0x7F0800E6
-			public const int stretch = 2131230950;
+			// aapt resource value: 0x7F0900E6
+			public const int stretch = 2131296486;
 			
-			// aapt resource value: 0x7F0800E7
-			public const int submenuarrow = 2131230951;
+			// aapt resource value: 0x7F0900E7
+			public const int submenuarrow = 2131296487;
 			
-			// aapt resource value: 0x7F0800E8
-			public const int submit_area = 2131230952;
+			// aapt resource value: 0x7F0900E8
+			public const int submit_area = 2131296488;
 			
-			// aapt resource value: 0x7F080005
-			public const int SYM = 2131230725;
+			// aapt resource value: 0x7F090005
+			public const int SYM = 2131296261;
 			
-			// aapt resource value: 0x7F0800E9
-			public const int tabMode = 2131230953;
+			// aapt resource value: 0x7F0900E9
+			public const int tabMode = 2131296489;
 			
-			// aapt resource value: 0x7F0800EA
-			public const int tag_transition_group = 2131230954;
+			// aapt resource value: 0x7F0900EA
+			public const int tag_transition_group = 2131296490;
 			
-			// aapt resource value: 0x7F0800EB
-			public const int tag_unhandled_key_event_manager = 2131230955;
+			// aapt resource value: 0x7F0900EB
+			public const int tag_unhandled_key_event_manager = 2131296491;
 			
-			// aapt resource value: 0x7F0800EC
-			public const int tag_unhandled_key_listeners = 2131230956;
+			// aapt resource value: 0x7F0900EC
+			public const int tag_unhandled_key_listeners = 2131296492;
 			
-			// aapt resource value: 0x7F0800ED
-			public const int terrain = 2131230957;
+			// aapt resource value: 0x7F0900ED
+			public const int terrain = 2131296493;
 			
-			// aapt resource value: 0x7F0800EE
-			public const int text = 2131230958;
+			// aapt resource value: 0x7F0900EE
+			public const int text = 2131296494;
 			
-			// aapt resource value: 0x7F0800EF
-			public const int text2 = 2131230959;
+			// aapt resource value: 0x7F0900EF
+			public const int text2 = 2131296495;
 			
-			// aapt resource value: 0x7F0800F4
-			public const int textinput_counter = 2131230964;
+			// aapt resource value: 0x7F0900F4
+			public const int textinput_counter = 2131296500;
 			
-			// aapt resource value: 0x7F0800F5
-			public const int textinput_error = 2131230965;
+			// aapt resource value: 0x7F0900F5
+			public const int textinput_error = 2131296501;
 			
-			// aapt resource value: 0x7F0800F6
-			public const int textinput_helper_text = 2131230966;
+			// aapt resource value: 0x7F0900F6
+			public const int textinput_helper_text = 2131296502;
 			
-			// aapt resource value: 0x7F0800F0
-			public const int textSpacerNoButtons = 2131230960;
+			// aapt resource value: 0x7F0900F0
+			public const int textSpacerNoButtons = 2131296496;
 			
-			// aapt resource value: 0x7F0800F1
-			public const int textSpacerNoTitle = 2131230961;
+			// aapt resource value: 0x7F0900F1
+			public const int textSpacerNoTitle = 2131296497;
 			
-			// aapt resource value: 0x7F0800F2
-			public const int textStart = 2131230962;
+			// aapt resource value: 0x7F0900F2
+			public const int textStart = 2131296498;
 			
-			// aapt resource value: 0x7F0800F3
-			public const int text_input_password_toggle = 2131230963;
+			// aapt resource value: 0x7F0900F3
+			public const int text_input_password_toggle = 2131296499;
 			
-			// aapt resource value: 0x7F0800F7
-			public const int time = 2131230967;
+			// aapt resource value: 0x7F0900F7
+			public const int time = 2131296503;
 			
-			// aapt resource value: 0x7F0800F8
-			public const int title = 2131230968;
+			// aapt resource value: 0x7F0900F8
+			public const int title = 2131296504;
 			
-			// aapt resource value: 0x7F0800F9
-			public const int titleDividerNoCustom = 2131230969;
+			// aapt resource value: 0x7F0900F9
+			public const int titleDividerNoCustom = 2131296505;
 			
-			// aapt resource value: 0x7F0800FA
-			public const int title_template = 2131230970;
+			// aapt resource value: 0x7F0900FA
+			public const int title_template = 2131296506;
 			
-			// aapt resource value: 0x7F0800FB
-			public const int toolbar = 2131230971;
+			// aapt resource value: 0x7F0900FB
+			public const int toolbar = 2131296507;
 			
-			// aapt resource value: 0x7F0800FC
-			public const int top = 2131230972;
+			// aapt resource value: 0x7F0900FC
+			public const int top = 2131296508;
 			
-			// aapt resource value: 0x7F0800FD
-			public const int topPanel = 2131230973;
+			// aapt resource value: 0x7F0900FD
+			public const int topPanel = 2131296509;
 			
-			// aapt resource value: 0x7F0800FE
-			public const int touch_outside = 2131230974;
+			// aapt resource value: 0x7F0900FE
+			public const int touch_outside = 2131296510;
 			
-			// aapt resource value: 0x7F0800FF
-			public const int transition_current_scene = 2131230975;
+			// aapt resource value: 0x7F0900FF
+			public const int transition_current_scene = 2131296511;
 			
-			// aapt resource value: 0x7F080100
-			public const int transition_layout_save = 2131230976;
+			// aapt resource value: 0x7F090100
+			public const int transition_layout_save = 2131296512;
 			
-			// aapt resource value: 0x7F080101
-			public const int transition_position = 2131230977;
+			// aapt resource value: 0x7F090101
+			public const int transition_position = 2131296513;
 			
-			// aapt resource value: 0x7F080102
-			public const int transition_scene_layoutid_cache = 2131230978;
+			// aapt resource value: 0x7F090102
+			public const int transition_scene_layoutid_cache = 2131296514;
 			
-			// aapt resource value: 0x7F080103
-			public const int transition_transform = 2131230979;
+			// aapt resource value: 0x7F090103
+			public const int transition_transform = 2131296515;
 			
-			// aapt resource value: 0x7F080104
-			public const int uniform = 2131230980;
+			// aapt resource value: 0x7F090104
+			public const int uniform = 2131296516;
 			
-			// aapt resource value: 0x7F080105
-			public const int unlabeled = 2131230981;
+			// aapt resource value: 0x7F090105
+			public const int unlabeled = 2131296517;
 			
-			// aapt resource value: 0x7F080106
-			public const int up = 2131230982;
+			// aapt resource value: 0x7F090106
+			public const int up = 2131296518;
 			
-			// aapt resource value: 0x7F080107
-			public const int useLogo = 2131230983;
+			// aapt resource value: 0x7F090107
+			public const int useLogo = 2131296519;
 			
-			// aapt resource value: 0x7F080108
-			public const int view_offset_helper = 2131230984;
+			// aapt resource value: 0x7F090108
+			public const int view_offset_helper = 2131296520;
 			
-			// aapt resource value: 0x7F080109
-			public const int visible = 2131230985;
+			// aapt resource value: 0x7F090109
+			public const int visible = 2131296521;
 			
-			// aapt resource value: 0x7F08010A
-			public const int volume_item_container = 2131230986;
+			// aapt resource value: 0x7F09010A
+			public const int volume_item_container = 2131296522;
 			
-			// aapt resource value: 0x7F08010B
-			public const int wide = 2131230987;
+			// aapt resource value: 0x7F09010B
+			public const int wide = 2131296523;
 			
-			// aapt resource value: 0x7F08010C
-			public const int withText = 2131230988;
+			// aapt resource value: 0x7F09010C
+			public const int withText = 2131296524;
 			
-			// aapt resource value: 0x7F08010D
-			public const int wrap_content = 2131230989;
+			// aapt resource value: 0x7F09010D
+			public const int wrap_content = 2131296525;
 			
 			static Id()
 			{
@@ -11830,65 +10236,65 @@ namespace EasyJob.Droid
 		public partial class Integer
 		{
 			
-			// aapt resource value: 0x7F090000
-			public const int abc_config_activityDefaultDur = 2131296256;
+			// aapt resource value: 0x7F0A0000
+			public const int abc_config_activityDefaultDur = 2131361792;
 			
-			// aapt resource value: 0x7F090001
-			public const int abc_config_activityShortDur = 2131296257;
+			// aapt resource value: 0x7F0A0001
+			public const int abc_config_activityShortDur = 2131361793;
 			
-			// aapt resource value: 0x7F090002
-			public const int app_bar_elevation_anim_duration = 2131296258;
+			// aapt resource value: 0x7F0A0002
+			public const int app_bar_elevation_anim_duration = 2131361794;
 			
-			// aapt resource value: 0x7F090003
-			public const int bottom_sheet_slide_duration = 2131296259;
+			// aapt resource value: 0x7F0A0003
+			public const int bottom_sheet_slide_duration = 2131361795;
 			
-			// aapt resource value: 0x7F090004
-			public const int cancel_button_image_alpha = 2131296260;
+			// aapt resource value: 0x7F0A0004
+			public const int cancel_button_image_alpha = 2131361796;
 			
-			// aapt resource value: 0x7F090005
-			public const int config_tooltipAnimTime = 2131296261;
+			// aapt resource value: 0x7F0A0005
+			public const int config_tooltipAnimTime = 2131361797;
 			
-			// aapt resource value: 0x7F090006
-			public const int design_snackbar_text_max_lines = 2131296262;
+			// aapt resource value: 0x7F0A0006
+			public const int design_snackbar_text_max_lines = 2131361798;
 			
-			// aapt resource value: 0x7F090007
-			public const int design_tab_indicator_anim_duration_ms = 2131296263;
+			// aapt resource value: 0x7F0A0007
+			public const int design_tab_indicator_anim_duration_ms = 2131361799;
 			
-			// aapt resource value: 0x7F090008
-			public const int google_play_services_version = 2131296264;
+			// aapt resource value: 0x7F0A0008
+			public const int google_play_services_version = 2131361800;
 			
-			// aapt resource value: 0x7F090009
-			public const int hide_password_duration = 2131296265;
+			// aapt resource value: 0x7F0A0009
+			public const int hide_password_duration = 2131361801;
 			
-			// aapt resource value: 0x7F09000A
-			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296266;
+			// aapt resource value: 0x7F0A000A
+			public const int mr_controller_volume_group_list_animation_duration_ms = 2131361802;
 			
-			// aapt resource value: 0x7F09000B
-			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131296267;
+			// aapt resource value: 0x7F0A000B
+			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131361803;
 			
-			// aapt resource value: 0x7F09000C
-			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131296268;
+			// aapt resource value: 0x7F0A000C
+			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131361804;
 			
-			// aapt resource value: 0x7F09000D
-			public const int mr_update_routes_delay_ms = 2131296269;
+			// aapt resource value: 0x7F0A000D
+			public const int mr_update_routes_delay_ms = 2131361805;
 			
-			// aapt resource value: 0x7F09000E
-			public const int mtrl_btn_anim_delay_ms = 2131296270;
+			// aapt resource value: 0x7F0A000E
+			public const int mtrl_btn_anim_delay_ms = 2131361806;
 			
-			// aapt resource value: 0x7F09000F
-			public const int mtrl_btn_anim_duration_ms = 2131296271;
+			// aapt resource value: 0x7F0A000F
+			public const int mtrl_btn_anim_duration_ms = 2131361807;
 			
-			// aapt resource value: 0x7F090010
-			public const int mtrl_chip_anim_duration = 2131296272;
+			// aapt resource value: 0x7F0A0010
+			public const int mtrl_chip_anim_duration = 2131361808;
 			
-			// aapt resource value: 0x7F090011
-			public const int mtrl_tab_indicator_anim_duration_ms = 2131296273;
+			// aapt resource value: 0x7F0A0011
+			public const int mtrl_tab_indicator_anim_duration_ms = 2131361809;
 			
-			// aapt resource value: 0x7F090012
-			public const int show_password_duration = 2131296274;
+			// aapt resource value: 0x7F0A0012
+			public const int show_password_duration = 2131361810;
 			
-			// aapt resource value: 0x7F090013
-			public const int status_bar_notification_info_maxnum = 2131296275;
+			// aapt resource value: 0x7F0A0013
+			public const int status_bar_notification_info_maxnum = 2131361811;
 			
 			static Integer()
 			{
@@ -11903,23 +10309,23 @@ namespace EasyJob.Droid
 		public partial class Interpolator
 		{
 			
-			// aapt resource value: 0x7F0A0000
-			public const int mr_fast_out_slow_in = 2131361792;
+			// aapt resource value: 0x7F0B0000
+			public const int mr_fast_out_slow_in = 2131427328;
 			
-			// aapt resource value: 0x7F0A0001
-			public const int mr_linear_out_slow_in = 2131361793;
+			// aapt resource value: 0x7F0B0001
+			public const int mr_linear_out_slow_in = 2131427329;
 			
-			// aapt resource value: 0x7F0A0002
-			public const int mtrl_fast_out_linear_in = 2131361794;
+			// aapt resource value: 0x7F0B0002
+			public const int mtrl_fast_out_linear_in = 2131427330;
 			
-			// aapt resource value: 0x7F0A0003
-			public const int mtrl_fast_out_slow_in = 2131361795;
+			// aapt resource value: 0x7F0B0003
+			public const int mtrl_fast_out_slow_in = 2131427331;
 			
-			// aapt resource value: 0x7F0A0004
-			public const int mtrl_linear = 2131361796;
+			// aapt resource value: 0x7F0B0004
+			public const int mtrl_linear = 2131427332;
 			
-			// aapt resource value: 0x7F0A0005
-			public const int mtrl_linear_out_slow_in = 2131361797;
+			// aapt resource value: 0x7F0B0005
+			public const int mtrl_linear_out_slow_in = 2131427333;
 			
 			static Interpolator()
 			{
@@ -11934,260 +10340,260 @@ namespace EasyJob.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F0B0000
-			public const int abc_action_bar_title_item = 2131427328;
+			// aapt resource value: 0x7F0C0000
+			public const int abc_action_bar_title_item = 2131492864;
 			
-			// aapt resource value: 0x7F0B0001
-			public const int abc_action_bar_up_container = 2131427329;
+			// aapt resource value: 0x7F0C0001
+			public const int abc_action_bar_up_container = 2131492865;
 			
-			// aapt resource value: 0x7F0B0002
-			public const int abc_action_menu_item_layout = 2131427330;
+			// aapt resource value: 0x7F0C0002
+			public const int abc_action_menu_item_layout = 2131492866;
 			
-			// aapt resource value: 0x7F0B0003
-			public const int abc_action_menu_layout = 2131427331;
+			// aapt resource value: 0x7F0C0003
+			public const int abc_action_menu_layout = 2131492867;
 			
-			// aapt resource value: 0x7F0B0004
-			public const int abc_action_mode_bar = 2131427332;
+			// aapt resource value: 0x7F0C0004
+			public const int abc_action_mode_bar = 2131492868;
 			
-			// aapt resource value: 0x7F0B0005
-			public const int abc_action_mode_close_item_material = 2131427333;
+			// aapt resource value: 0x7F0C0005
+			public const int abc_action_mode_close_item_material = 2131492869;
 			
-			// aapt resource value: 0x7F0B0006
-			public const int abc_activity_chooser_view = 2131427334;
+			// aapt resource value: 0x7F0C0006
+			public const int abc_activity_chooser_view = 2131492870;
 			
-			// aapt resource value: 0x7F0B0007
-			public const int abc_activity_chooser_view_list_item = 2131427335;
+			// aapt resource value: 0x7F0C0007
+			public const int abc_activity_chooser_view_list_item = 2131492871;
 			
-			// aapt resource value: 0x7F0B0008
-			public const int abc_alert_dialog_button_bar_material = 2131427336;
+			// aapt resource value: 0x7F0C0008
+			public const int abc_alert_dialog_button_bar_material = 2131492872;
 			
-			// aapt resource value: 0x7F0B0009
-			public const int abc_alert_dialog_material = 2131427337;
+			// aapt resource value: 0x7F0C0009
+			public const int abc_alert_dialog_material = 2131492873;
 			
-			// aapt resource value: 0x7F0B000A
-			public const int abc_alert_dialog_title_material = 2131427338;
+			// aapt resource value: 0x7F0C000A
+			public const int abc_alert_dialog_title_material = 2131492874;
 			
-			// aapt resource value: 0x7F0B000B
-			public const int abc_cascading_menu_item_layout = 2131427339;
+			// aapt resource value: 0x7F0C000B
+			public const int abc_cascading_menu_item_layout = 2131492875;
 			
-			// aapt resource value: 0x7F0B000C
-			public const int abc_dialog_title_material = 2131427340;
+			// aapt resource value: 0x7F0C000C
+			public const int abc_dialog_title_material = 2131492876;
 			
-			// aapt resource value: 0x7F0B000D
-			public const int abc_expanded_menu_layout = 2131427341;
+			// aapt resource value: 0x7F0C000D
+			public const int abc_expanded_menu_layout = 2131492877;
 			
-			// aapt resource value: 0x7F0B000E
-			public const int abc_list_menu_item_checkbox = 2131427342;
+			// aapt resource value: 0x7F0C000E
+			public const int abc_list_menu_item_checkbox = 2131492878;
 			
-			// aapt resource value: 0x7F0B000F
-			public const int abc_list_menu_item_icon = 2131427343;
+			// aapt resource value: 0x7F0C000F
+			public const int abc_list_menu_item_icon = 2131492879;
 			
-			// aapt resource value: 0x7F0B0010
-			public const int abc_list_menu_item_layout = 2131427344;
+			// aapt resource value: 0x7F0C0010
+			public const int abc_list_menu_item_layout = 2131492880;
 			
-			// aapt resource value: 0x7F0B0011
-			public const int abc_list_menu_item_radio = 2131427345;
+			// aapt resource value: 0x7F0C0011
+			public const int abc_list_menu_item_radio = 2131492881;
 			
-			// aapt resource value: 0x7F0B0012
-			public const int abc_popup_menu_header_item_layout = 2131427346;
+			// aapt resource value: 0x7F0C0012
+			public const int abc_popup_menu_header_item_layout = 2131492882;
 			
-			// aapt resource value: 0x7F0B0013
-			public const int abc_popup_menu_item_layout = 2131427347;
+			// aapt resource value: 0x7F0C0013
+			public const int abc_popup_menu_item_layout = 2131492883;
 			
-			// aapt resource value: 0x7F0B0014
-			public const int abc_screen_content_include = 2131427348;
+			// aapt resource value: 0x7F0C0014
+			public const int abc_screen_content_include = 2131492884;
 			
-			// aapt resource value: 0x7F0B0015
-			public const int abc_screen_simple = 2131427349;
+			// aapt resource value: 0x7F0C0015
+			public const int abc_screen_simple = 2131492885;
 			
-			// aapt resource value: 0x7F0B0016
-			public const int abc_screen_simple_overlay_action_mode = 2131427350;
+			// aapt resource value: 0x7F0C0016
+			public const int abc_screen_simple_overlay_action_mode = 2131492886;
 			
-			// aapt resource value: 0x7F0B0017
-			public const int abc_screen_toolbar = 2131427351;
+			// aapt resource value: 0x7F0C0017
+			public const int abc_screen_toolbar = 2131492887;
 			
-			// aapt resource value: 0x7F0B0018
-			public const int abc_search_dropdown_item_icons_2line = 2131427352;
+			// aapt resource value: 0x7F0C0018
+			public const int abc_search_dropdown_item_icons_2line = 2131492888;
 			
-			// aapt resource value: 0x7F0B0019
-			public const int abc_search_view = 2131427353;
+			// aapt resource value: 0x7F0C0019
+			public const int abc_search_view = 2131492889;
 			
-			// aapt resource value: 0x7F0B001A
-			public const int abc_select_dialog_material = 2131427354;
+			// aapt resource value: 0x7F0C001A
+			public const int abc_select_dialog_material = 2131492890;
 			
-			// aapt resource value: 0x7F0B001B
-			public const int abc_tooltip = 2131427355;
+			// aapt resource value: 0x7F0C001B
+			public const int abc_tooltip = 2131492891;
 			
-			// aapt resource value: 0x7F0B001C
-			public const int BottomTabLayout = 2131427356;
+			// aapt resource value: 0x7F0C001C
+			public const int BottomTabLayout = 2131492892;
 			
-			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			// aapt resource value: 0x7F0C001D
+			public const int browser_actions_context_menu_page = 2131492893;
 			
-			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			// aapt resource value: 0x7F0C001E
+			public const int browser_actions_context_menu_row = 2131492894;
 			
-			// aapt resource value: 0x7F0B001F
-			public const int design_bottom_navigation_item = 2131427359;
+			// aapt resource value: 0x7F0C001F
+			public const int design_bottom_navigation_item = 2131492895;
 			
-			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_sheet_dialog = 2131427360;
+			// aapt resource value: 0x7F0C0020
+			public const int design_bottom_sheet_dialog = 2131492896;
 			
-			// aapt resource value: 0x7F0B0021
-			public const int design_layout_snackbar = 2131427361;
+			// aapt resource value: 0x7F0C0021
+			public const int design_layout_snackbar = 2131492897;
 			
-			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar_include = 2131427362;
+			// aapt resource value: 0x7F0C0022
+			public const int design_layout_snackbar_include = 2131492898;
 			
-			// aapt resource value: 0x7F0B0023
-			public const int design_layout_tab_icon = 2131427363;
+			// aapt resource value: 0x7F0C0023
+			public const int design_layout_tab_icon = 2131492899;
 			
-			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_text = 2131427364;
+			// aapt resource value: 0x7F0C0024
+			public const int design_layout_tab_text = 2131492900;
 			
-			// aapt resource value: 0x7F0B0025
-			public const int design_menu_item_action_area = 2131427365;
+			// aapt resource value: 0x7F0C0025
+			public const int design_menu_item_action_area = 2131492901;
 			
-			// aapt resource value: 0x7F0B0026
-			public const int design_navigation_item = 2131427366;
+			// aapt resource value: 0x7F0C0026
+			public const int design_navigation_item = 2131492902;
 			
-			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item_header = 2131427367;
+			// aapt resource value: 0x7F0C0027
+			public const int design_navigation_item_header = 2131492903;
 			
-			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_separator = 2131427368;
+			// aapt resource value: 0x7F0C0028
+			public const int design_navigation_item_separator = 2131492904;
 			
-			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_subheader = 2131427369;
+			// aapt resource value: 0x7F0C0029
+			public const int design_navigation_item_subheader = 2131492905;
 			
-			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_menu = 2131427370;
+			// aapt resource value: 0x7F0C002A
+			public const int design_navigation_menu = 2131492906;
 			
-			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu_item = 2131427371;
+			// aapt resource value: 0x7F0C002B
+			public const int design_navigation_menu_item = 2131492907;
 			
-			// aapt resource value: 0x7F0B002C
-			public const int design_text_input_password_icon = 2131427372;
+			// aapt resource value: 0x7F0C002C
+			public const int design_text_input_password_icon = 2131492908;
 			
-			// aapt resource value: 0x7F0B002D
-			public const int FlyoutContent = 2131427373;
+			// aapt resource value: 0x7F0C002D
+			public const int FlyoutContent = 2131492909;
 			
-			// aapt resource value: 0x7F0B002E
-			public const int mr_cast_dialog = 2131427374;
+			// aapt resource value: 0x7F0C002E
+			public const int mr_cast_dialog = 2131492910;
 			
-			// aapt resource value: 0x7F0B002F
-			public const int mr_cast_group_item = 2131427375;
+			// aapt resource value: 0x7F0C002F
+			public const int mr_cast_group_item = 2131492911;
 			
-			// aapt resource value: 0x7F0B0030
-			public const int mr_cast_group_volume_item = 2131427376;
+			// aapt resource value: 0x7F0C0030
+			public const int mr_cast_group_volume_item = 2131492912;
 			
-			// aapt resource value: 0x7F0B0031
-			public const int mr_cast_media_metadata = 2131427377;
+			// aapt resource value: 0x7F0C0031
+			public const int mr_cast_media_metadata = 2131492913;
 			
-			// aapt resource value: 0x7F0B0032
-			public const int mr_cast_route_item = 2131427378;
+			// aapt resource value: 0x7F0C0032
+			public const int mr_cast_route_item = 2131492914;
 			
-			// aapt resource value: 0x7F0B0033
-			public const int mr_chooser_dialog = 2131427379;
+			// aapt resource value: 0x7F0C0033
+			public const int mr_chooser_dialog = 2131492915;
 			
-			// aapt resource value: 0x7F0B0034
-			public const int mr_chooser_list_item = 2131427380;
+			// aapt resource value: 0x7F0C0034
+			public const int mr_chooser_list_item = 2131492916;
 			
-			// aapt resource value: 0x7F0B0035
-			public const int mr_controller_material_dialog_b = 2131427381;
+			// aapt resource value: 0x7F0C0035
+			public const int mr_controller_material_dialog_b = 2131492917;
 			
-			// aapt resource value: 0x7F0B0036
-			public const int mr_controller_volume_item = 2131427382;
+			// aapt resource value: 0x7F0C0036
+			public const int mr_controller_volume_item = 2131492918;
 			
-			// aapt resource value: 0x7F0B0037
-			public const int mr_dialog_header_item = 2131427383;
+			// aapt resource value: 0x7F0C0037
+			public const int mr_dialog_header_item = 2131492919;
 			
-			// aapt resource value: 0x7F0B0038
-			public const int mr_picker_dialog = 2131427384;
+			// aapt resource value: 0x7F0C0038
+			public const int mr_picker_dialog = 2131492920;
 			
-			// aapt resource value: 0x7F0B0039
-			public const int mr_picker_route_item = 2131427385;
+			// aapt resource value: 0x7F0C0039
+			public const int mr_picker_route_item = 2131492921;
 			
-			// aapt resource value: 0x7F0B003A
-			public const int mr_playback_control = 2131427386;
+			// aapt resource value: 0x7F0C003A
+			public const int mr_playback_control = 2131492922;
 			
-			// aapt resource value: 0x7F0B003B
-			public const int mr_volume_control = 2131427387;
+			// aapt resource value: 0x7F0C003B
+			public const int mr_volume_control = 2131492923;
 			
-			// aapt resource value: 0x7F0B003C
-			public const int mtrl_layout_snackbar = 2131427388;
+			// aapt resource value: 0x7F0C003C
+			public const int mtrl_layout_snackbar = 2131492924;
 			
-			// aapt resource value: 0x7F0B003D
-			public const int mtrl_layout_snackbar_include = 2131427389;
+			// aapt resource value: 0x7F0C003D
+			public const int mtrl_layout_snackbar_include = 2131492925;
 			
-			// aapt resource value: 0x7F0B003E
-			public const int notification_action = 2131427390;
+			// aapt resource value: 0x7F0C003E
+			public const int notification_action = 2131492926;
 			
-			// aapt resource value: 0x7F0B003F
-			public const int notification_action_tombstone = 2131427391;
+			// aapt resource value: 0x7F0C003F
+			public const int notification_action_tombstone = 2131492927;
 			
-			// aapt resource value: 0x7F0B0040
-			public const int notification_media_action = 2131427392;
+			// aapt resource value: 0x7F0C0040
+			public const int notification_media_action = 2131492928;
 			
-			// aapt resource value: 0x7F0B0041
-			public const int notification_media_cancel_action = 2131427393;
+			// aapt resource value: 0x7F0C0041
+			public const int notification_media_cancel_action = 2131492929;
 			
-			// aapt resource value: 0x7F0B0042
-			public const int notification_template_big_media = 2131427394;
+			// aapt resource value: 0x7F0C0042
+			public const int notification_template_big_media = 2131492930;
 			
-			// aapt resource value: 0x7F0B0043
-			public const int notification_template_big_media_custom = 2131427395;
+			// aapt resource value: 0x7F0C0043
+			public const int notification_template_big_media_custom = 2131492931;
 			
-			// aapt resource value: 0x7F0B0044
-			public const int notification_template_big_media_narrow = 2131427396;
+			// aapt resource value: 0x7F0C0044
+			public const int notification_template_big_media_narrow = 2131492932;
 			
-			// aapt resource value: 0x7F0B0045
-			public const int notification_template_big_media_narrow_custom = 2131427397;
+			// aapt resource value: 0x7F0C0045
+			public const int notification_template_big_media_narrow_custom = 2131492933;
 			
-			// aapt resource value: 0x7F0B0046
-			public const int notification_template_custom_big = 2131427398;
+			// aapt resource value: 0x7F0C0046
+			public const int notification_template_custom_big = 2131492934;
 			
-			// aapt resource value: 0x7F0B0047
-			public const int notification_template_icon_group = 2131427399;
+			// aapt resource value: 0x7F0C0047
+			public const int notification_template_icon_group = 2131492935;
 			
-			// aapt resource value: 0x7F0B0048
-			public const int notification_template_lines_media = 2131427400;
+			// aapt resource value: 0x7F0C0048
+			public const int notification_template_lines_media = 2131492936;
 			
-			// aapt resource value: 0x7F0B0049
-			public const int notification_template_media = 2131427401;
+			// aapt resource value: 0x7F0C0049
+			public const int notification_template_media = 2131492937;
 			
-			// aapt resource value: 0x7F0B004A
-			public const int notification_template_media_custom = 2131427402;
+			// aapt resource value: 0x7F0C004A
+			public const int notification_template_media_custom = 2131492938;
 			
-			// aapt resource value: 0x7F0B004B
-			public const int notification_template_part_chronometer = 2131427403;
+			// aapt resource value: 0x7F0C004B
+			public const int notification_template_part_chronometer = 2131492939;
 			
-			// aapt resource value: 0x7F0B004C
-			public const int notification_template_part_time = 2131427404;
+			// aapt resource value: 0x7F0C004C
+			public const int notification_template_part_time = 2131492940;
 			
-			// aapt resource value: 0x7F0B004D
-			public const int RootLayout = 2131427405;
+			// aapt resource value: 0x7F0C004D
+			public const int RootLayout = 2131492941;
 			
-			// aapt resource value: 0x7F0B004E
-			public const int select_dialog_item_material = 2131427406;
+			// aapt resource value: 0x7F0C004E
+			public const int select_dialog_item_material = 2131492942;
 			
-			// aapt resource value: 0x7F0B004F
-			public const int select_dialog_multichoice_material = 2131427407;
+			// aapt resource value: 0x7F0C004F
+			public const int select_dialog_multichoice_material = 2131492943;
 			
-			// aapt resource value: 0x7F0B0050
-			public const int select_dialog_singlechoice_material = 2131427408;
+			// aapt resource value: 0x7F0C0050
+			public const int select_dialog_singlechoice_material = 2131492944;
 			
-			// aapt resource value: 0x7F0B0051
-			public const int ShellContent = 2131427409;
+			// aapt resource value: 0x7F0C0051
+			public const int ShellContent = 2131492945;
 			
-			// aapt resource value: 0x7F0B0052
-			public const int support_simple_spinner_dropdown_item = 2131427410;
+			// aapt resource value: 0x7F0C0052
+			public const int support_simple_spinner_dropdown_item = 2131492946;
 			
-			// aapt resource value: 0x7F0B0053
-			public const int Tabbar = 2131427411;
+			// aapt resource value: 0x7F0C0053
+			public const int Tabbar = 2131492947;
 			
-			// aapt resource value: 0x7F0B0054
-			public const int Toolbar = 2131427412;
+			// aapt resource value: 0x7F0C0054
+			public const int Toolbar = 2131492948;
 			
 			static Layout()
 			{
@@ -12202,20 +10608,20 @@ namespace EasyJob.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7F0C0000
-			public const int AppIcon = 2131492864;
+			// aapt resource value: 0x7F0D0000
+			public const int AppIcon = 2131558400;
 			
-			// aapt resource value: 0x7F0C0001
-			public const int AppIcon3 = 2131492865;
+			// aapt resource value: 0x7F0D0001
+			public const int AppIcon3 = 2131558401;
 			
-			// aapt resource value: 0x7F0C0002
-			public const int icon = 2131492866;
+			// aapt resource value: 0x7F0D0002
+			public const int icon = 2131558402;
 			
-			// aapt resource value: 0x7F0C0003
-			public const int icon_round = 2131492867;
+			// aapt resource value: 0x7F0D0003
+			public const int icon_round = 2131558403;
 			
-			// aapt resource value: 0x7F0C0004
-			public const int launcher_foreground = 2131492868;
+			// aapt resource value: 0x7F0D0004
+			public const int launcher_foreground = 2131558404;
 			
 			static Mipmap()
 			{
@@ -12230,293 +10636,290 @@ namespace EasyJob.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0D0000
-			public const int abc_action_bar_home_description = 2131558400;
+			// aapt resource value: 0x7F0E0000
+			public const int abc_action_bar_home_description = 2131623936;
 			
-			// aapt resource value: 0x7F0D0001
-			public const int abc_action_bar_up_description = 2131558401;
+			// aapt resource value: 0x7F0E0001
+			public const int abc_action_bar_up_description = 2131623937;
 			
-			// aapt resource value: 0x7F0D0002
-			public const int abc_action_menu_overflow_description = 2131558402;
+			// aapt resource value: 0x7F0E0002
+			public const int abc_action_menu_overflow_description = 2131623938;
 			
-			// aapt resource value: 0x7F0D0003
-			public const int abc_action_mode_done = 2131558403;
+			// aapt resource value: 0x7F0E0003
+			public const int abc_action_mode_done = 2131623939;
 			
-			// aapt resource value: 0x7F0D0005
-			public const int abc_activitychooserview_choose_application = 2131558405;
+			// aapt resource value: 0x7F0E0005
+			public const int abc_activitychooserview_choose_application = 2131623941;
 			
-			// aapt resource value: 0x7F0D0004
-			public const int abc_activity_chooser_view_see_all = 2131558404;
+			// aapt resource value: 0x7F0E0004
+			public const int abc_activity_chooser_view_see_all = 2131623940;
 			
-			// aapt resource value: 0x7F0D0006
-			public const int abc_capital_off = 2131558406;
+			// aapt resource value: 0x7F0E0006
+			public const int abc_capital_off = 2131623942;
 			
-			// aapt resource value: 0x7F0D0007
-			public const int abc_capital_on = 2131558407;
+			// aapt resource value: 0x7F0E0007
+			public const int abc_capital_on = 2131623943;
 			
-			// aapt resource value: 0x7F0D0008
-			public const int abc_font_family_body_1_material = 2131558408;
+			// aapt resource value: 0x7F0E0008
+			public const int abc_font_family_body_1_material = 2131623944;
 			
-			// aapt resource value: 0x7F0D0009
-			public const int abc_font_family_body_2_material = 2131558409;
+			// aapt resource value: 0x7F0E0009
+			public const int abc_font_family_body_2_material = 2131623945;
 			
-			// aapt resource value: 0x7F0D000A
-			public const int abc_font_family_button_material = 2131558410;
+			// aapt resource value: 0x7F0E000A
+			public const int abc_font_family_button_material = 2131623946;
 			
-			// aapt resource value: 0x7F0D000B
-			public const int abc_font_family_caption_material = 2131558411;
+			// aapt resource value: 0x7F0E000B
+			public const int abc_font_family_caption_material = 2131623947;
 			
-			// aapt resource value: 0x7F0D000C
-			public const int abc_font_family_display_1_material = 2131558412;
+			// aapt resource value: 0x7F0E000C
+			public const int abc_font_family_display_1_material = 2131623948;
 			
-			// aapt resource value: 0x7F0D000D
-			public const int abc_font_family_display_2_material = 2131558413;
+			// aapt resource value: 0x7F0E000D
+			public const int abc_font_family_display_2_material = 2131623949;
 			
-			// aapt resource value: 0x7F0D000E
-			public const int abc_font_family_display_3_material = 2131558414;
+			// aapt resource value: 0x7F0E000E
+			public const int abc_font_family_display_3_material = 2131623950;
 			
-			// aapt resource value: 0x7F0D000F
-			public const int abc_font_family_display_4_material = 2131558415;
+			// aapt resource value: 0x7F0E000F
+			public const int abc_font_family_display_4_material = 2131623951;
 			
-			// aapt resource value: 0x7F0D0010
-			public const int abc_font_family_headline_material = 2131558416;
+			// aapt resource value: 0x7F0E0010
+			public const int abc_font_family_headline_material = 2131623952;
 			
-			// aapt resource value: 0x7F0D0011
-			public const int abc_font_family_menu_material = 2131558417;
+			// aapt resource value: 0x7F0E0011
+			public const int abc_font_family_menu_material = 2131623953;
 			
-			// aapt resource value: 0x7F0D0012
-			public const int abc_font_family_subhead_material = 2131558418;
+			// aapt resource value: 0x7F0E0012
+			public const int abc_font_family_subhead_material = 2131623954;
 			
-			// aapt resource value: 0x7F0D0013
-			public const int abc_font_family_title_material = 2131558419;
+			// aapt resource value: 0x7F0E0013
+			public const int abc_font_family_title_material = 2131623955;
 			
-			// aapt resource value: 0x7F0D0014
-			public const int abc_menu_alt_shortcut_label = 2131558420;
+			// aapt resource value: 0x7F0E0014
+			public const int abc_menu_alt_shortcut_label = 2131623956;
 			
-			// aapt resource value: 0x7F0D0015
-			public const int abc_menu_ctrl_shortcut_label = 2131558421;
+			// aapt resource value: 0x7F0E0015
+			public const int abc_menu_ctrl_shortcut_label = 2131623957;
 			
-			// aapt resource value: 0x7F0D0016
-			public const int abc_menu_delete_shortcut_label = 2131558422;
+			// aapt resource value: 0x7F0E0016
+			public const int abc_menu_delete_shortcut_label = 2131623958;
 			
-			// aapt resource value: 0x7F0D0017
-			public const int abc_menu_enter_shortcut_label = 2131558423;
+			// aapt resource value: 0x7F0E0017
+			public const int abc_menu_enter_shortcut_label = 2131623959;
 			
-			// aapt resource value: 0x7F0D0018
-			public const int abc_menu_function_shortcut_label = 2131558424;
+			// aapt resource value: 0x7F0E0018
+			public const int abc_menu_function_shortcut_label = 2131623960;
 			
-			// aapt resource value: 0x7F0D0019
-			public const int abc_menu_meta_shortcut_label = 2131558425;
+			// aapt resource value: 0x7F0E0019
+			public const int abc_menu_meta_shortcut_label = 2131623961;
 			
-			// aapt resource value: 0x7F0D001A
-			public const int abc_menu_shift_shortcut_label = 2131558426;
+			// aapt resource value: 0x7F0E001A
+			public const int abc_menu_shift_shortcut_label = 2131623962;
 			
-			// aapt resource value: 0x7F0D001B
-			public const int abc_menu_space_shortcut_label = 2131558427;
+			// aapt resource value: 0x7F0E001B
+			public const int abc_menu_space_shortcut_label = 2131623963;
 			
-			// aapt resource value: 0x7F0D001C
-			public const int abc_menu_sym_shortcut_label = 2131558428;
+			// aapt resource value: 0x7F0E001C
+			public const int abc_menu_sym_shortcut_label = 2131623964;
 			
-			// aapt resource value: 0x7F0D001D
-			public const int abc_prepend_shortcut_label = 2131558429;
+			// aapt resource value: 0x7F0E001D
+			public const int abc_prepend_shortcut_label = 2131623965;
 			
-			// aapt resource value: 0x7F0D001F
-			public const int abc_searchview_description_clear = 2131558431;
+			// aapt resource value: 0x7F0E001F
+			public const int abc_searchview_description_clear = 2131623967;
 			
-			// aapt resource value: 0x7F0D0020
-			public const int abc_searchview_description_query = 2131558432;
+			// aapt resource value: 0x7F0E0020
+			public const int abc_searchview_description_query = 2131623968;
 			
-			// aapt resource value: 0x7F0D0021
-			public const int abc_searchview_description_search = 2131558433;
+			// aapt resource value: 0x7F0E0021
+			public const int abc_searchview_description_search = 2131623969;
 			
-			// aapt resource value: 0x7F0D0022
-			public const int abc_searchview_description_submit = 2131558434;
+			// aapt resource value: 0x7F0E0022
+			public const int abc_searchview_description_submit = 2131623970;
 			
-			// aapt resource value: 0x7F0D0023
-			public const int abc_searchview_description_voice = 2131558435;
+			// aapt resource value: 0x7F0E0023
+			public const int abc_searchview_description_voice = 2131623971;
 			
-			// aapt resource value: 0x7F0D001E
-			public const int abc_search_hint = 2131558430;
+			// aapt resource value: 0x7F0E001E
+			public const int abc_search_hint = 2131623966;
 			
-			// aapt resource value: 0x7F0D0024
-			public const int abc_shareactionprovider_share_with = 2131558436;
+			// aapt resource value: 0x7F0E0024
+			public const int abc_shareactionprovider_share_with = 2131623972;
 			
-			// aapt resource value: 0x7F0D0025
-			public const int abc_shareactionprovider_share_with_application = 2131558437;
+			// aapt resource value: 0x7F0E0025
+			public const int abc_shareactionprovider_share_with_application = 2131623973;
 			
-			// aapt resource value: 0x7F0D0026
-			public const int abc_toolbar_collapse_description = 2131558438;
+			// aapt resource value: 0x7F0E0026
+			public const int abc_toolbar_collapse_description = 2131623974;
 			
-			// aapt resource value: 0x7F0D0027
-			public const int appbar_scrolling_view_behavior = 2131558439;
+			// aapt resource value: 0x7F0E0027
+			public const int appbar_scrolling_view_behavior = 2131623975;
 			
-			// aapt resource value: 0x7F0D0028
-			public const int bottom_sheet_behavior = 2131558440;
+			// aapt resource value: 0x7F0E0028
+			public const int bottom_sheet_behavior = 2131623976;
 			
-			// aapt resource value: 0x7F0D0029
-			public const int character_counter_content_description = 2131558441;
+			// aapt resource value: 0x7F0E0029
+			public const int character_counter_content_description = 2131623977;
 			
-			// aapt resource value: 0x7F0D002A
-			public const int character_counter_pattern = 2131558442;
+			// aapt resource value: 0x7F0E002A
+			public const int character_counter_pattern = 2131623978;
 			
-			// aapt resource value: 0x7F0D002B
-			public const int common_google_play_services_enable_button = 2131558443;
+			// aapt resource value: 0x7F0E002B
+			public const int common_google_play_services_enable_button = 2131623979;
 			
-			// aapt resource value: 0x7F0D002C
-			public const int common_google_play_services_enable_text = 2131558444;
+			// aapt resource value: 0x7F0E002C
+			public const int common_google_play_services_enable_text = 2131623980;
 			
-			// aapt resource value: 0x7F0D002D
-			public const int common_google_play_services_enable_title = 2131558445;
+			// aapt resource value: 0x7F0E002D
+			public const int common_google_play_services_enable_title = 2131623981;
 			
-			// aapt resource value: 0x7F0D002E
-			public const int common_google_play_services_install_button = 2131558446;
+			// aapt resource value: 0x7F0E002E
+			public const int common_google_play_services_install_button = 2131623982;
 			
-			// aapt resource value: 0x7F0D002F
-			public const int common_google_play_services_install_text = 2131558447;
+			// aapt resource value: 0x7F0E002F
+			public const int common_google_play_services_install_text = 2131623983;
 			
-			// aapt resource value: 0x7F0D0030
-			public const int common_google_play_services_install_title = 2131558448;
+			// aapt resource value: 0x7F0E0030
+			public const int common_google_play_services_install_title = 2131623984;
 			
-			// aapt resource value: 0x7F0D0031
-			public const int common_google_play_services_notification_ticker = 2131558449;
+			// aapt resource value: 0x7F0E0031
+			public const int common_google_play_services_notification_ticker = 2131623985;
 			
-			// aapt resource value: 0x7F0D0032
-			public const int common_google_play_services_unknown_issue = 2131558450;
+			// aapt resource value: 0x7F0E0032
+			public const int common_google_play_services_unknown_issue = 2131623986;
 			
-			// aapt resource value: 0x7F0D0033
-			public const int common_google_play_services_unsupported_text = 2131558451;
+			// aapt resource value: 0x7F0E0033
+			public const int common_google_play_services_unsupported_text = 2131623987;
 			
-			// aapt resource value: 0x7F0D0034
-			public const int common_google_play_services_update_button = 2131558452;
+			// aapt resource value: 0x7F0E0034
+			public const int common_google_play_services_update_button = 2131623988;
 			
-			// aapt resource value: 0x7F0D0035
-			public const int common_google_play_services_update_text = 2131558453;
+			// aapt resource value: 0x7F0E0035
+			public const int common_google_play_services_update_text = 2131623989;
 			
-			// aapt resource value: 0x7F0D0036
-			public const int common_google_play_services_update_title = 2131558454;
+			// aapt resource value: 0x7F0E0036
+			public const int common_google_play_services_update_title = 2131623990;
 			
-			// aapt resource value: 0x7F0D0037
-			public const int common_google_play_services_updating_text = 2131558455;
+			// aapt resource value: 0x7F0E0037
+			public const int common_google_play_services_updating_text = 2131623991;
 			
-			// aapt resource value: 0x7F0D0038
-			public const int common_google_play_services_wear_update_text = 2131558456;
+			// aapt resource value: 0x7F0E0038
+			public const int common_google_play_services_wear_update_text = 2131623992;
 			
-			// aapt resource value: 0x7F0D0039
-			public const int common_open_on_phone = 2131558457;
+			// aapt resource value: 0x7F0E0039
+			public const int common_open_on_phone = 2131623993;
 			
-			// aapt resource value: 0x7F0D003A
-			public const int common_signin_button_text = 2131558458;
+			// aapt resource value: 0x7F0E003A
+			public const int common_signin_button_text = 2131623994;
 			
-			// aapt resource value: 0x7F0D003B
-			public const int common_signin_button_text_long = 2131558459;
+			// aapt resource value: 0x7F0E003B
+			public const int common_signin_button_text_long = 2131623995;
 			
-			// aapt resource value: 0x7F0D003C
-			public const int fab_transformation_scrim_behavior = 2131558460;
+			// aapt resource value: 0x7F0E003C
+			public const int fab_transformation_scrim_behavior = 2131623996;
 			
-			// aapt resource value: 0x7F0D003D
-			public const int fab_transformation_sheet_behavior = 2131558461;
+			// aapt resource value: 0x7F0E003D
+			public const int fab_transformation_sheet_behavior = 2131623997;
 			
-			// aapt resource value: 0x7F0D003E
-			public const int hide_bottom_view_on_scroll_behavior = 2131558462;
+			// aapt resource value: 0x7F0E003E
+			public const int hide_bottom_view_on_scroll_behavior = 2131623998;
 			
-			// aapt resource value: 0x7F0D003F
-			public const int library_name = 2131558463;
+			// aapt resource value: 0x7F0E003F
+			public const int mr_button_content_description = 2131623999;
 			
-			// aapt resource value: 0x7F0D0040
-			public const int mr_button_content_description = 2131558464;
+			// aapt resource value: 0x7F0E0040
+			public const int mr_cast_button_connected = 2131624000;
 			
-			// aapt resource value: 0x7F0D0041
-			public const int mr_cast_button_connected = 2131558465;
+			// aapt resource value: 0x7F0E0041
+			public const int mr_cast_button_connecting = 2131624001;
 			
-			// aapt resource value: 0x7F0D0042
-			public const int mr_cast_button_connecting = 2131558466;
+			// aapt resource value: 0x7F0E0042
+			public const int mr_cast_button_disconnected = 2131624002;
 			
-			// aapt resource value: 0x7F0D0043
-			public const int mr_cast_button_disconnected = 2131558467;
+			// aapt resource value: 0x7F0E0043
+			public const int mr_cast_dialog_title_view_placeholder = 2131624003;
 			
-			// aapt resource value: 0x7F0D0044
-			public const int mr_cast_dialog_title_view_placeholder = 2131558468;
+			// aapt resource value: 0x7F0E0044
+			public const int mr_chooser_searching = 2131624004;
 			
-			// aapt resource value: 0x7F0D0045
-			public const int mr_chooser_searching = 2131558469;
+			// aapt resource value: 0x7F0E0045
+			public const int mr_chooser_title = 2131624005;
 			
-			// aapt resource value: 0x7F0D0046
-			public const int mr_chooser_title = 2131558470;
+			// aapt resource value: 0x7F0E0046
+			public const int mr_controller_album_art = 2131624006;
 			
-			// aapt resource value: 0x7F0D0047
-			public const int mr_controller_album_art = 2131558471;
+			// aapt resource value: 0x7F0E0047
+			public const int mr_controller_casting_screen = 2131624007;
 			
-			// aapt resource value: 0x7F0D0048
-			public const int mr_controller_casting_screen = 2131558472;
+			// aapt resource value: 0x7F0E0048
+			public const int mr_controller_close_description = 2131624008;
 			
-			// aapt resource value: 0x7F0D0049
-			public const int mr_controller_close_description = 2131558473;
+			// aapt resource value: 0x7F0E0049
+			public const int mr_controller_collapse_group = 2131624009;
 			
-			// aapt resource value: 0x7F0D004A
-			public const int mr_controller_collapse_group = 2131558474;
+			// aapt resource value: 0x7F0E004A
+			public const int mr_controller_disconnect = 2131624010;
 			
-			// aapt resource value: 0x7F0D004B
-			public const int mr_controller_disconnect = 2131558475;
+			// aapt resource value: 0x7F0E004B
+			public const int mr_controller_expand_group = 2131624011;
 			
-			// aapt resource value: 0x7F0D004C
-			public const int mr_controller_expand_group = 2131558476;
+			// aapt resource value: 0x7F0E004C
+			public const int mr_controller_no_info_available = 2131624012;
 			
-			// aapt resource value: 0x7F0D004D
-			public const int mr_controller_no_info_available = 2131558477;
+			// aapt resource value: 0x7F0E004D
+			public const int mr_controller_no_media_selected = 2131624013;
 			
-			// aapt resource value: 0x7F0D004E
-			public const int mr_controller_no_media_selected = 2131558478;
+			// aapt resource value: 0x7F0E004E
+			public const int mr_controller_pause = 2131624014;
 			
-			// aapt resource value: 0x7F0D004F
-			public const int mr_controller_pause = 2131558479;
+			// aapt resource value: 0x7F0E004F
+			public const int mr_controller_play = 2131624015;
 			
-			// aapt resource value: 0x7F0D0050
-			public const int mr_controller_play = 2131558480;
+			// aapt resource value: 0x7F0E0050
+			public const int mr_controller_stop = 2131624016;
 			
-			// aapt resource value: 0x7F0D0051
-			public const int mr_controller_stop = 2131558481;
+			// aapt resource value: 0x7F0E0051
+			public const int mr_controller_stop_casting = 2131624017;
 			
-			// aapt resource value: 0x7F0D0052
-			public const int mr_controller_stop_casting = 2131558482;
+			// aapt resource value: 0x7F0E0052
+			public const int mr_controller_volume_slider = 2131624018;
 			
-			// aapt resource value: 0x7F0D0053
-			public const int mr_controller_volume_slider = 2131558483;
+			// aapt resource value: 0x7F0E0053
+			public const int mr_dialog_device_header = 2131624019;
 			
-			// aapt resource value: 0x7F0D0054
-			public const int mr_dialog_device_header = 2131558484;
+			// aapt resource value: 0x7F0E0054
+			public const int mr_dialog_route_header = 2131624020;
 			
-			// aapt resource value: 0x7F0D0055
-			public const int mr_dialog_route_header = 2131558485;
+			// aapt resource value: 0x7F0E0055
+			public const int mr_system_route_name = 2131624021;
 			
-			// aapt resource value: 0x7F0D0056
-			public const int mr_system_route_name = 2131558486;
+			// aapt resource value: 0x7F0E0056
+			public const int mr_user_route_category_name = 2131624022;
 			
-			// aapt resource value: 0x7F0D0057
-			public const int mr_user_route_category_name = 2131558487;
+			// aapt resource value: 0x7F0E0057
+			public const int mtrl_chip_close_icon_content_description = 2131624023;
 			
-			// aapt resource value: 0x7F0D0058
-			public const int mtrl_chip_close_icon_content_description = 2131558488;
+			// aapt resource value: 0x7F0E0058
+			public const int password_toggle_content_description = 2131624024;
 			
-			// aapt resource value: 0x7F0D0059
-			public const int password_toggle_content_description = 2131558489;
+			// aapt resource value: 0x7F0E0059
+			public const int path_password_eye = 2131624025;
 			
-			// aapt resource value: 0x7F0D005A
-			public const int path_password_eye = 2131558490;
+			// aapt resource value: 0x7F0E005A
+			public const int path_password_eye_mask_strike_through = 2131624026;
 			
-			// aapt resource value: 0x7F0D005B
-			public const int path_password_eye_mask_strike_through = 2131558491;
+			// aapt resource value: 0x7F0E005B
+			public const int path_password_eye_mask_visible = 2131624027;
 			
-			// aapt resource value: 0x7F0D005C
-			public const int path_password_eye_mask_visible = 2131558492;
+			// aapt resource value: 0x7F0E005C
+			public const int path_password_strike_through = 2131624028;
 			
-			// aapt resource value: 0x7F0D005D
-			public const int path_password_strike_through = 2131558493;
+			// aapt resource value: 0x7F0E005D
+			public const int search_menu_title = 2131624029;
 			
-			// aapt resource value: 0x7F0D005E
-			public const int search_menu_title = 2131558494;
-			
-			// aapt resource value: 0x7F0D005F
-			public const int status_bar_notification_info_overflow = 2131558495;
+			// aapt resource value: 0x7F0E005E
+			public const int status_bar_notification_info_overflow = 2131624030;
 			
 			static String()
 			{
@@ -12531,1550 +10934,1556 @@ namespace EasyJob.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int AlertDialog_AppCompat = 2131623936;
+			// aapt resource value: 0x7F0F0000
+			public const int AlertDialog_AppCompat = 2131689472;
 			
-			// aapt resource value: 0x7F0E0001
-			public const int AlertDialog_AppCompat_Light = 2131623937;
+			// aapt resource value: 0x7F0F0001
+			public const int AlertDialog_AppCompat_Light = 2131689473;
 			
-			// aapt resource value: 0x7F0E0002
-			public const int Animation_AppCompat_Dialog = 2131623938;
+			// aapt resource value: 0x7F0F0002
+			public const int Animation_AppCompat_Dialog = 2131689474;
 			
-			// aapt resource value: 0x7F0E0003
-			public const int Animation_AppCompat_DropDownUp = 2131623939;
+			// aapt resource value: 0x7F0F0003
+			public const int Animation_AppCompat_DropDownUp = 2131689475;
 			
-			// aapt resource value: 0x7F0E0004
-			public const int Animation_AppCompat_Tooltip = 2131623940;
+			// aapt resource value: 0x7F0F0004
+			public const int Animation_AppCompat_Tooltip = 2131689476;
 			
-			// aapt resource value: 0x7F0E0005
-			public const int Animation_Design_BottomSheetDialog = 2131623941;
+			// aapt resource value: 0x7F0F0005
+			public const int Animation_Design_BottomSheetDialog = 2131689477;
 			
-			// aapt resource value: 0x7F0E0006
-			public const int AppCompatDialogStyle = 2131623942;
+			// aapt resource value: 0x7F0F0006
+			public const int AppCompatDialogStyle = 2131689478;
 			
-			// aapt resource value: 0x7F0E0007
-			public const int Base_AlertDialog_AppCompat = 2131623943;
+			// aapt resource value: 0x7F0F0007
+			public const int Base_AlertDialog_AppCompat = 2131689479;
 			
-			// aapt resource value: 0x7F0E0008
-			public const int Base_AlertDialog_AppCompat_Light = 2131623944;
+			// aapt resource value: 0x7F0F0008
+			public const int Base_AlertDialog_AppCompat_Light = 2131689480;
 			
-			// aapt resource value: 0x7F0E0009
-			public const int Base_Animation_AppCompat_Dialog = 2131623945;
+			// aapt resource value: 0x7F0F0009
+			public const int Base_Animation_AppCompat_Dialog = 2131689481;
 			
-			// aapt resource value: 0x7F0E000A
-			public const int Base_Animation_AppCompat_DropDownUp = 2131623946;
+			// aapt resource value: 0x7F0F000A
+			public const int Base_Animation_AppCompat_DropDownUp = 2131689482;
 			
-			// aapt resource value: 0x7F0E000B
-			public const int Base_Animation_AppCompat_Tooltip = 2131623947;
+			// aapt resource value: 0x7F0F000B
+			public const int Base_Animation_AppCompat_Tooltip = 2131689483;
 			
-			// aapt resource value: 0x7F0E000C
-			public const int Base_CardView = 2131623948;
+			// aapt resource value: 0x7F0F000C
+			public const int Base_CardView = 2131689484;
 			
-			// aapt resource value: 0x7F0E000E
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623950;
+			// aapt resource value: 0x7F0F000E
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131689486;
 			
-			// aapt resource value: 0x7F0E000D
-			public const int Base_DialogWindowTitle_AppCompat = 2131623949;
+			// aapt resource value: 0x7F0F000D
+			public const int Base_DialogWindowTitle_AppCompat = 2131689485;
 			
-			// aapt resource value: 0x7F0E000F
-			public const int Base_TextAppearance_AppCompat = 2131623951;
+			// aapt resource value: 0x7F0F000F
+			public const int Base_TextAppearance_AppCompat = 2131689487;
 			
-			// aapt resource value: 0x7F0E0010
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131623952;
+			// aapt resource value: 0x7F0F0010
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131689488;
 			
-			// aapt resource value: 0x7F0E0011
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131623953;
+			// aapt resource value: 0x7F0F0011
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131689489;
 			
-			// aapt resource value: 0x7F0E0012
-			public const int Base_TextAppearance_AppCompat_Button = 2131623954;
+			// aapt resource value: 0x7F0F0012
+			public const int Base_TextAppearance_AppCompat_Button = 2131689490;
 			
-			// aapt resource value: 0x7F0E0013
-			public const int Base_TextAppearance_AppCompat_Caption = 2131623955;
+			// aapt resource value: 0x7F0F0013
+			public const int Base_TextAppearance_AppCompat_Caption = 2131689491;
 			
-			// aapt resource value: 0x7F0E0014
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131623956;
+			// aapt resource value: 0x7F0F0014
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131689492;
 			
-			// aapt resource value: 0x7F0E0015
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131623957;
+			// aapt resource value: 0x7F0F0015
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131689493;
 			
-			// aapt resource value: 0x7F0E0016
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131623958;
+			// aapt resource value: 0x7F0F0016
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131689494;
 			
-			// aapt resource value: 0x7F0E0017
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131623959;
+			// aapt resource value: 0x7F0F0017
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131689495;
 			
-			// aapt resource value: 0x7F0E0018
-			public const int Base_TextAppearance_AppCompat_Headline = 2131623960;
+			// aapt resource value: 0x7F0F0018
+			public const int Base_TextAppearance_AppCompat_Headline = 2131689496;
 			
-			// aapt resource value: 0x7F0E0019
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131623961;
+			// aapt resource value: 0x7F0F0019
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131689497;
 			
-			// aapt resource value: 0x7F0E001A
-			public const int Base_TextAppearance_AppCompat_Large = 2131623962;
+			// aapt resource value: 0x7F0F001A
+			public const int Base_TextAppearance_AppCompat_Large = 2131689498;
 			
-			// aapt resource value: 0x7F0E001B
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131623963;
+			// aapt resource value: 0x7F0F001B
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131689499;
 			
-			// aapt resource value: 0x7F0E001C
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131623964;
+			// aapt resource value: 0x7F0F001C
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689500;
 			
-			// aapt resource value: 0x7F0E001D
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131623965;
+			// aapt resource value: 0x7F0F001D
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689501;
 			
-			// aapt resource value: 0x7F0E001E
-			public const int Base_TextAppearance_AppCompat_Medium = 2131623966;
+			// aapt resource value: 0x7F0F001E
+			public const int Base_TextAppearance_AppCompat_Medium = 2131689502;
 			
-			// aapt resource value: 0x7F0E001F
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131623967;
+			// aapt resource value: 0x7F0F001F
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131689503;
 			
-			// aapt resource value: 0x7F0E0020
-			public const int Base_TextAppearance_AppCompat_Menu = 2131623968;
+			// aapt resource value: 0x7F0F0020
+			public const int Base_TextAppearance_AppCompat_Menu = 2131689504;
 			
-			// aapt resource value: 0x7F0E0021
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131623969;
+			// aapt resource value: 0x7F0F0021
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131689505;
 			
-			// aapt resource value: 0x7F0E0022
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131623970;
+			// aapt resource value: 0x7F0F0022
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131689506;
 			
-			// aapt resource value: 0x7F0E0023
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131623971;
+			// aapt resource value: 0x7F0F0023
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131689507;
 			
-			// aapt resource value: 0x7F0E0024
-			public const int Base_TextAppearance_AppCompat_Small = 2131623972;
+			// aapt resource value: 0x7F0F0024
+			public const int Base_TextAppearance_AppCompat_Small = 2131689508;
 			
-			// aapt resource value: 0x7F0E0025
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131623973;
+			// aapt resource value: 0x7F0F0025
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131689509;
 			
-			// aapt resource value: 0x7F0E0026
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131623974;
+			// aapt resource value: 0x7F0F0026
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131689510;
 			
-			// aapt resource value: 0x7F0E0027
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131623975;
+			// aapt resource value: 0x7F0F0027
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131689511;
 			
-			// aapt resource value: 0x7F0E0028
-			public const int Base_TextAppearance_AppCompat_Title = 2131623976;
+			// aapt resource value: 0x7F0F0028
+			public const int Base_TextAppearance_AppCompat_Title = 2131689512;
 			
-			// aapt resource value: 0x7F0E0029
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131623977;
+			// aapt resource value: 0x7F0F0029
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131689513;
 			
-			// aapt resource value: 0x7F0E002A
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131623978;
+			// aapt resource value: 0x7F0F002A
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131689514;
 			
-			// aapt resource value: 0x7F0E002B
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131623979;
+			// aapt resource value: 0x7F0F002B
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689515;
 			
-			// aapt resource value: 0x7F0E002C
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131623980;
+			// aapt resource value: 0x7F0F002C
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689516;
 			
-			// aapt resource value: 0x7F0E002D
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131623981;
+			// aapt resource value: 0x7F0F002D
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689517;
 			
-			// aapt resource value: 0x7F0E002E
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131623982;
+			// aapt resource value: 0x7F0F002E
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689518;
 			
-			// aapt resource value: 0x7F0E002F
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131623983;
+			// aapt resource value: 0x7F0F002F
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689519;
 			
-			// aapt resource value: 0x7F0E0030
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131623984;
+			// aapt resource value: 0x7F0F0030
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689520;
 			
-			// aapt resource value: 0x7F0E0031
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131623985;
+			// aapt resource value: 0x7F0F0031
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689521;
 			
-			// aapt resource value: 0x7F0E0032
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131623986;
+			// aapt resource value: 0x7F0F0032
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131689522;
 			
-			// aapt resource value: 0x7F0E0033
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131623987;
+			// aapt resource value: 0x7F0F0033
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689523;
 			
-			// aapt resource value: 0x7F0E0034
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131623988;
+			// aapt resource value: 0x7F0F0034
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131689524;
 			
-			// aapt resource value: 0x7F0E0035
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131623989;
+			// aapt resource value: 0x7F0F0035
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131689525;
 			
-			// aapt resource value: 0x7F0E0036
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131623990;
+			// aapt resource value: 0x7F0F0036
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131689526;
 			
-			// aapt resource value: 0x7F0E0037
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131623991;
+			// aapt resource value: 0x7F0F0037
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689527;
 			
-			// aapt resource value: 0x7F0E0038
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131623992;
+			// aapt resource value: 0x7F0F0038
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689528;
 			
-			// aapt resource value: 0x7F0E0039
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131623993;
+			// aapt resource value: 0x7F0F0039
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689529;
 			
-			// aapt resource value: 0x7F0E003A
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131623994;
+			// aapt resource value: 0x7F0F003A
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131689530;
 			
-			// aapt resource value: 0x7F0E003B
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131623995;
+			// aapt resource value: 0x7F0F003B
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689531;
 			
-			// aapt resource value: 0x7F0E003C
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131623996;
+			// aapt resource value: 0x7F0F003C
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689532;
 			
-			// aapt resource value: 0x7F0E003D
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131623997;
+			// aapt resource value: 0x7F0F003D
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689533;
 			
-			// aapt resource value: 0x7F0E003E
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131623998;
+			// aapt resource value: 0x7F0F003E
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689534;
 			
-			// aapt resource value: 0x7F0E005E
-			public const int Base_ThemeOverlay_AppCompat = 2131624030;
+			// aapt resource value: 0x7F0F005E
+			public const int Base_ThemeOverlay_AppCompat = 2131689566;
 			
-			// aapt resource value: 0x7F0E005F
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624031;
+			// aapt resource value: 0x7F0F005F
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131689567;
 			
-			// aapt resource value: 0x7F0E0060
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624032;
+			// aapt resource value: 0x7F0F0060
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131689568;
 			
-			// aapt resource value: 0x7F0E0061
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624033;
+			// aapt resource value: 0x7F0F0061
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131689569;
 			
-			// aapt resource value: 0x7F0E0062
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624034;
+			// aapt resource value: 0x7F0F0062
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131689570;
 			
-			// aapt resource value: 0x7F0E0063
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624035;
+			// aapt resource value: 0x7F0F0063
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131689571;
 			
-			// aapt resource value: 0x7F0E0064
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131624036;
+			// aapt resource value: 0x7F0F0064
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131689572;
 			
-			// aapt resource value: 0x7F0E0065
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624037;
+			// aapt resource value: 0x7F0F0065
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131689573;
 			
-			// aapt resource value: 0x7F0E0066
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624038;
+			// aapt resource value: 0x7F0F0066
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689574;
 			
-			// aapt resource value: 0x7F0E003F
-			public const int Base_Theme_AppCompat = 2131623999;
+			// aapt resource value: 0x7F0F003F
+			public const int Base_Theme_AppCompat = 2131689535;
 			
-			// aapt resource value: 0x7F0E0040
-			public const int Base_Theme_AppCompat_CompactMenu = 2131624000;
+			// aapt resource value: 0x7F0F0040
+			public const int Base_Theme_AppCompat_CompactMenu = 2131689536;
 			
-			// aapt resource value: 0x7F0E0041
-			public const int Base_Theme_AppCompat_Dialog = 2131624001;
+			// aapt resource value: 0x7F0F0041
+			public const int Base_Theme_AppCompat_Dialog = 2131689537;
 			
-			// aapt resource value: 0x7F0E0045
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624005;
+			// aapt resource value: 0x7F0F0045
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131689541;
 			
-			// aapt resource value: 0x7F0E0042
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624002;
+			// aapt resource value: 0x7F0F0042
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131689538;
 			
-			// aapt resource value: 0x7F0E0043
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624003;
+			// aapt resource value: 0x7F0F0043
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131689539;
 			
-			// aapt resource value: 0x7F0E0044
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624004;
+			// aapt resource value: 0x7F0F0044
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131689540;
 			
-			// aapt resource value: 0x7F0E0046
-			public const int Base_Theme_AppCompat_Light = 2131624006;
+			// aapt resource value: 0x7F0F0046
+			public const int Base_Theme_AppCompat_Light = 2131689542;
 			
-			// aapt resource value: 0x7F0E0047
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624007;
+			// aapt resource value: 0x7F0F0047
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131689543;
 			
-			// aapt resource value: 0x7F0E0048
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131624008;
+			// aapt resource value: 0x7F0F0048
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131689544;
 			
-			// aapt resource value: 0x7F0E004C
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624012;
+			// aapt resource value: 0x7F0F004C
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131689548;
 			
-			// aapt resource value: 0x7F0E0049
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624009;
+			// aapt resource value: 0x7F0F0049
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131689545;
 			
-			// aapt resource value: 0x7F0E004A
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624010;
+			// aapt resource value: 0x7F0F004A
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131689546;
 			
-			// aapt resource value: 0x7F0E004B
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624011;
+			// aapt resource value: 0x7F0F004B
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131689547;
 			
-			// aapt resource value: 0x7F0E004D
-			public const int Base_Theme_MaterialComponents = 2131624013;
+			// aapt resource value: 0x7F0F004D
+			public const int Base_Theme_MaterialComponents = 2131689549;
 			
-			// aapt resource value: 0x7F0E004E
-			public const int Base_Theme_MaterialComponents_Bridge = 2131624014;
+			// aapt resource value: 0x7F0F004E
+			public const int Base_Theme_MaterialComponents_Bridge = 2131689550;
 			
-			// aapt resource value: 0x7F0E004F
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624015;
+			// aapt resource value: 0x7F0F004F
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131689551;
 			
-			// aapt resource value: 0x7F0E0050
-			public const int Base_Theme_MaterialComponents_Dialog = 2131624016;
+			// aapt resource value: 0x7F0F0050
+			public const int Base_Theme_MaterialComponents_Dialog = 2131689552;
 			
-			// aapt resource value: 0x7F0E0054
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624020;
+			// aapt resource value: 0x7F0F0054
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131689556;
 			
-			// aapt resource value: 0x7F0E0051
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624017;
+			// aapt resource value: 0x7F0F0051
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131689553;
 			
-			// aapt resource value: 0x7F0E0052
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624018;
+			// aapt resource value: 0x7F0F0052
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131689554;
 			
-			// aapt resource value: 0x7F0E0053
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624019;
+			// aapt resource value: 0x7F0F0053
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131689555;
 			
-			// aapt resource value: 0x7F0E0055
-			public const int Base_Theme_MaterialComponents_Light = 2131624021;
+			// aapt resource value: 0x7F0F0055
+			public const int Base_Theme_MaterialComponents_Light = 2131689557;
 			
-			// aapt resource value: 0x7F0E0056
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624022;
+			// aapt resource value: 0x7F0F0056
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131689558;
 			
-			// aapt resource value: 0x7F0E0057
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624023;
+			// aapt resource value: 0x7F0F0057
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131689559;
 			
-			// aapt resource value: 0x7F0E0058
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624024;
+			// aapt resource value: 0x7F0F0058
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689560;
 			
-			// aapt resource value: 0x7F0E0059
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624025;
+			// aapt resource value: 0x7F0F0059
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131689561;
 			
-			// aapt resource value: 0x7F0E005D
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624029;
+			// aapt resource value: 0x7F0F005D
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131689565;
 			
-			// aapt resource value: 0x7F0E005A
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624026;
+			// aapt resource value: 0x7F0F005A
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131689562;
 			
-			// aapt resource value: 0x7F0E005B
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624027;
+			// aapt resource value: 0x7F0F005B
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689563;
 			
-			// aapt resource value: 0x7F0E005C
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624028;
+			// aapt resource value: 0x7F0F005C
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689564;
 			
-			// aapt resource value: 0x7F0E006E
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624046;
+			// aapt resource value: 0x7F0F006E
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131689582;
 			
-			// aapt resource value: 0x7F0E006F
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624047;
+			// aapt resource value: 0x7F0F006F
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689583;
 			
-			// aapt resource value: 0x7F0E0067
-			public const int Base_V14_Theme_MaterialComponents = 2131624039;
+			// aapt resource value: 0x7F0F0067
+			public const int Base_V14_Theme_MaterialComponents = 2131689575;
 			
-			// aapt resource value: 0x7F0E0068
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624040;
+			// aapt resource value: 0x7F0F0068
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131689576;
 			
-			// aapt resource value: 0x7F0E0069
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624041;
+			// aapt resource value: 0x7F0F0069
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131689577;
 			
-			// aapt resource value: 0x7F0E006A
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131624042;
+			// aapt resource value: 0x7F0F006A
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131689578;
 			
-			// aapt resource value: 0x7F0E006B
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624043;
+			// aapt resource value: 0x7F0F006B
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131689579;
 			
-			// aapt resource value: 0x7F0E006C
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624044;
+			// aapt resource value: 0x7F0F006C
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689580;
 			
-			// aapt resource value: 0x7F0E006D
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624045;
+			// aapt resource value: 0x7F0F006D
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131689581;
 			
-			// aapt resource value: 0x7F0E0074
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624052;
+			// aapt resource value: 0x7F0F0074
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131689588;
 			
-			// aapt resource value: 0x7F0E0070
-			public const int Base_V21_Theme_AppCompat = 2131624048;
+			// aapt resource value: 0x7F0F0070
+			public const int Base_V21_Theme_AppCompat = 2131689584;
 			
-			// aapt resource value: 0x7F0E0071
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131624049;
+			// aapt resource value: 0x7F0F0071
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131689585;
 			
-			// aapt resource value: 0x7F0E0072
-			public const int Base_V21_Theme_AppCompat_Light = 2131624050;
+			// aapt resource value: 0x7F0F0072
+			public const int Base_V21_Theme_AppCompat_Light = 2131689586;
 			
-			// aapt resource value: 0x7F0E0073
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624051;
+			// aapt resource value: 0x7F0F0073
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131689587;
 			
-			// aapt resource value: 0x7F0E0075
-			public const int Base_V22_Theme_AppCompat = 2131624053;
+			// aapt resource value: 0x7F0F0075
+			public const int Base_V22_Theme_AppCompat = 2131689589;
 			
-			// aapt resource value: 0x7F0E0076
-			public const int Base_V22_Theme_AppCompat_Light = 2131624054;
+			// aapt resource value: 0x7F0F0076
+			public const int Base_V22_Theme_AppCompat_Light = 2131689590;
 			
-			// aapt resource value: 0x7F0E0077
-			public const int Base_V23_Theme_AppCompat = 2131624055;
+			// aapt resource value: 0x7F0F0077
+			public const int Base_V23_Theme_AppCompat = 2131689591;
 			
-			// aapt resource value: 0x7F0E0078
-			public const int Base_V23_Theme_AppCompat_Light = 2131624056;
+			// aapt resource value: 0x7F0F0078
+			public const int Base_V23_Theme_AppCompat_Light = 2131689592;
 			
-			// aapt resource value: 0x7F0E0079
-			public const int Base_V26_Theme_AppCompat = 2131624057;
+			// aapt resource value: 0x7F0F0079
+			public const int Base_V26_Theme_AppCompat = 2131689593;
 			
-			// aapt resource value: 0x7F0E007A
-			public const int Base_V26_Theme_AppCompat_Light = 2131624058;
+			// aapt resource value: 0x7F0F007A
+			public const int Base_V26_Theme_AppCompat_Light = 2131689594;
 			
-			// aapt resource value: 0x7F0E007B
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131624059;
+			// aapt resource value: 0x7F0F007B
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131689595;
 			
-			// aapt resource value: 0x7F0E007C
-			public const int Base_V28_Theme_AppCompat = 2131624060;
+			// aapt resource value: 0x7F0F007C
+			public const int Base_V28_Theme_AppCompat = 2131689596;
 			
-			// aapt resource value: 0x7F0E007D
-			public const int Base_V28_Theme_AppCompat_Light = 2131624061;
+			// aapt resource value: 0x7F0F007D
+			public const int Base_V28_Theme_AppCompat_Light = 2131689597;
 			
-			// aapt resource value: 0x7F0E0082
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624066;
+			// aapt resource value: 0x7F0F0082
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131689602;
 			
-			// aapt resource value: 0x7F0E007E
-			public const int Base_V7_Theme_AppCompat = 2131624062;
+			// aapt resource value: 0x7F0F007E
+			public const int Base_V7_Theme_AppCompat = 2131689598;
 			
-			// aapt resource value: 0x7F0E007F
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131624063;
+			// aapt resource value: 0x7F0F007F
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131689599;
 			
-			// aapt resource value: 0x7F0E0080
-			public const int Base_V7_Theme_AppCompat_Light = 2131624064;
+			// aapt resource value: 0x7F0F0080
+			public const int Base_V7_Theme_AppCompat_Light = 2131689600;
 			
-			// aapt resource value: 0x7F0E0081
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624065;
+			// aapt resource value: 0x7F0F0081
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131689601;
 			
-			// aapt resource value: 0x7F0E0083
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131624067;
+			// aapt resource value: 0x7F0F0083
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131689603;
 			
-			// aapt resource value: 0x7F0E0084
-			public const int Base_V7_Widget_AppCompat_EditText = 2131624068;
+			// aapt resource value: 0x7F0F0084
+			public const int Base_V7_Widget_AppCompat_EditText = 2131689604;
 			
-			// aapt resource value: 0x7F0E0085
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131624069;
+			// aapt resource value: 0x7F0F0085
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131689605;
 			
-			// aapt resource value: 0x7F0E0086
-			public const int Base_Widget_AppCompat_ActionBar = 2131624070;
+			// aapt resource value: 0x7F0F0086
+			public const int Base_Widget_AppCompat_ActionBar = 2131689606;
 			
-			// aapt resource value: 0x7F0E0087
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131624071;
+			// aapt resource value: 0x7F0F0087
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131689607;
 			
-			// aapt resource value: 0x7F0E0088
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131624072;
+			// aapt resource value: 0x7F0F0088
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131689608;
 			
-			// aapt resource value: 0x7F0E0089
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131624073;
+			// aapt resource value: 0x7F0F0089
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131689609;
 			
-			// aapt resource value: 0x7F0E008A
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131624074;
+			// aapt resource value: 0x7F0F008A
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131689610;
 			
-			// aapt resource value: 0x7F0E008B
-			public const int Base_Widget_AppCompat_ActionButton = 2131624075;
+			// aapt resource value: 0x7F0F008B
+			public const int Base_Widget_AppCompat_ActionButton = 2131689611;
 			
-			// aapt resource value: 0x7F0E008C
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131624076;
+			// aapt resource value: 0x7F0F008C
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131689612;
 			
-			// aapt resource value: 0x7F0E008D
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131624077;
+			// aapt resource value: 0x7F0F008D
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131689613;
 			
-			// aapt resource value: 0x7F0E008E
-			public const int Base_Widget_AppCompat_ActionMode = 2131624078;
+			// aapt resource value: 0x7F0F008E
+			public const int Base_Widget_AppCompat_ActionMode = 2131689614;
 			
-			// aapt resource value: 0x7F0E008F
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131624079;
+			// aapt resource value: 0x7F0F008F
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131689615;
 			
-			// aapt resource value: 0x7F0E0090
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131624080;
+			// aapt resource value: 0x7F0F0090
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131689616;
 			
-			// aapt resource value: 0x7F0E0091
-			public const int Base_Widget_AppCompat_Button = 2131624081;
+			// aapt resource value: 0x7F0F0091
+			public const int Base_Widget_AppCompat_Button = 2131689617;
 			
-			// aapt resource value: 0x7F0E0097
-			public const int Base_Widget_AppCompat_ButtonBar = 2131624087;
+			// aapt resource value: 0x7F0F0097
+			public const int Base_Widget_AppCompat_ButtonBar = 2131689623;
 			
-			// aapt resource value: 0x7F0E0098
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624088;
+			// aapt resource value: 0x7F0F0098
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131689624;
 			
-			// aapt resource value: 0x7F0E0092
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131624082;
+			// aapt resource value: 0x7F0F0092
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131689618;
 			
-			// aapt resource value: 0x7F0E0093
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624083;
+			// aapt resource value: 0x7F0F0093
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131689619;
 			
-			// aapt resource value: 0x7F0E0094
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624084;
+			// aapt resource value: 0x7F0F0094
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689620;
 			
-			// aapt resource value: 0x7F0E0095
-			public const int Base_Widget_AppCompat_Button_Colored = 2131624085;
+			// aapt resource value: 0x7F0F0095
+			public const int Base_Widget_AppCompat_Button_Colored = 2131689621;
 			
-			// aapt resource value: 0x7F0E0096
-			public const int Base_Widget_AppCompat_Button_Small = 2131624086;
+			// aapt resource value: 0x7F0F0096
+			public const int Base_Widget_AppCompat_Button_Small = 2131689622;
 			
-			// aapt resource value: 0x7F0E0099
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131624089;
+			// aapt resource value: 0x7F0F0099
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131689625;
 			
-			// aapt resource value: 0x7F0E009A
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131624090;
+			// aapt resource value: 0x7F0F009A
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131689626;
 			
-			// aapt resource value: 0x7F0E009B
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131624091;
+			// aapt resource value: 0x7F0F009B
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131689627;
 			
-			// aapt resource value: 0x7F0E009C
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131624092;
+			// aapt resource value: 0x7F0F009C
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131689628;
 			
-			// aapt resource value: 0x7F0E009D
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131624093;
+			// aapt resource value: 0x7F0F009D
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131689629;
 			
-			// aapt resource value: 0x7F0E009E
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131624094;
+			// aapt resource value: 0x7F0F009E
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131689630;
 			
-			// aapt resource value: 0x7F0E009F
-			public const int Base_Widget_AppCompat_EditText = 2131624095;
+			// aapt resource value: 0x7F0F009F
+			public const int Base_Widget_AppCompat_EditText = 2131689631;
 			
-			// aapt resource value: 0x7F0E00A0
-			public const int Base_Widget_AppCompat_ImageButton = 2131624096;
+			// aapt resource value: 0x7F0F00A0
+			public const int Base_Widget_AppCompat_ImageButton = 2131689632;
 			
-			// aapt resource value: 0x7F0E00A1
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131624097;
+			// aapt resource value: 0x7F0F00A1
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131689633;
 			
-			// aapt resource value: 0x7F0E00A2
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131624098;
+			// aapt resource value: 0x7F0F00A2
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131689634;
 			
-			// aapt resource value: 0x7F0E00A3
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131624099;
+			// aapt resource value: 0x7F0F00A3
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131689635;
 			
-			// aapt resource value: 0x7F0E00A4
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131624100;
+			// aapt resource value: 0x7F0F00A4
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131689636;
 			
-			// aapt resource value: 0x7F0E00A5
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624101;
+			// aapt resource value: 0x7F0F00A5
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689637;
 			
-			// aapt resource value: 0x7F0E00A6
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131624102;
+			// aapt resource value: 0x7F0F00A6
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131689638;
 			
-			// aapt resource value: 0x7F0E00A7
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131624103;
+			// aapt resource value: 0x7F0F00A7
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131689639;
 			
-			// aapt resource value: 0x7F0E00A8
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131624104;
+			// aapt resource value: 0x7F0F00A8
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131689640;
 			
-			// aapt resource value: 0x7F0E00A9
-			public const int Base_Widget_AppCompat_ListMenuView = 2131624105;
+			// aapt resource value: 0x7F0F00A9
+			public const int Base_Widget_AppCompat_ListMenuView = 2131689641;
 			
-			// aapt resource value: 0x7F0E00AA
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131624106;
+			// aapt resource value: 0x7F0F00AA
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131689642;
 			
-			// aapt resource value: 0x7F0E00AB
-			public const int Base_Widget_AppCompat_ListView = 2131624107;
+			// aapt resource value: 0x7F0F00AB
+			public const int Base_Widget_AppCompat_ListView = 2131689643;
 			
-			// aapt resource value: 0x7F0E00AC
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131624108;
+			// aapt resource value: 0x7F0F00AC
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131689644;
 			
-			// aapt resource value: 0x7F0E00AD
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131624109;
+			// aapt resource value: 0x7F0F00AD
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131689645;
 			
-			// aapt resource value: 0x7F0E00AE
-			public const int Base_Widget_AppCompat_PopupMenu = 2131624110;
+			// aapt resource value: 0x7F0F00AE
+			public const int Base_Widget_AppCompat_PopupMenu = 2131689646;
 			
-			// aapt resource value: 0x7F0E00AF
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131624111;
+			// aapt resource value: 0x7F0F00AF
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131689647;
 			
-			// aapt resource value: 0x7F0E00B0
-			public const int Base_Widget_AppCompat_PopupWindow = 2131624112;
+			// aapt resource value: 0x7F0F00B0
+			public const int Base_Widget_AppCompat_PopupWindow = 2131689648;
 			
-			// aapt resource value: 0x7F0E00B1
-			public const int Base_Widget_AppCompat_ProgressBar = 2131624113;
+			// aapt resource value: 0x7F0F00B1
+			public const int Base_Widget_AppCompat_ProgressBar = 2131689649;
 			
-			// aapt resource value: 0x7F0E00B2
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131624114;
+			// aapt resource value: 0x7F0F00B2
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131689650;
 			
-			// aapt resource value: 0x7F0E00B3
-			public const int Base_Widget_AppCompat_RatingBar = 2131624115;
+			// aapt resource value: 0x7F0F00B3
+			public const int Base_Widget_AppCompat_RatingBar = 2131689651;
 			
-			// aapt resource value: 0x7F0E00B4
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131624116;
+			// aapt resource value: 0x7F0F00B4
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131689652;
 			
-			// aapt resource value: 0x7F0E00B5
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131624117;
+			// aapt resource value: 0x7F0F00B5
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131689653;
 			
-			// aapt resource value: 0x7F0E00B6
-			public const int Base_Widget_AppCompat_SearchView = 2131624118;
+			// aapt resource value: 0x7F0F00B6
+			public const int Base_Widget_AppCompat_SearchView = 2131689654;
 			
-			// aapt resource value: 0x7F0E00B7
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131624119;
+			// aapt resource value: 0x7F0F00B7
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131689655;
 			
-			// aapt resource value: 0x7F0E00B8
-			public const int Base_Widget_AppCompat_SeekBar = 2131624120;
+			// aapt resource value: 0x7F0F00B8
+			public const int Base_Widget_AppCompat_SeekBar = 2131689656;
 			
-			// aapt resource value: 0x7F0E00B9
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131624121;
+			// aapt resource value: 0x7F0F00B9
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131689657;
 			
-			// aapt resource value: 0x7F0E00BA
-			public const int Base_Widget_AppCompat_Spinner = 2131624122;
+			// aapt resource value: 0x7F0F00BA
+			public const int Base_Widget_AppCompat_Spinner = 2131689658;
 			
-			// aapt resource value: 0x7F0E00BB
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131624123;
+			// aapt resource value: 0x7F0F00BB
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131689659;
 			
-			// aapt resource value: 0x7F0E00BC
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131624124;
+			// aapt resource value: 0x7F0F00BC
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131689660;
 			
-			// aapt resource value: 0x7F0E00BD
-			public const int Base_Widget_AppCompat_Toolbar = 2131624125;
+			// aapt resource value: 0x7F0F00BD
+			public const int Base_Widget_AppCompat_Toolbar = 2131689661;
 			
-			// aapt resource value: 0x7F0E00BE
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131624126;
+			// aapt resource value: 0x7F0F00BE
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131689662;
 			
-			// aapt resource value: 0x7F0E00BF
-			public const int Base_Widget_Design_TabLayout = 2131624127;
+			// aapt resource value: 0x7F0F00BF
+			public const int Base_Widget_Design_TabLayout = 2131689663;
 			
-			// aapt resource value: 0x7F0E00C0
-			public const int Base_Widget_MaterialComponents_Chip = 2131624128;
+			// aapt resource value: 0x7F0F00C0
+			public const int Base_Widget_MaterialComponents_Chip = 2131689664;
 			
-			// aapt resource value: 0x7F0E00C1
-			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131624129;
+			// aapt resource value: 0x7F0F00C1
+			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131689665;
 			
-			// aapt resource value: 0x7F0E00C2
-			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131624130;
+			// aapt resource value: 0x7F0F00C2
+			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131689666;
 			
-			// aapt resource value: 0x7F0E00C3
-			public const int CardView = 2131624131;
+			// aapt resource value: 0x7F0F00C3
+			public const int CardView = 2131689667;
 			
-			// aapt resource value: 0x7F0E00C4
-			public const int CardView_Dark = 2131624132;
+			// aapt resource value: 0x7F0F00C4
+			public const int CardView_Dark = 2131689668;
 			
-			// aapt resource value: 0x7F0E00C5
-			public const int CardView_Light = 2131624133;
+			// aapt resource value: 0x7F0F00C5
+			public const int CardView_Light = 2131689669;
 			
-			// aapt resource value: 0x7F0E0202
-			public const int collectionViewStyle = 2131624450;
+			// aapt resource value: 0x7F0F0204
+			public const int collectionViewStyle = 2131689988;
 			
-			// aapt resource value: 0x7F0E00C6
-			public const int MainTheme = 2131624134;
+			// aapt resource value: 0x7F0F00C6
+			public const int MainTheme = 2131689670;
 			
-			// aapt resource value: 0x7F0E00C7
-			public const int MainTheme_Base = 2131624135;
+			// aapt resource value: 0x7F0F00C7
+			public const int MainTheme_Base = 2131689671;
 			
-			// aapt resource value: 0x7F0E00C8
-			public const int Platform_AppCompat = 2131624136;
+			// aapt resource value: 0x7F0F00C8
+			public const int MyTabLayout = 2131689672;
 			
-			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat_Light = 2131624137;
+			// aapt resource value: 0x7F0F00C9
+			public const int MyTabTextAppearance = 2131689673;
 			
-			// aapt resource value: 0x7F0E00CA
-			public const int Platform_MaterialComponents = 2131624138;
+			// aapt resource value: 0x7F0F00CA
+			public const int Platform_AppCompat = 2131689674;
 			
-			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents_Dialog = 2131624139;
+			// aapt resource value: 0x7F0F00CB
+			public const int Platform_AppCompat_Light = 2131689675;
 			
-			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Light = 2131624140;
+			// aapt resource value: 0x7F0F00CC
+			public const int Platform_MaterialComponents = 2131689676;
 			
-			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
+			// aapt resource value: 0x7F0F00CD
+			public const int Platform_MaterialComponents_Dialog = 2131689677;
 			
-			// aapt resource value: 0x7F0E00CE
-			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
+			// aapt resource value: 0x7F0F00CE
+			public const int Platform_MaterialComponents_Light = 2131689678;
 			
-			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
+			// aapt resource value: 0x7F0F00CF
+			public const int Platform_MaterialComponents_Light_Dialog = 2131689679;
 			
-			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
+			// aapt resource value: 0x7F0F00D0
+			public const int Platform_ThemeOverlay_AppCompat = 2131689680;
 			
-			// aapt resource value: 0x7F0E00D1
-			public const int Platform_V21_AppCompat = 2131624145;
+			// aapt resource value: 0x7F0F00D1
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689681;
 			
-			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat_Light = 2131624146;
+			// aapt resource value: 0x7F0F00D2
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689682;
 			
-			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V25_AppCompat = 2131624147;
+			// aapt resource value: 0x7F0F00D3
+			public const int Platform_V21_AppCompat = 2131689683;
 			
-			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat_Light = 2131624148;
+			// aapt resource value: 0x7F0F00D4
+			public const int Platform_V21_AppCompat_Light = 2131689684;
 			
-			// aapt resource value: 0x7F0E00D5
-			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
+			// aapt resource value: 0x7F0F00D5
+			public const int Platform_V25_AppCompat = 2131689685;
 			
-			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
+			// aapt resource value: 0x7F0F00D6
+			public const int Platform_V25_AppCompat_Light = 2131689686;
 			
-			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
+			// aapt resource value: 0x7F0F00D7
+			public const int Platform_Widget_AppCompat_Spinner = 2131689687;
 			
-			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
+			// aapt resource value: 0x7F0F00D8
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689688;
 			
-			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
+			// aapt resource value: 0x7F0F00D9
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689689;
 			
-			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
+			// aapt resource value: 0x7F0F00DA
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689690;
 			
-			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
+			// aapt resource value: 0x7F0F00DB
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689691;
 			
-			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
+			// aapt resource value: 0x7F0F00DC
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689692;
 			
-			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
+			// aapt resource value: 0x7F0F00DD
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131689693;
 			
-			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
+			// aapt resource value: 0x7F0F00DE
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131689694;
 			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			// aapt resource value: 0x7F0F00DF
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689695;
 			
-			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
+			// aapt resource value: 0x7F0F00E0
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131689696;
 			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
+			// aapt resource value: 0x7F0F00E6
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689702;
 			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
+			// aapt resource value: 0x7F0F00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689697;
 			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
+			// aapt resource value: 0x7F0F00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689698;
 			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			// aapt resource value: 0x7F0F00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689699;
 			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
+			// aapt resource value: 0x7F0F00E4
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689700;
 			
-			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
+			// aapt resource value: 0x7F0F00E5
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689701;
 			
-			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat = 2131624167;
+			// aapt resource value: 0x7F0F00E7
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689703;
 			
-			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body1 = 2131624168;
+			// aapt resource value: 0x7F0F00E8
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689704;
 			
-			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body2 = 2131624169;
+			// aapt resource value: 0x7F0F00E9
+			public const int TextAppearance_AppCompat = 2131689705;
 			
-			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Button = 2131624170;
+			// aapt resource value: 0x7F0F00EA
+			public const int TextAppearance_AppCompat_Body1 = 2131689706;
 			
-			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Caption = 2131624171;
+			// aapt resource value: 0x7F0F00EB
+			public const int TextAppearance_AppCompat_Body2 = 2131689707;
 			
-			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display1 = 2131624172;
+			// aapt resource value: 0x7F0F00EC
+			public const int TextAppearance_AppCompat_Button = 2131689708;
 			
-			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display2 = 2131624173;
+			// aapt resource value: 0x7F0F00ED
+			public const int TextAppearance_AppCompat_Caption = 2131689709;
 			
-			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display3 = 2131624174;
+			// aapt resource value: 0x7F0F00EE
+			public const int TextAppearance_AppCompat_Display1 = 2131689710;
 			
-			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display4 = 2131624175;
+			// aapt resource value: 0x7F0F00EF
+			public const int TextAppearance_AppCompat_Display2 = 2131689711;
 			
-			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Headline = 2131624176;
+			// aapt resource value: 0x7F0F00F0
+			public const int TextAppearance_AppCompat_Display3 = 2131689712;
 			
-			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Inverse = 2131624177;
+			// aapt resource value: 0x7F0F00F1
+			public const int TextAppearance_AppCompat_Display4 = 2131689713;
 			
-			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large = 2131624178;
+			// aapt resource value: 0x7F0F00F2
+			public const int TextAppearance_AppCompat_Headline = 2131689714;
 			
-			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
+			// aapt resource value: 0x7F0F00F3
+			public const int TextAppearance_AppCompat_Inverse = 2131689715;
 			
-			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
+			// aapt resource value: 0x7F0F00F4
+			public const int TextAppearance_AppCompat_Large = 2131689716;
 			
-			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
+			// aapt resource value: 0x7F0F00F5
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131689717;
 			
-			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
+			// aapt resource value: 0x7F0F00F6
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689718;
 			
-			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
+			// aapt resource value: 0x7F0F00F7
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689719;
 			
-			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium = 2131624184;
+			// aapt resource value: 0x7F0F00F8
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689720;
 			
-			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
+			// aapt resource value: 0x7F0F00F9
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689721;
 			
-			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Menu = 2131624186;
+			// aapt resource value: 0x7F0F00FA
+			public const int TextAppearance_AppCompat_Medium = 2131689722;
 			
-			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
+			// aapt resource value: 0x7F0F00FB
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689723;
 			
-			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
+			// aapt resource value: 0x7F0F00FC
+			public const int TextAppearance_AppCompat_Menu = 2131689724;
 			
-			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small = 2131624189;
+			// aapt resource value: 0x7F0F00FD
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689725;
 			
-			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
+			// aapt resource value: 0x7F0F00FE
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689726;
 			
-			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead = 2131624191;
+			// aapt resource value: 0x7F0F00FF
+			public const int TextAppearance_AppCompat_Small = 2131689727;
 			
-			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
+			// aapt resource value: 0x7F0F0100
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131689728;
 			
-			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title = 2131624193;
+			// aapt resource value: 0x7F0F0101
+			public const int TextAppearance_AppCompat_Subhead = 2131689729;
 			
-			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
+			// aapt resource value: 0x7F0F0102
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689730;
 			
-			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
+			// aapt resource value: 0x7F0F0103
+			public const int TextAppearance_AppCompat_Title = 2131689731;
 			
-			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
+			// aapt resource value: 0x7F0F0104
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131689732;
 			
-			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
+			// aapt resource value: 0x7F0F0105
+			public const int TextAppearance_AppCompat_Tooltip = 2131689733;
 			
-			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
+			// aapt resource value: 0x7F0F0106
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689734;
 			
-			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
+			// aapt resource value: 0x7F0F0107
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689735;
 			
-			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
+			// aapt resource value: 0x7F0F0108
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689736;
 			
-			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
+			// aapt resource value: 0x7F0F0109
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689737;
 			
-			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
+			// aapt resource value: 0x7F0F010A
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689738;
 			
-			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
+			// aapt resource value: 0x7F0F010B
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689739;
 			
-			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
+			// aapt resource value: 0x7F0F010C
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689740;
 			
-			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
+			// aapt resource value: 0x7F0F010D
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689741;
 			
-			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
+			// aapt resource value: 0x7F0F010E
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689742;
 			
-			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
+			// aapt resource value: 0x7F0F010F
+			public const int TextAppearance_AppCompat_Widget_Button = 2131689743;
 			
-			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
+			// aapt resource value: 0x7F0F0110
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689744;
 			
-			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
+			// aapt resource value: 0x7F0F0111
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689745;
 			
-			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
+			// aapt resource value: 0x7F0F0112
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689746;
 			
-			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
+			// aapt resource value: 0x7F0F0113
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689747;
 			
-			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
+			// aapt resource value: 0x7F0F0114
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689748;
 			
-			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
+			// aapt resource value: 0x7F0F0115
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689749;
 			
-			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
+			// aapt resource value: 0x7F0F0116
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689750;
 			
-			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification = 2131624215;
+			// aapt resource value: 0x7F0F0117
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131689751;
 			
-			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Info = 2131624216;
+			// aapt resource value: 0x7F0F0118
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689752;
 			
-			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
+			// aapt resource value: 0x7F0F0119
+			public const int TextAppearance_Compat_Notification = 2131689753;
 			
-			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
+			// aapt resource value: 0x7F0F011A
+			public const int TextAppearance_Compat_Notification_Info = 2131689754;
 			
-			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
+			// aapt resource value: 0x7F0F011B
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131689755;
 			
-			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Media = 2131624220;
+			// aapt resource value: 0x7F0F011C
+			public const int TextAppearance_Compat_Notification_Line2 = 2131689756;
 			
-			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Time = 2131624221;
+			// aapt resource value: 0x7F0F011D
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689757;
 			
-			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
+			// aapt resource value: 0x7F0F011E
+			public const int TextAppearance_Compat_Notification_Media = 2131689758;
 			
-			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Title = 2131624223;
+			// aapt resource value: 0x7F0F011F
+			public const int TextAppearance_Compat_Notification_Time = 2131689759;
 			
-			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
+			// aapt resource value: 0x7F0F0120
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131689760;
 			
-			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
+			// aapt resource value: 0x7F0F0121
+			public const int TextAppearance_Compat_Notification_Title = 2131689761;
 			
-			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Counter = 2131624226;
+			// aapt resource value: 0x7F0F0122
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131689762;
 			
-			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
+			// aapt resource value: 0x7F0F0123
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689763;
 			
-			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Error = 2131624228;
+			// aapt resource value: 0x7F0F0124
+			public const int TextAppearance_Design_Counter = 2131689764;
 			
-			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_HelperText = 2131624229;
+			// aapt resource value: 0x7F0F0125
+			public const int TextAppearance_Design_Counter_Overflow = 2131689765;
 			
-			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_Hint = 2131624230;
+			// aapt resource value: 0x7F0F0126
+			public const int TextAppearance_Design_Error = 2131689766;
 			
-			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
+			// aapt resource value: 0x7F0F0127
+			public const int TextAppearance_Design_HelperText = 2131689767;
 			
-			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Tab = 2131624232;
+			// aapt resource value: 0x7F0F0128
+			public const int TextAppearance_Design_Hint = 2131689768;
 			
-			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
+			// aapt resource value: 0x7F0F0129
+			public const int TextAppearance_Design_Snackbar_Message = 2131689769;
 			
-			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
+			// aapt resource value: 0x7F0F012A
+			public const int TextAppearance_Design_Tab = 2131689770;
 			
-			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Button = 2131624235;
+			// aapt resource value: 0x7F0F012B
+			public const int TextAppearance_MaterialComponents_Body1 = 2131689771;
 			
-			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
+			// aapt resource value: 0x7F0F012C
+			public const int TextAppearance_MaterialComponents_Body2 = 2131689772;
 			
-			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
+			// aapt resource value: 0x7F0F012D
+			public const int TextAppearance_MaterialComponents_Button = 2131689773;
 			
-			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
+			// aapt resource value: 0x7F0F012E
+			public const int TextAppearance_MaterialComponents_Caption = 2131689774;
 			
-			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
+			// aapt resource value: 0x7F0F012F
+			public const int TextAppearance_MaterialComponents_Chip = 2131689775;
 			
-			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
+			// aapt resource value: 0x7F0F0130
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131689776;
 			
-			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
+			// aapt resource value: 0x7F0F0131
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131689777;
 			
-			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
+			// aapt resource value: 0x7F0F0132
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131689778;
 			
-			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
+			// aapt resource value: 0x7F0F0133
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131689779;
 			
-			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
+			// aapt resource value: 0x7F0F0134
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131689780;
 			
-			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
+			// aapt resource value: 0x7F0F0135
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131689781;
 			
-			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
+			// aapt resource value: 0x7F0F0136
+			public const int TextAppearance_MaterialComponents_Overline = 2131689782;
 			
-			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
+			// aapt resource value: 0x7F0F0137
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689783;
 			
-			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131624248;
+			// aapt resource value: 0x7F0F0138
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689784;
 			
-			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131624249;
+			// aapt resource value: 0x7F0F0139
+			public const int TextAppearance_MaterialComponents_Tab = 2131689785;
 			
-			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_MediaRouter_Title = 2131624250;
+			// aapt resource value: 0x7F0F013A
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131689786;
 			
-			// aapt resource value: 0x7F0E013B
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624251;
+			// aapt resource value: 0x7F0F013B
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131689787;
 			
-			// aapt resource value: 0x7F0E013C
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624252;
+			// aapt resource value: 0x7F0F013C
+			public const int TextAppearance_MediaRouter_Title = 2131689788;
 			
-			// aapt resource value: 0x7F0E013D
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624253;
+			// aapt resource value: 0x7F0F013D
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689789;
 			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat = 2131624306;
+			// aapt resource value: 0x7F0F013E
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689790;
 			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624307;
+			// aapt resource value: 0x7F0F013F
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689791;
 			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_AppCompat_Dark = 2131624308;
+			// aapt resource value: 0x7F0F0174
+			public const int ThemeOverlay_AppCompat = 2131689844;
 			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624309;
+			// aapt resource value: 0x7F0F0175
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131689845;
 			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624310;
+			// aapt resource value: 0x7F0F0176
+			public const int ThemeOverlay_AppCompat_Dark = 2131689846;
 			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624311;
+			// aapt resource value: 0x7F0F0177
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689847;
 			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_AppCompat_Light = 2131624312;
+			// aapt resource value: 0x7F0F0178
+			public const int ThemeOverlay_AppCompat_Dialog = 2131689848;
 			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents = 2131624313;
+			// aapt resource value: 0x7F0F0179
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689849;
 			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624314;
+			// aapt resource value: 0x7F0F017A
+			public const int ThemeOverlay_AppCompat_Light = 2131689850;
 			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624315;
+			// aapt resource value: 0x7F0F017B
+			public const int ThemeOverlay_MaterialComponents = 2131689851;
 			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624316;
+			// aapt resource value: 0x7F0F017C
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689852;
 			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624317;
+			// aapt resource value: 0x7F0F017D
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131689853;
 			
-			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624318;
+			// aapt resource value: 0x7F0F017E
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131689854;
 			
-			// aapt resource value: 0x7F0E017F
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624319;
+			// aapt resource value: 0x7F0F017F
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131689855;
 			
-			// aapt resource value: 0x7F0E0180
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624320;
+			// aapt resource value: 0x7F0F0180
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689856;
 			
-			// aapt resource value: 0x7F0E0181
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624321;
+			// aapt resource value: 0x7F0F0181
+			public const int ThemeOverlay_MaterialComponents_Light = 2131689857;
 			
-			// aapt resource value: 0x7F0E0182
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624322;
+			// aapt resource value: 0x7F0F0182
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131689858;
 			
-			// aapt resource value: 0x7F0E0183
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624323;
+			// aapt resource value: 0x7F0F0183
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131689859;
 			
-			// aapt resource value: 0x7F0E0184
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624324;
+			// aapt resource value: 0x7F0F0184
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689860;
 			
-			// aapt resource value: 0x7F0E0185
-			public const int ThemeOverlay_MediaRouter_Dark = 2131624325;
+			// aapt resource value: 0x7F0F0185
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131689861;
 			
-			// aapt resource value: 0x7F0E0186
-			public const int ThemeOverlay_MediaRouter_Light = 2131624326;
+			// aapt resource value: 0x7F0F0186
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689862;
 			
-			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat = 2131624254;
+			// aapt resource value: 0x7F0F0187
+			public const int ThemeOverlay_MediaRouter_Dark = 2131689863;
 			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_CompactMenu = 2131624255;
+			// aapt resource value: 0x7F0F0188
+			public const int ThemeOverlay_MediaRouter_Light = 2131689864;
 			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight = 2131624256;
+			// aapt resource value: 0x7F0F0140
+			public const int Theme_AppCompat = 2131689792;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624257;
+			// aapt resource value: 0x7F0F0141
+			public const int Theme_AppCompat_CompactMenu = 2131689793;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624258;
+			// aapt resource value: 0x7F0F0142
+			public const int Theme_AppCompat_DayNight = 2131689794;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624261;
+			// aapt resource value: 0x7F0F0143
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689795;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624259;
+			// aapt resource value: 0x7F0F0144
+			public const int Theme_AppCompat_DayNight_Dialog = 2131689796;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624260;
+			// aapt resource value: 0x7F0F0147
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689799;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624262;
+			// aapt resource value: 0x7F0F0145
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689797;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_Dialog = 2131624263;
+			// aapt resource value: 0x7F0F0146
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689798;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624266;
+			// aapt resource value: 0x7F0F0148
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689800;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Dialog_Alert = 2131624264;
+			// aapt resource value: 0x7F0F0149
+			public const int Theme_AppCompat_Dialog = 2131689801;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624265;
+			// aapt resource value: 0x7F0F014C
+			public const int Theme_AppCompat_DialogWhenLarge = 2131689804;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light = 2131624267;
+			// aapt resource value: 0x7F0F014A
+			public const int Theme_AppCompat_Dialog_Alert = 2131689802;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624268;
+			// aapt resource value: 0x7F0F014B
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689803;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_Dialog = 2131624269;
+			// aapt resource value: 0x7F0F014D
+			public const int Theme_AppCompat_Light = 2131689805;
 			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624272;
+			// aapt resource value: 0x7F0F014E
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131689806;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624270;
+			// aapt resource value: 0x7F0F014F
+			public const int Theme_AppCompat_Light_Dialog = 2131689807;
 			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624271;
+			// aapt resource value: 0x7F0F0152
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689810;
 			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624273;
+			// aapt resource value: 0x7F0F0150
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689808;
 			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_AppCompat_NoActionBar = 2131624274;
+			// aapt resource value: 0x7F0F0151
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689809;
 			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design = 2131624275;
+			// aapt resource value: 0x7F0F0153
+			public const int Theme_AppCompat_Light_NoActionBar = 2131689811;
 			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_BottomSheetDialog = 2131624276;
+			// aapt resource value: 0x7F0F0154
+			public const int Theme_AppCompat_NoActionBar = 2131689812;
 			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_Light = 2131624277;
+			// aapt resource value: 0x7F0F0155
+			public const int Theme_Design = 2131689813;
 			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624278;
+			// aapt resource value: 0x7F0F0156
+			public const int Theme_Design_BottomSheetDialog = 2131689814;
 			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_Design_Light_NoActionBar = 2131624279;
+			// aapt resource value: 0x7F0F0157
+			public const int Theme_Design_Light = 2131689815;
 			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_Design_NoActionBar = 2131624280;
+			// aapt resource value: 0x7F0F0158
+			public const int Theme_Design_Light_BottomSheetDialog = 2131689816;
 			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents = 2131624281;
+			// aapt resource value: 0x7F0F0159
+			public const int Theme_Design_Light_NoActionBar = 2131689817;
 			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624282;
+			// aapt resource value: 0x7F0F015A
+			public const int Theme_Design_NoActionBar = 2131689818;
 			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Bridge = 2131624283;
+			// aapt resource value: 0x7F0F015B
+			public const int Theme_MaterialComponents = 2131689819;
 			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_CompactMenu = 2131624284;
+			// aapt resource value: 0x7F0F015C
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689820;
 			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_Dialog = 2131624285;
+			// aapt resource value: 0x7F0F015D
+			public const int Theme_MaterialComponents_Bridge = 2131689821;
 			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624288;
+			// aapt resource value: 0x7F0F015E
+			public const int Theme_MaterialComponents_CompactMenu = 2131689822;
 			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624286;
+			// aapt resource value: 0x7F0F015F
+			public const int Theme_MaterialComponents_Dialog = 2131689823;
 			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624287;
+			// aapt resource value: 0x7F0F0162
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689826;
 			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light = 2131624289;
+			// aapt resource value: 0x7F0F0160
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131689824;
 			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624290;
+			// aapt resource value: 0x7F0F0161
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689825;
 			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624291;
+			// aapt resource value: 0x7F0F0163
+			public const int Theme_MaterialComponents_Light = 2131689827;
 			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624292;
+			// aapt resource value: 0x7F0F0164
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689828;
 			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624293;
+			// aapt resource value: 0x7F0F0165
+			public const int Theme_MaterialComponents_Light_Bridge = 2131689829;
 			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624294;
+			// aapt resource value: 0x7F0F0166
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689830;
 			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624297;
+			// aapt resource value: 0x7F0F0167
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689831;
 			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624295;
+			// aapt resource value: 0x7F0F0168
+			public const int Theme_MaterialComponents_Light_Dialog = 2131689832;
 			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624296;
+			// aapt resource value: 0x7F0F016B
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689835;
 			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624298;
+			// aapt resource value: 0x7F0F0169
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689833;
 			
-			// aapt resource value: 0x7F0E016B
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624299;
+			// aapt resource value: 0x7F0F016A
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689834;
 			
-			// aapt resource value: 0x7F0E016C
-			public const int Theme_MaterialComponents_NoActionBar = 2131624300;
+			// aapt resource value: 0x7F0F016C
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689836;
 			
-			// aapt resource value: 0x7F0E016D
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624301;
+			// aapt resource value: 0x7F0F016D
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689837;
 			
-			// aapt resource value: 0x7F0E016E
-			public const int Theme_MediaRouter = 2131624302;
+			// aapt resource value: 0x7F0F016E
+			public const int Theme_MaterialComponents_NoActionBar = 2131689838;
 			
-			// aapt resource value: 0x7F0E016F
-			public const int Theme_MediaRouter_Light = 2131624303;
+			// aapt resource value: 0x7F0F016F
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689839;
 			
-			// aapt resource value: 0x7F0E0171
-			public const int Theme_MediaRouter_LightControlPanel = 2131624305;
+			// aapt resource value: 0x7F0F0170
+			public const int Theme_MediaRouter = 2131689840;
 			
-			// aapt resource value: 0x7F0E0170
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624304;
+			// aapt resource value: 0x7F0F0171
+			public const int Theme_MediaRouter_Light = 2131689841;
 			
-			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionBar = 2131624327;
+			// aapt resource value: 0x7F0F0173
+			public const int Theme_MediaRouter_LightControlPanel = 2131689843;
 			
-			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624328;
+			// aapt resource value: 0x7F0F0172
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131689842;
 			
-			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624329;
+			// aapt resource value: 0x7F0F0189
+			public const int Widget_AppCompat_ActionBar = 2131689865;
 			
-			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624330;
+			// aapt resource value: 0x7F0F018A
+			public const int Widget_AppCompat_ActionBar_Solid = 2131689866;
 			
-			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624331;
+			// aapt resource value: 0x7F0F018B
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131689867;
 			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ActionButton = 2131624332;
+			// aapt resource value: 0x7F0F018C
+			public const int Widget_AppCompat_ActionBar_TabText = 2131689868;
 			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624333;
+			// aapt resource value: 0x7F0F018D
+			public const int Widget_AppCompat_ActionBar_TabView = 2131689869;
 			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624334;
+			// aapt resource value: 0x7F0F018E
+			public const int Widget_AppCompat_ActionButton = 2131689870;
 			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ActionMode = 2131624335;
+			// aapt resource value: 0x7F0F018F
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131689871;
 			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ActivityChooserView = 2131624336;
+			// aapt resource value: 0x7F0F0190
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131689872;
 			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624337;
+			// aapt resource value: 0x7F0F0191
+			public const int Widget_AppCompat_ActionMode = 2131689873;
 			
-			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_Button = 2131624338;
+			// aapt resource value: 0x7F0F0192
+			public const int Widget_AppCompat_ActivityChooserView = 2131689874;
 			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_ButtonBar = 2131624344;
+			// aapt resource value: 0x7F0F0193
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131689875;
 			
-			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624345;
+			// aapt resource value: 0x7F0F0194
+			public const int Widget_AppCompat_Button = 2131689876;
 			
-			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_Button_Borderless = 2131624339;
+			// aapt resource value: 0x7F0F019A
+			public const int Widget_AppCompat_ButtonBar = 2131689882;
 			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624340;
+			// aapt resource value: 0x7F0F019B
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131689883;
 			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624341;
+			// aapt resource value: 0x7F0F0195
+			public const int Widget_AppCompat_Button_Borderless = 2131689877;
 			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_Button_Colored = 2131624342;
+			// aapt resource value: 0x7F0F0196
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131689878;
 			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_Button_Small = 2131624343;
+			// aapt resource value: 0x7F0F0197
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689879;
 			
-			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624346;
+			// aapt resource value: 0x7F0F0198
+			public const int Widget_AppCompat_Button_Colored = 2131689880;
 			
-			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624347;
+			// aapt resource value: 0x7F0F0199
+			public const int Widget_AppCompat_Button_Small = 2131689881;
 			
-			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624348;
+			// aapt resource value: 0x7F0F019C
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131689884;
 			
-			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624349;
+			// aapt resource value: 0x7F0F019D
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131689885;
 			
-			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624350;
+			// aapt resource value: 0x7F0F019E
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131689886;
 			
-			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_EditText = 2131624351;
+			// aapt resource value: 0x7F0F019F
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131689887;
 			
-			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_ImageButton = 2131624352;
+			// aapt resource value: 0x7F0F01A0
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131689888;
 			
-			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar = 2131624353;
+			// aapt resource value: 0x7F0F01A1
+			public const int Widget_AppCompat_EditText = 2131689889;
 			
-			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624354;
+			// aapt resource value: 0x7F0F01A2
+			public const int Widget_AppCompat_ImageButton = 2131689890;
 			
-			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624355;
+			// aapt resource value: 0x7F0F01A3
+			public const int Widget_AppCompat_Light_ActionBar = 2131689891;
 			
-			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624356;
+			// aapt resource value: 0x7F0F01A4
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131689892;
 			
-			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624357;
+			// aapt resource value: 0x7F0F01A5
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131689893;
 			
-			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624358;
+			// aapt resource value: 0x7F0F01A6
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131689894;
 			
-			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624359;
+			// aapt resource value: 0x7F0F01A7
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131689895;
 			
-			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624360;
+			// aapt resource value: 0x7F0F01A8
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131689896;
 			
-			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624361;
+			// aapt resource value: 0x7F0F01A9
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689897;
 			
-			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ActionButton = 2131624362;
+			// aapt resource value: 0x7F0F01AA
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131689898;
 			
-			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624363;
+			// aapt resource value: 0x7F0F01AB
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131689899;
 			
-			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624364;
+			// aapt resource value: 0x7F0F01AC
+			public const int Widget_AppCompat_Light_ActionButton = 2131689900;
 			
-			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624365;
+			// aapt resource value: 0x7F0F01AD
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131689901;
 			
-			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624366;
+			// aapt resource value: 0x7F0F01AE
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131689902;
 			
-			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624367;
+			// aapt resource value: 0x7F0F01AF
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131689903;
 			
-			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624368;
+			// aapt resource value: 0x7F0F01B0
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131689904;
 			
-			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624369;
+			// aapt resource value: 0x7F0F01B1
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131689905;
 			
-			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624370;
+			// aapt resource value: 0x7F0F01B2
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131689906;
 			
-			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624371;
+			// aapt resource value: 0x7F0F01B3
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131689907;
 			
-			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624372;
+			// aapt resource value: 0x7F0F01B4
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131689908;
 			
-			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_Light_SearchView = 2131624373;
+			// aapt resource value: 0x7F0F01B5
+			public const int Widget_AppCompat_Light_PopupMenu = 2131689909;
 			
-			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624374;
+			// aapt resource value: 0x7F0F01B6
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131689910;
 			
-			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ListMenuView = 2131624375;
+			// aapt resource value: 0x7F0F01B7
+			public const int Widget_AppCompat_Light_SearchView = 2131689911;
 			
-			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ListPopupWindow = 2131624376;
+			// aapt resource value: 0x7F0F01B8
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131689912;
 			
-			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_ListView = 2131624377;
+			// aapt resource value: 0x7F0F01B9
+			public const int Widget_AppCompat_ListMenuView = 2131689913;
 			
-			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_ListView_DropDown = 2131624378;
+			// aapt resource value: 0x7F0F01BA
+			public const int Widget_AppCompat_ListPopupWindow = 2131689914;
 			
-			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_ListView_Menu = 2131624379;
+			// aapt resource value: 0x7F0F01BB
+			public const int Widget_AppCompat_ListView = 2131689915;
 			
-			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_PopupMenu = 2131624380;
+			// aapt resource value: 0x7F0F01BC
+			public const int Widget_AppCompat_ListView_DropDown = 2131689916;
 			
-			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624381;
+			// aapt resource value: 0x7F0F01BD
+			public const int Widget_AppCompat_ListView_Menu = 2131689917;
 			
-			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_PopupWindow = 2131624382;
+			// aapt resource value: 0x7F0F01BE
+			public const int Widget_AppCompat_PopupMenu = 2131689918;
 			
-			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_ProgressBar = 2131624383;
+			// aapt resource value: 0x7F0F01BF
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131689919;
 			
-			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624384;
+			// aapt resource value: 0x7F0F01C0
+			public const int Widget_AppCompat_PopupWindow = 2131689920;
 			
-			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_RatingBar = 2131624385;
+			// aapt resource value: 0x7F0F01C1
+			public const int Widget_AppCompat_ProgressBar = 2131689921;
 			
-			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624386;
+			// aapt resource value: 0x7F0F01C2
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131689922;
 			
-			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_RatingBar_Small = 2131624387;
+			// aapt resource value: 0x7F0F01C3
+			public const int Widget_AppCompat_RatingBar = 2131689923;
 			
-			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_SearchView = 2131624388;
+			// aapt resource value: 0x7F0F01C4
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131689924;
 			
-			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624389;
+			// aapt resource value: 0x7F0F01C5
+			public const int Widget_AppCompat_RatingBar_Small = 2131689925;
 			
-			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_SeekBar = 2131624390;
+			// aapt resource value: 0x7F0F01C6
+			public const int Widget_AppCompat_SearchView = 2131689926;
 			
-			// aapt resource value: 0x7F0E01C7
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624391;
+			// aapt resource value: 0x7F0F01C7
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131689927;
 			
-			// aapt resource value: 0x7F0E01C8
-			public const int Widget_AppCompat_Spinner = 2131624392;
+			// aapt resource value: 0x7F0F01C8
+			public const int Widget_AppCompat_SeekBar = 2131689928;
 			
-			// aapt resource value: 0x7F0E01C9
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624393;
+			// aapt resource value: 0x7F0F01C9
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131689929;
 			
-			// aapt resource value: 0x7F0E01CA
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624394;
+			// aapt resource value: 0x7F0F01CA
+			public const int Widget_AppCompat_Spinner = 2131689930;
 			
-			// aapt resource value: 0x7F0E01CB
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624395;
+			// aapt resource value: 0x7F0F01CB
+			public const int Widget_AppCompat_Spinner_DropDown = 2131689931;
 			
-			// aapt resource value: 0x7F0E01CC
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624396;
+			// aapt resource value: 0x7F0F01CC
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131689932;
 			
-			// aapt resource value: 0x7F0E01CD
-			public const int Widget_AppCompat_Toolbar = 2131624397;
+			// aapt resource value: 0x7F0F01CD
+			public const int Widget_AppCompat_Spinner_Underlined = 2131689933;
 			
-			// aapt resource value: 0x7F0E01CE
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624398;
+			// aapt resource value: 0x7F0F01CE
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131689934;
 			
-			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Compat_NotificationActionContainer = 2131624399;
+			// aapt resource value: 0x7F0F01CF
+			public const int Widget_AppCompat_Toolbar = 2131689935;
 			
-			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Compat_NotificationActionText = 2131624400;
+			// aapt resource value: 0x7F0F01D0
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131689936;
 			
-			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_AppBarLayout = 2131624401;
+			// aapt resource value: 0x7F0F01D1
+			public const int Widget_Compat_NotificationActionContainer = 2131689937;
 			
-			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_BottomNavigationView = 2131624402;
+			// aapt resource value: 0x7F0F01D2
+			public const int Widget_Compat_NotificationActionText = 2131689938;
 			
-			// aapt resource value: 0x7F0E01D3
-			public const int Widget_Design_BottomSheet_Modal = 2131624403;
+			// aapt resource value: 0x7F0F01D3
+			public const int Widget_Design_AppBarLayout = 2131689939;
 			
-			// aapt resource value: 0x7F0E01D4
-			public const int Widget_Design_CollapsingToolbar = 2131624404;
+			// aapt resource value: 0x7F0F01D4
+			public const int Widget_Design_BottomNavigationView = 2131689940;
 			
-			// aapt resource value: 0x7F0E01D5
-			public const int Widget_Design_FloatingActionButton = 2131624405;
+			// aapt resource value: 0x7F0F01D5
+			public const int Widget_Design_BottomSheet_Modal = 2131689941;
 			
-			// aapt resource value: 0x7F0E01D6
-			public const int Widget_Design_NavigationView = 2131624406;
+			// aapt resource value: 0x7F0F01D6
+			public const int Widget_Design_CollapsingToolbar = 2131689942;
 			
-			// aapt resource value: 0x7F0E01D7
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624407;
+			// aapt resource value: 0x7F0F01D7
+			public const int Widget_Design_FloatingActionButton = 2131689943;
 			
-			// aapt resource value: 0x7F0E01D8
-			public const int Widget_Design_Snackbar = 2131624408;
+			// aapt resource value: 0x7F0F01D8
+			public const int Widget_Design_NavigationView = 2131689944;
 			
-			// aapt resource value: 0x7F0E01D9
-			public const int Widget_Design_TabLayout = 2131624409;
+			// aapt resource value: 0x7F0F01D9
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131689945;
 			
-			// aapt resource value: 0x7F0E01DA
-			public const int Widget_Design_TextInputLayout = 2131624410;
+			// aapt resource value: 0x7F0F01DA
+			public const int Widget_Design_Snackbar = 2131689946;
 			
-			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624411;
+			// aapt resource value: 0x7F0F01DB
+			public const int Widget_Design_TabLayout = 2131689947;
 			
-			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624412;
+			// aapt resource value: 0x7F0F01DC
+			public const int Widget_Design_TextInputLayout = 2131689948;
 			
-			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624413;
+			// aapt resource value: 0x7F0F01DD
+			public const int Widget_MaterialComponents_BottomAppBar = 2131689949;
 			
-			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624414;
+			// aapt resource value: 0x7F0F01DE
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131689950;
 			
-			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624415;
+			// aapt resource value: 0x7F0F01DF
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131689951;
 			
-			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button = 2131624416;
+			// aapt resource value: 0x7F0F01E0
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131689952;
 			
-			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_Icon = 2131624417;
+			// aapt resource value: 0x7F0F01E1
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131689953;
 			
-			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624418;
+			// aapt resource value: 0x7F0F01E2
+			public const int Widget_MaterialComponents_Button = 2131689954;
 			
-			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624419;
+			// aapt resource value: 0x7F0F01E3
+			public const int Widget_MaterialComponents_Button_Icon = 2131689955;
 			
-			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624420;
+			// aapt resource value: 0x7F0F01E4
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131689956;
 			
-			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624421;
+			// aapt resource value: 0x7F0F01E5
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131689957;
 			
-			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624422;
+			// aapt resource value: 0x7F0F01E6
+			public const int Widget_MaterialComponents_Button_TextButton = 2131689958;
 			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624423;
+			// aapt resource value: 0x7F0F01E7
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131689959;
 			
-			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624424;
+			// aapt resource value: 0x7F0F01E8
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131689960;
 			
-			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624425;
+			// aapt resource value: 0x7F0F01E9
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131689961;
 			
-			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_CardView = 2131624426;
+			// aapt resource value: 0x7F0F01EA
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131689962;
 			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_ChipGroup = 2131624431;
+			// aapt resource value: 0x7F0F01EB
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131689963;
 			
-			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Chip_Action = 2131624427;
+			// aapt resource value: 0x7F0F01EC
+			public const int Widget_MaterialComponents_CardView = 2131689964;
 			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624428;
+			// aapt resource value: 0x7F0F01F1
+			public const int Widget_MaterialComponents_ChipGroup = 2131689969;
 			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624429;
+			// aapt resource value: 0x7F0F01ED
+			public const int Widget_MaterialComponents_Chip_Action = 2131689965;
 			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624430;
+			// aapt resource value: 0x7F0F01EE
+			public const int Widget_MaterialComponents_Chip_Choice = 2131689966;
 			
-			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624432;
+			// aapt resource value: 0x7F0F01EF
+			public const int Widget_MaterialComponents_Chip_Entry = 2131689967;
 			
-			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_NavigationView = 2131624433;
+			// aapt resource value: 0x7F0F01F0
+			public const int Widget_MaterialComponents_Chip_Filter = 2131689968;
 			
-			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_Snackbar = 2131624434;
+			// aapt resource value: 0x7F0F01F2
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131689970;
 			
-			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624435;
+			// aapt resource value: 0x7F0F01F3
+			public const int Widget_MaterialComponents_NavigationView = 2131689971;
 			
-			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TabLayout = 2131624436;
+			// aapt resource value: 0x7F0F01F4
+			public const int Widget_MaterialComponents_Snackbar = 2131689972;
 			
-			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624437;
+			// aapt resource value: 0x7F0F01F5
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131689973;
 			
-			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624438;
+			// aapt resource value: 0x7F0F01F6
+			public const int Widget_MaterialComponents_TabLayout = 2131689974;
 			
-			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624439;
+			// aapt resource value: 0x7F0F01F7
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131689975;
 			
-			// aapt resource value: 0x7F0E01F8
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624440;
+			// aapt resource value: 0x7F0F01F8
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131689976;
 			
-			// aapt resource value: 0x7F0E01F9
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624441;
+			// aapt resource value: 0x7F0F01F9
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689977;
 			
-			// aapt resource value: 0x7F0E01FA
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624442;
+			// aapt resource value: 0x7F0F01FA
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131689978;
 			
-			// aapt resource value: 0x7F0E01FB
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624443;
+			// aapt resource value: 0x7F0F01FB
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689979;
 			
-			// aapt resource value: 0x7F0E01FC
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624444;
+			// aapt resource value: 0x7F0F01FC
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131689980;
 			
-			// aapt resource value: 0x7F0E01FD
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624445;
+			// aapt resource value: 0x7F0F01FD
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131689981;
 			
-			// aapt resource value: 0x7F0E01FE
-			public const int Widget_MaterialComponents_Toolbar = 2131624446;
+			// aapt resource value: 0x7F0F01FE
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131689982;
 			
-			// aapt resource value: 0x7F0E01FF
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624447;
+			// aapt resource value: 0x7F0F01FF
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131689983;
 			
-			// aapt resource value: 0x7F0E0200
-			public const int Widget_MediaRouter_MediaRouteButton = 2131624448;
+			// aapt resource value: 0x7F0F0200
+			public const int Widget_MaterialComponents_Toolbar = 2131689984;
 			
-			// aapt resource value: 0x7F0E0201
-			public const int Widget_Support_CoordinatorLayout = 2131624449;
+			// aapt resource value: 0x7F0F0201
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131689985;
+			
+			// aapt resource value: 0x7F0F0202
+			public const int Widget_MediaRouter_MediaRouteButton = 2131689986;
+			
+			// aapt resource value: 0x7F0F0203
+			public const int Widget_Support_CoordinatorLayout = 2131689987;
 			
 			static Style()
 			{
@@ -14125,101 +12534,101 @@ namespace EasyJob.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ActionBarLayout_android_layout_gravity = 0;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ActionBar_background = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ActionBar_backgroundStacked = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int ActionBar_contentInsetEnd = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int ActionBar_contentInsetEndWithActions = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int ActionBar_contentInsetLeft = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int ActionBar_contentInsetRight = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int ActionBar_contentInsetStart = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int ActionBar_contentInsetStartWithNavigation = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int ActionBar_customNavigationLayout = 9;
 			
-			// aapt resource value: 10
-			public const int ActionBar_displayOptions = 10;
+			// aapt resource value: 0x10
+			public const int ActionBar_displayOptions = 16;
 			
-			// aapt resource value: 11
-			public const int ActionBar_divider = 11;
+			// aapt resource value: 0x11
+			public const int ActionBar_divider = 17;
 			
-			// aapt resource value: 12
-			public const int ActionBar_elevation = 12;
+			// aapt resource value: 0x12
+			public const int ActionBar_elevation = 18;
 			
-			// aapt resource value: 13
-			public const int ActionBar_height = 13;
+			// aapt resource value: 0x13
+			public const int ActionBar_height = 19;
 			
-			// aapt resource value: 14
-			public const int ActionBar_hideOnContentScroll = 14;
+			// aapt resource value: 0x14
+			public const int ActionBar_hideOnContentScroll = 20;
 			
-			// aapt resource value: 15
-			public const int ActionBar_homeAsUpIndicator = 15;
+			// aapt resource value: 0x15
+			public const int ActionBar_homeAsUpIndicator = 21;
 			
-			// aapt resource value: 16
-			public const int ActionBar_homeLayout = 16;
+			// aapt resource value: 0x16
+			public const int ActionBar_homeLayout = 22;
 			
-			// aapt resource value: 17
-			public const int ActionBar_icon = 17;
+			// aapt resource value: 0x17
+			public const int ActionBar_icon = 23;
 			
-			// aapt resource value: 18
-			public const int ActionBar_indeterminateProgressStyle = 18;
+			// aapt resource value: 0x18
+			public const int ActionBar_indeterminateProgressStyle = 24;
 			
-			// aapt resource value: 19
-			public const int ActionBar_itemPadding = 19;
+			// aapt resource value: 0x19
+			public const int ActionBar_itemPadding = 25;
 			
-			// aapt resource value: 20
-			public const int ActionBar_logo = 20;
+			// aapt resource value: 0x20
+			public const int ActionBar_logo = 32;
 			
-			// aapt resource value: 21
-			public const int ActionBar_navigationMode = 21;
+			// aapt resource value: 0x21
+			public const int ActionBar_navigationMode = 33;
 			
-			// aapt resource value: 22
-			public const int ActionBar_popupTheme = 22;
+			// aapt resource value: 0x22
+			public const int ActionBar_popupTheme = 34;
 			
-			// aapt resource value: 23
-			public const int ActionBar_progressBarPadding = 23;
+			// aapt resource value: 0x23
+			public const int ActionBar_progressBarPadding = 35;
 			
-			// aapt resource value: 24
-			public const int ActionBar_progressBarStyle = 24;
+			// aapt resource value: 0x24
+			public const int ActionBar_progressBarStyle = 36;
 			
-			// aapt resource value: 25
-			public const int ActionBar_subtitle = 25;
+			// aapt resource value: 0x25
+			public const int ActionBar_subtitle = 37;
 			
-			// aapt resource value: 26
-			public const int ActionBar_subtitleTextStyle = 26;
+			// aapt resource value: 0x26
+			public const int ActionBar_subtitleTextStyle = 38;
 			
-			// aapt resource value: 27
-			public const int ActionBar_title = 27;
+			// aapt resource value: 0x27
+			public const int ActionBar_title = 39;
 			
-			// aapt resource value: 28
-			public const int ActionBar_titleTextStyle = 28;
+			// aapt resource value: 0x28
+			public const int ActionBar_titleTextStyle = 40;
 			
 			// aapt resource value: { 0x101013F }
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ActionMenuItemView_android_minWidth = 0;
 			
 			// aapt resource value: { 0xFFFFFFFF }
@@ -14235,22 +12644,22 @@ namespace EasyJob.Droid
 					2130903462,
 					2130903541};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ActionMode_background = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ActionMode_closeItemLayout = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int ActionMode_height = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int ActionMode_subtitleTextStyle = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int ActionMode_titleTextStyle = 5;
 			
 			// aapt resource value: { 0x7F0300C5,0x7F030105 }
@@ -14258,10 +12667,10 @@ namespace EasyJob.Droid
 					2130903237,
 					2130903301};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
 			// aapt resource value: { 0x10100F2,0x7F030053,0x7F030054,0x7F03012C,0x7F03012D,0x7F03015B,0x7F03018B,0x7F03018C }
@@ -14275,28 +12684,28 @@ namespace EasyJob.Droid
 					2130903435,
 					2130903436};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AlertDialog_android_layout = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AlertDialog_buttonIconDimen = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AlertDialog_buttonPanelSideLayout = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AlertDialog_listItemLayout = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int AlertDialog_listLayout = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int AlertDialog_multiChoiceItemLayout = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int AlertDialog_showTitle = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int AlertDialog_singleChoiceItemLayout = 7;
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
@@ -14308,22 +12717,22 @@ namespace EasyJob.Droid
 					16843532,
 					16843533};
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AnimatedStateListDrawableCompat_android_constantSize = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AnimatedStateListDrawableCompat_android_dither = 0;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int AnimatedStateListDrawableCompat_android_enterFadeDuration = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int AnimatedStateListDrawableCompat_android_exitFadeDuration = 5;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AnimatedStateListDrawableCompat_android_variablePadding = 2;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableCompat_android_visible = 1;
 			
 			// aapt resource value: { 0x10100D0,0x1010199 }
@@ -14331,10 +12740,10 @@ namespace EasyJob.Droid
 					16842960,
 					16843161};
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableItem_android_drawable = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AnimatedStateListDrawableItem_android_id = 0;
 			
 			// aapt resource value: { 0x1010199,0x1010449,0x101044A,0x101044B }
@@ -14344,16 +12753,16 @@ namespace EasyJob.Droid
 					16843850,
 					16843851};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AnimatedStateListDrawableTransition_android_drawable = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AnimatedStateListDrawableTransition_android_fromId = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AnimatedStateListDrawableTransition_android_reversible = 3;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
 			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F0300C0,0x7F0300C6,0x7F030127 }
@@ -14372,31 +12781,31 @@ namespace EasyJob.Droid
 					2130903451,
 					2130903452};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppBarLayoutStates_state_collapsed = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AppBarLayoutStates_state_liftable = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppBarLayout_android_background = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AppBarLayout_android_keyboardNavigationCluster = 2;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppBarLayout_android_touchscreenBlocksFocus = 1;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AppBarLayout_elevation = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int AppBarLayout_expanded = 4;
 			
 			// aapt resource value: { 0x7F030125,0x7F030126 }
@@ -14404,13 +12813,13 @@ namespace EasyJob.Droid
 					2130903333,
 					2130903334};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
 			// aapt resource value: { 0x1010119,0x7F030196,0x7F0301E9,0x7F0301EA }
@@ -14420,16 +12829,16 @@ namespace EasyJob.Droid
 					2130903529,
 					2130903530};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppCompatImageView_android_src = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AppCompatImageView_tint = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AppCompatImageView_tintMode = 3;
 			
 			// aapt resource value: { 0x1010142,0x7F0301E6,0x7F0301E7,0x7F0301E8 }
@@ -14439,16 +12848,16 @@ namespace EasyJob.Droid
 					2130903527,
 					2130903528};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppCompatSeekBar_android_thumb = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AppCompatSeekBar_tickMarkTint = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AppCompatSeekBar_tickMarkTintMode = 3;
 			
 			// aapt resource value: { 0x1010034,0x101016D,0x101016E,0x101016F,0x1010170,0x1010392,0x1010393 }
@@ -14461,25 +12870,25 @@ namespace EasyJob.Droid
 					16843666,
 					16843667};
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AppCompatTextHelper_android_drawableBottom = 2;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int AppCompatTextHelper_android_drawableEnd = 6;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AppCompatTextHelper_android_drawableLeft = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int AppCompatTextHelper_android_drawableRight = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int AppCompatTextHelper_android_drawableStart = 5;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableTop = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
 			// aapt resource value: { 0x1010034,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F0300DA,0x7F0300DD,0x7F030116,0x7F030128,0x7F0301C6 }
@@ -14496,38 +12905,38 @@ namespace EasyJob.Droid
 					2130903336,
 					2130903494};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppCompatTextView_android_textAppearance = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AppCompatTextView_autoSizeMinTextSize = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AppCompatTextView_autoSizePresetSizes = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int AppCompatTextView_autoSizeStepGranularity = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int AppCompatTextView_autoSizeTextType = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int AppCompatTextView_firstBaselineToTopHeight = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int AppCompatTextView_fontFamily = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int AppCompatTextView_lastBaselineToBottomHeight = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int AppCompatTextView_lineHeight = 9;
 			
-			// aapt resource value: 10
-			public const int AppCompatTextView_textAllCaps = 10;
+			// aapt resource value: 0x10
+			public const int AppCompatTextView_textAllCaps = 16;
 			
 			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002C,0x7F03003F,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030056,0x7F030057,0x7F030068,0x7F03006D,0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030099,0x7F0300A8,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B6,0x7F0300B8,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300F5,0x7F030103,0x7F03012A,0x7F03012B,0x7F03012E,0x7F03012F,0x7F030130,0x7F030131,0x7F030132,0x7F030133,0x7F030134,0x7F030166,0x7F030167,0x7F030168,0x7F03016E,0x7F030170,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030193,0x7F030194,0x7F0301AA,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DC,0x7F0301DD,0x7F0301F7,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F030209,0x7F03020B,0x7F03020C,0x7F03020D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214 }
 			public static int[] AppCompatTheme = new int[] {
@@ -14653,368 +13062,368 @@ namespace EasyJob.Droid
 					2130903571,
 					2130903572};
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int AppCompatTheme_actionBarDivider = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int AppCompatTheme_actionBarItemBackground = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int AppCompatTheme_actionBarPopupTheme = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int AppCompatTheme_actionBarSize = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int AppCompatTheme_actionBarSplitStyle = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int AppCompatTheme_actionBarStyle = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int AppCompatTheme_actionBarTabBarStyle = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int AppCompatTheme_actionBarTabStyle = 9;
 			
-			// aapt resource value: 10
-			public const int AppCompatTheme_actionBarTabTextStyle = 10;
+			// aapt resource value: 0x10
+			public const int AppCompatTheme_actionBarTabTextStyle = 16;
 			
-			// aapt resource value: 11
-			public const int AppCompatTheme_actionBarTheme = 11;
+			// aapt resource value: 0x11
+			public const int AppCompatTheme_actionBarTheme = 17;
 			
-			// aapt resource value: 12
-			public const int AppCompatTheme_actionBarWidgetTheme = 12;
+			// aapt resource value: 0x12
+			public const int AppCompatTheme_actionBarWidgetTheme = 18;
 			
-			// aapt resource value: 13
-			public const int AppCompatTheme_actionButtonStyle = 13;
+			// aapt resource value: 0x13
+			public const int AppCompatTheme_actionButtonStyle = 19;
 			
-			// aapt resource value: 14
-			public const int AppCompatTheme_actionDropDownStyle = 14;
+			// aapt resource value: 0x14
+			public const int AppCompatTheme_actionDropDownStyle = 20;
 			
-			// aapt resource value: 15
-			public const int AppCompatTheme_actionMenuTextAppearance = 15;
+			// aapt resource value: 0x15
+			public const int AppCompatTheme_actionMenuTextAppearance = 21;
 			
-			// aapt resource value: 16
-			public const int AppCompatTheme_actionMenuTextColor = 16;
+			// aapt resource value: 0x16
+			public const int AppCompatTheme_actionMenuTextColor = 22;
 			
-			// aapt resource value: 17
-			public const int AppCompatTheme_actionModeBackground = 17;
+			// aapt resource value: 0x17
+			public const int AppCompatTheme_actionModeBackground = 23;
 			
-			// aapt resource value: 18
-			public const int AppCompatTheme_actionModeCloseButtonStyle = 18;
+			// aapt resource value: 0x18
+			public const int AppCompatTheme_actionModeCloseButtonStyle = 24;
 			
-			// aapt resource value: 19
-			public const int AppCompatTheme_actionModeCloseDrawable = 19;
+			// aapt resource value: 0x19
+			public const int AppCompatTheme_actionModeCloseDrawable = 25;
 			
-			// aapt resource value: 20
-			public const int AppCompatTheme_actionModeCopyDrawable = 20;
+			// aapt resource value: 0x20
+			public const int AppCompatTheme_actionModeCopyDrawable = 32;
 			
-			// aapt resource value: 21
-			public const int AppCompatTheme_actionModeCutDrawable = 21;
+			// aapt resource value: 0x21
+			public const int AppCompatTheme_actionModeCutDrawable = 33;
 			
-			// aapt resource value: 22
-			public const int AppCompatTheme_actionModeFindDrawable = 22;
+			// aapt resource value: 0x22
+			public const int AppCompatTheme_actionModeFindDrawable = 34;
 			
-			// aapt resource value: 23
-			public const int AppCompatTheme_actionModePasteDrawable = 23;
+			// aapt resource value: 0x23
+			public const int AppCompatTheme_actionModePasteDrawable = 35;
 			
-			// aapt resource value: 24
-			public const int AppCompatTheme_actionModePopupWindowStyle = 24;
+			// aapt resource value: 0x24
+			public const int AppCompatTheme_actionModePopupWindowStyle = 36;
 			
-			// aapt resource value: 25
-			public const int AppCompatTheme_actionModeSelectAllDrawable = 25;
+			// aapt resource value: 0x25
+			public const int AppCompatTheme_actionModeSelectAllDrawable = 37;
 			
-			// aapt resource value: 26
-			public const int AppCompatTheme_actionModeShareDrawable = 26;
+			// aapt resource value: 0x26
+			public const int AppCompatTheme_actionModeShareDrawable = 38;
 			
-			// aapt resource value: 27
-			public const int AppCompatTheme_actionModeSplitBackground = 27;
+			// aapt resource value: 0x27
+			public const int AppCompatTheme_actionModeSplitBackground = 39;
 			
-			// aapt resource value: 28
-			public const int AppCompatTheme_actionModeStyle = 28;
+			// aapt resource value: 0x28
+			public const int AppCompatTheme_actionModeStyle = 40;
 			
-			// aapt resource value: 29
-			public const int AppCompatTheme_actionModeWebSearchDrawable = 29;
+			// aapt resource value: 0x29
+			public const int AppCompatTheme_actionModeWebSearchDrawable = 41;
 			
-			// aapt resource value: 30
-			public const int AppCompatTheme_actionOverflowButtonStyle = 30;
+			// aapt resource value: 0x30
+			public const int AppCompatTheme_actionOverflowButtonStyle = 48;
 			
-			// aapt resource value: 31
-			public const int AppCompatTheme_actionOverflowMenuStyle = 31;
+			// aapt resource value: 0x31
+			public const int AppCompatTheme_actionOverflowMenuStyle = 49;
 			
-			// aapt resource value: 32
-			public const int AppCompatTheme_activityChooserViewStyle = 32;
+			// aapt resource value: 0x32
+			public const int AppCompatTheme_activityChooserViewStyle = 50;
 			
-			// aapt resource value: 33
-			public const int AppCompatTheme_alertDialogButtonGroupStyle = 33;
+			// aapt resource value: 0x33
+			public const int AppCompatTheme_alertDialogButtonGroupStyle = 51;
 			
-			// aapt resource value: 34
-			public const int AppCompatTheme_alertDialogCenterButtons = 34;
+			// aapt resource value: 0x34
+			public const int AppCompatTheme_alertDialogCenterButtons = 52;
 			
-			// aapt resource value: 35
-			public const int AppCompatTheme_alertDialogStyle = 35;
+			// aapt resource value: 0x35
+			public const int AppCompatTheme_alertDialogStyle = 53;
 			
-			// aapt resource value: 36
-			public const int AppCompatTheme_alertDialogTheme = 36;
+			// aapt resource value: 0x36
+			public const int AppCompatTheme_alertDialogTheme = 54;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int AppCompatTheme_android_windowAnimationStyle = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int AppCompatTheme_android_windowIsFloating = 0;
 			
-			// aapt resource value: 37
-			public const int AppCompatTheme_autoCompleteTextViewStyle = 37;
+			// aapt resource value: 0x37
+			public const int AppCompatTheme_autoCompleteTextViewStyle = 55;
 			
-			// aapt resource value: 38
-			public const int AppCompatTheme_borderlessButtonStyle = 38;
+			// aapt resource value: 0x38
+			public const int AppCompatTheme_borderlessButtonStyle = 56;
 			
-			// aapt resource value: 39
-			public const int AppCompatTheme_buttonBarButtonStyle = 39;
+			// aapt resource value: 0x39
+			public const int AppCompatTheme_buttonBarButtonStyle = 57;
 			
-			// aapt resource value: 40
-			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 40;
+			// aapt resource value: 0x40
+			public const int AppCompatTheme_buttonBarNegativeButtonStyle = 64;
 			
-			// aapt resource value: 41
-			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 41;
+			// aapt resource value: 0x41
+			public const int AppCompatTheme_buttonBarNeutralButtonStyle = 65;
 			
-			// aapt resource value: 42
-			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 42;
+			// aapt resource value: 0x42
+			public const int AppCompatTheme_buttonBarPositiveButtonStyle = 66;
 			
-			// aapt resource value: 43
-			public const int AppCompatTheme_buttonBarStyle = 43;
+			// aapt resource value: 0x43
+			public const int AppCompatTheme_buttonBarStyle = 67;
 			
-			// aapt resource value: 44
-			public const int AppCompatTheme_buttonStyle = 44;
+			// aapt resource value: 0x44
+			public const int AppCompatTheme_buttonStyle = 68;
 			
-			// aapt resource value: 45
-			public const int AppCompatTheme_buttonStyleSmall = 45;
+			// aapt resource value: 0x45
+			public const int AppCompatTheme_buttonStyleSmall = 69;
 			
-			// aapt resource value: 46
-			public const int AppCompatTheme_checkboxStyle = 46;
+			// aapt resource value: 0x46
+			public const int AppCompatTheme_checkboxStyle = 70;
 			
-			// aapt resource value: 47
-			public const int AppCompatTheme_checkedTextViewStyle = 47;
+			// aapt resource value: 0x47
+			public const int AppCompatTheme_checkedTextViewStyle = 71;
 			
-			// aapt resource value: 48
-			public const int AppCompatTheme_colorAccent = 48;
+			// aapt resource value: 0x48
+			public const int AppCompatTheme_colorAccent = 72;
 			
-			// aapt resource value: 49
-			public const int AppCompatTheme_colorBackgroundFloating = 49;
+			// aapt resource value: 0x49
+			public const int AppCompatTheme_colorBackgroundFloating = 73;
 			
-			// aapt resource value: 50
-			public const int AppCompatTheme_colorButtonNormal = 50;
+			// aapt resource value: 0x50
+			public const int AppCompatTheme_colorButtonNormal = 80;
 			
-			// aapt resource value: 51
-			public const int AppCompatTheme_colorControlActivated = 51;
+			// aapt resource value: 0x51
+			public const int AppCompatTheme_colorControlActivated = 81;
 			
-			// aapt resource value: 52
-			public const int AppCompatTheme_colorControlHighlight = 52;
+			// aapt resource value: 0x52
+			public const int AppCompatTheme_colorControlHighlight = 82;
 			
-			// aapt resource value: 53
-			public const int AppCompatTheme_colorControlNormal = 53;
+			// aapt resource value: 0x53
+			public const int AppCompatTheme_colorControlNormal = 83;
 			
-			// aapt resource value: 54
-			public const int AppCompatTheme_colorError = 54;
+			// aapt resource value: 0x54
+			public const int AppCompatTheme_colorError = 84;
 			
-			// aapt resource value: 55
-			public const int AppCompatTheme_colorPrimary = 55;
+			// aapt resource value: 0x55
+			public const int AppCompatTheme_colorPrimary = 85;
 			
-			// aapt resource value: 56
-			public const int AppCompatTheme_colorPrimaryDark = 56;
+			// aapt resource value: 0x56
+			public const int AppCompatTheme_colorPrimaryDark = 86;
 			
-			// aapt resource value: 57
-			public const int AppCompatTheme_colorSwitchThumbNormal = 57;
+			// aapt resource value: 0x57
+			public const int AppCompatTheme_colorSwitchThumbNormal = 87;
 			
-			// aapt resource value: 58
-			public const int AppCompatTheme_controlBackground = 58;
+			// aapt resource value: 0x58
+			public const int AppCompatTheme_controlBackground = 88;
 			
-			// aapt resource value: 59
-			public const int AppCompatTheme_dialogCornerRadius = 59;
+			// aapt resource value: 0x59
+			public const int AppCompatTheme_dialogCornerRadius = 89;
 			
-			// aapt resource value: 60
-			public const int AppCompatTheme_dialogPreferredPadding = 60;
+			// aapt resource value: 0x60
+			public const int AppCompatTheme_dialogPreferredPadding = 96;
 			
-			// aapt resource value: 61
-			public const int AppCompatTheme_dialogTheme = 61;
+			// aapt resource value: 0x61
+			public const int AppCompatTheme_dialogTheme = 97;
 			
-			// aapt resource value: 62
-			public const int AppCompatTheme_dividerHorizontal = 62;
+			// aapt resource value: 0x62
+			public const int AppCompatTheme_dividerHorizontal = 98;
 			
-			// aapt resource value: 63
-			public const int AppCompatTheme_dividerVertical = 63;
+			// aapt resource value: 0x63
+			public const int AppCompatTheme_dividerVertical = 99;
 			
-			// aapt resource value: 65
-			public const int AppCompatTheme_dropdownListPreferredItemHeight = 65;
+			// aapt resource value: 0x65
+			public const int AppCompatTheme_dropdownListPreferredItemHeight = 101;
 			
-			// aapt resource value: 64
-			public const int AppCompatTheme_dropDownListViewStyle = 64;
+			// aapt resource value: 0x64
+			public const int AppCompatTheme_dropDownListViewStyle = 100;
 			
-			// aapt resource value: 66
-			public const int AppCompatTheme_editTextBackground = 66;
+			// aapt resource value: 0x66
+			public const int AppCompatTheme_editTextBackground = 102;
 			
-			// aapt resource value: 67
-			public const int AppCompatTheme_editTextColor = 67;
+			// aapt resource value: 0x67
+			public const int AppCompatTheme_editTextColor = 103;
 			
-			// aapt resource value: 68
-			public const int AppCompatTheme_editTextStyle = 68;
+			// aapt resource value: 0x68
+			public const int AppCompatTheme_editTextStyle = 104;
 			
-			// aapt resource value: 69
-			public const int AppCompatTheme_homeAsUpIndicator = 69;
+			// aapt resource value: 0x69
+			public const int AppCompatTheme_homeAsUpIndicator = 105;
 			
-			// aapt resource value: 70
-			public const int AppCompatTheme_imageButtonStyle = 70;
+			// aapt resource value: 0x70
+			public const int AppCompatTheme_imageButtonStyle = 112;
 			
-			// aapt resource value: 71
-			public const int AppCompatTheme_listChoiceBackgroundIndicator = 71;
+			// aapt resource value: 0x71
+			public const int AppCompatTheme_listChoiceBackgroundIndicator = 113;
 			
-			// aapt resource value: 72
-			public const int AppCompatTheme_listDividerAlertDialog = 72;
+			// aapt resource value: 0x72
+			public const int AppCompatTheme_listDividerAlertDialog = 114;
 			
-			// aapt resource value: 73
-			public const int AppCompatTheme_listMenuViewStyle = 73;
+			// aapt resource value: 0x73
+			public const int AppCompatTheme_listMenuViewStyle = 115;
 			
-			// aapt resource value: 74
-			public const int AppCompatTheme_listPopupWindowStyle = 74;
+			// aapt resource value: 0x74
+			public const int AppCompatTheme_listPopupWindowStyle = 116;
 			
-			// aapt resource value: 75
-			public const int AppCompatTheme_listPreferredItemHeight = 75;
+			// aapt resource value: 0x75
+			public const int AppCompatTheme_listPreferredItemHeight = 117;
 			
-			// aapt resource value: 76
-			public const int AppCompatTheme_listPreferredItemHeightLarge = 76;
+			// aapt resource value: 0x76
+			public const int AppCompatTheme_listPreferredItemHeightLarge = 118;
 			
-			// aapt resource value: 77
-			public const int AppCompatTheme_listPreferredItemHeightSmall = 77;
+			// aapt resource value: 0x77
+			public const int AppCompatTheme_listPreferredItemHeightSmall = 119;
 			
-			// aapt resource value: 78
-			public const int AppCompatTheme_listPreferredItemPaddingLeft = 78;
+			// aapt resource value: 0x78
+			public const int AppCompatTheme_listPreferredItemPaddingLeft = 120;
 			
-			// aapt resource value: 79
-			public const int AppCompatTheme_listPreferredItemPaddingRight = 79;
+			// aapt resource value: 0x79
+			public const int AppCompatTheme_listPreferredItemPaddingRight = 121;
 			
-			// aapt resource value: 80
-			public const int AppCompatTheme_panelBackground = 80;
+			// aapt resource value: 0x80
+			public const int AppCompatTheme_panelBackground = 128;
 			
-			// aapt resource value: 81
-			public const int AppCompatTheme_panelMenuListTheme = 81;
+			// aapt resource value: 0x81
+			public const int AppCompatTheme_panelMenuListTheme = 129;
 			
-			// aapt resource value: 82
-			public const int AppCompatTheme_panelMenuListWidth = 82;
+			// aapt resource value: 0x82
+			public const int AppCompatTheme_panelMenuListWidth = 130;
 			
-			// aapt resource value: 83
-			public const int AppCompatTheme_popupMenuStyle = 83;
+			// aapt resource value: 0x83
+			public const int AppCompatTheme_popupMenuStyle = 131;
 			
-			// aapt resource value: 84
-			public const int AppCompatTheme_popupWindowStyle = 84;
+			// aapt resource value: 0x84
+			public const int AppCompatTheme_popupWindowStyle = 132;
 			
-			// aapt resource value: 85
-			public const int AppCompatTheme_radioButtonStyle = 85;
+			// aapt resource value: 0x85
+			public const int AppCompatTheme_radioButtonStyle = 133;
 			
-			// aapt resource value: 86
-			public const int AppCompatTheme_ratingBarStyle = 86;
+			// aapt resource value: 0x86
+			public const int AppCompatTheme_ratingBarStyle = 134;
 			
-			// aapt resource value: 87
-			public const int AppCompatTheme_ratingBarStyleIndicator = 87;
+			// aapt resource value: 0x87
+			public const int AppCompatTheme_ratingBarStyleIndicator = 135;
 			
-			// aapt resource value: 88
-			public const int AppCompatTheme_ratingBarStyleSmall = 88;
+			// aapt resource value: 0x88
+			public const int AppCompatTheme_ratingBarStyleSmall = 136;
 			
-			// aapt resource value: 89
-			public const int AppCompatTheme_searchViewStyle = 89;
+			// aapt resource value: 0x89
+			public const int AppCompatTheme_searchViewStyle = 137;
 			
-			// aapt resource value: 90
-			public const int AppCompatTheme_seekBarStyle = 90;
+			// aapt resource value: 0x90
+			public const int AppCompatTheme_seekBarStyle = 144;
 			
-			// aapt resource value: 91
-			public const int AppCompatTheme_selectableItemBackground = 91;
+			// aapt resource value: 0x91
+			public const int AppCompatTheme_selectableItemBackground = 145;
 			
-			// aapt resource value: 92
-			public const int AppCompatTheme_selectableItemBackgroundBorderless = 92;
+			// aapt resource value: 0x92
+			public const int AppCompatTheme_selectableItemBackgroundBorderless = 146;
 			
-			// aapt resource value: 93
-			public const int AppCompatTheme_spinnerDropDownItemStyle = 93;
+			// aapt resource value: 0x93
+			public const int AppCompatTheme_spinnerDropDownItemStyle = 147;
 			
-			// aapt resource value: 94
-			public const int AppCompatTheme_spinnerStyle = 94;
+			// aapt resource value: 0x94
+			public const int AppCompatTheme_spinnerStyle = 148;
 			
-			// aapt resource value: 95
-			public const int AppCompatTheme_switchStyle = 95;
+			// aapt resource value: 0x95
+			public const int AppCompatTheme_switchStyle = 149;
 			
-			// aapt resource value: 96
-			public const int AppCompatTheme_textAppearanceLargePopupMenu = 96;
+			// aapt resource value: 0x96
+			public const int AppCompatTheme_textAppearanceLargePopupMenu = 150;
 			
-			// aapt resource value: 97
-			public const int AppCompatTheme_textAppearanceListItem = 97;
+			// aapt resource value: 0x97
+			public const int AppCompatTheme_textAppearanceListItem = 151;
 			
-			// aapt resource value: 98
-			public const int AppCompatTheme_textAppearanceListItemSecondary = 98;
+			// aapt resource value: 0x98
+			public const int AppCompatTheme_textAppearanceListItemSecondary = 152;
 			
-			// aapt resource value: 99
-			public const int AppCompatTheme_textAppearanceListItemSmall = 99;
+			// aapt resource value: 0x99
+			public const int AppCompatTheme_textAppearanceListItemSmall = 153;
 			
-			// aapt resource value: 100
-			public const int AppCompatTheme_textAppearancePopupMenuHeader = 100;
+			// aapt resource value: 0x100
+			public const int AppCompatTheme_textAppearancePopupMenuHeader = 256;
 			
-			// aapt resource value: 101
-			public const int AppCompatTheme_textAppearanceSearchResultSubtitle = 101;
+			// aapt resource value: 0x101
+			public const int AppCompatTheme_textAppearanceSearchResultSubtitle = 257;
 			
-			// aapt resource value: 102
-			public const int AppCompatTheme_textAppearanceSearchResultTitle = 102;
+			// aapt resource value: 0x102
+			public const int AppCompatTheme_textAppearanceSearchResultTitle = 258;
 			
-			// aapt resource value: 103
-			public const int AppCompatTheme_textAppearanceSmallPopupMenu = 103;
+			// aapt resource value: 0x103
+			public const int AppCompatTheme_textAppearanceSmallPopupMenu = 259;
 			
-			// aapt resource value: 104
-			public const int AppCompatTheme_textColorAlertDialogListItem = 104;
+			// aapt resource value: 0x104
+			public const int AppCompatTheme_textColorAlertDialogListItem = 260;
 			
-			// aapt resource value: 105
-			public const int AppCompatTheme_textColorSearchUrl = 105;
+			// aapt resource value: 0x105
+			public const int AppCompatTheme_textColorSearchUrl = 261;
 			
-			// aapt resource value: 106
-			public const int AppCompatTheme_toolbarNavigationButtonStyle = 106;
+			// aapt resource value: 0x106
+			public const int AppCompatTheme_toolbarNavigationButtonStyle = 262;
 			
-			// aapt resource value: 107
-			public const int AppCompatTheme_toolbarStyle = 107;
+			// aapt resource value: 0x107
+			public const int AppCompatTheme_toolbarStyle = 263;
 			
-			// aapt resource value: 108
-			public const int AppCompatTheme_tooltipForegroundColor = 108;
+			// aapt resource value: 0x108
+			public const int AppCompatTheme_tooltipForegroundColor = 264;
 			
-			// aapt resource value: 109
-			public const int AppCompatTheme_tooltipFrameBackground = 109;
+			// aapt resource value: 0x109
+			public const int AppCompatTheme_tooltipFrameBackground = 265;
 			
-			// aapt resource value: 110
-			public const int AppCompatTheme_viewInflaterClass = 110;
+			// aapt resource value: 0x110
+			public const int AppCompatTheme_viewInflaterClass = 272;
 			
-			// aapt resource value: 111
-			public const int AppCompatTheme_windowActionBar = 111;
+			// aapt resource value: 0x111
+			public const int AppCompatTheme_windowActionBar = 273;
 			
-			// aapt resource value: 112
-			public const int AppCompatTheme_windowActionBarOverlay = 112;
+			// aapt resource value: 0x112
+			public const int AppCompatTheme_windowActionBarOverlay = 274;
 			
-			// aapt resource value: 113
-			public const int AppCompatTheme_windowActionModeOverlay = 113;
+			// aapt resource value: 0x113
+			public const int AppCompatTheme_windowActionModeOverlay = 275;
 			
-			// aapt resource value: 114
-			public const int AppCompatTheme_windowFixedHeightMajor = 114;
+			// aapt resource value: 0x114
+			public const int AppCompatTheme_windowFixedHeightMajor = 276;
 			
-			// aapt resource value: 115
-			public const int AppCompatTheme_windowFixedHeightMinor = 115;
+			// aapt resource value: 0x115
+			public const int AppCompatTheme_windowFixedHeightMinor = 277;
 			
-			// aapt resource value: 116
-			public const int AppCompatTheme_windowFixedWidthMajor = 116;
+			// aapt resource value: 0x116
+			public const int AppCompatTheme_windowFixedWidthMajor = 278;
 			
-			// aapt resource value: 117
-			public const int AppCompatTheme_windowFixedWidthMinor = 117;
+			// aapt resource value: 0x117
+			public const int AppCompatTheme_windowFixedWidthMinor = 279;
 			
-			// aapt resource value: 118
-			public const int AppCompatTheme_windowMinWidthMajor = 118;
+			// aapt resource value: 0x118
+			public const int AppCompatTheme_windowMinWidthMajor = 280;
 			
-			// aapt resource value: 119
-			public const int AppCompatTheme_windowMinWidthMinor = 119;
+			// aapt resource value: 0x119
+			public const int AppCompatTheme_windowMinWidthMinor = 281;
 			
-			// aapt resource value: 120
-			public const int AppCompatTheme_windowNoTitle = 120;
+			// aapt resource value: 0x120
+			public const int AppCompatTheme_windowNoTitle = 288;
 			
 			// aapt resource value: { 0x7F030035,0x7F0300CF,0x7F0300D0,0x7F0300D1,0x7F0300D2,0x7F0300F1 }
 			public static int[] BottomAppBar = new int[] {
@@ -15025,22 +13434,22 @@ namespace EasyJob.Droid
 					2130903250,
 					2130903281};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int BottomAppBar_backgroundTint = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int BottomAppBar_fabAlignmentMode = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int BottomAppBar_fabCradleMargin = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int BottomAppBar_fabCradleRoundedCornerRadius = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int BottomAppBar_fabCradleVerticalOffset = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int BottomAppBar_hideOnScroll = 5;
 			
 			// aapt resource value: { 0x7F0300C0,0x7F030108,0x7F03010A,0x7F03010C,0x7F03010D,0x7F030111,0x7F030112,0x7F030113,0x7F030115,0x7F03015A }
@@ -15056,34 +13465,34 @@ namespace EasyJob.Droid
 					2130903317,
 					2130903386};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int BottomNavigationView_elevation = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int BottomNavigationView_itemHorizontalTranslationEnabled = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int BottomNavigationView_itemIconSize = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int BottomNavigationView_itemIconTint = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int BottomNavigationView_itemTextAppearanceActive = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int BottomNavigationView_itemTextAppearanceInactive = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int BottomNavigationView_itemTextColor = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int BottomNavigationView_labelVisibilityMode = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int BottomNavigationView_menu = 9;
 			
 			// aapt resource value: { 0x7F030039,0x7F03003A,0x7F03003C,0x7F03003D }
@@ -15093,23 +13502,23 @@ namespace EasyJob.Droid
 					2130903100,
 					2130903101};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 3;
 			
 			// aapt resource value: { 0x7F030026 }
 			public static int[] ButtonBarLayout = new int[] {
 					2130903078};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
 			// aapt resource value: { 0x101013F,0x1010140,0x7F030061,0x7F030062,0x7F030063,0x7F030064,0x7F030065,0x7F030066,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F0300A5,0x7F0300A6 }
@@ -15128,44 +13537,44 @@ namespace EasyJob.Droid
 					2130903205,
 					2130903206};
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int CardView_android_minHeight = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int CardView_android_minWidth = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int CardView_cardBackgroundColor = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int CardView_cardCornerRadius = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int CardView_cardElevation = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int CardView_cardMaxElevation = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int CardView_cardPreventCornerOverlap = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int CardView_cardUseCompatPadding = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int CardView_contentPadding = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int CardView_contentPaddingBottom = 9;
 			
-			// aapt resource value: 10
-			public const int CardView_contentPaddingLeft = 10;
+			// aapt resource value: 0x10
+			public const int CardView_contentPaddingLeft = 16;
 			
-			// aapt resource value: 11
-			public const int CardView_contentPaddingRight = 11;
+			// aapt resource value: 0x11
+			public const int CardView_contentPaddingRight = 17;
 			
-			// aapt resource value: 12
-			public const int CardView_contentPaddingTop = 12;
+			// aapt resource value: 0x12
+			public const int CardView_contentPaddingTop = 18;
 			
 			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006E,0x7F03006F,0x7F030070,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03007C,0x7F03007D,0x7F03007E,0x7F030081,0x7F030082,0x7F030083,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F0300EF,0x7F0300F9,0x7F0300FD,0x7F03017C,0x7F030189,0x7F0301DE,0x7F0301E0 }
 			public static int[] Chip = new int[] {
@@ -15213,125 +13622,125 @@ namespace EasyJob.Droid
 					2130903437,
 					2130903438};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ChipGroup_checkedChip = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ChipGroup_chipSpacing = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ChipGroup_chipSpacingHorizontal = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int ChipGroup_chipSpacingVertical = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int ChipGroup_singleLine = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int ChipGroup_singleSelection = 5;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int Chip_android_checkable = 4;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int Chip_android_ellipsize = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int Chip_android_maxWidth = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int Chip_android_text = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int Chip_android_textAppearance = 0;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int Chip_checkedIcon = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int Chip_checkedIconEnabled = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int Chip_checkedIconVisible = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int Chip_chipBackgroundColor = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int Chip_chipCornerRadius = 9;
 			
-			// aapt resource value: 10
-			public const int Chip_chipEndPadding = 10;
+			// aapt resource value: 0x10
+			public const int Chip_chipEndPadding = 16;
 			
-			// aapt resource value: 11
-			public const int Chip_chipIcon = 11;
+			// aapt resource value: 0x11
+			public const int Chip_chipIcon = 17;
 			
-			// aapt resource value: 12
-			public const int Chip_chipIconEnabled = 12;
+			// aapt resource value: 0x12
+			public const int Chip_chipIconEnabled = 18;
 			
-			// aapt resource value: 13
-			public const int Chip_chipIconSize = 13;
+			// aapt resource value: 0x13
+			public const int Chip_chipIconSize = 19;
 			
-			// aapt resource value: 14
-			public const int Chip_chipIconTint = 14;
+			// aapt resource value: 0x14
+			public const int Chip_chipIconTint = 20;
 			
-			// aapt resource value: 15
-			public const int Chip_chipIconVisible = 15;
+			// aapt resource value: 0x15
+			public const int Chip_chipIconVisible = 21;
 			
-			// aapt resource value: 16
-			public const int Chip_chipMinHeight = 16;
+			// aapt resource value: 0x16
+			public const int Chip_chipMinHeight = 22;
 			
-			// aapt resource value: 17
-			public const int Chip_chipStartPadding = 17;
+			// aapt resource value: 0x17
+			public const int Chip_chipStartPadding = 23;
 			
-			// aapt resource value: 18
-			public const int Chip_chipStrokeColor = 18;
+			// aapt resource value: 0x18
+			public const int Chip_chipStrokeColor = 24;
 			
-			// aapt resource value: 19
-			public const int Chip_chipStrokeWidth = 19;
+			// aapt resource value: 0x19
+			public const int Chip_chipStrokeWidth = 25;
 			
-			// aapt resource value: 20
-			public const int Chip_closeIcon = 20;
+			// aapt resource value: 0x20
+			public const int Chip_closeIcon = 32;
 			
-			// aapt resource value: 21
-			public const int Chip_closeIconEnabled = 21;
+			// aapt resource value: 0x21
+			public const int Chip_closeIconEnabled = 33;
 			
-			// aapt resource value: 22
-			public const int Chip_closeIconEndPadding = 22;
+			// aapt resource value: 0x22
+			public const int Chip_closeIconEndPadding = 34;
 			
-			// aapt resource value: 23
-			public const int Chip_closeIconSize = 23;
+			// aapt resource value: 0x23
+			public const int Chip_closeIconSize = 35;
 			
-			// aapt resource value: 24
-			public const int Chip_closeIconStartPadding = 24;
+			// aapt resource value: 0x24
+			public const int Chip_closeIconStartPadding = 36;
 			
-			// aapt resource value: 25
-			public const int Chip_closeIconTint = 25;
+			// aapt resource value: 0x25
+			public const int Chip_closeIconTint = 37;
 			
-			// aapt resource value: 26
-			public const int Chip_closeIconVisible = 26;
+			// aapt resource value: 0x26
+			public const int Chip_closeIconVisible = 38;
 			
-			// aapt resource value: 27
-			public const int Chip_hideMotionSpec = 27;
+			// aapt resource value: 0x27
+			public const int Chip_hideMotionSpec = 39;
 			
-			// aapt resource value: 28
-			public const int Chip_iconEndPadding = 28;
+			// aapt resource value: 0x28
+			public const int Chip_iconEndPadding = 40;
 			
-			// aapt resource value: 29
-			public const int Chip_iconStartPadding = 29;
+			// aapt resource value: 0x29
+			public const int Chip_iconStartPadding = 41;
 			
-			// aapt resource value: 30
-			public const int Chip_rippleColor = 30;
+			// aapt resource value: 0x30
+			public const int Chip_rippleColor = 48;
 			
-			// aapt resource value: 31
-			public const int Chip_showMotionSpec = 31;
+			// aapt resource value: 0x31
+			public const int Chip_showMotionSpec = 49;
 			
-			// aapt resource value: 32
-			public const int Chip_textEndPadding = 32;
+			// aapt resource value: 0x32
+			public const int Chip_textEndPadding = 50;
 			
-			// aapt resource value: 33
-			public const int Chip_textStartPadding = 33;
+			// aapt resource value: 0x33
+			public const int Chip_textStartPadding = 51;
 			
 			// aapt resource value: { 0x7F03008B,0x7F03008C,0x7F0300A7,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F03017E,0x7F030180,0x7F03019E,0x7F0301EB,0x7F0301EC,0x7F0301F6 }
 			public static int[] CollapsingToolbarLayout = new int[] {
@@ -15352,34 +13761,34 @@ namespace EasyJob.Droid
 					2130903532,
 					2130903542};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int CollapsingToolbarLayout_contentScrim = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int CollapsingToolbarLayout_expandedTitleGravity = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int CollapsingToolbarLayout_expandedTitleMargin = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int CollapsingToolbarLayout_expandedTitleMarginEnd = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int CollapsingToolbarLayout_expandedTitleMarginStart = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int CollapsingToolbarLayout_expandedTitleMarginTop = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 9;
 			
 			// aapt resource value: { 0x7F030120,0x7F030121 }
@@ -15387,29 +13796,29 @@ namespace EasyJob.Droid
 					2130903328,
 					2130903329};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
 			
-			// aapt resource value: 10
-			public const int CollapsingToolbarLayout_scrimAnimationDuration = 10;
+			// aapt resource value: 0x10
+			public const int CollapsingToolbarLayout_scrimAnimationDuration = 16;
 			
-			// aapt resource value: 11
-			public const int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 11;
+			// aapt resource value: 0x11
+			public const int CollapsingToolbarLayout_scrimVisibleHeightTrigger = 17;
 			
-			// aapt resource value: 12
-			public const int CollapsingToolbarLayout_statusBarScrim = 12;
+			// aapt resource value: 0x12
+			public const int CollapsingToolbarLayout_statusBarScrim = 18;
 			
-			// aapt resource value: 13
-			public const int CollapsingToolbarLayout_title = 13;
+			// aapt resource value: 0x13
+			public const int CollapsingToolbarLayout_title = 19;
 			
-			// aapt resource value: 14
-			public const int CollapsingToolbarLayout_titleEnabled = 14;
+			// aapt resource value: 0x14
+			public const int CollapsingToolbarLayout_titleEnabled = 20;
 			
-			// aapt resource value: 15
-			public const int CollapsingToolbarLayout_toolbarId = 15;
+			// aapt resource value: 0x15
+			public const int CollapsingToolbarLayout_toolbarId = 21;
 			
 			// aapt resource value: { 0x10101A5,0x101031F,0x7F030027 }
 			public static int[] ColorStateListItem = new int[] {
@@ -15417,13 +13826,13 @@ namespace EasyJob.Droid
 					16843551,
 					2130903079};
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ColorStateListItem_alpha = 2;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ColorStateListItem_android_color = 0;
 			
 			// aapt resource value: { 0x1010107,0x7F030058,0x7F030059 }
@@ -15432,13 +13841,13 @@ namespace EasyJob.Droid
 					2130903128,
 					2130903129};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int CompoundButton_android_button = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int CompoundButton_buttonTintMode = 2;
 			
 			// aapt resource value: { 0x7F030114,0x7F03019D }
@@ -15446,7 +13855,7 @@ namespace EasyJob.Droid
 					2130903316,
 					2130903453};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int CoordinatorLayout_keylines = 0;
 			
 			// aapt resource value: { 0x10100B3,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030122,0x7F030123,0x7F030124 }
@@ -15459,28 +13868,28 @@ namespace EasyJob.Droid
 					2130903331,
 					2130903332};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int CoordinatorLayout_Layout_layout_anchorGravity = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int CoordinatorLayout_Layout_layout_behavior = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int CoordinatorLayout_Layout_layout_dodgeInsetEdges = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int CoordinatorLayout_Layout_layout_insetEdge = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int CoordinatorLayout_Layout_layout_keyline = 6;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
 			// aapt resource value: { 0x7F030042,0x7F030043 }
@@ -15488,10 +13897,10 @@ namespace EasyJob.Droid
 					2130903106,
 					2130903107};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
 			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F030037,0x7F03008D,0x7F0300B9,0x7F0300E8,0x7F030192,0x7F0301E2 }
@@ -15505,28 +13914,28 @@ namespace EasyJob.Droid
 					2130903442,
 					2130903522};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int DrawerArrowToggle_barLength = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int DrawerArrowToggle_color = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int DrawerArrowToggle_drawableSize = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int DrawerArrowToggle_gapBetweenBars = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int DrawerArrowToggle_spinBars = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int DrawerArrowToggle_thickness = 7;
 			
 			// aapt resource value: { 0x7F030035,0x7F030036,0x7F03003E,0x7F0300C0,0x7F0300D3,0x7F0300D4,0x7F0300EF,0x7F0300F7,0x7F03014B,0x7F030172,0x7F03017C,0x7F030189,0x7F030207 }
@@ -15545,61 +13954,61 @@ namespace EasyJob.Droid
 					2130903433,
 					2130903559};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int FloatingActionButton_backgroundTint = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
 			
 			// aapt resource value: { 0x7F030038 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130903096};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int FloatingActionButton_elevation = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int FloatingActionButton_fabCustomSize = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int FloatingActionButton_fabSize = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int FloatingActionButton_hideMotionSpec = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int FloatingActionButton_hoveredFocusedTranslationZ = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int FloatingActionButton_maxImageSize = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int FloatingActionButton_pressedTranslationZ = 9;
 			
-			// aapt resource value: 10
-			public const int FloatingActionButton_rippleColor = 10;
+			// aapt resource value: 0x10
+			public const int FloatingActionButton_rippleColor = 16;
 			
-			// aapt resource value: 11
-			public const int FloatingActionButton_showMotionSpec = 11;
+			// aapt resource value: 0x11
+			public const int FloatingActionButton_showMotionSpec = 17;
 			
-			// aapt resource value: 12
-			public const int FloatingActionButton_useCompatPadding = 12;
+			// aapt resource value: 0x12
+			public const int FloatingActionButton_useCompatPadding = 18;
 			
 			// aapt resource value: { 0x7F03010F,0x7F030129 }
 			public static int[] FlowLayout = new int[] {
 					2130903311,
 					2130903337};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int FlowLayout_itemSpacing = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int FlowLayout_lineSpacing = 1;
 			
 			// aapt resource value: { 0x7F0300DE,0x7F0300DF,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E3 }
@@ -15624,52 +14033,52 @@ namespace EasyJob.Droid
 					2130903270,
 					2130903551};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int FontFamilyFont_android_font = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int FontFamilyFont_android_fontStyle = 2;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int FontFamilyFont_android_fontVariationSettings = 4;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontWeight = 1;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int FontFamilyFont_android_ttcIndex = 3;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int FontFamilyFont_font = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int FontFamilyFont_fontStyle = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int FontFamilyFont_fontVariationSettings = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int FontFamilyFont_fontWeight = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int FontFamilyFont_ttcIndex = 9;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int FontFamily_fontProviderAuthority = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int FontFamily_fontProviderFetchStrategy = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int FontFamily_fontProviderFetchTimeout = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int FontFamily_fontProviderPackage = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int FontFamily_fontProviderQuery = 5;
 			
 			// aapt resource value: { 0x1010109,0x1010200,0x7F0300E7 }
@@ -15678,13 +14087,13 @@ namespace EasyJob.Droid
 					16843264,
 					2130903271};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ForegroundLinearLayout_android_foreground = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
 			// aapt resource value: { 0x101019D,0x101019E,0x10101A1,0x10101A2,0x10101A3,0x10101A4,0x1010201,0x101020B,0x1010510,0x1010511,0x1010512,0x1010513 }
@@ -15707,46 +14116,46 @@ namespace EasyJob.Droid
 					16843173,
 					16844052};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int GradientColorItem_android_color = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int GradientColorItem_android_offset = 1;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int GradientColor_android_centerColor = 7;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int GradientColor_android_centerX = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int GradientColor_android_centerY = 4;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int GradientColor_android_endColor = 1;
 			
-			// aapt resource value: 10
-			public const int GradientColor_android_endX = 10;
+			// aapt resource value: 0x10
+			public const int GradientColor_android_endX = 16;
 			
-			// aapt resource value: 11
-			public const int GradientColor_android_endY = 11;
+			// aapt resource value: 0x11
+			public const int GradientColor_android_endY = 17;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int GradientColor_android_gradientRadius = 5;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int GradientColor_android_startColor = 0;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int GradientColor_android_startX = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int GradientColor_android_startY = 9;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int GradientColor_android_tileMode = 6;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int GradientColor_android_type = 2;
 			
 			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300B5,0x7F0300B7,0x7F03014C,0x7F030188 }
@@ -15761,25 +14170,25 @@ namespace EasyJob.Droid
 					2130903372,
 					2130903432};
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int LinearLayoutCompat_android_gravity = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_orientation = 1;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int LinearLayoutCompat_android_weightSum = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int LinearLayoutCompat_divider = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int LinearLayoutCompat_dividerPadding = 6;
 			
 			// aapt resource value: { 0x10100B3,0x10100F4,0x10100F5,0x1010181 }
@@ -15789,22 +14198,22 @@ namespace EasyJob.Droid
 					16842997,
 					16843137};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int LinearLayoutCompat_Layout_android_layout_gravity = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int LinearLayoutCompat_Layout_android_layout_height = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int LinearLayoutCompat_Layout_android_layout_weight = 3;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_width = 1;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int LinearLayoutCompat_measureWithLargestChild = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
 			// aapt resource value: { 0x10102AC,0x10102AD }
@@ -15812,10 +14221,10 @@ namespace EasyJob.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ListPopupWindow_android_dropDownHorizontalOffset = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
 			// aapt resource value: { 0x7F030080,0x7F030101,0x7F030102 }
@@ -15824,13 +14233,13 @@ namespace EasyJob.Droid
 					2130903297,
 					2130903298};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int LoadingImageView_circleCrop = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int LoadingImageView_imageAspectRatio = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int LoadingImageView_imageAspectRatioAdjust = 2;
 			
 			// aapt resource value: { 0x7F030138,0x7F030139,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F,0x7F030140,0x7F030141,0x7F030142,0x7F030143,0x7F030144,0x7F030145 }
@@ -15850,47 +14259,47 @@ namespace EasyJob.Droid
 					2130903364,
 					2130903365};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int LottieAnimationView_lottie_autoPlay = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int LottieAnimationView_lottie_colorFilter = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int LottieAnimationView_lottie_fileName = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int LottieAnimationView_lottie_imageAssetsFolder = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int LottieAnimationView_lottie_loop = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int LottieAnimationView_lottie_progress = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int LottieAnimationView_lottie_rawRes = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int LottieAnimationView_lottie_renderMode = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int LottieAnimationView_lottie_repeatCount = 9;
 			
-			// aapt resource value: 10
-			public const int LottieAnimationView_lottie_repeatMode = 10;
+			// aapt resource value: 0x10
+			public const int LottieAnimationView_lottie_repeatMode = 16;
 			
-			// aapt resource value: 11
-			public const int LottieAnimationView_lottie_scale = 11;
+			// aapt resource value: 0x11
+			public const int LottieAnimationView_lottie_scale = 17;
 			
-			// aapt resource value: 12
-			public const int LottieAnimationView_lottie_speed = 12;
+			// aapt resource value: 0x12
+			public const int LottieAnimationView_lottie_speed = 18;
 			
-			// aapt resource value: 13
-			public const int LottieAnimationView_lottie_url = 13;
+			// aapt resource value: 0x13
+			public const int LottieAnimationView_lottie_url = 19;
 			
 			// aapt resource value: { 0x7F030029,0x7F03005A,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030060,0x7F030117,0x7F030118,0x7F030119,0x7F03011A,0x7F030135,0x7F030146,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030205,0x7F030206,0x7F030208,0x7F030215 }
 			public static int[] MapAttrs = new int[] {
@@ -15918,74 +14327,74 @@ namespace EasyJob.Droid
 					2130903560,
 					2130903573};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MapAttrs_ambientEnabled = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MapAttrs_cameraBearing = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int MapAttrs_cameraMaxZoomPreference = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int MapAttrs_cameraMinZoomPreference = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int MapAttrs_cameraTargetLat = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int MapAttrs_cameraTargetLng = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int MapAttrs_cameraTilt = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int MapAttrs_cameraZoom = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int MapAttrs_latLngBoundsNorthEastLatitude = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int MapAttrs_latLngBoundsNorthEastLongitude = 9;
 			
-			// aapt resource value: 10
-			public const int MapAttrs_latLngBoundsSouthWestLatitude = 10;
+			// aapt resource value: 0x10
+			public const int MapAttrs_latLngBoundsSouthWestLatitude = 16;
 			
-			// aapt resource value: 11
-			public const int MapAttrs_latLngBoundsSouthWestLongitude = 11;
+			// aapt resource value: 0x11
+			public const int MapAttrs_latLngBoundsSouthWestLongitude = 17;
 			
-			// aapt resource value: 12
-			public const int MapAttrs_liteMode = 12;
+			// aapt resource value: 0x12
+			public const int MapAttrs_liteMode = 18;
 			
-			// aapt resource value: 13
-			public const int MapAttrs_mapType = 13;
+			// aapt resource value: 0x13
+			public const int MapAttrs_mapType = 19;
 			
-			// aapt resource value: 14
-			public const int MapAttrs_uiCompass = 14;
+			// aapt resource value: 0x14
+			public const int MapAttrs_uiCompass = 20;
 			
-			// aapt resource value: 15
-			public const int MapAttrs_uiMapToolbar = 15;
+			// aapt resource value: 0x15
+			public const int MapAttrs_uiMapToolbar = 21;
 			
-			// aapt resource value: 16
-			public const int MapAttrs_uiRotateGestures = 16;
+			// aapt resource value: 0x16
+			public const int MapAttrs_uiRotateGestures = 22;
 			
-			// aapt resource value: 17
-			public const int MapAttrs_uiScrollGestures = 17;
+			// aapt resource value: 0x17
+			public const int MapAttrs_uiScrollGestures = 23;
 			
-			// aapt resource value: 18
-			public const int MapAttrs_uiTiltGestures = 18;
+			// aapt resource value: 0x18
+			public const int MapAttrs_uiTiltGestures = 24;
 			
-			// aapt resource value: 19
-			public const int MapAttrs_uiZoomControls = 19;
+			// aapt resource value: 0x19
+			public const int MapAttrs_uiZoomControls = 25;
 			
-			// aapt resource value: 20
-			public const int MapAttrs_uiZoomGestures = 20;
+			// aapt resource value: 0x20
+			public const int MapAttrs_uiZoomGestures = 32;
 			
-			// aapt resource value: 21
-			public const int MapAttrs_useViewLifecycle = 21;
+			// aapt resource value: 0x21
+			public const int MapAttrs_useViewLifecycle = 33;
 			
-			// aapt resource value: 22
-			public const int MapAttrs_zOrderOnTop = 22;
+			// aapt resource value: 0x22
+			public const int MapAttrs_zOrderOnTop = 34;
 			
 			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030035,0x7F030036,0x7F0300AA,0x7F0300F8,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FE,0x7F0300FF,0x7F03017C,0x7F03019F,0x7F0301A0 }
 			public static int[] MaterialButton = new int[] {
@@ -16006,63 +14415,63 @@ namespace EasyJob.Droid
 					2130903455,
 					2130903456};
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int MaterialButton_android_insetBottom = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MaterialButton_android_insetLeft = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MaterialButton_android_insetRight = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int MaterialButton_android_insetTop = 2;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int MaterialButton_backgroundTint = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int MaterialButton_backgroundTintMode = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int MaterialButton_cornerRadius = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int MaterialButton_icon = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int MaterialButton_iconGravity = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int MaterialButton_iconPadding = 9;
 			
-			// aapt resource value: 10
-			public const int MaterialButton_iconSize = 10;
+			// aapt resource value: 0x10
+			public const int MaterialButton_iconSize = 16;
 			
-			// aapt resource value: 11
-			public const int MaterialButton_iconTint = 11;
+			// aapt resource value: 0x11
+			public const int MaterialButton_iconTint = 17;
 			
-			// aapt resource value: 12
-			public const int MaterialButton_iconTintMode = 12;
+			// aapt resource value: 0x12
+			public const int MaterialButton_iconTintMode = 18;
 			
-			// aapt resource value: 13
-			public const int MaterialButton_rippleColor = 13;
+			// aapt resource value: 0x13
+			public const int MaterialButton_rippleColor = 19;
 			
-			// aapt resource value: 14
-			public const int MaterialButton_strokeColor = 14;
+			// aapt resource value: 0x14
+			public const int MaterialButton_strokeColor = 20;
 			
-			// aapt resource value: 15
-			public const int MaterialButton_strokeWidth = 15;
+			// aapt resource value: 0x15
+			public const int MaterialButton_strokeWidth = 21;
 			
 			// aapt resource value: { 0x7F03019F,0x7F0301A0 }
 			public static int[] MaterialCardView = new int[] {
 					2130903455,
 					2130903456};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MaterialCardView_strokeColor = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MaterialCardView_strokeWidth = 1;
 			
 			// aapt resource value: { 0x7F030042,0x7F030043,0x7F030071,0x7F03007B,0x7F03007F,0x7F03008E,0x7F03008F,0x7F030095,0x7F030096,0x7F030098,0x7F0300BF,0x7F0300DB,0x7F030147,0x7F030148,0x7F03015F,0x7F03017F,0x7F03018F,0x7F0301C2,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D5,0x7F0301DA,0x7F0301DB,0x7F0301DF }
@@ -16100,101 +14509,101 @@ namespace EasyJob.Droid
 					2130903515,
 					2130903519};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MaterialComponentsTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int MaterialComponentsTheme_chipGroupStyle = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int MaterialComponentsTheme_chipStandaloneStyle = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int MaterialComponentsTheme_chipStyle = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int MaterialComponentsTheme_colorAccent = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int MaterialComponentsTheme_colorBackgroundFloating = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int MaterialComponentsTheme_colorPrimary = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int MaterialComponentsTheme_colorPrimaryDark = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int MaterialComponentsTheme_colorSecondary = 9;
 			
-			// aapt resource value: 10
-			public const int MaterialComponentsTheme_editTextStyle = 10;
+			// aapt resource value: 0x10
+			public const int MaterialComponentsTheme_editTextStyle = 16;
 			
-			// aapt resource value: 11
-			public const int MaterialComponentsTheme_floatingActionButtonStyle = 11;
+			// aapt resource value: 0x11
+			public const int MaterialComponentsTheme_floatingActionButtonStyle = 17;
 			
-			// aapt resource value: 12
-			public const int MaterialComponentsTheme_materialButtonStyle = 12;
+			// aapt resource value: 0x12
+			public const int MaterialComponentsTheme_materialButtonStyle = 18;
 			
-			// aapt resource value: 13
-			public const int MaterialComponentsTheme_materialCardViewStyle = 13;
+			// aapt resource value: 0x13
+			public const int MaterialComponentsTheme_materialCardViewStyle = 19;
 			
-			// aapt resource value: 14
-			public const int MaterialComponentsTheme_navigationViewStyle = 14;
+			// aapt resource value: 0x14
+			public const int MaterialComponentsTheme_navigationViewStyle = 20;
 			
-			// aapt resource value: 15
-			public const int MaterialComponentsTheme_scrimBackground = 15;
+			// aapt resource value: 0x15
+			public const int MaterialComponentsTheme_scrimBackground = 21;
 			
-			// aapt resource value: 16
-			public const int MaterialComponentsTheme_snackbarButtonStyle = 16;
+			// aapt resource value: 0x16
+			public const int MaterialComponentsTheme_snackbarButtonStyle = 22;
 			
-			// aapt resource value: 17
-			public const int MaterialComponentsTheme_tabStyle = 17;
+			// aapt resource value: 0x17
+			public const int MaterialComponentsTheme_tabStyle = 23;
 			
-			// aapt resource value: 18
-			public const int MaterialComponentsTheme_textAppearanceBody1 = 18;
+			// aapt resource value: 0x18
+			public const int MaterialComponentsTheme_textAppearanceBody1 = 24;
 			
-			// aapt resource value: 19
-			public const int MaterialComponentsTheme_textAppearanceBody2 = 19;
+			// aapt resource value: 0x19
+			public const int MaterialComponentsTheme_textAppearanceBody2 = 25;
 			
-			// aapt resource value: 20
-			public const int MaterialComponentsTheme_textAppearanceButton = 20;
+			// aapt resource value: 0x20
+			public const int MaterialComponentsTheme_textAppearanceButton = 32;
 			
-			// aapt resource value: 21
-			public const int MaterialComponentsTheme_textAppearanceCaption = 21;
+			// aapt resource value: 0x21
+			public const int MaterialComponentsTheme_textAppearanceCaption = 33;
 			
-			// aapt resource value: 22
-			public const int MaterialComponentsTheme_textAppearanceHeadline1 = 22;
+			// aapt resource value: 0x22
+			public const int MaterialComponentsTheme_textAppearanceHeadline1 = 34;
 			
-			// aapt resource value: 23
-			public const int MaterialComponentsTheme_textAppearanceHeadline2 = 23;
+			// aapt resource value: 0x23
+			public const int MaterialComponentsTheme_textAppearanceHeadline2 = 35;
 			
-			// aapt resource value: 24
-			public const int MaterialComponentsTheme_textAppearanceHeadline3 = 24;
+			// aapt resource value: 0x24
+			public const int MaterialComponentsTheme_textAppearanceHeadline3 = 36;
 			
-			// aapt resource value: 25
-			public const int MaterialComponentsTheme_textAppearanceHeadline4 = 25;
+			// aapt resource value: 0x25
+			public const int MaterialComponentsTheme_textAppearanceHeadline4 = 37;
 			
-			// aapt resource value: 26
-			public const int MaterialComponentsTheme_textAppearanceHeadline5 = 26;
+			// aapt resource value: 0x26
+			public const int MaterialComponentsTheme_textAppearanceHeadline5 = 38;
 			
-			// aapt resource value: 27
-			public const int MaterialComponentsTheme_textAppearanceHeadline6 = 27;
+			// aapt resource value: 0x27
+			public const int MaterialComponentsTheme_textAppearanceHeadline6 = 39;
 			
-			// aapt resource value: 28
-			public const int MaterialComponentsTheme_textAppearanceOverline = 28;
+			// aapt resource value: 0x28
+			public const int MaterialComponentsTheme_textAppearanceOverline = 40;
 			
-			// aapt resource value: 29
-			public const int MaterialComponentsTheme_textAppearanceSubtitle1 = 29;
+			// aapt resource value: 0x29
+			public const int MaterialComponentsTheme_textAppearanceSubtitle1 = 41;
 			
-			// aapt resource value: 30
-			public const int MaterialComponentsTheme_textAppearanceSubtitle2 = 30;
+			// aapt resource value: 0x30
+			public const int MaterialComponentsTheme_textAppearanceSubtitle2 = 48;
 			
-			// aapt resource value: 31
-			public const int MaterialComponentsTheme_textInputStyle = 31;
+			// aapt resource value: 0x31
+			public const int MaterialComponentsTheme_textInputStyle = 49;
 			
 			// aapt resource value: { 0x101013F,0x1010140,0x7F0300CE,0x7F03014F }
 			public static int[] MediaRouteButton = new int[] {
@@ -16203,16 +14612,16 @@ namespace EasyJob.Droid
 					2130903246,
 					2130903375};
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minHeight = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MediaRouteButton_android_minWidth = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int MediaRouteButton_externalRouteEnabledDrawable = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int MediaRouteButton_mediaRouteButtonTint = 3;
 			
 			// aapt resource value: { 0x101000E,0x10100D0,0x1010194,0x10101DE,0x10101DF,0x10101E0 }
@@ -16224,22 +14633,22 @@ namespace EasyJob.Droid
 					16843231,
 					16843232};
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int MenuGroup_android_checkableBehavior = 5;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MenuGroup_android_enabled = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MenuGroup_android_id = 1;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int MenuGroup_android_menuCategory = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int MenuGroup_android_orderInCategory = 4;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int MenuGroup_android_visible = 2;
 			
 			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F03009B,0x7F0300FE,0x7F0300FF,0x7F030160,0x7F030187,0x7F0301FB }
@@ -16268,74 +14677,74 @@ namespace EasyJob.Droid
 					2130903431,
 					2130903547};
 			
-			// aapt resource value: 13
-			public const int MenuItem_actionLayout = 13;
+			// aapt resource value: 0x13
+			public const int MenuItem_actionLayout = 19;
 			
-			// aapt resource value: 14
-			public const int MenuItem_actionProviderClass = 14;
+			// aapt resource value: 0x14
+			public const int MenuItem_actionProviderClass = 20;
 			
-			// aapt resource value: 15
-			public const int MenuItem_actionViewClass = 15;
+			// aapt resource value: 0x15
+			public const int MenuItem_actionViewClass = 21;
 			
-			// aapt resource value: 16
-			public const int MenuItem_alphabeticModifiers = 16;
+			// aapt resource value: 0x16
+			public const int MenuItem_alphabeticModifiers = 22;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int MenuItem_android_alphabeticShortcut = 9;
 			
-			// aapt resource value: 11
-			public const int MenuItem_android_checkable = 11;
+			// aapt resource value: 0x11
+			public const int MenuItem_android_checkable = 17;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int MenuItem_android_checked = 3;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MenuItem_android_enabled = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MenuItem_android_icon = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int MenuItem_android_id = 2;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int MenuItem_android_menuCategory = 5;
 			
-			// aapt resource value: 10
-			public const int MenuItem_android_numericShortcut = 10;
+			// aapt resource value: 0x10
+			public const int MenuItem_android_numericShortcut = 16;
 			
-			// aapt resource value: 12
-			public const int MenuItem_android_onClick = 12;
+			// aapt resource value: 0x12
+			public const int MenuItem_android_onClick = 18;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int MenuItem_android_orderInCategory = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int MenuItem_android_title = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int MenuItem_android_titleCondensed = 8;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int MenuItem_android_visible = 4;
 			
-			// aapt resource value: 17
-			public const int MenuItem_contentDescription = 17;
+			// aapt resource value: 0x17
+			public const int MenuItem_contentDescription = 23;
 			
-			// aapt resource value: 18
-			public const int MenuItem_iconTint = 18;
+			// aapt resource value: 0x18
+			public const int MenuItem_iconTint = 24;
 			
-			// aapt resource value: 19
-			public const int MenuItem_iconTintMode = 19;
+			// aapt resource value: 0x19
+			public const int MenuItem_iconTintMode = 25;
 			
-			// aapt resource value: 20
-			public const int MenuItem_numericModifiers = 20;
+			// aapt resource value: 0x20
+			public const int MenuItem_numericModifiers = 32;
 			
-			// aapt resource value: 21
-			public const int MenuItem_showAsAction = 21;
+			// aapt resource value: 0x21
+			public const int MenuItem_showAsAction = 33;
 			
-			// aapt resource value: 22
-			public const int MenuItem_tooltipText = 22;
+			// aapt resource value: 0x22
+			public const int MenuItem_tooltipText = 34;
 			
 			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030171,0x7F0301A1 }
 			public static int[] MenuView = new int[] {
@@ -16349,31 +14758,31 @@ namespace EasyJob.Droid
 					2130903409,
 					2130903457};
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int MenuView_android_headerBackground = 4;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int MenuView_android_horizontalDivider = 2;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int MenuView_android_itemBackground = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int MenuView_android_itemIconDisabledAlpha = 6;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int MenuView_android_itemTextAppearance = 1;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int MenuView_android_verticalDivider = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int MenuView_android_windowAnimationStyle = 0;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int MenuView_preserveIconSpacing = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int MenuView_subMenuArrow = 8;
 			
 			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F0300C0,0x7F0300EA,0x7F030108,0x7F030109,0x7F03010B,0x7F03010D,0x7F030110,0x7F030113,0x7F03015A }
@@ -16391,41 +14800,41 @@ namespace EasyJob.Droid
 					2130903315,
 					2130903386};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int NavigationView_android_background = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int NavigationView_android_maxWidth = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int NavigationView_elevation = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int NavigationView_headerLayout = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int NavigationView_itemBackground = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int NavigationView_itemHorizontalPadding = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int NavigationView_itemIconPadding = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int NavigationView_itemIconTint = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int NavigationView_itemTextAppearance = 9;
 			
-			// aapt resource value: 10
-			public const int NavigationView_itemTextColor = 10;
+			// aapt resource value: 0x10
+			public const int NavigationView_itemTextColor = 16;
 			
-			// aapt resource value: 11
-			public const int NavigationView_menu = 11;
+			// aapt resource value: 0x11
+			public const int NavigationView_menu = 17;
 			
 			// aapt resource value: { 0x1010176,0x10102C9,0x7F030161 }
 			public static int[] PopupWindow = new int[] {
@@ -16437,16 +14846,16 @@ namespace EasyJob.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130903448};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupAnimationStyle = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int PopupWindow_android_popupBackground = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
 			
 			// aapt resource value: { 0x7F030162,0x7F030165 }
@@ -16454,10 +14863,10 @@ namespace EasyJob.Droid
 					2130903394,
 					2130903397};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
 			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F03011C,0x7F03017B,0x7F030191,0x7F030197 }
@@ -16474,51 +14883,51 @@ namespace EasyJob.Droid
 					2130903441,
 					2130903447};
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int RecyclerView_android_descendantFocusability = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int RecyclerView_android_orientation = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int RecyclerView_fastScrollEnabled = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int RecyclerView_fastScrollHorizontalThumbDrawable = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int RecyclerView_fastScrollHorizontalTrackDrawable = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int RecyclerView_fastScrollVerticalThumbDrawable = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int RecyclerView_fastScrollVerticalTrackDrawable = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int RecyclerView_layoutManager = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int RecyclerView_reverseLayout = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int RecyclerView_spanCount = 9;
 			
-			// aapt resource value: 10
-			public const int RecyclerView_stackFromEnd = 10;
+			// aapt resource value: 0x10
+			public const int RecyclerView_stackFromEnd = 16;
 			
 			// aapt resource value: { 0x7F030106 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130903302};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
 			// aapt resource value: { 0x7F03003B }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130903099};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
 			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030081,0x7F03009A,0x7F0300B0,0x7F0300E9,0x7F030100,0x7F03011B,0x7F030175,0x7F030176,0x7F030181,0x7F030182,0x7F0301A2,0x7F0301A7,0x7F03020A }
@@ -16541,56 +14950,56 @@ namespace EasyJob.Droid
 					2130903463,
 					2130903562};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int SearchView_android_focusable = 0;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int SearchView_android_imeOptions = 3;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int SearchView_android_inputType = 2;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int SearchView_android_maxWidth = 1;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int SearchView_closeIcon = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int SearchView_commitIcon = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int SearchView_defaultQueryHint = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int SearchView_goIcon = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int SearchView_iconifiedByDefault = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int SearchView_layout = 9;
 			
-			// aapt resource value: 10
-			public const int SearchView_queryBackground = 10;
+			// aapt resource value: 0x10
+			public const int SearchView_queryBackground = 16;
 			
-			// aapt resource value: 11
-			public const int SearchView_queryHint = 11;
+			// aapt resource value: 0x11
+			public const int SearchView_queryHint = 17;
 			
-			// aapt resource value: 12
-			public const int SearchView_searchHintIcon = 12;
+			// aapt resource value: 0x12
+			public const int SearchView_searchHintIcon = 18;
 			
-			// aapt resource value: 13
-			public const int SearchView_searchIcon = 13;
+			// aapt resource value: 0x13
+			public const int SearchView_searchIcon = 19;
 			
-			// aapt resource value: 14
-			public const int SearchView_submitBackground = 14;
+			// aapt resource value: 0x14
+			public const int SearchView_submitBackground = 20;
 			
-			// aapt resource value: 15
-			public const int SearchView_suggestionRowLayout = 15;
+			// aapt resource value: 0x15
+			public const int SearchView_suggestionRowLayout = 21;
 			
-			// aapt resource value: 16
-			public const int SearchView_voiceIcon = 16;
+			// aapt resource value: 0x16
+			public const int SearchView_voiceIcon = 22;
 			
 			// aapt resource value: { 0x7F030055,0x7F030097,0x7F03017D }
 			public static int[] SignInButton = new int[] {
@@ -16598,13 +15007,13 @@ namespace EasyJob.Droid
 					2130903191,
 					2130903421};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int SignInButton_buttonSize = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int SignInButton_colorScheme = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int SignInButton_scopeUris = 2;
 			
 			// aapt resource value: { 0x7F03018F,0x7F030190 }
@@ -16618,19 +15027,19 @@ namespace EasyJob.Droid
 					2130903232,
 					2130903369};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int SnackbarLayout_android_maxWidth = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int Snackbar_snackbarButtonStyle = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int Snackbar_snackbarStyle = 1;
 			
 			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F03016F }
@@ -16641,19 +15050,19 @@ namespace EasyJob.Droid
 					16843362,
 					2130903407};
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int Spinner_android_dropDownWidth = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int Spinner_android_entries = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int Spinner_android_popupBackground = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int Spinner_android_prompt = 2;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int Spinner_popupTheme = 4;
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
@@ -16669,25 +15078,25 @@ namespace EasyJob.Droid
 			public static int[] StateListDrawableItem = new int[] {
 					16843161};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int StateListDrawableItem_android_drawable = 0;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int StateListDrawable_android_constantSize = 3;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int StateListDrawable_android_dither = 0;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int StateListDrawable_android_enterFadeDuration = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int StateListDrawable_android_exitFadeDuration = 5;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int StateListDrawable_android_variablePadding = 2;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int StateListDrawable_android_visible = 1;
 			
 			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03018A,0x7F030195,0x7F0301A8,0x7F0301A9,0x7F0301AB,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301FC,0x7F0301FD,0x7F0301FE }
@@ -16707,47 +15116,47 @@ namespace EasyJob.Droid
 					2130903549,
 					2130903550};
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOff = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int SwitchCompat_android_textOn = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int SwitchCompat_android_thumb = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int SwitchCompat_showText = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int SwitchCompat_splitTrack = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int SwitchCompat_switchMinWidth = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int SwitchCompat_switchPadding = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int SwitchCompat_switchTextAppearance = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int SwitchCompat_thumbTextPadding = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int SwitchCompat_thumbTint = 9;
 			
-			// aapt resource value: 10
-			public const int SwitchCompat_thumbTintMode = 10;
+			// aapt resource value: 0x10
+			public const int SwitchCompat_thumbTintMode = 16;
 			
-			// aapt resource value: 11
-			public const int SwitchCompat_track = 11;
+			// aapt resource value: 0x11
+			public const int SwitchCompat_track = 17;
 			
-			// aapt resource value: 12
-			public const int SwitchCompat_trackTint = 12;
+			// aapt resource value: 0x12
+			public const int SwitchCompat_trackTint = 18;
 			
-			// aapt resource value: 13
-			public const int SwitchCompat_trackTintMode = 13;
+			// aapt resource value: 0x13
+			public const int SwitchCompat_trackTintMode = 19;
 			
 			// aapt resource value: { 0x1010002,0x10100F2,0x101014F }
 			public static int[] TabItem = new int[] {
@@ -16755,13 +15164,13 @@ namespace EasyJob.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int TabItem_android_icon = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int TabItem_android_text = 2;
 			
 			// aapt resource value: { 0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C3,0x7F0301C4,0x7F0301C5 }
@@ -16792,80 +15201,80 @@ namespace EasyJob.Droid
 					2130903492,
 					2130903493};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int TabLayout_tabBackground = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int TabLayout_tabGravity = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int TabLayout_tabIconTint = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int TabLayout_tabIconTintMode = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int TabLayout_tabIndicator = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int TabLayout_tabIndicatorAnimationDuration = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int TabLayout_tabIndicatorColor = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int TabLayout_tabIndicatorFullWidth = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int TabLayout_tabIndicatorGravity = 9;
 			
-			// aapt resource value: 10
-			public const int TabLayout_tabIndicatorHeight = 10;
+			// aapt resource value: 0x10
+			public const int TabLayout_tabIndicatorHeight = 16;
 			
-			// aapt resource value: 11
-			public const int TabLayout_tabInlineLabel = 11;
+			// aapt resource value: 0x11
+			public const int TabLayout_tabInlineLabel = 17;
 			
-			// aapt resource value: 12
-			public const int TabLayout_tabMaxWidth = 12;
+			// aapt resource value: 0x12
+			public const int TabLayout_tabMaxWidth = 18;
 			
-			// aapt resource value: 13
-			public const int TabLayout_tabMinWidth = 13;
+			// aapt resource value: 0x13
+			public const int TabLayout_tabMinWidth = 19;
 			
-			// aapt resource value: 14
-			public const int TabLayout_tabMode = 14;
+			// aapt resource value: 0x14
+			public const int TabLayout_tabMode = 20;
 			
-			// aapt resource value: 15
-			public const int TabLayout_tabPadding = 15;
+			// aapt resource value: 0x15
+			public const int TabLayout_tabPadding = 21;
 			
-			// aapt resource value: 16
-			public const int TabLayout_tabPaddingBottom = 16;
+			// aapt resource value: 0x16
+			public const int TabLayout_tabPaddingBottom = 22;
 			
-			// aapt resource value: 17
-			public const int TabLayout_tabPaddingEnd = 17;
+			// aapt resource value: 0x17
+			public const int TabLayout_tabPaddingEnd = 23;
 			
-			// aapt resource value: 18
-			public const int TabLayout_tabPaddingStart = 18;
+			// aapt resource value: 0x18
+			public const int TabLayout_tabPaddingStart = 24;
 			
-			// aapt resource value: 19
-			public const int TabLayout_tabPaddingTop = 19;
+			// aapt resource value: 0x19
+			public const int TabLayout_tabPaddingTop = 25;
 			
-			// aapt resource value: 20
-			public const int TabLayout_tabRippleColor = 20;
+			// aapt resource value: 0x20
+			public const int TabLayout_tabRippleColor = 32;
 			
-			// aapt resource value: 21
-			public const int TabLayout_tabSelectedTextColor = 21;
+			// aapt resource value: 0x21
+			public const int TabLayout_tabSelectedTextColor = 33;
 			
-			// aapt resource value: 22
-			public const int TabLayout_tabTextAppearance = 22;
+			// aapt resource value: 0x22
+			public const int TabLayout_tabTextAppearance = 34;
 			
-			// aapt resource value: 23
-			public const int TabLayout_tabTextColor = 23;
+			// aapt resource value: 0x23
+			public const int TabLayout_tabTextColor = 35;
 			
-			// aapt resource value: 24
-			public const int TabLayout_tabUnboundedRipple = 24;
+			// aapt resource value: 0x24
+			public const int TabLayout_tabUnboundedRipple = 36;
 			
 			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300DD,0x7F0301C6 }
 			public static int[] TextAppearance = new int[] {
@@ -16883,44 +15292,44 @@ namespace EasyJob.Droid
 					2130903261,
 					2130903494};
 			
-			// aapt resource value: 10
-			public const int TextAppearance_android_fontFamily = 10;
+			// aapt resource value: 0x10
+			public const int TextAppearance_android_fontFamily = 16;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int TextAppearance_android_shadowColor = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int TextAppearance_android_shadowDx = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int TextAppearance_android_shadowDy = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int TextAppearance_android_shadowRadius = 9;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int TextAppearance_android_textColor = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int TextAppearance_android_textColorHint = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int TextAppearance_android_textColorLink = 5;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int TextAppearance_android_textSize = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int TextAppearance_android_textStyle = 2;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int TextAppearance_android_typeface = 1;
 			
-			// aapt resource value: 11
-			public const int TextAppearance_fontFamily = 11;
+			// aapt resource value: 0x11
+			public const int TextAppearance_fontFamily = 17;
 			
-			// aapt resource value: 12
-			public const int TextAppearance_textAllCaps = 12;
+			// aapt resource value: 0x12
+			public const int TextAppearance_textAllCaps = 18;
 			
 			// aapt resource value: { 0x101009A,0x1010150,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300C3,0x7F0300C4,0x7F0300EC,0x7F0300ED,0x7F0300EE,0x7F0300F2,0x7F0300F3,0x7F0300F4,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D }
 			public static int[] TextInputLayout = new int[] {
@@ -16953,89 +15362,89 @@ namespace EasyJob.Droid
 					2130903404,
 					2130903405};
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int TextInputLayout_android_hint = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int TextInputLayout_android_textColorHint = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int TextInputLayout_boxBackgroundColor = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int TextInputLayout_boxBackgroundMode = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int TextInputLayout_boxCollapsedPaddingTop = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int TextInputLayout_boxCornerRadiusBottomEnd = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int TextInputLayout_boxCornerRadiusBottomStart = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int TextInputLayout_boxCornerRadiusTopEnd = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int TextInputLayout_boxCornerRadiusTopStart = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int TextInputLayout_boxStrokeColor = 9;
 			
-			// aapt resource value: 10
-			public const int TextInputLayout_boxStrokeWidth = 10;
+			// aapt resource value: 0x10
+			public const int TextInputLayout_boxStrokeWidth = 16;
 			
-			// aapt resource value: 11
-			public const int TextInputLayout_counterEnabled = 11;
+			// aapt resource value: 0x11
+			public const int TextInputLayout_counterEnabled = 17;
 			
-			// aapt resource value: 12
-			public const int TextInputLayout_counterMaxLength = 12;
+			// aapt resource value: 0x12
+			public const int TextInputLayout_counterMaxLength = 18;
 			
-			// aapt resource value: 13
-			public const int TextInputLayout_counterOverflowTextAppearance = 13;
+			// aapt resource value: 0x13
+			public const int TextInputLayout_counterOverflowTextAppearance = 19;
 			
-			// aapt resource value: 14
-			public const int TextInputLayout_counterTextAppearance = 14;
+			// aapt resource value: 0x14
+			public const int TextInputLayout_counterTextAppearance = 20;
 			
-			// aapt resource value: 15
-			public const int TextInputLayout_errorEnabled = 15;
+			// aapt resource value: 0x15
+			public const int TextInputLayout_errorEnabled = 21;
 			
-			// aapt resource value: 16
-			public const int TextInputLayout_errorTextAppearance = 16;
+			// aapt resource value: 0x16
+			public const int TextInputLayout_errorTextAppearance = 22;
 			
-			// aapt resource value: 17
-			public const int TextInputLayout_helperText = 17;
+			// aapt resource value: 0x17
+			public const int TextInputLayout_helperText = 23;
 			
-			// aapt resource value: 18
-			public const int TextInputLayout_helperTextEnabled = 18;
+			// aapt resource value: 0x18
+			public const int TextInputLayout_helperTextEnabled = 24;
 			
-			// aapt resource value: 19
-			public const int TextInputLayout_helperTextTextAppearance = 19;
+			// aapt resource value: 0x19
+			public const int TextInputLayout_helperTextTextAppearance = 25;
 			
-			// aapt resource value: 20
-			public const int TextInputLayout_hintAnimationEnabled = 20;
+			// aapt resource value: 0x20
+			public const int TextInputLayout_hintAnimationEnabled = 32;
 			
-			// aapt resource value: 21
-			public const int TextInputLayout_hintEnabled = 21;
+			// aapt resource value: 0x21
+			public const int TextInputLayout_hintEnabled = 33;
 			
-			// aapt resource value: 22
-			public const int TextInputLayout_hintTextAppearance = 22;
+			// aapt resource value: 0x22
+			public const int TextInputLayout_hintTextAppearance = 34;
 			
-			// aapt resource value: 23
-			public const int TextInputLayout_passwordToggleContentDescription = 23;
+			// aapt resource value: 0x23
+			public const int TextInputLayout_passwordToggleContentDescription = 35;
 			
-			// aapt resource value: 24
-			public const int TextInputLayout_passwordToggleDrawable = 24;
+			// aapt resource value: 0x24
+			public const int TextInputLayout_passwordToggleDrawable = 36;
 			
-			// aapt resource value: 25
-			public const int TextInputLayout_passwordToggleEnabled = 25;
+			// aapt resource value: 0x25
+			public const int TextInputLayout_passwordToggleEnabled = 37;
 			
-			// aapt resource value: 26
-			public const int TextInputLayout_passwordToggleTint = 26;
+			// aapt resource value: 0x26
+			public const int TextInputLayout_passwordToggleTint = 38;
 			
-			// aapt resource value: 27
-			public const int TextInputLayout_passwordToggleTintMode = 27;
+			// aapt resource value: 0x27
+			public const int TextInputLayout_passwordToggleTintMode = 39;
 			
 			// aapt resource value: { 0x1010034,0x7F0300C1,0x7F0300C2 }
 			public static int[] ThemeEnforcement = new int[] {
@@ -17043,13 +15452,13 @@ namespace EasyJob.Droid
 					2130903233,
 					2130903234};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ThemeEnforcement_android_textAppearance = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ThemeEnforcement_enforceMaterialTheme = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
 			// aapt resource value: { 0x10100AF,0x1010140,0x7F030052,0x7F030089,0x7F03008A,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F030136,0x7F030137,0x7F03014A,0x7F03015C,0x7F03015D,0x7F03016F,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301EB,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4 }
@@ -17084,92 +15493,92 @@ namespace EasyJob.Droid
 					2130903539,
 					2130903540};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int Toolbar_android_gravity = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int Toolbar_buttonGravity = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int Toolbar_collapseContentDescription = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int Toolbar_collapseIcon = 4;
 			
-			// aapt resource value: 5
+			// aapt resource value: 0x5
 			public const int Toolbar_contentInsetEnd = 5;
 			
-			// aapt resource value: 6
+			// aapt resource value: 0x6
 			public const int Toolbar_contentInsetEndWithActions = 6;
 			
-			// aapt resource value: 7
+			// aapt resource value: 0x7
 			public const int Toolbar_contentInsetLeft = 7;
 			
-			// aapt resource value: 8
+			// aapt resource value: 0x8
 			public const int Toolbar_contentInsetRight = 8;
 			
-			// aapt resource value: 9
+			// aapt resource value: 0x9
 			public const int Toolbar_contentInsetStart = 9;
 			
-			// aapt resource value: 10
-			public const int Toolbar_contentInsetStartWithNavigation = 10;
+			// aapt resource value: 0x10
+			public const int Toolbar_contentInsetStartWithNavigation = 16;
 			
-			// aapt resource value: 11
-			public const int Toolbar_logo = 11;
+			// aapt resource value: 0x11
+			public const int Toolbar_logo = 17;
 			
-			// aapt resource value: 12
-			public const int Toolbar_logoDescription = 12;
+			// aapt resource value: 0x12
+			public const int Toolbar_logoDescription = 18;
 			
-			// aapt resource value: 13
-			public const int Toolbar_maxButtonHeight = 13;
+			// aapt resource value: 0x13
+			public const int Toolbar_maxButtonHeight = 19;
 			
-			// aapt resource value: 14
-			public const int Toolbar_navigationContentDescription = 14;
+			// aapt resource value: 0x14
+			public const int Toolbar_navigationContentDescription = 20;
 			
-			// aapt resource value: 15
-			public const int Toolbar_navigationIcon = 15;
+			// aapt resource value: 0x15
+			public const int Toolbar_navigationIcon = 21;
 			
-			// aapt resource value: 16
-			public const int Toolbar_popupTheme = 16;
+			// aapt resource value: 0x16
+			public const int Toolbar_popupTheme = 22;
 			
-			// aapt resource value: 17
-			public const int Toolbar_subtitle = 17;
+			// aapt resource value: 0x17
+			public const int Toolbar_subtitle = 23;
 			
-			// aapt resource value: 18
-			public const int Toolbar_subtitleTextAppearance = 18;
+			// aapt resource value: 0x18
+			public const int Toolbar_subtitleTextAppearance = 24;
 			
-			// aapt resource value: 19
-			public const int Toolbar_subtitleTextColor = 19;
+			// aapt resource value: 0x19
+			public const int Toolbar_subtitleTextColor = 25;
 			
-			// aapt resource value: 20
-			public const int Toolbar_title = 20;
+			// aapt resource value: 0x20
+			public const int Toolbar_title = 32;
 			
-			// aapt resource value: 21
-			public const int Toolbar_titleMargin = 21;
+			// aapt resource value: 0x21
+			public const int Toolbar_titleMargin = 33;
 			
-			// aapt resource value: 22
-			public const int Toolbar_titleMarginBottom = 22;
+			// aapt resource value: 0x22
+			public const int Toolbar_titleMarginBottom = 34;
 			
-			// aapt resource value: 23
-			public const int Toolbar_titleMarginEnd = 23;
+			// aapt resource value: 0x23
+			public const int Toolbar_titleMarginEnd = 35;
 			
-			// aapt resource value: 26
-			public const int Toolbar_titleMargins = 26;
+			// aapt resource value: 0x26
+			public const int Toolbar_titleMargins = 38;
 			
-			// aapt resource value: 24
-			public const int Toolbar_titleMarginStart = 24;
+			// aapt resource value: 0x24
+			public const int Toolbar_titleMarginStart = 36;
 			
-			// aapt resource value: 25
-			public const int Toolbar_titleMarginTop = 25;
+			// aapt resource value: 0x25
+			public const int Toolbar_titleMarginTop = 37;
 			
-			// aapt resource value: 27
-			public const int Toolbar_titleTextAppearance = 27;
+			// aapt resource value: 0x27
+			public const int Toolbar_titleTextAppearance = 39;
 			
-			// aapt resource value: 28
-			public const int Toolbar_titleTextColor = 28;
+			// aapt resource value: 0x28
+			public const int Toolbar_titleTextColor = 40;
 			
 			// aapt resource value: { 0x1010000,0x10100DA,0x7F030163,0x7F030164,0x7F0301E1 }
 			public static int[] View = new int[] {
@@ -17185,13 +15594,13 @@ namespace EasyJob.Droid
 					2130903093,
 					2130903094};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ViewBackgroundHelper_android_background = 0;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
 			
 			// aapt resource value: { 0x10100D0,0x10100F2,0x10100F3 }
@@ -17200,28 +15609,28 @@ namespace EasyJob.Droid
 					16842994,
 					16842995};
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int ViewStubCompat_android_id = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_inflatedId = 2;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_layout = 1;
 			
-			// aapt resource value: 1
+			// aapt resource value: 0x1
 			public const int View_android_focusable = 1;
 			
-			// aapt resource value: 0
+			// aapt resource value: 0x0
 			public const int View_android_theme = 0;
 			
-			// aapt resource value: 2
+			// aapt resource value: 0x2
 			public const int View_paddingEnd = 2;
 			
-			// aapt resource value: 3
+			// aapt resource value: 0x3
 			public const int View_paddingStart = 3;
 			
-			// aapt resource value: 4
+			// aapt resource value: 0x4
 			public const int View_theme = 4;
 			
 			static Styleable()
@@ -17237,11 +15646,11 @@ namespace EasyJob.Droid
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F100000
-			public const int network_security_config = 2131755008;
+			// aapt resource value: 0x7F110000
+			public const int network_security_config = 2131820544;
 			
-			// aapt resource value: 0x7F100001
-			public const int xamarin_essentials_fileprovider_file_paths = 2131755009;
+			// aapt resource value: 0x7F110001
+			public const int xamarin_essentials_fileprovider_file_paths = 2131820545;
 			
 			static Xml()
 			{

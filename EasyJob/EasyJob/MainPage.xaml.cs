@@ -9,6 +9,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Net.Http;
 using System.Text;
+using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -27,8 +28,21 @@ namespace EasyJob
         {
             InitializeComponent();
         }
-        async override protected void OnAppearing()
+      
+        protected void ListItems_Refreshing(object sender, EventArgs e)
         {
+
+            LoadData(); //my method for repopulating the list 
+             //this is a very important step. It will refresh forever without triggering it 
+        }
+            async override protected void OnAppearing()
+        {
+            LoadData();
+            base.OnAppearing();
+        }
+        public async  void LoadData()
+        {
+
             ItemlistView.IsVisible = false;
             Location1.IsVisible = false;
             animationView.IsVisible = true;
@@ -39,7 +53,7 @@ namespace EasyJob
             var Longitude = position.Longitude;
 
             string GetAddressGPS = "https://maps.googleapis.com/maps/api/geocode/json?latlng=" + Latitude.ToString() + "," + Longitude + "&key=" + api_key + "&language=th";
-            
+
             using (HttpResponseMessage response = await _client.GetAsync(GetAddressGPS))
             {
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
@@ -72,7 +86,7 @@ namespace EasyJob
                         List<Work_dis> work_list = JsonConvert.DeserializeObject<List<Work_dis>>(mycontent);
                         List<Work_dis> subjects = new List<Work_dis>();
 
-                        
+
                         var latlong = "";
                         for (var j = 0; j < work_list.Count; j++)
                         {
@@ -107,9 +121,10 @@ namespace EasyJob
                                     animationView.IsVisible = false;
                                     Location1.IsVisible = true;
                                     ItemlistView.IsVisible = true;
+                                    ItemlistView.EndRefresh();
                                 }
                             }
-                        }          
+                        }
                     }
                 }
                 else
@@ -117,8 +132,6 @@ namespace EasyJob
                     await DisplayAlert("เกิดข้อผิดพลาด", "Member id is null", "ตกลง");
                 }
             }
-
-            base.OnAppearing();
         }
 
         private async void TapGestureRecognizer_Tapped(object sender, EventArgs e)

@@ -45,7 +45,7 @@
                         <controls:CircleImage Source="user.png" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
                         </controls:CircleImage>
                     </StackLayout>
-                    <Label x:Name="lb_owner_name" Margin="20" TextColor="#031765" FontSize="23"/>
+                    <Label x:Name="lb_owner_name" Margin="20" TextColor="#031765" FontSize="30"/>
                 </StackLayout>
                 <StackLayout Grid.Row="2" Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,-10,0,20">
                     <Grid>
@@ -55,7 +55,7 @@
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0" x:Name="img" Source="phone2.png" HeightRequest="15" WidthRequest="30"/>
 
-                        <Label x:Name="lb_owner_tel" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
+                        <Label x:Name="lb_owner_tel" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="22"/>
 
                     </Grid>
 
@@ -64,7 +64,7 @@
                     <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
 
                         <StackLayout Padding="15,-5,0,0">
-                            <Label x:Name="lb_work_name" FontSize="15" TextColor="DarkSlateBlue"/>
+                            <Label x:Name="lb_work_name" FontSize="24" TextColor="DarkSlateBlue"/>
                         </StackLayout>
                         <StackLayout Padding="15,-5,-10,0">
                             <Label />
@@ -75,17 +75,17 @@
                             <Label />
                         </StackLayout>
                         <StackLayout Padding="20,25,5,0">
-                            <Label x:Name="lb_work_desc" FontSize="12"/>
+                            <Label x:Name="lb_work_desc" FontSize="18"/>
                         </StackLayout>
                         <StackLayout Padding="-300,70,0,0">
                             <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                         </StackLayout>
                         <StackLayout Padding="60,75,0,0">
-                            <Label  x:Name="lb_labor_cost"  FontSize="20" TextColor="#FB4E4E"/>
+                            <Label  x:Name="lb_labor_cost"  FontSize="30" TextColor="#FB4E4E"/>
                         </StackLayout>
                     </Grid>
                 </Frame>
-                <Button x:Name="Button_Process" Grid.Row="4" Margin="80,20,80,20" FontSize="25" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="Job_Process"/>
+                <Button  x:Name="Button_Process" Grid.Row="4" Margin="80,20,80,20" FontSize="25" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="Job_Process"/>
 
             </Grid>
         </Frame>

@@ -7,18 +7,30 @@
              x:Class="EasyJob.App">
     <Application.Resources>
         <ResourceDictionary>
-            <!-- FontFamily -->
-            <OnPlatform x:Key="ThaiSans"
-                    x:TypeArguments="x:String"
-                    Android="THAISANSLITE_R1.TTF#ThaiSans"/>
+            
+            <Style TargetType="Label">
+                <Setter Property="FontFamily" Value="FCActiveRegular.ttf#FCActiveRegular"/>
 
-            <!-- style for Lable -->
-          
-            <Style x:Key="ThaiSansLabelStyle"
-               TargetType="{x:Type Label}">
-                <Setter Property="FontFamily"
-             Value="{StaticResource ThaiSans}" />
             </Style>
+            <Style TargetType="Button">
+                <Setter Property="FontFamily" Value="FCActiveRegular.ttf#FCActiveRegular"/>
+
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="FontFamily" Value="FCActiveRegular.ttf#FCActiveRegular"/>
+
+            </Style>
+            <Style TargetType="Editor">
+                <Setter Property="FontFamily" Value="FCActiveRegular.ttf#FCActiveRegular"/>
+
+            </Style>
+            <Style TargetType="Picker">
+                <Setter Property="FontFamily" Value="FCActiveRegular.ttf#FCActiveRegular"/>
+
+            </Style>
+
+
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

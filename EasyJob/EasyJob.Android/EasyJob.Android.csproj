@@ -60,9 +60,6 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="BadgeView">
-      <Version>2017.10.17</Version>
-    </PackageReference>
     <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
       <Version>3.0.3</Version>
     </PackageReference>
@@ -97,9 +94,12 @@
     <AndroidAsset Include="Assets\register.json" />
     <AndroidAsset Include="Assets\wait.json" />
     <AndroidAsset Include="Assets\success.json" />
+    <AndroidAsset Include="Assets\EkkamaiNew-Regular.ttf" />
+    <AndroidAsset Include="Assets\FCActiveRegular.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\font\FCActiveRegular.ttf" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.xml" />

@@ -46,11 +46,11 @@
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
                             <Image Grid.Column="0" Source="bullhorn.png" HeightRequest="20" WidthRequest="35"/>
-                            <Label  Text="โพสต์งาน" Grid.Column="1" Margin="5" TextColor="#22388A" FontSize="22"/>
+                            <Label  Text="โพสต์งาน" Grid.Column="1" Margin="5" TextColor="#22388A" FontSize="30"/>
                         </Grid>
                     </StackLayout>
                     <Frame Grid.Row="1" HasShadow="False" BackgroundColor="blue"  Margin="0,0,0,0" Padding="0" HeightRequest="300" VerticalOptions="Center">
-                        <maps:Map x:Name="DetailMap" MapClicked="DetailMap_MapClicked"/>
+                        <maps:Map x:Name="DetailMap" IsShowingUser="True"  MapClicked="DetailMap_MapClicked"/>
                     </Frame>
                     <Grid Margin="20,5,20,3" Grid.Row="2">
                         <Grid.ColumnDefinitions>

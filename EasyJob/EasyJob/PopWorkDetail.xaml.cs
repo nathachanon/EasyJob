@@ -91,14 +91,10 @@ namespace EasyJob
                                             Address = x.loc_name
                                         };
 
-                                        var pin2 = new Pin
-                                        {
-                                            Position = new Position(Latitude, Longitude),
-                                            Label = "ที่อยู่ปัจจุบันของคุณ"
-                                        };
+                                       
 
                                         DetailMap.Pins.Add(pin);
-                                        DetailMap.Pins.Add(pin2);
+                                      
                                         DetailLoad.IsVisible = true;
                                         animationView.IsVisible = false;
                                     }

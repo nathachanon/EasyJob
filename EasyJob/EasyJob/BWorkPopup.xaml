@@ -7,7 +7,8 @@
              x:Class="EasyJob.BWorkPopup"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
-             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                 xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms">
 
 
 
@@ -28,7 +29,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Frame Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="350" VerticalOptions="Center">
+        <Frame x:Name="Frame_main" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="350" VerticalOptions="Center">
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -41,11 +42,14 @@
                 </StackLayout>
                 <StackLayout Grid.Row="1" Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20,0,0">
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Image Grid.Column="0" Source="Ework.png" HeightRequest="80" WidthRequest="80"/>
-
+                        <forms:AnimationView  
+	        x:Name="animationView" IsVisible="False" Grid.Column="0"
+	        Animation="wait.json"   WidthRequest="80" HeightRequest="80"
+            VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+	        Loop="True" 
+	        AutoPlay="True" />
                     </StackLayout>
                 </StackLayout>
-        
                 <Frame Grid.Row="3" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
                     <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
 
@@ -66,14 +70,11 @@
                         <StackLayout Padding="-290,70,0,0">
                             <Image Source="money2.png" HeightRequest="25" WidthRequest="25"/>
                         </StackLayout>
-                        
                         <StackLayout Padding="55,73,5,0">
                             <Label x:Name="lb_labor_cost" Text="ค่าจ้าง" FontSize="20" TextColor="OrangeRed"/>
                         </StackLayout>
                     </Grid>
                 </Frame>
-               
-
             </Grid>
         </Frame>
     </Grid>

@@ -4,7 +4,7 @@ using Rg.Plugins.Popup.Services;
 using System;
 using System.Net.Http;
 using System.Text;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
@@ -93,7 +93,12 @@ namespace EasyJob
                             string mycontent = await contents.ReadAsStringAsync();
                             JObject add_work = JObject.Parse(mycontent);
 
-                            await DisplayAlert("Success", "โพสต์งานสำเร็จ", "OK");
+                            Frame_main.IsVisible = false;
+                            animationSuccess.IsVisible = true;
+                            Frame_success.IsVisible = true;
+                            Frame_success_text.IsVisible = true;
+
+                            await Task.Delay(2000);
 
                             PopupNavigation.PopAsync(true);
 
@@ -178,7 +183,7 @@ namespace EasyJob
             DetailMap.Pins.Add(pin);
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
             PopupNavigation.PopAsync(true);
         }

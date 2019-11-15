@@ -45,7 +45,7 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <StackLayout HorizontalOptions="FillAndExpand"  Grid.Row="0" Margin="15,15,15,0">
-                        <Label Margin="0,0,10,0" x:Name="lb_work_name" Text="ชื่องาน" FontSize="20" TextColor="DarkSlateBlue"/>
+                        <Label Margin="0,0,10,0" x:Name="lb_work_name" Text="ชื่องาน" FontSize="27" TextColor="DarkSlateBlue"/>
                     <Grid Margin="0,-5,0,0">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
@@ -53,7 +53,7 @@
                         </Grid.ColumnDefinitions>
                         <Image Grid.Column="0" Source="profile.png" HeightRequest="10" WidthRequest="18"/>
 
-                            <Label x:Name="lb_owner_name" Text="ผู้โพสต์งาน" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="15"/>
+                            <Label x:Name="lb_owner_name" Text="ผู้โพสต์งาน" Grid.Column="1" Margin="5" TextColor="#8E8E8E" FontSize="18"/>
 
                     </Grid>
                     <StackLayout Padding="0,-22,-15,0">
@@ -114,7 +114,7 @@
 
                 </Grid>
                 <Frame Grid.Row="6" HasShadow="False" BackgroundColor="red" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="350" VerticalOptions="Center">
-                        <maps:Map x:Name="DetailMap" />
+                        <maps:Map IsShowingUser="True" x:Name="DetailMap" />
                     </Frame>
                 <Grid Margin="20,0,20,15" Grid.Row="7">
                     <Grid.ColumnDefinitions>
@@ -124,8 +124,8 @@
                     </Grid.ColumnDefinitions>
                     <Image Grid.Column="0" Source="money.png" HeightRequest="20" WidthRequest="40"/>
 
-                        <Label Text="50 บาท" x:Name="lb_labor_cost"  Grid.Column="1" Margin="5,10,0,0" TextColor="#FB4E4E" FontSize="25"/>
-                        <Button Grid.Column="2" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="รับงาน" FontSize="20" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="GetJob_Clicked"/>
+                        <Label Text="50 บาท" x:Name="lb_labor_cost"  Grid.Column="1" Margin="5,10,0,0" TextColor="#FB4E4E" FontSize="28"/>
+                        <Button Grid.Column="2" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="รับงาน" FontSize="24" TextColor="White" BackgroundColor="#031765"  BorderRadius="20" Clicked="GetJob_Clicked"/>
 
                 </Grid>
 

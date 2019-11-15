@@ -20,7 +20,7 @@
                     <Image Source="locationArrow.png" HeightRequest="25" WidthRequest="30"/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" >
-                    <Label Text="สถานที่" x:Name="GPS_Details" LineBreakMode="TailTruncation"   FontSize="18" TextColor="DarkSlateBlue" />
+                    <Label Text="สถานที่"     x:Name="GPS_Details" LineBreakMode="TailTruncation"   FontSize="22" TextColor="DarkSlateBlue" />
                 </StackLayout>
             </StackLayout>
         </Frame>
@@ -32,7 +32,12 @@
 	        Loop="True" 
 	        AutoPlay="True" />  
         <ScrollView Grid.Row="1" Margin="0,0,0,10">
-            <ListView  x:Name="ItemlistView" RowHeight="143" SeparatorColor="#E9E8E8" IsVisible="False" ItemsSource="{Binding Elements}">
+            <ListView  x:Name="ItemlistView" RowHeight="143" 
+                       SeparatorColor="#E9E8E8" 
+                       IsVisible="False" 
+                       IsPullToRefreshEnabled="True" 
+                       Refreshing="ListItems_Refreshing"
+                       ItemsSource="{Binding Elements}">
                 <ListView.ItemTemplate >
                     <DataTemplate >
                         <ViewCell >
@@ -47,7 +52,7 @@
                                         </Frame.GestureRecognizers>
                                         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                                             <StackLayout Padding="15,-5,0,0">
-                                                <Label Text="{Binding work_name}" FontSize="15" TextColor="DarkSlateBlue"/>
+                                                <Label Text="{Binding work_name}" FontSize="24" TextColor="DarkSlateBlue"/>
                                             </StackLayout>
                                             <StackLayout Padding="15,-5,-10,0">
                                                 <Label />
@@ -58,20 +63,20 @@
                                                 <Label />
                                             </StackLayout>
                                             <StackLayout Padding="20,25,5,0">
-                                                <Label Text="{Binding work_desc}" FontSize="12"/>
+                                                <Label Text="{Binding work_desc}" FontSize="18"/>
                                             </StackLayout>
                                             <StackLayout Padding="-320,70,0,0">
                                                 <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                                             </StackLayout>
                                             <StackLayout Padding="60,75,0,0">
-                                                <Label Text="{Binding labor_cost, StringFormat='{0} บาท'}" FontSize="20" TextColor="#FB4E4E"/>
+                                                <Label Text="{Binding labor_cost, StringFormat='{0} บาท'}" FontSize="30" TextColor="#FB4E4E"/>
                                              
                                             </StackLayout>
                                             <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
                                                 <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
                                             </StackLayout>
                                             <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
-                                                <Label Text="{Binding distance}" FontSize="11" TextColor="DarkSlateBlue"/>
+                                                <Label Text="{Binding distance}" FontSize="14" TextColor="DarkSlateBlue"/>
                                             </StackLayout>
                                         </Grid>
                                     </Frame>

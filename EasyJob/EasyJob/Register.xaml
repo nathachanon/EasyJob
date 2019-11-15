@@ -35,17 +35,17 @@
                         </controls:CircleImage.GestureRecognizers>
                 </controls:CircleImage>
                    
-                    <Button x:Name="btnUp" IsVisible="True" Text="เลือกรูปภาพ" Clicked="Button_Clicked_1" CornerRadius="40"/>
-                <Entry x:Name="Email_Input" Keyboard="Email" Placeholder="Email" TextColor="White" PlaceholderColor="White" />
+                    <Button x:Name="btnUp" IsVisible="True" Text="เลือกรูปภาพ" FontSize="30" Clicked="Button_Clicked_1" CornerRadius="40"/>
+                <Entry x:Name="Email_Input" Keyboard="Email" FontSize="22" Placeholder="Email" TextColor="White" PlaceholderColor="White" />
                 <StackLayout Orientation="Horizontal">
-                    <Entry x:Name="name_Input" HorizontalOptions="FillAndExpand"  Placeholder="Name" TextColor="White" PlaceholderColor="White" />
-                <Entry x:Name="Surname_Input" HorizontalOptions="FillAndExpand" Placeholder="Surname" TextColor="White" PlaceholderColor="White" />
+                    <Entry x:Name="name_Input" HorizontalOptions="FillAndExpand" FontSize="22" Placeholder="Name" TextColor="White" PlaceholderColor="White" />
+                <Entry x:Name="Surname_Input" HorizontalOptions="FillAndExpand" FontSize="22" Placeholder="Surname" TextColor="White" PlaceholderColor="White" />
                 </StackLayout>
-                 <Entry x:Name="Tel_Input" Keyboard="Telephone" Placeholder="Tel." TextColor="White" PlaceholderColor="White" />
-                <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password" PlaceholderColor="White" TextColor="White" />
-                <Entry  IsPassword="True" x:Name="CPassword_Input" Placeholder="Confirm Password"  PlaceholderColor="White" TextColor="White"/>
-                <Button  Text="Register" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
-                     <Label Text="Login" HorizontalOptions="Center" FontSize="18" TextColor="White" Margin="0,15,0,0">
+                 <Entry x:Name="Tel_Input" Keyboard="Telephone" Placeholder="Tel." FontSize="22" TextColor="White" PlaceholderColor="White" />
+                <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password" FontSize="22" PlaceholderColor="White" TextColor="White" />
+                <Entry  IsPassword="True" x:Name="CPassword_Input" Placeholder="Confirm Password" FontSize="22"  PlaceholderColor="White" TextColor="White"/>
+                <Button  Text="Register" Clicked="Button_Clicked" FontSize="30"  CornerRadius="40"  BackgroundColor="#FFDD33" />
+                     <Label Text="Login" HorizontalOptions="Center" FontSize="22" TextColor="White" Margin="0,15,0,0">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="ToLogin" NumberOfTapsRequired="1"/>
                     </Label.GestureRecognizers>

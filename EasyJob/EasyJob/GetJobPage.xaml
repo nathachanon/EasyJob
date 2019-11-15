@@ -22,10 +22,10 @@
                     <Image Source="work.png" HeightRequest="25" WidthRequest="30"/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Padding="-65,0,0,0">
-                    <Label Text="งานที่รับ" FontSize="20" TextColor="DarkSlateBlue"/>
+                    <Label Text="งานที่รับ" FontSize="24" TextColor="DarkSlateBlue"/>
                 </StackLayout>
                 <StackLayout Grid.Column="2" HorizontalOptions="End" VerticalOptions="CenterAndExpand" Padding="0,0,15,0">
-                    <Label x:Name="job_count" FontSize="15"/>
+                    <Label x:Name="job_count" FontSize="17"/>
                 </StackLayout>
             </Grid>
         </Frame>
@@ -42,7 +42,7 @@
                                     <Frame Grid.Row="0" HasShadow="True" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="130" VerticalOptions="Center">
                                         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                                             <StackLayout Padding="15,-5,0,0">
-                                                <Label Text="{Binding work_name}" FontSize="15" TextColor="DarkSlateBlue"/>
+                                                <Label Text="{Binding work_name}" FontSize="24" TextColor="DarkSlateBlue"/>
                                             </StackLayout>
                                             <StackLayout Padding="15,-5,-10,0">
                                                 <Label />
@@ -53,20 +53,16 @@
                                                 <Label />
                                             </StackLayout>
                                             <StackLayout Padding="20,25,5,0">
-                                                <Label Text="{Binding work_desc}" FontSize="12"/>
+                                                <Label Text="{Binding work_desc}" FontSize="18"/>
                                             </StackLayout>
                                             <StackLayout Padding="-320,70,0,0">
                                                 <Image Source="money.png" HeightRequest="30" WidthRequest="30"/>
                                             </StackLayout>
                                             <StackLayout Padding="60,75,0,0">
-                                                <Label Text="{Binding labor_cost}" FontSize="20" TextColor="OrangeRed"/>
+                                                <Label Text="{Binding labor_cost}" FontSize="30" TextColor="OrangeRed"/>
                                             </StackLayout>
-                                            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,43,0">
-                                                <Image Source="location.png" HeightRequest="15" WidthRequest="30"/>
-                                            </StackLayout>
-                                            <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="EndAndExpand" Padding="0,0,15,0">
-                                                <Label Text="750m" FontSize="11" TextColor="DarkSlateBlue"/>
-                                            </StackLayout>
+                                           
+                                            
                                         </Grid>
                                     </Frame>
                                 </Grid>

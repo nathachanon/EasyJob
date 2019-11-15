@@ -22,10 +22,10 @@
 	        Loop="True" 
 	        AutoPlay="True" />
             <StackLayout Grid.Row="1" x:Name="LoginForm" IsVisible="True">
-                <Entry x:Name="Email_Input" Keyboard="Email" Placeholder="Email" TextColor="White" PlaceholderColor="#E6E6E6" />
-                <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password" PlaceholderColor="White" TextColor="#E6E6E6" />
-                    <Button x:Name="Btn_Signin" Text="LOGIN" Clicked="Button_Clicked" FontSize="20"  CornerRadius="40"  BackgroundColor="#FFDD33" />
-                <Label Text="Register" HorizontalOptions="Center" FontSize="18" TextColor="White" Margin="0,15,0,0">
+                <Entry x:Name="Email_Input" Keyboard="Email" Placeholder="Email" FontSize="22" TextColor="White" PlaceholderColor="#E6E6E6" />
+                <Entry  IsPassword="True" x:Name="Password_Input" Placeholder="Password" FontSize="22" PlaceholderColor="White" TextColor="#E6E6E6" />
+                    <Button x:Name="Btn_Signin" Text="LOGIN" Clicked="Button_Clicked" FontSize="30"  CornerRadius="40"  BackgroundColor="#FFDD33" />
+                <Label Text="Register" HorizontalOptions="Center" FontSize="22" TextColor="White" Margin="0,15,0,0">
                     <Label.GestureRecognizers>
                         <TapGestureRecognizer Tapped="ToRegister"  NumberOfTapsRequired="1"/>
                     </Label.GestureRecognizers>

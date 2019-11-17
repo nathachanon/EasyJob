@@ -24,7 +24,7 @@ namespace EasyJob
         public Work()
         {
             InitializeComponent();
-            
+
         }
         async override protected void OnAppearing()
         {
@@ -47,7 +47,6 @@ namespace EasyJob
                         List<Job> work_list = JsonConvert.DeserializeObject<List<Job>>(mycontent);
                         my_work_post = new ObservableCollection<Job>(work_list);
                         ItemlistView.ItemsSource = my_work_post;
-
                         job_count.Text = work_list.Count.ToString() + " รายการ";
                         animationView.IsVisible = false;
                         work_load.IsVisible = true;

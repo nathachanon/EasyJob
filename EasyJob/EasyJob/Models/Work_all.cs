@@ -46,6 +46,15 @@ namespace EasyJob.Models
         public string profile { get; set; }
 
     }
+    public class MemProfile
+    {
+        public System.Guid  member_id { get; set; }
+        public string name { get; set; }
+        public string surname { get; set; }
+        public string picture { get; set; }
+        public string tel { get; set; }
+        public string email { get; set; }
+    }
 
     public class Work_Detail
     {
@@ -63,6 +72,9 @@ namespace EasyJob.Models
         public string loc_name { get; set; }
         public string job_status { get; set; }
         public string job_owner_name { get; set; }
+        public string worker_name { get; set; }
+        public string worker_tel { get; set; }
+        public string worker_profile { get; set; }
     }
 
     public class Jobs

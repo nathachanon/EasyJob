@@ -51,9 +51,12 @@
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
                         </Frame.GestureRecognizers>
                         <StackLayout Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
-                        <Image Source="Rwork.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
-                    <Label Text="งานที่รับ" FontSize="20"/>
+                            <Image x:Name="Rm" Source="Rwork.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"  Margin="0,0,0,0"/>
+                            <Label Text="งานที่รับ" FontSize="20"/>
+                            <Image x:Name="BRwork" IsVisible="False" Source="badge.png" HeightRequest="22" WidthRequest="22" HorizontalOptions="Center" Margin="30,-75,0,0"/>
+                            <Label x:Name="Rwork" IsVisible="False" TextColor="White" Text="0"   FontSize="18" Margin="37,-30,0,0" />
                         </StackLayout>
+                        
                     </Frame>
 
                     <BoxView Grid.Column="1"
@@ -66,8 +69,11 @@
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_2" NumberOfTapsRequired="1" />
                         </Frame.GestureRecognizers>
                         <StackLayout Grid.Column="1" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
-                            <Image Source="doing.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                            <Image x:Name="Dm" Source="doing.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"  Margin="0,0,0,0"/>
                             <Label Text="กำลังทำ" FontSize="20"/>
+                            <Image x:Name="BDwork" Source="badge.png" IsVisible="False" HeightRequest="22" WidthRequest="22" HorizontalOptions="Center" Margin="30,-75,0,0"/>
+                            <Label x:Name="Dwork" IsVisible="False" TextColor="White" Text="0"   FontSize="18" Margin="37,-30,0,0" />
+
                         </StackLayout>                        
                     </Frame>
                     
@@ -81,8 +87,11 @@
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_3" NumberOfTapsRequired="1" />
                         </Frame.GestureRecognizers>
                         <StackLayout Grid.Column="2" Orientation="Vertical" Spacing="8" HorizontalOptions="CenterAndExpand">
-                            <Image Source="finish.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center"/>
+                            <Image x:Name="Fm" Source="finish.png" HeightRequest="30" WidthRequest="30" HorizontalOptions="Center" Margin="0,0,0,0"/>
                             <Label Text="เสร็จแล้ว" FontSize="20"/>
+                            <Image x:Name="BFwork" IsVisible="False" Source="badge.png" HeightRequest="22" WidthRequest="22" HorizontalOptions="Center" Margin="30,-75,0,0"/>
+                            <Label x:Name="Fwork" IsVisible="False" TextColor="White" Text="0"   FontSize="18" Margin="37,-30,0,0" />
+
                         </StackLayout>
                     </Frame>             
             </Grid>

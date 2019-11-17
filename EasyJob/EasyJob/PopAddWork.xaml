@@ -119,15 +119,15 @@
                 </Grid>
             </ScrollView>
         </Frame>
-        <Frame x:Name="Frame_success" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,0,10,0" Padding="0" HeightRequest="270" VerticalOptions="Center" IsVisible="False">
-            <forms:AnimationView  Margin="0,-100,0,0"
+        <Frame x:Name="Frame_success" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,0,10,0" Padding="0" HeightRequest="300" VerticalOptions="Center" IsVisible="False">
+            <forms:AnimationView  Margin="0,-40,0,0"
 	        x:Name="animationSuccess" IsVisible="False" Grid.Column="0"
 	        Animation="success.json"   WidthRequest="230" HeightRequest="230"
             VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
 	        Loop="False" 
 	        AutoPlay="True"/>
         </Frame>
-        <Frame x:Name="Frame_success_text" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,120,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center" IsVisible="False">
+        <Frame x:Name="Frame_success_text" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,180,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center" IsVisible="False">
             <Label Text="โพสต์งานสำเร็จ" HorizontalOptions="Center" VerticalOptions="Center" FontSize="30"/>
         </Frame>
     </Grid>

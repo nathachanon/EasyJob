@@ -1,6 +1,9 @@
-﻿using Rg.Plugins.Popup.Services;
+﻿using EasyJob.Models;
+using Newtonsoft.Json;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -16,13 +19,38 @@ namespace EasyJob
     {
         private readonly HttpClient _client = new HttpClient();
         private const string url = "http://139.180.129.212/api/Member/edit";
+        private ObservableCollection<MemProfile> mem_data;
         public EditProfile()
         {
             InitializeComponent();
-            profile_img.Source = Application.Current.Properties["profile"].ToString();
+           
+
+        }
+        async protected override void OnAppearing()
+        {
+            var member_ids = Application.Current.Properties["member_id"].ToString();
+            var url_prfile = "http://139.180.129.212/api/Member/" + member_ids;
+
+            using (HttpResponseMessage response = await _client.GetAsync(url_prfile))
+            {
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    using (HttpContent contents = response.Content)
+                    {
+                        string mycontent = await contents.ReadAsStringAsync();
+                        List<MemProfile> mem_list = JsonConvert.DeserializeObject<List<MemProfile>>(mycontent);
+                        mem_data = new ObservableCollection<MemProfile>(mem_list);
+                        name.Text = mem_data[0].name;
+                        surname.Text = mem_data[0].surname;
+                        tel.Text = mem_data[0].tel;
+                        profile_img.Source = "http://139.180.129.212/Member_image/" + mem_data[0].picture;
+                        Application.Current.Properties["profile"] = "http://139.180.129.212/Member_image/" + mem_data[0].picture;
+                    }
+                }
+            }
         }
 
-        private void Button_Exit(object sender, EventArgs e)
+            private void Button_Exit(object sender, EventArgs e)
         {
             PopupNavigation.PopAsync(true);
         }

@@ -68,6 +68,32 @@ namespace EasyJob
 
                         lb_getjob_count.Text = get_job.Count.ToString();
                         lb_postjob_count.Text = post_job.Count.ToString();
+
+                        if (get_job_finish.Count > 0 && get_job.Count > 0 && get_job_process.Count > 0)
+                        {
+                            Rm.Margin = new Thickness(0, -12, 0, 0);
+                            Dm.Margin = new Thickness(0, -12, 0, 0);
+                            Fm.Margin = new Thickness(0, -12, 0, 0);
+                        }
+                        if (get_job.Count > 0)
+                        {
+                            BRwork.IsVisible = true;
+                            Rwork.IsVisible = true;
+                            Rwork.Text = get_job.Count.ToString();
+                        }
+                        if (get_job_process.Count > 0)
+                        {
+                            BDwork.IsVisible = true;
+                            Dwork.IsVisible = true;
+                            Dwork.Text = get_job_process.Count.ToString();
+                        }
+
+                        if (get_job_finish.Count > 0)
+                        {
+                            BFwork.IsVisible = true;
+                            Fwork.IsVisible = true;
+                            Fwork.Text = get_job_finish.Count.ToString();
+                        }
                     }
                 }
             }

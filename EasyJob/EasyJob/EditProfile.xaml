@@ -37,7 +37,7 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <StackLayout HorizontalOptions="Center"  Grid.Row="0" Margin="15,15,15,5">
+                    <StackLayout HorizontalOptions="Center"  Grid.Row="0" Margin="0,0,15,5">
                         <Grid Margin="0,-5,0,0">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"/>
@@ -47,10 +47,12 @@
                             <Label  Text="แก้ไขโปรไฟล์" Grid.Column="1" Margin="5" TextColor="#22388A" FontSize="30"/>
                         </Grid>
                     </StackLayout>
-                    <Grid Margin="20,5,20,10" Grid.Row="2">
-                        <controls:CircleImage x:Name="profile_img" Source="user" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
+
+                    <StackLayout Grid.Row="2" Orientation="Vertical"  HorizontalOptions="Center">
+                            <controls:CircleImage x:Name="profile_img" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
                         </controls:CircleImage>
-                    </Grid>
+                        </StackLayout>
+                    
                     <Grid Margin="20,0,20,3" Grid.Row="3">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
@@ -89,15 +91,15 @@
                 </Grid>
             </ScrollView>
         </Frame>
-        <Frame x:Name="Frame_success" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,0,10,0" Padding="0" HeightRequest="270" VerticalOptions="Center" IsVisible="False">
-            <forms:AnimationView  Margin="0,-100,0,0"
+        <Frame x:Name="Frame_success" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,-40,10,0" Padding="0" HeightRequest="300" VerticalOptions="Center" IsVisible="False">
+            <forms:AnimationView  Margin="0,-20,0,0"
 	        x:Name="animationSuccess" IsVisible="False" Grid.Column="0"
 	        Animation="success.json"   WidthRequest="230" HeightRequest="230"
             VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
 	        Loop="False" 
 	        AutoPlay="True"/>
         </Frame>
-        <Frame x:Name="Frame_success_text" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,120,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center" IsVisible="False">
+        <Frame x:Name="Frame_success_text" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,180,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center" IsVisible="False">
             <Label Text="แก้ไขข้อมูลสำเร็จ" HorizontalOptions="Center" VerticalOptions="Center" FontSize="30"/>
         </Frame>
     </Grid>

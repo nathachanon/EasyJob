@@ -47,7 +47,7 @@ namespace EasyJob
                         List<Member> mem_list = JsonConvert.DeserializeObject<List<Member>>(mycontent);
                         mem_data = new ObservableCollection<Member>(mem_list);
 
-                        Application.Current.Properties["name"] = mem_data[0].name;
+                        Application.Current.Properties["name"] = mem_data[0].name+" "+ mem_data[0].surname;
                         Application.Current.Properties["member_id"] = mem_data[0].member_id;
                         Application.Current.Properties["profile"] = mem_data[0].profile;
 

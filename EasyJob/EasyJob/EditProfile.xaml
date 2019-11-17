@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+    xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+    mc:Ignorable="d"
+             x:Class="EasyJob.EditProfile">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation DurationIn="100"
+                                   DurationOut="100"
+                                   EasingIn="SinOut"
+                                   EasingOut="SinIn"
+                                   HasBackgroundAnimation="True"
+                                   PositionIn="Center"
+                                   PositionOut="Center"
+                                   ScaleIn="0.8"
+                                   ScaleOut="0.8" />
+    </pages:PopupPage.Animation>
+    <Grid  VerticalOptions="Center"  Padding="0,0,0,20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="Frame_main" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,10,10,0" Padding="0" HeightRequest="450" VerticalOptions="Center">
+            <ScrollView>
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout HorizontalOptions="Center"  Grid.Row="0" Margin="15,15,15,5">
+                        <Grid Margin="0,-5,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Grid.Column="0" Source="pencilE.png" HeightRequest="20" WidthRequest="35"/>
+                            <Label  Text="แก้ไขโปรไฟล์" Grid.Column="1" Margin="5" TextColor="#22388A" FontSize="30"/>
+                        </Grid>
+                    </StackLayout>
+                    <Grid Margin="20,5,20,10" Grid.Row="2">
+                        <controls:CircleImage x:Name="profile_img" Source="user" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
+                        </controls:CircleImage>
+                    </Grid>
+                    <Grid Margin="20,0,20,3" Grid.Row="3">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0" Source="userE.png" HeightRequest="15" WidthRequest="25"/>
+                        <Entry Grid.Column="1" x:Name="name" Placeholder="ชื่อ.." TextColor="#22388A" PlaceholderColor="#949597" />
+                    </Grid>
+                    
+                    <Grid Margin="20,0,20,3" Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0"  Source="userE.png" HeightRequest="15" WidthRequest="25"/>
+                        <Entry x:Name="surname" Grid.Column="1"   Placeholder="นามสกุล.." TextColor="#22388A" PlaceholderColor="#949597" />
+                    </Grid>
+                    <Grid Margin="20,0,20,3" Grid.Row="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Grid.Column="0"  Source="phone.png" HeightRequest="15" WidthRequest="25"/>
+                        <Entry x:Name="tel" Grid.Column="1" Keyboard="Telephone"  Placeholder="เบอร์โทร.." TextColor="#22388A" PlaceholderColor="#949597" />
+                    </Grid>
+                    <Grid Margin="20,0,20,15" Grid.Row="7" HorizontalOptions="Center" ColumnSpacing="20">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button  Grid.Row="0" Grid.Column="0" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="ยกเลิก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#D52A2A"  BorderRadius="20" />
+                        <Button  Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="บันทึก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#031765"  BorderRadius="20" />
+
+                    </Grid>
+
+                </Grid>
+            </ScrollView>
+        </Frame>
+        <Frame x:Name="Frame_success" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,0,10,0" Padding="0" HeightRequest="270" VerticalOptions="Center" IsVisible="False">
+            <forms:AnimationView  Margin="0,-100,0,0"
+	        x:Name="animationSuccess" IsVisible="False" Grid.Column="0"
+	        Animation="success.json"   WidthRequest="230" HeightRequest="230"
+            VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+	        Loop="False" 
+	        AutoPlay="True"/>
+        </Frame>
+        <Frame x:Name="Frame_success_text" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,120,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center" IsVisible="False">
+            <Label Text="แก้ไขสำเร็จ" HorizontalOptions="Center" VerticalOptions="Center" FontSize="30"/>
+        </Frame>
+    </Grid>
+</pages:PopupPage>

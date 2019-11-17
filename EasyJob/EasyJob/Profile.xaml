@@ -4,7 +4,6 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:badge="clr-namespace:BadgeView.Shared;assembly=BadgeView.Shared"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="EasyJob.Profile" Title="Profile" NavigationPage.TitleIconImageSource="Logo.png">
     <ScrollView>
@@ -20,16 +19,25 @@
                 <RowDefinition Height="*"/>
                 
             </Grid.RowDefinitions>
-        <Image Source="profileBg.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
-        <StackLayout Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,20">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+          
+
+            <Image Source="profileBg.png" Aspect="Fill" HeightRequest="300" VerticalOptions="StartAndExpand"/>
+        <StackLayout Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center"  Margin="0,20">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
                 <controls:CircleImage x:Name="profile_img" WidthRequest="90" HeightRequest="90" Aspect="AspectFill">
                 </controls:CircleImage>
             </StackLayout>
-            <Label x:Name="Member_Email" Text="{Binding Email}" Margin="20" TextColor="White" FontSize="30"/>
+            <Label x:Name="Member_Name" Text="ชื่อ สกุล" Margin="20" TextColor="White" FontSize="30"/>
             
         </StackLayout>
-        <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="30,-60,30,40" Padding="0" HeightRequest="105" VerticalOptions="Center">
+            <Image Source="editPro" WidthRequest="20" HeightRequest="20" HorizontalOptions="End" VerticalOptions="Start" Margin="15">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Edit_Profile"     NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+            </Image>
+
+
+            <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="30,-60,30,40" Padding="0" HeightRequest="105" VerticalOptions="Center">
             <Grid HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>

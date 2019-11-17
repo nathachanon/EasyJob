@@ -1,8 +1,10 @@
 ﻿using EasyJob.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -18,6 +20,7 @@ namespace EasyJob
     {
         private readonly HttpClient _client = new HttpClient();
         private const string url = "http://139.180.129.212/api/work/post_get_process_finish_me";
+        private ObservableCollection<MemProfile> mem_data;
         public Profile()
         {
             InitializeComponent();
@@ -26,11 +29,21 @@ namespace EasyJob
         async protected override void OnAppearing()
         {
             var member_ids = Application.Current.Properties["member_id"].ToString();
-
-            if (Application.Current.Properties.ContainsKey("name"))
+            var url_prfile = "http://139.180.129.212/api/Member/" + member_ids;
+           
+            using (HttpResponseMessage response = await _client.GetAsync(url_prfile))
             {
-                Member_Email.Text = Application.Current.Properties["name"].ToString();
-                profile_img.Source = "http://139.180.129.212/Member_image/"+Application.Current.Properties["profile"].ToString();
+                if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                {
+                    using (HttpContent contents = response.Content)
+                    {
+                        string mycontent = await contents.ReadAsStringAsync();
+                        List<MemProfile> mem_list = JsonConvert.DeserializeObject<List<MemProfile>>(mycontent);
+                        mem_data = new ObservableCollection<MemProfile>(mem_list);
+                        Member_Name.Text = mem_data[0].name + " " + mem_data[0].surname;
+                        profile_img.Source = "http://139.180.129.212/Member_image/" + mem_data[0].picture;
+                    }
+                }
             }
 
             string sContentType = "application/json";
@@ -90,6 +103,11 @@ namespace EasyJob
         private void TapGestureRecognizer_Tapped_3(object sender, EventArgs e)
         {
             Navigation.PushAsync(new GetJobSuccess());
+        }
+
+        private void Edit_Profile(object sender, EventArgs e)
+        {
+            PopupNavigation.Instance.PushAsync(new EditProfile());
         }
     }
 }

@@ -21,6 +21,7 @@ namespace EasyJob
         private const string Url = "http://139.180.129.212/api/GetWorkDetail";
         private const string Url2 = "http://139.180.129.212/api/work_start";
         private const string Url3 = "http://139.180.129.212/api/work_finish";
+        private const string Url_img = "http://139.180.129.212/Member_image/";
         private Guid work_id;
         public WorkPopup(string work_ids)
         {
@@ -44,25 +45,30 @@ namespace EasyJob
                         List<Work_Detail> work_list = JsonConvert.DeserializeObject<List<Work_Detail>>(mycontent);
                         foreach(var x in work_list)
                         {
-                            lb_owner_name.Text = x.job_owner_name;
-                            lb_owner_tel.Text = x.tel;
+                            worker_name.Text = x.worker_name;
+                            worker_tel.Text = x.worker_tel;
+                            worker_img.Source = Url_img + x.worker_profile;
                             lb_work_name.Text = x.work_name;
                             lb_work_desc.Text = x.work_desc;
                             lb_labor_cost.Text = x.labor_cost.ToString() +" บาท";
+                            
 
                             if(x.job_status == "ว่าง")
                             {
+                                Title.TextColor = Color.FromHex("#D52A2A");
                                 Button_Process.Text = x.job_status;
                                 Button_Process.BackgroundColor = Color.Red;
                                 Button_Process.IsEnabled = false;
                             }else if(x.job_status == "มีผู้รับงานแล้ว")
                             {
+                                Title.TextColor = Color.FromHex("#D5852A");
                                 Title.Text = "มีผู้รับงานเรียบร้อย";
                                 Button_Process.Text = "เริ่มงาน";
                                 Button_Process.BackgroundColor = Color.Green;
                                 Button_Process.IsEnabled = true;
                             }else if(x.job_status == "เริ่มงาน")
                             {
+                                Title.TextColor = Color.FromHex("#3A2AD5");
                                 Title.Text = "อยู่ระหว่างการทำงาน";
                                 Button_Process.Text = "เสร็จงาน";
                                 Button_Process.BackgroundColor = Color.Gold;
@@ -70,11 +76,15 @@ namespace EasyJob
                             }
                             else
                             {
+                                
                                 Button_Process.Text = "งานนี้เสร็จแล้ว";
                                 Button_Process.BackgroundColor = Color.White;
                                 Button_Process.IsEnabled = false;
                             }
                         }
+                        await Task.Delay(400);
+                        animationView.IsVisible = false;
+                        info.IsVisible = true;
                     }
                 }
                 else

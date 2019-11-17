@@ -74,7 +74,7 @@ namespace EasyJob
             var tel = Input_tel.Text;
             String myDate = DateTime.Now.ToString();
 
-            if (member_id != "" && work_name != "" && work_desc != "" && labor_cost != "" && tel != "" && location_details != "" && Latitude != 0.0 && Longitude != 0.0)
+            if (member_id != null && work_name != null && work_desc != null && labor_cost != null && tel != null && location_details != null && Latitude != 0.0 && Longitude != 0.0)
             {
                 string sContentType = "application/json";
                 var jsonData = "{\"member_id\":\"" + member_id + "\",\"work_name\":\"" + work_name + "\"," +

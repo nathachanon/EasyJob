@@ -42,6 +42,7 @@ namespace EasyJob
                         mem_data = new ObservableCollection<MemProfile>(mem_list);
                         Member_Name.Text = mem_data[0].name + " " + mem_data[0].surname;
                         profile_img.Source = "http://139.180.129.212/Member_image/" + mem_data[0].picture;
+                        Application.Current.Properties["profile"] = "http://139.180.129.212/Member_image/" + mem_data[0].picture;
                     }
                 }
             }

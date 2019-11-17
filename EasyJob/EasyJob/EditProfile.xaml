@@ -81,8 +81,8 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Button  Grid.Row="0" Grid.Column="0" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="ยกเลิก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#D52A2A"  BorderRadius="20" />
-                        <Button  Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="บันทึก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#031765"  BorderRadius="20" />
+                        <Button  Clicked="Button_Exit" Grid.Row="0" Grid.Column="0" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="ยกเลิก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#D52A2A"  BorderRadius="20" />
+                        <Button  Clicked="Button_Save" Grid.Row="0" Grid.Column="1" HorizontalOptions="EndAndExpand" Margin="0,0,0,0" Text="บันทึก" FontSize="20" TextColor="White" WidthRequest="120" BackgroundColor="#031765"  BorderRadius="20" />
 
                     </Grid>
 
@@ -98,7 +98,7 @@
 	        AutoPlay="True"/>
         </Frame>
         <Frame x:Name="Frame_success_text" Grid.Row="0" HasShadow="False" CornerRadius="10" Margin="10,120,10,0" Padding="0" HeightRequest="50" VerticalOptions="Center" IsVisible="False">
-            <Label Text="แก้ไขสำเร็จ" HorizontalOptions="Center" VerticalOptions="Center" FontSize="30"/>
+            <Label Text="แก้ไขข้อมูลสำเร็จ" HorizontalOptions="Center" VerticalOptions="Center" FontSize="30"/>
         </Frame>
     </Grid>
 </pages:PopupPage>
